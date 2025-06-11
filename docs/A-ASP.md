@@ -1,6 +1,6 @@
 # 🚀 A-ASP: Accessibility starting point
 
-> This short module allows people to share anonymously their initial position regarding accessibility. Participants are asked a few questions which results are then shown on the screen and discussed collectively.
+> This short module allows people to share anonymously their initial position by answering questions regarding accessibility, before discussing the results collectively.
 
 **⛳️ Section** : A. What is accessibility ?
 
@@ -17,6 +17,8 @@
 Use this module to kick off the training. It is useful to get a collective feeling of how is the room’s initial knowledge and interest about the subject.
 
 ## Description
+
+Participants are asked a few questions which results are then shown on the screen and discussed collectively.
 
 These questions can include :
 
