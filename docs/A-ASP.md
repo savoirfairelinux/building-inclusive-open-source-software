@@ -2,13 +2,15 @@
 
 > This short module allows people to share anonymously their initial position by answering questions regarding accessibility, before discussing the results collectively.
 
-**⛳️ Section** : A. What is accessibility ?
+**⛳️ Section**: A. What is accessibility ?
 
-**👥 Audience** : Everyone
+**👥 Audience**: Everyone
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites** : None
+**📚 Prerequisites**: None
+
+**📖 Is a prerequisite to**: None
 
 ---
 
@@ -20,7 +22,7 @@ Use this module to kick off the training. It is useful to get a collective feeli
 
 Participants are asked a few questions which results are then shown on the screen and discussed collectively.
 
-These questions can include :
+These questions can include:
 
 - On a scale from one to ten, how do you evaluate your knowledge about accessibility ?
 - How much time do you typically spend on accessibility issues during a week ?
@@ -32,4 +34,4 @@ It can be a good idea to ask the participants possible explanations of these res
 
 ## Resources
 
-[Particify](https://www.particify.de/en/) : an open source tool which is useful to do live polls, word clouds, etc.
+[Particify](https://www.particify.de/en/): an open source tool which is useful to do live polls, word clouds, etc.
