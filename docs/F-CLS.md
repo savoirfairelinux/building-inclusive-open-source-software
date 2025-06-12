@@ -42,4 +42,20 @@ Each participant (including the trainer) gets a copy of the boat drawing found i
 
 For the second option, you can use this illustration of Mathilde Riou and Vincent Chaillou :
 
-![image.png](ressources/f-to-conclude-and-go-further/togetherOnABoat.png)
+![Drawing of a boat with various characters in different positions. Refer to the alternative list below for a full description.](ressources/f-to-conclude-and-go-further/togetherOnABoat.png)
+
+If one or many trainees are blind or have low vision, you can use this alternative list of characters on the ship:
+
+- Balloon Lookout
+- Shy Observer
+- Fast Climber
+- Rope Acrobat
+- Lazy Sleeper
+- Ship Leader
+- Tired Crawler
+- Group Chatters
+- Confused Floater
+- Energetic Swimmer
+- Happy Musician
+- Careful Listener
+- Daydreamer
