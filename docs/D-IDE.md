@@ -1,4 +1,4 @@
-# 💬 D-IDE: Inclusive design 101
+# 🎨 D-IDE: Inclusive design 101
 
 > This module aims at giving accessibility and inclusiveness essentials for app design.
 
@@ -59,7 +59,7 @@ Product design documents, including specifications, user stories and prototypes 
 
 ![Picture in black of white of cars driving under a bridge](ressources/d-designing-inclusive-and-accessible-software/bridge.png)
 
-You can see on this picture a bridge that, at first, might seem ordinary. Can you guess what’s wrong with it ? In *Do artifacts have politics ?*, Langdon Winner explains that those bridges on Long Island were built low, so that buses were too high to pass them. Therefore, people who did not have a car - the least wealthy, and especially African-Americans - were denied access to the parkway to the public beaches. A technical segregation.
+You can see on this picture a bridge that, at first, might seem ordinary. Can you guess what’s wrong with it ? In [*Do artifacts have politics ?*](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf), Langdon Winner explains that those bridges on Long Island were built low, so that buses were too high to pass them. Therefore, people who did not have a car - the least wealthy, and especially African-Americans - were denied access to the parkway to the public beaches. A technical segregation.
 
 And the same goes with software: if a messaging app denies access to some features to groups of users, it excludes them by preventing them to connect.
 
@@ -211,7 +211,7 @@ Make sure you also include a good variety of relatable activities and cultural r
 - If your app asks for a user’s gender, make sure to provide more options that just male and female, and to add support for custom entries.
 - Avoid using the “his” or “her” pronouns when it is not necessary. If your app needs to, be sure to ask users which pronouns they use.
 - When depicting a human, use gender-neutral icons rather than a man or a woman.
-- If your app requires a legal name, make sure to leave the possibility open to use a preferred name.
+- If your app requires a legal name, make sure to leave the possibility open to use a preferred name. In general and if possibl, it is better not to put any constraint on which name is provided and to allow for a flexible structure to accomodate cultures where names might come in a different order.
 
 ## Activity : designing and IUI on a whiteboard
 
@@ -248,12 +248,10 @@ Remember: good design is accessible, and good design benefits everybody!
 
 # Sources
 
-https://developer.apple.com/design/human-interface-guidelines/accessibility
-
-https://developer.apple.com/videos/play/wwdc2017/110
-
-https://developer.apple.com/videos/play/wwdc2025/316
-
 Shew, Ashley (2024). *Against Technoableism: Rethinking Who Needs Improvement*, WW Norton & Co.
 
-Winner, Langdon (1980). *Do artifacts have politics?* Daedalus 109 (1): pp. 121--136.
+[Winner, Langdon (1980). *Do artifacts have politics?* Daedalus 109 (1): pp. 121--136.](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf)
+
+[Apple Human Interface Guidelines: Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)
+
+[Principles of Inclusice App Design (Apple)](https://developer.apple.com/videos/play/wwdc2025/316)
