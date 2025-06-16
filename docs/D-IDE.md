@@ -8,7 +8,7 @@
 
 **⏱️ ️Duration**: 30'
 
-**📚 Prerequisites**: [Accessibility, inclusion & exclusion](A-AIE.md), We are all disabled and unique
+**📚 Prerequisites**: Accessibility, inclusion & exclusion, We are all disabled and unique
 
 **📖 Is a prerequisite to**: None
 
@@ -57,7 +57,7 @@ While implementation plays an important role in the inclusiveness, and especiall
 
 Product design documents, including specifications, user stories and prototypes act as the team’s compass for delivering awesome products. That is why having inclusiveness in mind from the design is absolutely essential. You don’t ever have to “make this feature accessible” if it is built from the ground up with inclusiveness in mind.
 
-![Picture in black of white of cars driving under a bridge](d-designing-inclusive-and-accessible-software/bridge.png)
+![Picture in black of white of cars driving under a bridge](ressources/d-designing-inclusive-and-accessible-software/bridge.png)
 
 You can see on this picture a bridge that, at first, might seem ordinary. Can you guess what’s wrong with it ? In *Do artifacts have politics ?*, Langdon Winner explains that those bridges on Long Island were built low, so that buses were too high to pass them. Therefore, people who did not have a car - the least wealthy, and especially African-Americans - were denied access to the parkway to the public beaches. A technical segregation.
 
@@ -76,14 +76,14 @@ Alternative, underlying UIs that are built for “disabled” people are often r
 That said, from our perspective, thinking UI and AUI as two distinct interfaces does not make sense, because :
 
 - Most users never access an app using only the UI or the AUI. For example, someone who can see but cannot touch the screen might use a switch as input but still use the visual interface to perceive the content. Moreover, many people considering themselves as “able-bodied” still use some accessibility features on their devices - like custom font sizes or accessibility gestures used by power users.
-- As seen in [We are all disabled and unique : accessibility, plurality and intersectionality ](TODO), thinking of users as people working with various sets of abilities rather than belonging to one of the “disabled” or “able-bodied” categories better reflects the wide range of experiences you are inevitably creating when building your app.
+- As seen in We are all disabled and unique : accessibility, plurality and intersectionality, thinking of users as people working with various sets of abilities rather than belonging to one of the “disabled” or “able-bodied” categories better reflects the wide range of experiences you are inevitably creating when building your app.
 - AUI as a concept completely forgets inclusivity and intersectionality, as it draws a strict line between the “able-bodied” and the “disabled”.
 - AUI can also create a pitfall, pushing developers to create the UI first, and then deriving an AUI from it, which makes the concept unhelpful.
 
 We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the way it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible. 
 
 ![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
-The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](d-designing-inclusive-and-accessible-software/iui.png)
+The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](ressources/d-designing-inclusive-and-accessible-software/iui.png)
 
 From a designer’s perspective, this means your interface should embed a wide set of equal ways of interacting with your app.
 
@@ -99,7 +99,7 @@ With that said, here is a non-exhaustive list to start with to make your app mor
 
 The most common and easiest to apply advice that is given to designer is to make sure the colors they use are contrasted. This is important not only for people who are colorblind or use a screen filter, but also to guarantee readability on as many screens and conditions as possible. Many tools like [Figma plug-ins](https://www.figma.com/community/plugin/748533339900865323/contrast) or [websites](https://www.figma.com/color-contrast-checker/?background=ffffff&foreground=b50202) can help you check if your colors are well contrasted, or even look for contrast errors in your designs.
 
-![Two sample texts with different fill and background colors, showing one example of good contrast, and one of bad constrast.](d-designing-inclusive-and-accessible-software/contrast.png)
+![Two sample texts with different fill and background colors, showing one example of good contrast, and one of bad constrast.](ressources/d-designing-inclusive-and-accessible-software/contrast.png)
 
 ### The colors are not necessary to understanding the UI
 
@@ -111,13 +111,13 @@ Some people need or prefer having on their devices custom (typically bigger) fon
 
 There usually is not pre-made answer on how to adapt the UI, but the issue can typically be solved by working on an alternate layout. For example, a common fix for cropped content (especially text) is to conditionally replace de horizontal stacks by vertical stacks, saving horizontal room for the text.
 
-![Two iPhones emulators with an information icon and a text with a large font. On the first phone, the layout is horizontal, and the text is cropped. On the second phone, the layout is vertical and the text is fully displayed.](d-designing-inclusive-and-accessible-software/bigfont.png)
+![Two iPhones emulators with an information icon and a text with a large font. On the first phone, the layout is horizontal, and the text is cropped. On the second phone, the layout is vertical and the text is fully displayed.](ressources/d-designing-inclusive-and-accessible-software/bigfont.png)
 
 A lot of implementation frameworks provide easy ways to set a preferred size for an element, providing adaptation for scaling change.
 
 ### The content can be accessed using assistive technologies
 
-![A Figma design file with accessibility annotations for the Olvid app.](d-designing-inclusive-and-accessible-software/annotation.png)
+![A Figma design file with accessibility annotations for the Olvid app.](ressources/d-designing-inclusive-and-accessible-software/annotation.png)
 
 1. **Grouping the elements**
 
@@ -155,7 +155,7 @@ Again, depending on the platform or framework, the ways to achieve this might di
 
 3. **Establishing a focus order**
 
-![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](d-designing-inclusive-and-accessible-software/order.png)
+![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](ressources/d-designing-inclusive-and-accessible-software/order.png)
 
 When your elements are grouped and labelled, the last step to make your interface accessible to people who use assistive technologies and/or the keyboard to use your app is to decide the focus order.
 
@@ -190,7 +190,7 @@ Supporting as many languages and dialects as possible makes it possible to many 
 
 Many languages are written from right to left. While most frameworks and platforms provide automatic RTL support, it is important to check that elements of the interface, particularly the custom ones, are rearranged accordingly. Keep in mind that does not only apply to text alignment, but also to navigation, icons, layout, charts, *etc.* We will not detail everything here but you can find [here](https://developer.apple.com/design/human-interface-guidelines/right-to-left) the Apple right to left guidelines that are very detailed.
 
-![The settings page in Jami, in Arabic and therefore read from right to left.](d-designing-inclusive-and-accessible-software/rtl.png)
+![The settings page in Jami, in Arabic and therefore read from right to left.](ressources/d-designing-inclusive-and-accessible-software/rtl.png)
 
 **Colors**
 
@@ -244,7 +244,7 @@ Remember: good design is accessible, and good design benefits everybody!
 
 [](https://www.figma.com/community/plugin/748533339900865323/contrast)
 
-[AUI Perspective v2.excalidraw](d-designing-inclusive-and-accessible-software/AUI_Perspective_v2.excalidraw)
+[AUI Perspective v2.excalidraw](ressources/d-designing-inclusive-and-accessible-software/AUI_Perspective_v2.excalidraw)
 
 # Sources
 
