@@ -10,6 +10,10 @@
 
 [🎨 D-IDE: Inclusive design 101](D-IDE.md)
 
-**F. What is accessibility ?**
+**E. Programming inclusive and accessible software**
+
+[👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
+
+**F. To conclude and go further**
 
 [💬 F-CLS: Collective sharing](F-CLS.md)
