@@ -15,7 +15,8 @@
 ---
 
 # When to use ?
-Use this module to get a nuanced sense of what accessibility, ableism and techno-ableism really mean.
+
+Use this module to get a nuanced sense of what accessibility, ableism and techno-ableism really means.
 
 # Description
 
