@@ -1,7 +1,8 @@
 # 👩‍💻 E-ICO Inclusive code 101
 
->
-This module provides general information needed for building accessible code on any platform, language or framework.
+
+    This module provides general information needed for building accessible code on
+    any platform or language.
 
 **⛳️ Section**: E. Programming inclusive and accessible software
 
@@ -10,8 +11,6 @@ This module provides general information needed for building accessible code on 
 **⏱️ ️Duration**: 15'
 
 **📚 Prerequisites**: [C-API We are all disabled and unique : accessibility, plurality and intersectionality](C-API.md)
-
-**📖 Is a prerequisite to**: None
 
 ---
 
@@ -71,11 +70,11 @@ That is because in the code, this component is indeed a button. That goes withou
 
 ```cpp
 icon: PushButton {
-    
+
     id: infoBox
     z: 1
     normalColor: "transparent"
-    
+
     // ...
 
     checkable: true
@@ -83,7 +82,7 @@ icon: PushButton {
         textBoxinfo.visible = !textBoxinfo.visible;
     }
     preferredSize: 20
-    
+
     // ...
 }
 ```
@@ -229,7 +228,7 @@ Here are some key elements to making your API accessible:
 
 ## 3. Conclusion
 
-Accessible programming can be overwhelming, mostly due to the lack of resources for native apps, but with the right tools it’s absolutely bearable. 
+Accessible programming can be overwhelming, mostly due to the lack of resources for native apps, but with the right tools it’s absolutely bearable.
 Remember that accessibility issues in your code often hide underlying issues. Also remember to set up proper workflows and tests.
 
 From here, you might want to take a look at some of our modules about inclusive programming for different platforms, ecosystems and frameworks.
