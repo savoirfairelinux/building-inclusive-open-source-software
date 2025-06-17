@@ -1,7 +1,8 @@
 # 👩‍💻 E-ICO Inclusive code 101
 
->
-This module provides general information needed for building accessible code on any platform or language.
+
+    This module provides general information needed for building accessible code on
+    any platform or language.
 
 **⛳️ Section**: E. Programming inclusive and accessible software
 
@@ -10,8 +11,6 @@ This module provides general information needed for building accessible code on 
 **⏱️ ️Duration**: 15'
 
 **📚 Prerequisites**: [C-API We are all disabled and unique : accessibility, plurality and intersectionality](C-API.md)
-
-**📖 Is a prerequisite to**: None
 
 ---
 
