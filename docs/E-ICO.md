@@ -98,20 +98,20 @@ Another example would be the account selection list in Jami. It was not possible
     <img src="../ressources/E-ProgrammingInclusiveAndAccessibleSoftware/JamiAccoutnList.png" alt="Picture of the account list in Jami showing 4 different accounts." width="60%">
 </p>
 
-That’s an unexpected behaviour as the best ListView Qt component (which our custom component is based on) support this behaviour. A quick inspection of the code revealed those lines :
+That’s an unexpected behavior as the best ListView Qt component (which our custom component is based on) support this behavior. A quick inspection of the code revealed those lines :
 
 ```cpp
 Keys.onUpPressed: verticalScrollBar.decrease()
 Keys.onDownPressed: verticalScrollBar.increase()
 ```
 
-By reimplementing a scroll feature and binding it to the arrows key, we effectively broke the base behaviour of the component. Here, broken accessibility showcase flawed design as the expected behaviour of the component hasn’t been thought all the way through.
+By reimplementing a scroll feature and binding it to the arrows key, we effectively broke the base behavior of the component. Here, broken accessibility showcase flawed design as the expected behavior of the component hasn’t been thought all the way through.
 
 In this case, the fix was rather simple, use the base component rather the custom one.
 
 ### 1.C Focus and explicit key navigation, choose the right tool at the right time (desktop)
 
-In order to implement alternative navigation in your app (keyboard, voice over, talkback, vocal command, etc), on desktop, they are two main way of doing it : focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigations. This will work mostly well on basic components.
+In order to implement alternative navigation in your app (keyboard, voice over, talkback, vocal command, etc), on desktop, they are two main way of doing it : focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
 
 It happens very often that this flow of navigation breaks for numerous reasons, a pop-up could have appeared, new UI elements might be visible or maybe the elements are complex (sub-tabs in settings for example)
 
@@ -142,7 +142,7 @@ The most useful tip regarding this topic that we found in the [Agile Accessibili
 
 The coach of different teams can meet regularly to coordinate and update the accessibility roadmap of the application. They also can organize monthly meetings with the all of their teams to report on the improvements, blockers and perspectives. The main goal is to normalize accessibility and inclusiveness as routine parts of development.
 
-We highly recommand creating a template of issues for accessibility and encouraging users and developers to fill them when encountering an issue. This would make it easier for developers to pic up an accessibility issue in the backlog and fix it.
+We highly recommend creating a template of issues for accessibility and encouraging users and developers to fill them when encountering an issue. This would make it easier for developers to pic up an accessibility issue in the backlog and fix it.
 
 If you want to learn further on this topic, the [Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook) mentioned previously is a very solid starting point.
 
@@ -152,13 +152,13 @@ What can be automated is a tricky question. As we stated previously, inclusivene
 
 **Therefore, no amount of checklists and tests in CI can replace feedback and testing from diverse user groups.**
 
-That said, a few things can be set to try and automatically detect as much issue as possible. If your app is a web-view, this will be very easy and convenient. You can go to the [E-ETD Accessible technologies Desktop](E-ATD.md) module for more informations.
+That said, a few things can be set to try and automatically detect as much issue as possible. If your app is a web-view, this will be very easy and convenient. You can go to the [E-ETD Accessible technologies Desktop](E-ATD.md) module for more information.
 
 If you app is native, you can set-up your CI to detect missing accessibility labels on focusable elements and setup a test that navigate through all od the elements of a view using the keyboard, checking that none of them wasn’t reached.
 
 You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements in this repository.
 
-![Diagram showing an "A very basic accessibility checklist not to break anything when commiting. This diagram is available in text format further down this page."](ressources/E-ProgrammingInclusiveAndAccessibleSoftware/AccessibilityChecklist.png)
+![Diagram showing an "A very basic accessibility checklist not to break anything when committing. This diagram is available in text format further down this page."](ressources/E-ProgrammingInclusiveAndAccessibleSoftware/InclusivenessChecklist.png)
 
 **The diagram in text format:**
 
@@ -204,7 +204,16 @@ Does it has elements showing cultural significance ?
 
 ### 2.3 Accessible API’s & back-end
 
-[TODO]
+On the back-end too, accessible code is good code. A well-designed architecture or API will be more understandable for everyone to understand and iterate on, particularly for open source software.
+
+Here are some key elements to making your API accessible:
+
+- When choosing a name for some object, make sure to apply those principles:
+    - Avoid abbreviations, which can be either difficult to understand to some people due to language, screen reader use, or cognitive disabilities.
+    - Make sure the name is as clear and complete as possible.
+- Regarding documentation and code commenting, remember to:
+    - Write clear sentences with simple language that will enable everyone to understand the purpose of your code.
+    - If your documentation is built to HTML, check with [the WAVE tool](https://wave.webaim.org/) that it is WCAG-compliant.
 
 ## 3. Conclusion
 
@@ -214,7 +223,9 @@ From here, you might want to take a look at some of our modules about inclusive 
 
 # Resources
 
-[accessibilitycheclistV2_1.excalidraw](ressources/E-ProgrammingInclusiveAndAccessibleSoftware/accessibilitycheclistV2_1.excalidraw)
+[QuickInclusivenessCheck.excalidraw](ressources/E-ProgrammingInclusiveAndAccessibleSoftware/QuickInclusivenessCheck.excalidraw)
+
+[WAVE Accessibility tool](https://wave.webaim.org/)
 
 # Sources
 
