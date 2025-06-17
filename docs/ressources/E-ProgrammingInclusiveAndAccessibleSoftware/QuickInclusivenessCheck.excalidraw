@@ -6,9 +6,9 @@
     {
       "id": "Sg4t_6-ht9tyetW8JHNaf",
       "type": "text",
-      "x": -692.8752781342993,
-      "y": -1282.745046729419,
-      "width": 2057.92236328125,
+      "x": -60.78230047529644,
+      "y": -1322.673079189926,
+      "width": 784.5086059570312,
       "height": 72.49718253506494,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -20,23 +20,23 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b09",
+      "index": "b0N4",
       "roundness": null,
       "seed": 1121060641,
-      "version": 299,
-      "versionNonce": 1896307519,
+      "version": 739,
+      "versionNonce": 74889418,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1749845313811,
+      "boundElements": [],
+      "updated": 1750149075338,
       "link": null,
       "locked": false,
-      "text": "A very basic accessibility checklist not to break anything when commiting",
+      "text": "✨ Quick inclusivity check ✨",
       "fontSize": 57.99774602805195,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "A very basic accessibility checklist not to break anything when commiting",
+      "originalText": "✨ Quick inclusivity check ✨",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -57,13 +57,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0A",
+      "index": "b0N8",
       "roundness": {
         "type": 2
       },
       "seed": 2016271983,
-      "version": 193,
-      "versionNonce": 312638225,
+      "version": 194,
+      "versionNonce": 1280336342,
       "isDeleted": false,
       "boundElements": [
         {
@@ -79,16 +79,16 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749844262121,
+      "updated": 1750148445178,
       "link": null,
       "locked": false
     },
     {
       "id": "jmUHLcdSMz-peYaaUAHsa",
       "type": "text",
-      "x": 92.47114478756578,
-      "y": -985.2464290190976,
-      "width": 103.55412292480469,
+      "x": 102.0786728304322,
+      "y": -985.3201841916668,
+      "width": 84.18679809570312,
       "height": 71.21202372331376,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -100,23 +100,23 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0B",
+      "index": "b0NC",
       "roundness": null,
       "seed": 1064346575,
-      "version": 443,
-      "versionNonce": 1771875697,
+      "version": 485,
+      "versionNonce": 32906006,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1749844287107,
+      "boundElements": [],
+      "updated": 1750148478750,
       "link": null,
       "locked": false,
-      "text": "Did you \nchange/create \na UI \ncomponent ?",
+      "text": "Have you\nchanged\na UI \ncomponent ?",
       "fontSize": 14.242404744662753,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Did you \nchange/create \na UI \ncomponent ?",
+      "originalText": "Have you\nchanged\na UI \ncomponent ?",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -137,13 +137,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0E",
+      "index": "b0NG",
       "roundness": {
         "type": 2
       },
       "seed": 1924707279,
-      "version": 356,
-      "versionNonce": 1738731761,
+      "version": 357,
+      "versionNonce": 517060374,
       "isDeleted": false,
       "boundElements": [
         {
@@ -151,7 +151,7 @@
           "id": "6KBoBPRyJkVxxqmo6S2Rl"
         }
       ],
-      "updated": 1749844262122,
+      "updated": 1750148445178,
       "link": null,
       "locked": false,
       "points": [
@@ -192,14 +192,14 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0F",
+      "index": "b0NK",
       "roundness": null,
       "seed": 1479612207,
-      "version": 214,
-      "versionNonce": 1510234465,
+      "version": 215,
+      "versionNonce": 966356298,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1749578982768,
+      "boundElements": [],
+      "updated": 1750148445178,
       "link": null,
       "locked": false,
       "text": "Yes",
@@ -229,13 +229,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0G",
+      "index": "b0NO",
       "roundness": {
         "type": 2
       },
       "seed": 507849057,
-      "version": 328,
-      "versionNonce": 349809361,
+      "version": 329,
+      "versionNonce": 1492542550,
       "isDeleted": false,
       "boundElements": [
         {
@@ -243,7 +243,7 @@
           "id": "HJy-k5eFn40pD-lBW5aOW"
         }
       ],
-      "updated": 1749844262122,
+      "updated": 1750148445178,
       "link": null,
       "locked": false,
       "points": [
@@ -284,14 +284,14 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0H",
+      "index": "b0NV",
       "roundness": null,
       "seed": 421536321,
-      "version": 200,
-      "versionNonce": 66711695,
+      "version": 201,
+      "versionNonce": 592524298,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1749578818590,
+      "boundElements": [],
+      "updated": 1750148445178,
       "link": null,
       "locked": false,
       "text": "No",
@@ -321,13 +321,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0J",
+      "index": "b0NZ",
       "roundness": {
         "type": 2
       },
       "seed": 1060201839,
-      "version": 234,
-      "versionNonce": 54480657,
+      "version": 235,
+      "versionNonce": 1553164694,
       "isDeleted": false,
       "boundElements": [
         {
@@ -339,17 +339,17 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749844091671,
+      "updated": 1750148445178,
       "link": null,
       "locked": false
     },
     {
       "id": "ks0WDyE3z2SPRdwXe5csv",
       "type": "text",
-      "x": 343.7423008558577,
+      "x": 343.70046133338303,
       "y": -989.5789038940267,
-      "width": 123.45037857223818,
-      "height": 73.75546835953187,
+      "width": 123.5340576171875,
+      "height": 73.75546835953189,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "transparent",
@@ -360,11 +360,11 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0K",
+      "index": "b0Nd",
       "roundness": null,
       "seed": 903929743,
-      "version": 633,
-      "versionNonce": 162794209,
+      "version": 635,
+      "versionNonce": 1479322326,
       "isDeleted": false,
       "boundElements": [
         {
@@ -372,7 +372,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749578942793,
+      "updated": 1750148483578,
       "link": null,
       "locked": false,
       "text": "Is the data\nmanipulated in your\ncode easily accessible\nfrom UI \ncomponents ?",
@@ -402,13 +402,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0L",
+      "index": "b0Nl",
       "roundness": {
         "type": 2
       },
       "seed": 1647799713,
-      "version": 381,
-      "versionNonce": 525201423,
+      "version": 382,
+      "versionNonce": 148752086,
       "isDeleted": false,
       "boundElements": [
         {
@@ -416,7 +416,7 @@
           "id": "jBwvIvcf3mgI9BLpCcaI-"
         }
       ],
-      "updated": 1749578814434,
+      "updated": 1750148445178,
       "link": null,
       "locked": false,
       "points": [
@@ -453,14 +453,14 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0M",
+      "index": "b0Np",
       "roundness": null,
       "seed": 991629697,
-      "version": 214,
-      "versionNonce": 953424993,
+      "version": 215,
+      "versionNonce": 1374108042,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749578814434,
+      "updated": 1750148445178,
       "link": null,
       "locked": false,
       "text": "Yes",
@@ -490,13 +490,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "b0N",
+      "index": "b0Nt",
       "roundness": {
         "type": 2
       },
       "seed": 2012515695,
-      "version": 373,
-      "versionNonce": 1165049793,
+      "version": 374,
+      "versionNonce": 241859606,
       "isDeleted": false,
       "boundElements": [
         {
@@ -504,7 +504,7 @@
           "id": "EoQsjrRVzS6Rnfvz9Jfch"
         }
       ],
-      "updated": 1749578820682,
+      "updated": 1750148445178,
       "link": null,
       "locked": false,
       "points": [
@@ -599,9 +599,9 @@
     {
       "id": "2ULAs7_08MI2P6PkV_pmm",
       "type": "text",
-      "x": 603.5262928566035,
+      "x": 600.4164274686739,
       "y": -980.2635844399709,
-      "width": 115.98813970753925,
+      "width": 122.20787048339844,
       "height": 71.25546835953189,
       "angle": 0,
       "strokeColor": "#f08c00",
@@ -616,8 +616,8 @@
       "index": "b0R",
       "roundness": null,
       "seed": 1927940769,
-      "version": 967,
-      "versionNonce": 440250255,
+      "version": 971,
+      "versionNonce": 1767109846,
       "isDeleted": false,
       "boundElements": [
         {
@@ -625,26 +625,26 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749578808772,
+      "updated": 1750148535644,
       "link": null,
       "locked": false,
-      "text": "Make functions in \nyour API that allow \nUI components \nto access relevant \ninformation",
+      "text": "Make functions in \nyour API that allows \nUI components \nto access relevant \ninformation",
       "fontSize": 11.400874937525103,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Make functions in \nyour API that allow \nUI components \nto access relevant \ninformation",
+      "originalText": "Make functions in \nyour API that allows \nUI components \nto access relevant \ninformation",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "KQsi5isg3AlmpXr2EFPIJ",
       "type": "text",
-      "x": 695.5349325631091,
+      "x": 641.0741629097888,
       "y": -1077.038628037983,
-      "width": 325.60308837890625,
-      "height": 55.625,
+      "width": 434.5246276855469,
+      "height": 41.71875,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -658,8 +658,8 @@
       "index": "b0S",
       "roundness": null,
       "seed": 1469311087,
-      "version": 364,
-      "versionNonce": 1808457825,
+      "version": 387,
+      "versionNonce": 23851862,
       "isDeleted": false,
       "boundElements": [
         {
@@ -667,26 +667,26 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749578757969,
+      "updated": 1750148579435,
       "link": null,
       "locked": false,
-      "text": "For example, the time of a message is often in a separated \ncomponent from the message itself\nbut the accessibility label of this message could \nneed access to the date where it was sent",
+      "text": "For example, the time of a message could be separated from the message itself,\nbut the accessibility label of this message \nneeds access to the date where it was sent",
       "fontSize": 11.125,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "For example, the time of a message is often in a separated \ncomponent from the message itself\nbut the accessibility label of this message could \nneed access to the date where it was sent",
+      "originalText": "For example, the time of a message could be separated from the message itself,\nbut the accessibility label of this message \nneeds access to the date where it was sent",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "MqzduIjFSTnjmN82Mz3ly",
       "type": "arrow",
-      "x": 786.42067356161,
-      "y": -1022.3164058157606,
-      "width": 65.9062409974672,
-      "height": 43.11623363732281,
+      "x": 780.8119480022725,
+      "y": -1034.319878037983,
+      "width": 57.187650050200205,
+      "height": 54.41152374780381,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -702,11 +702,11 @@
         "type": 2
       },
       "seed": 212003983,
-      "version": 369,
-      "versionNonce": 527300225,
+      "version": 394,
+      "versionNonce": 494868630,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1749578770057,
+      "boundElements": [],
+      "updated": 1750148579436,
       "link": null,
       "locked": false,
       "points": [
@@ -715,12 +715,12 @@
           0
         ],
         [
-          -19.004476258934346,
-          33.8888888888888
+          -13.395750699596874,
+          45.8923611111112
         ],
         [
-          -65.9062409974672,
-          43.11623363732281
+          -57.187650050200205,
+          54.41152374780381
         ]
       ],
       "lastCommittedPoint": null,
@@ -800,7 +800,7 @@
       "version": 293,
       "versionNonce": 2120608319,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -839,7 +839,7 @@
       "version": 220,
       "versionNonce": 2076985951,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -885,7 +885,7 @@
       "version": 266,
       "versionNonce": 1008763231,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844907571,
       "link": null,
       "locked": false,
@@ -931,7 +931,7 @@
       "version": 214,
       "versionNonce": 1725333151,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -977,7 +977,7 @@
       "version": 215,
       "versionNonce": 1173050047,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1023,7 +1023,7 @@
       "version": 225,
       "versionNonce": 1871749855,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1069,7 +1069,7 @@
       "version": 221,
       "versionNonce": 878112511,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1115,7 +1115,7 @@
       "version": 220,
       "versionNonce": 2126427935,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1161,7 +1161,7 @@
       "version": 219,
       "versionNonce": 356023103,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1207,7 +1207,7 @@
       "version": 228,
       "versionNonce": 472169311,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1253,7 +1253,7 @@
       "version": 224,
       "versionNonce": 1473509247,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1299,7 +1299,7 @@
       "version": 216,
       "versionNonce": 780578719,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1345,7 +1345,7 @@
       "version": 218,
       "versionNonce": 1785553855,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1391,7 +1391,7 @@
       "version": 225,
       "versionNonce": 1000903647,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1437,7 +1437,7 @@
       "version": 213,
       "versionNonce": 2051588095,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1483,7 +1483,7 @@
       "version": 224,
       "versionNonce": 676227103,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844839397,
       "link": null,
       "locked": false,
@@ -1595,10 +1595,10 @@
     {
       "id": "3G3EEhXt-i-1f9_nxhz2-",
       "type": "text",
-      "x": 346.2271252195593,
-      "y": -724.8875967305693,
-      "width": 114.7528126275939,
-      "height": 84.78747709020311,
+      "x": 346.2382343074404,
+      "y": -725.02579437367,
+      "width": 114.86433410644531,
+      "height": 84.78747709020313,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "transparent",
@@ -1612,20 +1612,20 @@
       "index": "b0q",
       "roundness": null,
       "seed": 1097556641,
-      "version": 887,
-      "versionNonce": 623258479,
+      "version": 909,
+      "versionNonce": 1183280394,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749579221162,
+      "updated": 1750148598958,
       "link": null,
       "locked": false,
-      "text": "Does it work\nwell for all \nlanguages ?\n(including non UTF8 \nand RTL ones )\n?",
+      "text": "Does it work\nwell for all \nsupported languages\n(including non-UTF8 \nand RTL ones )\n?",
       "fontSize": 11.304996945360417,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Does it work\nwell for all \nlanguages ?\n(including non UTF8 \nand RTL ones )\n?",
+      "originalText": "Does it work\nwell for all \nsupported languages\n(including non-UTF8 \nand RTL ones )\n?",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -1885,9 +1885,9 @@
     {
       "id": "HL9qCHyk7MKdqueh-nhha",
       "type": "text",
-      "x": 616.1738020341295,
+      "x": 615.9421583573717,
       "y": -817.8719613713164,
-      "width": 483.3118591308594,
+      "width": 483.775146484375,
       "height": 41.71875,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -1902,8 +1902,8 @@
       "index": "b0x",
       "roundness": null,
       "seed": 1340226337,
-      "version": 683,
-      "versionNonce": 1895753409,
+      "version": 684,
+      "versionNonce": 1315946582,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1911,7 +1911,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749579455119,
+      "updated": 1750148607275,
       "link": null,
       "locked": false,
       "text": "Some languages like Greek are often not encoded in UTF8. Be sure to account for them.\nAlso check that RTL (right to left) languages like Arabic displays correctly. \nTo test this, you can use parts of local newspapers as placeholders !",
@@ -2074,10 +2074,10 @@
     {
       "id": "T_mv3By803bmhFqYd86H-",
       "type": "text",
-      "x": 82.97681152874458,
+      "x": 83.08688471285049,
       "y": -717.6212020108096,
-      "width": 123.50248306965368,
-      "height": 69.54511979739141,
+      "width": 123.50970458984375,
+      "height": 69.5451197973914,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "transparent",
@@ -2091,8 +2091,8 @@
       "index": "b1C",
       "roundness": null,
       "seed": 1186111041,
-      "version": 1119,
-      "versionNonce": 239779887,
+      "version": 1121,
+      "versionNonce": 1304083658,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2104,7 +2104,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749580925832,
+      "updated": 1750149646780,
       "link": null,
       "locked": false,
       "text": "Can you access\nit in a practical way\nwith your keyboard or \nVoiceOver/TalkBack\nalone ?",
@@ -2216,7 +2216,7 @@
       "strokeColor": "#6741d9",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 4,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -2227,8 +2227,8 @@
         "type": 2
       },
       "seed": 2063402561,
-      "version": 113,
-      "versionNonce": 451575425,
+      "version": 114,
+      "versionNonce": 1787854358,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2240,7 +2240,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749579654086,
+      "updated": 1750148951466,
       "link": null,
       "locked": false
     },
@@ -2267,7 +2267,7 @@
       "version": 85,
       "versionNonce": 284755553,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749579654086,
       "link": null,
       "locked": false,
@@ -2306,7 +2306,7 @@
       "version": 243,
       "versionNonce": 1121855665,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1749844262123,
       "link": null,
       "locked": false,
@@ -2342,10 +2342,10 @@
     {
       "id": "wm-cU-JU-ECGMvPNsh89Q",
       "type": "arrow",
-      "x": 70.7432953496662,
-      "y": -683.7805824883199,
-      "width": 127.49610999768896,
-      "height": 0.9712378513529529,
+      "x": 70.85697929386714,
+      "y": -683.780262911574,
+      "width": 127.6097939418899,
+      "height": 0.9715574280987767,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -2361,8 +2361,8 @@
         "type": 2
       },
       "seed": 311635329,
-      "version": 601,
-      "versionNonce": 1744303409,
+      "version": 602,
+      "versionNonce": 612098826,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2370,7 +2370,7 @@
           "id": "wV_jTAEtY_r-KrT0ttsZ-"
         }
       ],
-      "updated": 1749844916919,
+      "updated": 1750149646559,
       "link": null,
       "locked": false,
       "points": [
@@ -2379,8 +2379,8 @@
           0
         ],
         [
-          -127.49610999768896,
-          -0.9712378513529529
+          -127.6097939418899,
+          -0.9715574280987767
         ]
       ],
       "lastCommittedPoint": null,
@@ -2399,7 +2399,7 @@
       "type": "text",
       "x": 515.4743621077957,
       "y": -610.2433927251393,
-      "width": 18.884307861328125,
+      "width": 18.89886474609375,
       "height": 19.187307152090646,
       "angle": 0,
       "strokeColor": "#e03131",
@@ -2414,11 +2414,11 @@
       "index": "b1J",
       "roundness": null,
       "seed": 229889377,
-      "version": 211,
-      "versionNonce": 105065839,
+      "version": 212,
+      "versionNonce": 2111762890,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749579680267,
+      "updated": 1750149646560,
       "link": null,
       "locked": false,
       "text": "No",
@@ -2511,10 +2511,10 @@
     {
       "id": "p3WfYoV5GHlj8lTChNZHD",
       "type": "text",
-      "x": -423.7066326379084,
-      "y": -825.0941835935384,
-      "width": 350.885009765625,
-      "height": 69.53125,
+      "x": -400.046384835174,
+      "y": -824.8626103404345,
+      "width": 285.66824369371227,
+      "height": 55.625,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2528,8 +2528,8 @@
       "index": "b1M",
       "roundness": null,
       "seed": 733509985,
-      "version": 1142,
-      "versionNonce": 4742625,
+      "version": 1894,
+      "versionNonce": 126742858,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2537,26 +2537,26 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749580353410,
+      "updated": 1750149631903,
       "link": null,
       "locked": false,
-      "text": "All elements should be accessible without a mouse. \nMost users would expect the navigation to take place \nusing TAB and BACKTAB. Arrows are also useful inside of lists. \nA top bar would typically be accessible with ALT. \nShortcuts can make this navigation smoother",
+      "text": "Make sure all of your components are easily\nnavigable by swiping through the content with\nassistive technologies on mobile, and with keyboard\nonly (tab, backtab, arrows, etc.) on desktop.",
       "fontSize": 11.125,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "All elements should be accessible without a mouse. \nMost users would expect the navigation to take place \nusing TAB and BACKTAB. Arrows are also useful inside of lists. \nA top bar would typically be accessible with ALT. \nShortcuts can make this navigation smoother",
-      "autoResize": true,
+      "originalText": "Make sure all of your components are easily navigable by swiping through the content with assistive technologies on mobile, and with keyboard only (tab, backtab, arrows, etc.) on desktop.",
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "lMVH_bxWKeDB7ho-XTjj2",
       "type": "arrow",
-      "x": -244.46646226833877,
-      "y": -747.8962669268718,
-      "width": 61.24257343052889,
-      "height": 30.961842655449345,
+      "x": -262.2989760701879,
+      "y": -761.5709436737679,
+      "width": 78.91217315964235,
+      "height": 50.5901666664023,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2572,11 +2572,11 @@
         "type": 2
       },
       "seed": 268739905,
-      "version": 1614,
-      "versionNonce": 177723329,
+      "version": 2366,
+      "versionNonce": 1209350154,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749580356513,
+      "updated": 1750149631904,
       "link": null,
       "locked": false,
       "points": [
@@ -2585,12 +2585,12 @@
           0
         ],
         [
-          15.83761061891181,
-          26.968749999999886
+          33.67012442076094,
+          40.64342674689601
         ],
         [
-          61.24257343052889,
-          30.961842655449345
+          78.91217315964235,
+          50.5901666664023
         ]
       ],
       "lastCommittedPoint": null,
@@ -2945,10 +2945,10 @@
     {
       "id": "3ly3lwTsnYw1fdzMUeNcA",
       "type": "text",
-      "x": -539.9749660998156,
-      "y": -585.7479257425795,
-      "width": 433.56402587890625,
-      "height": 97.34375,
+      "x": -513.3416159082004,
+      "y": -617.1150970184917,
+      "width": 363.9047186397187,
+      "height": 125.15625,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2962,8 +2962,8 @@
       "index": "b1W",
       "roundness": null,
       "seed": 651846785,
-      "version": 1805,
-      "versionNonce": 139749505,
+      "version": 2373,
+      "versionNonce": 723967114,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2971,26 +2971,26 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749580820018,
+      "updated": 1750149718771,
       "link": null,
       "locked": false,
-      "text": "You can test this using your system screen reader on the settings \nor NVDA on Windows. You can then navigate through the app and\nhear if the labels are relevant. All information like the state of a component or \nwether it's selected must be transcribed. Expect to provide in your code :\n- A name for the element\n- A description of it'S effect\n- it's role (for example static text or button) ",
+      "text": "You can test this using a screen reader or an accessibility\ninspector. You can then navigate through the app and\nhear or read if the labels are relevant. All information like the\nstate of a component or wether it's selected must be conveyed.\nExpect to provide in your code :\n- The name of the element, and its value or state if relevant\n- A description of its effect if it has one\n- Its type (for example, \"static text\" or \"button\")\n- Any contextual hint needed",
       "fontSize": 11.125,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "You can test this using your system screen reader on the settings \nor NVDA on Windows. You can then navigate through the app and\nhear if the labels are relevant. All information like the state of a component or \nwether it's selected must be transcribed. Expect to provide in your code :\n- A name for the element\n- A description of it'S effect\n- it's role (for example static text or button) ",
-      "autoResize": true,
+      "originalText": "You can test this using a screen reader or an accessibility inspector. You can then navigate through the app and\nhear or read if the labels are relevant. All information like the state of a component or wether it's selected must be conveyed.\nExpect to provide in your code :\n- The name of the element, and its value or state if relevant\n- A description of its effect if it has one\n- Its type (for example, \"static text\" or \"button\")\n- Any contextual hint needed",
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "AxicPHBYryO3QiQ_K_rww",
       "type": "arrow",
-      "x": -262.07641731871433,
-      "y": -480.7375090759127,
-      "width": 79.13259445110685,
-      "height": 24.278824554205812,
+      "x": -261.96500241614183,
+      "y": -484.292180351825,
+      "width": 79.02117954853435,
+      "height": 27.833495830118068,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3006,11 +3006,11 @@
         "type": 2
       },
       "seed": 570174561,
-      "version": 2459,
-      "versionNonce": 1301655649,
+      "version": 3026,
+      "versionNonce": 938392394,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749580820019,
+      "updated": 1750149718772,
       "link": null,
       "locked": false,
       "points": [
@@ -3019,12 +3019,12 @@
           0
         ],
         [
-          33.51874026402072,
-          20.267361111111086
+          33.407325361448216,
+          23.82203238702334
         ],
         [
-          79.13259445110685,
-          24.278824554205812
+          79.02117954853435,
+          27.833495830118068
         ]
       ],
       "lastCommittedPoint": null,
@@ -3184,10 +3184,10 @@
     {
       "id": "GdEtDqER9OAu4mqPVXBQa",
       "type": "arrow",
-      "x": 147.0738340488101,
-      "y": -90.81150937089876,
-      "width": 115.34236325386576,
-      "height": 594.1525588328723,
+      "x": 141.93516449293497,
+      "y": -86.35307036751954,
+      "width": 120.55555555555588,
+      "height": 607.4174592917432,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -3203,8 +3203,8 @@
         "type": 2
       },
       "seed": 1471306753,
-      "version": 1085,
-      "versionNonce": 1413793967,
+      "version": 1089,
+      "versionNonce": 592533910,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3212,7 +3212,7 @@
           "id": "eEuAwvdROhXmhg2IEpNRI"
         }
       ],
-      "updated": 1749581023809,
+      "updated": 1750149747092,
       "link": null,
       "locked": false,
       "points": [
@@ -3221,32 +3221,32 @@
           0
         ],
         [
-          102.00902992053216,
-          -48.727118667083914
+          107.22222222222229,
+          -53.0343203333681
         ],
         [
-          114.78680769830987,
-          -314.28267422263946
+          120,
+          -318.58987588892364
         ],
         [
-          115.34236325386576,
-          -544.2826742226393
+          120.55555555555588,
+          -548.5898758889235
         ],
         [
-          74.01805984106466,
-          -594.1525588328723
+          79.34493608695576,
+          -607.4174592917432
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "luW34wUkcBpJEWi-5rH6V",
-        "focus": 1.0156968549209564,
-        "gap": 2.7325527350332677
+        "focus": 1.0181892046788636,
+        "gap": 6.0915628026818895
       },
       "endBinding": {
         "elementId": "T_mv3By803bmhFqYd86H-",
-        "focus": -0.9768945908694109,
-        "gap": 14.6125992914765
+        "focus": -0.9764887200839898,
+        "gap": 14.683511277196487
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -3257,7 +3257,7 @@
       "type": "text",
       "x": 223.6099737512434,
       "y": -374.4258868078247,
-      "width": 24.27911376953125,
+      "width": 24.298553466796875,
       "height": 19.187307152090646,
       "angle": 0,
       "strokeColor": "#2f9e44",
@@ -3272,11 +3272,11 @@
       "index": "b1d",
       "roundness": null,
       "seed": 1944663009,
-      "version": 230,
-      "versionNonce": 2063720719,
+      "version": 231,
+      "versionNonce": 2062583626,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749580865898,
+      "updated": 1750149646561,
       "link": null,
       "locked": false,
       "text": "Yes",
@@ -3547,9 +3547,9 @@
     {
       "id": "ljA9t2NlMdZKrWVjfgY2H",
       "type": "text",
-      "x": 79.84362024504628,
+      "x": 76.76401514250722,
       "y": -181.68621322376862,
-      "width": 126.31317138671875,
+      "width": 132.47238159179688,
       "height": 27.81804791895656,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -3564,25 +3564,20 @@
       "index": "b1w",
       "roundness": null,
       "seed": 229436511,
-      "version": 1500,
-      "versionNonce": 2126368337,
+      "version": 1502,
+      "versionNonce": 1226709258,
       "isDeleted": false,
-      "boundElements": [
-        {
-          "id": "3xMv_RM2DNewzuM4rD99q",
-          "type": "arrow"
-        }
-      ],
-      "updated": 1749844187800,
+      "boundElements": [],
+      "updated": 1750149746598,
       "link": null,
       "locked": false,
-      "text": "Does it work with\ndifferent text scaling ?",
+      "text": "Does it work with\ndifferent text scalings ?",
       "fontSize": 11.127219167582624,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Does it work with\ndifferent text scaling ?",
+      "originalText": "Does it work with\ndifferent text scalings ?",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -3791,9 +3786,9 @@
     {
       "id": "12ty6g0b2JxWOs6tjHEm0",
       "type": "text",
-      "x": -497.1340093926825,
+      "x": -497.3010168389716,
       "y": -325.14473504147884,
-      "width": 348.1663818359375,
+      "width": 348.5003967285156,
       "height": 55.625,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -3808,8 +3803,8 @@
       "index": "b2C",
       "roundness": null,
       "seed": 1773210367,
-      "version": 2145,
-      "versionNonce": 1694980721,
+      "version": 2153,
+      "versionNonce": 40494922,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3817,26 +3812,26 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749844491745,
+      "updated": 1750149730755,
       "link": null,
       "locked": false,
-      "text": "Most operating systems have text scaling options. \nSome apps have their own too. Check if your UI isn't\ncropped by changing the size of the font. Try it for smaller and\nfor bigger text.",
+      "text": "Most operating systems include text scaling options. \nSome apps have their own too. Check if your UI isn't\ncropped by changing the size of the font. Try it for smaller and\nfor bigger text.",
       "fontSize": 11.125,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Most operating systems have text scaling options. \nSome apps have their own too. Check if your UI isn't\ncropped by changing the size of the font. Try it for smaller and\nfor bigger text.",
+      "originalText": "Most operating systems include text scaling options. \nSome apps have their own too. Check if your UI isn't\ncropped by changing the size of the font. Try it for smaller and\nfor bigger text.",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "mVIzQFrWxy14uNgCW3W2t",
       "type": "arrow",
-      "x": -302.83090987711705,
-      "y": -261.85306837481204,
-      "width": 120.039242840844,
-      "height": 65.99845590425406,
+      "x": -302.8427273980599,
+      "y": -261.8530683748121,
+      "width": 120.05106036178682,
+      "height": 65.99845590425412,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -3852,11 +3847,11 @@
         "type": 2
       },
       "seed": 980767519,
-      "version": 2931,
-      "versionNonce": 217375825,
+      "version": 2938,
+      "versionNonce": 805465610,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749844491745,
+      "updated": 1750149730755,
       "link": null,
       "locked": false,
       "points": [
@@ -3865,12 +3860,12 @@
           0
         ],
         [
-          74.41536750807211,
-          61.98611111111103
+          74.42718502901494,
+          61.986111111111086
         ],
         [
-          120.039242840844,
-          65.99845590425406
+          120.05106036178682,
+          65.99845590425412
         ]
       ],
       "lastCommittedPoint": null,
@@ -3971,9 +3966,9 @@
     {
       "id": "09h-HFWRZ0mLbXMHoVnGg",
       "type": "text",
-      "x": 347.3758009641944,
-      "y": -456.950887801705,
-      "width": 116.55091857910156,
+      "x": 347.36030566390144,
+      "y": -457.03170624581287,
+      "width": 116.5819091796875,
       "height": 42.39373854510156,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -3988,20 +3983,20 @@
       "index": "b2G",
       "roundness": null,
       "seed": 266235935,
-      "version": 1032,
-      "versionNonce": 1826970431,
+      "version": 1038,
+      "versionNonce": 1944808970,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749844635008,
+      "updated": 1750148617718,
       "link": null,
       "locked": false,
-      "text": "Does it has \nelements showing \ncultural significance ?",
+      "text": "Does it have \nelements showing \ncultural significance ?",
       "fontSize": 11.304996945360417,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Does it has \nelements showing \ncultural significance ?",
+      "originalText": "Does it have \nelements showing \ncultural significance ?",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -4230,9 +4225,9 @@
     {
       "id": "UTXImXdaqJiW5nm2QBI12",
       "type": "text",
-      "x": 352.07306369197215,
+      "x": 349.0927475298628,
       "y": -199.5467705617947,
-      "width": 105.9996337890625,
+      "width": 111.96026611328125,
       "height": 70.65623090850261,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -4247,20 +4242,20 @@
       "index": "b2V",
       "roundness": null,
       "seed": 1435162737,
-      "version": 1395,
-      "versionNonce": 818213873,
+      "version": 1409,
+      "versionNonce": 1729073674,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749844826471,
+      "updated": 1750148926768,
       "link": null,
       "locked": false,
-      "text": "Does it enable \npeople from various\ncultural background\nto feel\nrepresented?",
+      "text": "Does it enable \npeople from various\ncultural backgrounds\nto feel\nrepresented?",
       "fontSize": 11.304996945360417,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Does it enable \npeople from various\ncultural background\nto feel\nrepresented?",
+      "originalText": "Does it enable \npeople from various\ncultural backgrounds\nto feel\nrepresented?",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -4520,9 +4515,9 @@
     {
       "id": "lpr1fNQg6drPARevWG-R9",
       "type": "text",
-      "x": 617.5458068432733,
-      "y": -340.7172698683787,
-      "width": 504.23046875,
+      "x": 563.5995491028104,
+      "y": -318.9648222985302,
+      "width": 590.8855010166857,
       "height": 83.4375,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -4537,8 +4532,8 @@
       "index": "b2c",
       "roundness": null,
       "seed": 1356394897,
-      "version": 1505,
-      "versionNonce": 253567697,
+      "version": 2028,
+      "versionNonce": 1485510166,
       "isDeleted": false,
       "boundElements": [
         {
@@ -4546,26 +4541,26 @@
           "type": "arrow"
         }
       ],
-      "updated": 1749845304589,
+      "updated": 1750148832503,
       "link": null,
       "locked": false,
-      "text": "For example, a picture of a cheeseburger or a pizza as an illustration for food\nwill only enable a certain demographic of users to feel represented. Having separate field for \nfirst and last name will not allow users from certain culturs to use the app properly. \nThe only way to try and make our application more inclusive is to show it to people from \nvaried background ans ask them about their needs to use it properly.\n",
+      "text": "For example, a picture of a cheeseburger or a pizza as an illustration for food\nwill only enable a certain demographic of users to relate to the content. Having rigid fields for \nthe first and last name might not allow users from certain cultures to be accurately named. \nThe best and only true way to try and make our application more inclusive is to show it to people from \nvaried background and ask them about their needs to use it properly.\n",
       "fontSize": 11.125,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "For example, a picture of a cheeseburger or a pizza as an illustration for food\nwill only enable a certain demographic of users to feel represented. Having separate field for \nfirst and last name will not allow users from certain culturs to use the app properly. \nThe only way to try and make our application more inclusive is to show it to people from \nvaried background ans ask them about their needs to use it properly.\n",
-      "autoResize": true,
+      "originalText": "For example, a picture of a cheeseburger or a pizza as an illustration for food\nwill only enable a certain demographic of users to relate to the content. Having rigid fields for \nthe first and last name might not allow users from certain cultures to be accurately named. \nThe best and only true way to try and make our application more inclusive is to show it to people from \nvaried background and ask them about their needs to use it properly.\n",
+      "autoResize": false,
       "lineHeight": 1.25
     },
     {
       "id": "4SDCZuZIuG8-m3n8KMWgy",
       "type": "arrow",
-      "x": 792.9132599951027,
-      "y": -250.724214312823,
-      "width": 69.89794091799104,
-      "height": 53.0299919572208,
+      "x": 786.1858278842466,
+      "y": -232.56746099615592,
+      "width": 54.79743804665361,
+      "height": 26.10704357493924,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -4581,11 +4576,11 @@
         "type": 2
       },
       "seed": 885430129,
-      "version": 1940,
-      "versionNonce": 368222385,
+      "version": 2544,
+      "versionNonce": 1915478870,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1749845304589,
+      "updated": 1750148832504,
       "link": null,
       "locked": false,
       "points": [
@@ -4594,24 +4589,24 @@
           0
         ],
         [
-          -26.522903937544015,
-          42.359075781403305
+          -8.37697159717186,
+          14.686905606806278
         ],
         [
-          -69.89794091799104,
-          53.0299919572208
+          -54.79743804665361,
+          26.10704357493924
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "lpr1fNQg6drPARevWG-R9",
-        "focus": 0.16719938299615736,
-        "gap": 6.555555555555657
+        "focus": 0.14839444736441093,
+        "gap": 2.959861302374293
       },
       "endBinding": {
         "elementId": "9G6ZKPCvqncXU5hd_Kqb_",
-        "focus": -0.20637033341204863,
-        "gap": 3.7343576787164094
+        "focus": -0.2984909208813978,
+        "gap": 15.24654717253876
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
@@ -4670,9 +4665,9 @@
     {
       "id": "hu1IGt9MwfZmOnSk8dTGG",
       "type": "text",
-      "x": 686.7786565418007,
-      "y": 112.91412126597857,
-      "width": 410.95965576171875,
+      "x": 699.0376891217961,
+      "y": 165.94382161821966,
+      "width": 393.7996826171875,
       "height": 25,
       "angle": 0,
       "strokeColor": "#6741d9",
@@ -4687,20 +4682,131 @@
       "index": "b2f",
       "roundness": null,
       "seed": 1528401708,
-      "version": 94,
-      "versionNonce": 1905540780,
+      "version": 185,
+      "versionNonce": 874414678,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1750087690306,
+      "boundElements": [],
+      "updated": 1750149879796,
       "link": null,
       "locked": false,
-      "text": "© Maxence Vahedi & Page Magnier--Slimani",
+      "text": " Maxence Vahedi & Page Magnier--Slimani",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "© Maxence Vahedi & Page Magnier--Slimani",
+      "originalText": " Maxence Vahedi & Page Magnier--Slimani",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "9wL0JQ_5tQJOKWIku2qwW",
+      "type": "text",
+      "x": 821.1890983977551,
+      "y": 195.12300255979363,
+      "width": 131.49990844726562,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2g",
+      "roundness": null,
+      "seed": 1346861334,
+      "version": 298,
+      "versionNonce": 419940246,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1750149879796,
+      "link": null,
+      "locked": false,
+      "text": "CC BY-SA 4.0",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "CC BY-SA 4.0",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "anMQjVKD3Fc7KuIo3V_HS",
+      "type": "text",
+      "x": -203.63474444486246,
+      "y": -1228.6452699657632,
+      "width": 1118.2895300539303,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2h",
+      "roundness": null,
+      "seed": 532142230,
+      "version": 1018,
+      "versionNonce": 918871702,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1750149763287,
+      "link": null,
+      "locked": false,
+      "text": "or how not to break anything when commiting to the codebase*",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "or how not to break anything when commiting to the codebase*",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "DmHUDDxuves09T4p3poCy",
+      "type": "text",
+      "x": -562.2414372932725,
+      "y": 186.67037327335174,
+      "width": 656.0473022460938,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "dashed",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2i",
+      "roundness": null,
+      "seed": 1667242506,
+      "version": 453,
+      "versionNonce": 847782550,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1750149874406,
+      "link": null,
+      "locked": false,
+      "text": "*this flow chart is intended to be used as a \"bare minimum\" check for small changes.\nPlease refer to the training modules for guidelines and best practices.",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "*this flow chart is intended to be used as a \"bare minimum\" check for small changes.\nPlease refer to the training modules for guidelines and best practices.",
       "autoResize": true,
       "lineHeight": 1.25
     }
