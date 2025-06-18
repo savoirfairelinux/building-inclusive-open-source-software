@@ -118,16 +118,15 @@ Put simply, it’s believing that disabled people need to be fixed by technology
 > Sometimes technology is seen as redeeming our lives: nondisabled people believe—and expect us to believe—that technology will “solve” the problem of our disability and save us, or those like us, in the future. Yet these expectations often don’t match our circumstances. They confine us. When people assume that one device will “fix” us, they don’t pay attention to the host of other concerns around disability technology—the bad planning and design, the need for constant ongoing maintenance, the problem of money […], and the staggering lack of social support for disability accommodations […]. These are all forms of ableism.
 >
 
+Software plays a huge role in today’s daily life and communication. It can be a huge lever of inclusion, **and consequently also of exclusion**. Therefore, it’s our duty as developers to strive to include as many people as possible, without falling into the trap of thinking that we are saving or fixing anything else than our apps. 
 
-Software plays a huge role in today’s daily life and communication. It can be a huge lever of exclusion and inclusion. Therefore, it’s our duty as developers to try and lean toward the later without falling into the trap of thinking we are saving or fixing anything else than our apps.
+Some article titles documented by Ashley Shew depict the ableist “hero-syndrom” that can occur in the tech industry. 
 
-
-Some article titles documented by Ashley Shew give us a great exemple of the ableist “hero-syndrom” that can occur in the tech industry.
 
 > “THE TECH GIVING PEOPLE POWER TO DEAL WITH DISABILITY” —BBC NEWS“HOW TECHNOLOGY WILL CHANGE THE LIVES OF PEOPLE WITH DISABILITIES” —FORBES“FIRST PROSTHETIC LIMB DESIGNED FOR WOMEN: ‘I FEEL LIBERATED’” —BBC2“ROBOTIC EXOSKELETONS ARE HERE, AND THEY’RE CHANGING LIVES” —POPSCI
 >
 
-It becomes clearer and clearer, that our goal is to try and provide a safe place rather than fix or save anyone. For a more concrete exemple, Ashley Shew showcase how discord became a welcoming place for many autistic people.
+It becomes clearer and clearer that our goal is to try and provide a safe place rather than fix or save anyone. For a more concrete exemple, Ashley Shew showcases how Discord became a welcoming place for many autistic people.
 
 > Awni mentioned Discord as a social platform “easily adapted by autistic users to facilitate autistic-styled communication due to its flexibility both with custom emotes and for purpose-centric server organization.” Gardiner pointed to the importance of letting autistic people lead tech conversations with what they want and how they want to do things. This doesn’t mean jumping in to teach autistic people to play games in the way allistic people do but rather letting the “nothing about us without us” lesson of the disability rights movement carry into this space: to learn from autistic people how to use spaces autistically.
 >
