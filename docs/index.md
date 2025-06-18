@@ -8,6 +8,10 @@
 
 [👩‍🦽 A-AIE: Accessibility, inclusion & exclusion](A-AIE.md)
 
+**D. Designing inclusive and accessible software**
+
+[🎨 D-IDE: Inclusive design 101](D-IDE.md)
+
 **F. What is accessibility ?**
 
 [💬 F-CLS: Collective sharing](F-CLS.md)
