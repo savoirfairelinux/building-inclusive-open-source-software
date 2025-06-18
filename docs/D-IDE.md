@@ -80,7 +80,7 @@ That said, from our perspective, thinking UI and AUI as two distinct interfaces 
 - AUI as a concept completely forgets inclusivity and intersectionality, as it draws a strict line between the “able-bodied” and the “disabled”.
 - AUI can also create a pitfall, pushing developers to create the UI first, and then deriving an AUI from it, which makes the concept unhelpful.
 
-We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the way it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible. 
+We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the different ways it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible. 
 
 ![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
 The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](ressources/d-designing-inclusive-and-accessible-software/iui.png)
