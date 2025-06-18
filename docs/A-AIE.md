@@ -61,8 +61,6 @@ identification, removal and prevention of barriers to accessibility in 7
 > - the procurement of goods, services and facilities
 > - transportation
 
->>>>>>> c5df6b3 (A-AIE: add french law examples and some rephrasing)
-
 🇫🇷 France
 
 [French law](https://www.info.gouv.fr/accessibilite/loi-accessibilite-cadre-legal-et-obligations) defines accessibility as "allowing the autonomy and participation of people with disabilities, by reducing or even removing the gap between their abilities, needs and will - and the physical, organizational and cultural components of their environment".
@@ -100,7 +98,6 @@ Right now, some parts of your apps might only be accessible to those who can onl
 
 A key to fighting ableism is remembering that disabilities only arise when there is a gap between the environments’ expectations on what people can do, how they are supposed to do it and what and how people can actually do.  **Environment - and the way it is designed - plays an equal role as the body when it comes to disability.** For example, in an environment built to be completely flat and non-obstructed, people who walk are way slower than people using a wheelchair.
 
-![A schema showcasing how people interact with an app. Vectors represent different senses going toward the applications. Some go through and some do not](ressources/A-WhatIsAccessibility/schemainteractingwithappcontent.png)
 
 It’s quite clear that our goal is to minimize ableism in the software that we provide, to build a more inclusive environment for everyone.
 
