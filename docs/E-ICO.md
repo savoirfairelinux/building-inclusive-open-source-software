@@ -1,7 +1,7 @@
 # 👩‍💻 E-ICO Inclusive code 101
 
 >
-This module provides general information needed for building accessible code on any platform or language.
+This module provides general information needed for building accessible code on any platform, language or framework.
 
 **⛳️ Section**: E. Programming inclusive and accessible software
 
@@ -23,82 +23,78 @@ This module should be used with trainees before diving into the accessibility sp
 
 ## 1. Development mindset : Accessible code is good code
 
-As we will see in this section, bad accessibility can often be a symptom of bad code. That’s good news ! It means that fixing it often only require good code practices.
+As we will see in this section, bad accessibility can often be a symptom of flawed code. That’s good news ! It means that fixing it often only requires good code practices.
 
 ---
 
-### 1.A Custom components and accessibility
+### A - Custom components and accessibility
 
-Many applicative frameworks come packed with standards components. Those can take many forms (labels, buttons, timers, abstract lists…). The main takeaway of this section, to put it simply would be :
-
->
-⛔ STOP REINVENTING (or programming in our case) THE WHEEL (please)
+Many applicative frameworks come packed with standards components (like labels, buttons, timers, etc.). To put it simply, the main takeaway of this section would be:
 
 >
+**⛔ Don't reinvent** (or program in our case) **the wheel !** (please)
 
-You code can be good but will never be as robust as one iterated upon by a community of developers or a company. Therefore, before implementing anything, check rigorously that your framework or a library doesn’t provide a tool that would meet most of your needs.
+>
 
-Frameworks often have a unified and often automated way of handling accessibility with key navigation, focus and label generation. Therefore, building complex custom components will very frequently (not to say almost always) break accessibility handling. Therefore, try to limit the complexity of your UI objects, document them properly and when trying to fix an accessibility issue, consider taking the hard way by refactoring the component. Your whole code will actually be better.
+You code can be good but will never be as robust as one iterated upon by a community of developers or a big company. Therefore, before implementing anything, check rigorously that your framework (or a library) doesn’t provide a tool that would meet most of your needs.
+
+Frameworks often have unified and often automated ways of handling accessibility with key navigation, focus and label generation. Therefore, building complex custom components will very frequently (not to say almost always) break accessibility handling if no more work is done. Therefore, try to limit the complexity of your UI objects, document them properly and when trying to fix an accessibility issue, consider taking the hard way by refactoring the component. Your whole code will actually be better.
 
 For a more concrete example, on the left you can see a custom combo-box component, deeply broken from an accessibility standpoint. On the right, you can see a native Qt combo-box, more feature-full -aesthetics aside- and working fine with a screen reader and Keyboard navigation without necessitating any intervention.
 
 <div style="display: flex; justify-content: space-between;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="../ressources/E-ProgrammingInclusiveAndAccessibleSoftware/jamiComboBox.png" alt="Custom combo box">
+        <img src="../ressources/e-programming-inclusive-and-accessible-software/jamiComboBox.png" alt="Custom combo box">
     </div>
     <div style="flex: 1; margin-left: 10px;">
-        <img src="../ressources/E-ProgrammingInclusiveAndAccessibleSoftware/QtComboBox.png" alt="Native Qt combo-box">
+        <img src="../ressources/e-programming-inclusive-and-accessible-software/qtComboBox.png" alt="Native Qt combo-box">
     </div>
 </div>
 
-We believe, there are only few reason not to use the second one.
+We believe that there are very few reasons not to use the second one.
+
+If however you decide to make a custom component, make sure you implement extensively the accessibility APIs provided by your framework. This generally requires a deeper understanding of how accessibility is handled by your platform, but can be done well though it will likely require some maintenance over time.
 
 ---
 
-### 1.B What bad accessibility says about our code: a few concrete example
+### B - What bad accessibility says about our code: a few concrete examples
 
-Accessibility and inclusiveness in programming have one key benefit : making you think twice about your code. As said previously, stumbling into an accessibility issue might mean that you should be doing something in a different way.
+Accessibility and inclusiveness in programming have one key benefit : making you think twice about your code. As said previously, stumbling into an accessibility issue might mean that you could be doing something better in a different way.
 
+Let’s investigate that by taking a look at the most obviously broken component in Jami : the username info box tooltip (the small 'i' on the right).
 
+![Screenshot of the Jami account creation page showcasing the discussed tooltip](ressources/e-programming-inclusive-and-accessible-software/jamiToolTip.png)
 
-Let’s investigate that by taking a look at the most obviously broken component in Jami : the username info box tooltip (the small i on the right)
+It’s an “info box” (as called in the code), but a screen reader will handle it as a push button. That seems weird, as this is used as a tooltip, not a button allowing an action. Additionally, it doesn’t react well when selecting and unselecting the username text edit.
 
-![Screenshot of the Jami account creation page showcasing the discussed tooltip](ressources/E-ProgrammingInclusiveAndAccessibleSoftware/JamiToolTip.png)
-
-It’s an “info box” (as called in the code), but a screen reader will handle it as a push button. That seems weird, as this is used as a tooltip, not a button accomplishing an action. Additionally, it doesn’t react well when selecting and unselecting the username text edit.
-
-That is because in the code, this component is indeed a button. That goes without saying that it’s not a good way of implementing it and as a result the corresponding code is very extensive (more than 80 lines of code)! This is the cause of both the accessibility and the selection issue. While it technically works(barely) their are plenty of ways to use default components for a better result. In this case, broken accessibility indicate bad implementation choices.
+That is because in the code, this component is indeed a button. That goes without saying that it’s not a good way of implementing i, and as a result, the corresponding code is very extensive (more than 80 lines of code)! This is the cause of both the accessibility and the selection issue. While it technically works, there are plenty of ways to use default components for a better result. In this case, broken accessibility indicate bad implementation choices.
 
 ```cpp
 icon: PushButton {
+    
     id: infoBox
     z: 1
     normalColor: "transparent"
-    imageColor: infoBox.checked ? JamiTheme.inviteHoverColor : JamiTheme.buttonTintedBlue                        source: JamiResources.i_informations_black_24dp_svg
-    pressedColor: JamiTheme.tintedBlue
-    hoveredColor: JamiTheme.hoveredButtonColorWizard
-    border.color: {
-        if (infoBox.checked) {
-            return "transparent";
-        }
-        return JamiTheme.buttonTintedBlue;
-    }
+    
+    // ...
+
     checkable: true
     onCheckedChanged: {
         textBoxinfo.visible = !textBoxinfo.visible;
     }
     preferredSize: 20
-    ...
+    
+    // ...
 }
 ```
 
 Another example would be the account selection list in Jami. It was not possible to navigate between the different items using the keyboard arrows making it non-usable from an accessibility standpoint.
 
 <p align="center">
-    <img src="../ressources/E-ProgrammingInclusiveAndAccessibleSoftware/JamiAccoutnList.png" alt="Picture of the account list in Jami showing 4 different accounts." width="60%">
+    <img src="../ressources/e-programming-inclusive-and-accessible-software/jamiAccountList.png" alt="Picture of the account list in Jami showing 4 different accounts." width="60%">
 </p>
 
-That’s an unexpected behavior as the best ListView Qt component (which our custom component is based on) support this behavior. A quick inspection of the code revealed those lines :
+That’s an unexpected behavior as the best ListView Qt component (which our custom component is based on) supports this navigation method. A quick inspection of the code revealed those lines :
 
 ```cpp
 Keys.onUpPressed: verticalScrollBar.decrease()
@@ -107,9 +103,11 @@ Keys.onDownPressed: verticalScrollBar.increase()
 
 By reimplementing a scroll feature and binding it to the arrows key, we effectively broke the base behavior of the component. Here, broken accessibility showcase flawed design as the expected behavior of the component hasn’t been thought all the way through.
 
-In this case, the fix was rather simple, use the base component rather the custom one.
+In this case, the fix was rather simple: use the base component rather the custom one.
 
-### 1.C Focus and explicit key navigation, choose the right tool at the right time (desktop)
+And when you don't have the choice to work with custom components, remember to pay close attention to your framework's accessibility APIs and guidelines to make sure your components can blend in.
+
+### 1.C Focus and explicit key navigation, choose the right tool at the right time (Desktop)
 
 In order to implement alternative navigation in your app (keyboard, voice over, talkback, vocal command, etc), on desktop, they are two main way of doing it : focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
 
@@ -134,11 +132,13 @@ KeyNavigation.down: KeyNavigation.tab
 
 ## 2. Development pipeline
 
+TODO: working with design
+
 ### 2.1 Accessibility workflows
 
-Accessibility is a complex topic that can be hard to incorporate into routine development, especially with varying team composition and scale. Accessibility testing as done in more traditional industries would be difficult be set up. Therefore, we need to adapt existing accessibility guidelines to our workflow.
+Accessibility is a complex topic that can be hard to incorporate into routine development, especially with varying team composition and scale. Accessibility testing as done in more traditional industries would be difficult to set up. Therefore, we need to adapt existing accessibility guidelines to our workflow.
 
-The most useful tip regarding this topic that we found in the [Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook) would be the concept of accessibility coach. Each development team, should have someone especially knowledgeable and with a consequent empathy regarding accessibility. These coach will not be the one doing the core accessibility work and doesn’t need to be working full time on accessibility. They will rather **be the ones to monitor with other employees the progress of the current accessibility roadmap**. They are the one responsible to make sure that accessibility is a constant though at every step of development.
+The most useful tip regarding this topic that we found in the [Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook) would be the concept of accessibility coach. Each development team can have someone especially knowledgeable and with a consequent empathy regarding accessibility. These coach will not be the one doing the core accessibility work and don't need to be working full time on accessibility. They will rather **be the ones who monitor with other employees the progress of the current accessibility roadmap**. They are the one responsible of making sure that accessibility is a constant thought at every step of development.
 
 The coach of different teams can meet regularly to coordinate and update the accessibility roadmap of the application. They also can organize monthly meetings with the all of their teams to report on the improvements, blockers and perspectives. The main goal is to normalize accessibility and inclusiveness as routine parts of development.
 
@@ -156,9 +156,13 @@ That said, a few things can be set to try and automatically detect as much issue
 
 If you app is native, you can set-up your CI to detect missing accessibility labels on focusable elements and setup a test that navigate through all od the elements of a view using the keyboard, checking that none of them wasn’t reached.
 
-You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements in this repository.
+Some frameworks (including SwiftUI or Jetpack Compose) provide ways of automating UI tests that check accessibility.
 
-![Diagram showing an "A very basic accessibility checklist not to break anything when committing. This diagram is available in text format further down this page."](ressources/E-ProgrammingInclusiveAndAccessibleSoftware/InclusivenessChecklist.png)
+You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness).
+
+Remember : this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start.
+
+![Diagram showing an "A very basic accessibility checklist not to break anything when committing. This diagram is available in text format further down this page."](ressources/e-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
 
 **The diagram in text format:**
 
@@ -168,7 +172,7 @@ Did you change/create a UI component ?
 
 Can you access it in a practical way with your keyboard or VoiceOver/TalkBack alone ?
 
-- If no: Fix it ! All elements should be accessible without a mouse. Most users would expect the navigation to take place using TAB and BACKTAB.Arrows are also useful inside of lists. A top bar would typically be accessible with ALT. Shortcuts can make this navigation smoother
+- If no: Fix it ! All elements should be accessible without a mouse. Most users would expect the navigation to take place using TAB and BACKTAB. Arrows are also useful inside of lists. A top bar would typically be accessible with ALT. Shortcuts can make this navigation smoother.
 
 Are all information and labels properly transcribed using a screen reader ?
 
@@ -223,7 +227,7 @@ From here, you might want to take a look at some of our modules about inclusive 
 
 # Resources
 
-[QuickInclusivenessCheck.excalidraw](ressources/E-ProgrammingInclusiveAndAccessibleSoftware/QuickInclusivenessCheck.excalidraw)
+[QuickInclusivenessCheck.excalidraw](ressources/e-programming-inclusive-and-accessible-software/quickInclusivenessCheck.excalidraw)
 
 [WAVE Accessibility tool](https://wave.webaim.org/)
 
