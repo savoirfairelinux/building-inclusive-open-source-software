@@ -119,7 +119,7 @@ A lot of implementation frameworks provide easy ways to set a preferred size for
 
 ![A Figma design file with accessibility annotations for the Olvid app.](ressources/d-designing-inclusive-and-accessible-software/annotation.png)
 
-1. **Grouping the elements**
+**1 - Grouping the elements**
 
 For people who use screen readers and/or the keyboard to navigate your app, it is crucial to have the information grouped at the right level of granularity.
 
@@ -134,7 +134,7 @@ While it certainly depends on the experience you are building and the platform y
 
 Mobile and desktop navigation are quite different regarding this topic. While mobile apps typically rely technically on “accessibility elements” that can be grouped, desktop apps rely on focusability of specific parts of the interface. From a design perspective, this does not change significantly the way we should think about grouping, but it’s important to keep in mind the implementation can vary drastically, making it important to guide developers and iterate towards the targeted experience.
 
-2. **Labelling the elements**
+**2 - Labelling the elements**
 
 Labelling the elements of your app is critical to ensure the understanding of the interface and content. The term “label” can have different implementation meanings depending on the platform or framework used. Here, we will use label to refer to the sentence that is typically read aloud by screen readers, including the type of the content, the value, *etc.* Frameworks and platforms typically use structured data to then generate what we call here a label.
 
@@ -153,7 +153,7 @@ For a messaging app, a label for a discussion can be :
 
 Again, depending on the platform or framework, the ways to achieve this might differ. We will tackle this issue in platform-specific modules.
 
-3. **Establishing a focus order**
+**3 - Establishing a focus order**
 
 ![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](ressources/d-designing-inclusive-and-accessible-software/order.png)
 
