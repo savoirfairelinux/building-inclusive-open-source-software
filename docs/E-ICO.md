@@ -67,7 +67,7 @@ Let’s investigate that by taking a look at the most obviously broken component
 
 It’s an “info box” (as called in the code), but a screen reader will handle it as a push button. That seems weird, as this is used as a tooltip, not a button allowing an action. Additionally, it doesn’t react well when selecting and unselecting the username text edit.
 
-That is because in the code, this component is indeed a button. That goes without saying that it’s not a good way of implementing i, and as a result, the corresponding code is very extensive (more than 80 lines of code)! This is the cause of both the accessibility and the selection issue. While it technically works, there are plenty of ways to use default components for a better result. In this case, broken accessibility indicate bad implementation choices.
+That is because in the code, this component is indeed a button. That goes without saying that it’s not a good way of implementing it, and as a result, the corresponding code is very extensive (more than 80 lines of code)! This is the cause of both accessibility and the selection issues. While it technically works, there are plenty of ways to use default components for a better result. In this case, broken accessibility indicate bad implementation choices.
 
 ```cpp
 icon: PushButton {
@@ -221,7 +221,8 @@ Here are some key elements to making your API accessible:
 
 ## 3. Conclusion
 
-Accessible programming can be overwhelming, mostly due to the lack of resources for native apps, but with the right tools it’s absolutely bearable. Remember that accessibility issues in your code often hide underlying issues and to set up proper workflows and tests.
+Accessible programming can be overwhelming, mostly due to the lack of resources for native apps, but with the right tools it’s absolutely bearable. 
+Remember that accessibility issues in your code often hide underlying issues. Also remember to set up proper workflows and tests.
 
 From here, you might want to take a look at some of our modules about inclusive programming for different platforms, ecosystems and frameworks.
 
