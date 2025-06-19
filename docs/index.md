@@ -1,4 +1,4 @@
-# Accessibility and Inclusivity
+# Accessibility and Inclusiveness
 
 **A. What is accessibility ?**
 
