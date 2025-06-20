@@ -10,10 +10,6 @@ copyright: Maxence Vahedi & Page Magnier--Slimani CC BY-SA 4.0
 theme:
   name: material
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
