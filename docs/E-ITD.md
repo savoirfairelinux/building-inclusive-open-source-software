@@ -22,7 +22,7 @@ This module is almost certainly a must have for an type of workers searching for
 
 ## What to avoid
 
-As we saw in [🗺️ A-BCT Brief cartography of today’s accessibility landscape](A-BCT.md), some tools are really despised by accessibility and inclusiveness experts and with valid reasons. We could summarize by saying **stay away from AI accessibility tools**. They are often more detrimental than anything. Accessibility is really hard to automate specifically because it's about embracing diversity and learning from other's needs. Using AI tools could make you technically compliant with some legislation (for example filling all of the empty labels on your application) but it won't make your application usable by people with disability.
+As we saw in [🗺️ A-BCT Brief cartography of today’s accessibility landscape](A-BCT.md), some tools are really despised by accessibility and inclusiveness experts and with valid reasons. We could summarize by saying: **stay away from AI accessibility tools**. They are often more detrimental than anything. Accessibility is really hard to automate specifically because it's about embracing diversity and learning from other's needs. Using AI tools could make you technically compliant with some legislation (for example filling all of the empty labels on your application) but it won't make your application usable by people with disabilities.
 
 The errors automaticly detected highly depends of context (for example a long accessibility label is not necessarily a bad thing if attached to a schematic but will be flagged automaticly as an issue). Furthermore, the fixes are often clunky, unintuitive and don't take the specific of the application architecture into account.
 
@@ -30,7 +30,7 @@ The errors automaticly detected highly depends of context (for example a long ac
 
 ## A screen reader and a keyboard
 
-Screen readers are very useful tools to test the accessibility of an application. While it does not full-fill the need of testing by users in question, apps that are fully accessible using a keyboard and a screen reader are more likely to fit a good amount of accessibility needs.
+Screen readers are very useful tools to test the accessibility of an application. While it does not fullfill the need of testing by users in question, apps that are fully accessible using a keyboard and a screen reader are more likely to address a good amount of accessibility needs.
 
 A good and simple practice is to **always check** if your modifications on the UI are **fully accessible only with your keyboard** — not a challenge for our beloved vim users.
 
@@ -55,7 +55,7 @@ You may also find this comparison of screen readers helpful:
 </div>
 
 
-Most systems have a built in screen reader in their settings,  you should use them to test your app but don't limit yourself to them as they are often pretty bare bone. Most screen readers have plugins for the most used apps. If you have the available resources, you might want to develop one for your app specifically.
+Most systems have a built-in screen reader in their settings,  you should use them to test your app but don't limit yourself to them as they are often pretty basic. Most screen readers have plugins for the most used apps. If you have the available resources, you might want to develop one for your app specifically.
 
 
 
@@ -93,7 +93,7 @@ Most systems have a built in screen reader in their settings,  you should use th
 </div>
 
 
-[NVDA](https://www.nvaccess.org/download/) is open source and mainly available on windows (you can still run it on Linux using Wine). It's free and therefore is a very good tool to start testing accessibility. One of it's key advantage is that it's very lightweight meaning that it starts a lot faster that other screen readers which can make all the difference when those softwares are known to crash easily. It's still a bit limited on some complex applications like Excel.
+[NVDA](https://www.nvaccess.org/download/) is open source and mainly available on Windows (you can still run it on Linux using Wine). It's free and therefore is a very good tool to start testing accessibility. One of it's key advantage is that it's very lightweight meaning that it starts a lot faster that other screen readers which can make all the difference when those softwares are known to crash easily. It's still a bit limited on some complex applications like Excel.
 
 It still has an active community developing plugins for integrating it into different apps. Consider doing it for yours!
 
@@ -144,7 +144,7 @@ That's why we recommend NVDA.
 
 ![The Jaws pricing. The purchase price is 1548 dollars for a perpetual license or 623 dollars per year for a subscription](ressources/e-programming-inclusive-and-accessible-software/jawsPricing.png)
 
-### Voice over for macOS
+### VoiceOver for macOS
 
 <div align="center">
 
@@ -176,7 +176,7 @@ That's why we recommend NVDA.
 
 </div>
 
-[Voice over](https://www.apple.com/voiceover/info/guide/_1121.html) is the native screen reader of Apple. It's known for being very  easy to learn making for a fluid and intuitive experience. In the screen reader comparison linked previously in this article, the user state that learning Jaws took them years compared to the week-end it took them to get used to Voice Over.
+[VoiceOver](https://www.apple.com/voiceover/info/guide/_1121.html) is the native screen reader for Apple products. It's known for being very  easy to learn making for a fluid and intuitive experience. In the screen reader comparison linked previously in this article, the user state that learning Jaws took them years compared to the week-end it took them to get used to VoiceOver.
 
 While being a very good, Voice Over is only available on apple machines and therefore often not useful to most users.
 
@@ -264,7 +264,7 @@ Here you can see an example of a poorly described object tree in Jami.
 </div>
 
 
-[Wave](https://wave.webaim.org/) is a testing software to automatically detect warnings and errors related to the WCAG Accessibility guidelines. It’s as simple as entering your domain to see prevalent issues with your website.
+[Wave](https://wave.webaim.org/) is a testing software to automatically detect warnings and errors related to the [WCAG Accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/). It’s as simple as entering your domain to see prevalent issues with your website.
 
 While you might be working on a native app, it’s very likely that you or your organization have a website along with it. Wave is a very convenient way to check if you’re also up to date on that end without necessitating further knowledge.
 
@@ -274,7 +274,9 @@ Still be careful not to believe blindly the feedback form automated tools lke Wa
 
 ![A screenshot of the wave accessibility tool showing detailed report about multiple errors on a webpage](ressources/e-programming-inclusive-and-accessible-software/waveReport.png)
 
-Some other similar web accessibility tools would be [Axe](https://www.deque.com/axe/) or [Lighthouse](https://developer.chrome.com/docs/lighthouse?hl=fr). **Please note that accessibility experts are mostly warning us not to rely too much on those diagnosis tools as they can often be misleading and prevent us from getting into the perspectives of disabled users.
+Some other similar web accessibility tools would be [Axe](https://www.deque.com/axe/) or [Lighthouse](https://developer.chrome.com/docs/lighthouse?hl=fr).
+
+**Again, please note that accessibility experts are mostly warning us not to rely too much on those diagnosis tools as they can often be misleading and prevent us from getting into the perspectives of disabled users.**
 
 ## User groups
 
@@ -309,9 +311,9 @@ Some other similar web accessibility tools would be [Axe](https://www.deque.com/
 
 **User groups are one of the most reliable way to build an accessible and inclusive application.** Getting people from various background to test your application and here about their feedback and ideas is in our opinion the best way to minimize the risk of leaving some users behind.
 
-You should try and make those user groups as diverse as possible. You could post on your socials asking if some disabled users would be interested in providing feedback. Users can have different designated discussion canal with the team working on the project or directly contact them. keep in mind that you want to promote interaction between users, allowing them to reflect on their own experiences.
+You should try and make those user groups as diverse as possible. You could post on your socials asking if some disabled users would be interested in providing feedback. Users can have different designated discussion canal with the team working on the project or directly contact them. Keep in mind that you want to promote interaction between users, allowing them to reflect on their own experiences.
 
-This can only be done properly if the team working on the project is actively listening to the feedback they get. Their should be a way of keeping track of the different problems raised by the users and the progress made on fixing them. Designers should have occasional sessions and calls with some users to discuss precisely how they would want to implement something (for example what implementation of keyboard navigation feels more intuitive). This can be massively useful during prototyping.
+This can only be done properly if the team working on the project is actively listening to the feedback they get. Their should be a way of keeping track of the different problems raised by the users and the progress made on fixing them. The product and design team should have occasional sessions and calls with some users to discuss precisely how they would want to implement something (for example what implementation of keyboard navigation feels more intuitive). This can be massively useful during prototyping.
 
 # Resources
 

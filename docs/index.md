@@ -16,7 +16,9 @@
 
 [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
 
-**F. To conclude and go further**
+[🔧 E-ITD: Inclusiveness technologies : Desktop](E-ITD.md)
+
+**F. What is accessibility ?**
 
 [💬 F-CLS: Collective sharing](F-CLS.md)
 
