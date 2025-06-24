@@ -156,7 +156,7 @@ That said, a few things can be set to try and automatically detect as much issue
 
 If you app is native, you can set-up your CI to detect missing accessibility labels on focusable elements and setup a test that navigate through all od the elements of a view using the keyboard, checking that none of them wasn’t reached.
 
-Some frameworks (including SwiftUI or Jetpack Compose) provide ways of automating UI tests that check accessibility.
+Some frameworks (including SwiftUI and Jetpack Compose) provide ways of automating UI tests that check accessibility.
 
 You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness).
 
