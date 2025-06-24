@@ -1,4 +1,30 @@
-site_name: Accessibility and Inclusivity
-site_url: https://page-and-maxence.github.io/accessibility-and-inclusivity/
+site_name: Accessibility and Inclusiveness
+site_url: https://page-and-maxence.github.io/accessibility-and-inclusiveness/
+
+site_author: Maxence Vahedi & Page Magnier--Slimani
+repo_name: Page-and-Maxence/accessibility-and-inclusiveness
+repo_url: https://github.com/Page-and-Maxence/accessibility-and-inclusiveness
+
+copyright: Maxence Vahedi & Page Magnier--Slimani CC BY-SA 4.0
+
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference

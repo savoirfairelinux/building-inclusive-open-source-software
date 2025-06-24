@@ -77,10 +77,10 @@ That said, from our perspective, thinking UI and AUI as two distinct interfaces 
 
 - Most users never access an app using only the UI or the AUI. For example, someone who can see but cannot touch the screen might use a switch as input but still use the visual interface to perceive the content. Moreover, many people considering themselves as “able-bodied” still use some accessibility features on their devices - like custom font sizes or accessibility gestures used by power users.
 - As seen in We are all disabled and unique : accessibility, plurality and intersectionality, thinking of users as people working with various sets of abilities rather than belonging to one of the “disabled” or “able-bodied” categories better reflects the wide range of experiences you are inevitably creating when building your app.
-- AUI as a concept completely forgets inclusivity and intersectionality, as it draws a strict line between the “able-bodied” and the “disabled”.
+- AUI as a concept completely forgets inclusiveness and intersectionality, as it draws a strict line between the “able-bodied” and the “disabled”.
 - AUI can also create a pitfall, pushing developers to create the UI first, and then deriving an AUI from it, which makes the concept unhelpful.
 
-We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the way it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible.
+We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the different ways it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible. 
 
 ![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
 The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](ressources/d-designing-inclusive-and-accessible-software/iui.png)
@@ -119,7 +119,7 @@ A lot of implementation frameworks provide easy ways to set a preferred size for
 
 ![A Figma design file with accessibility annotations for the Olvid app.](ressources/d-designing-inclusive-and-accessible-software/annotation.png)
 
-1. **Grouping the elements**
+**1 - Grouping the elements**
 
 For people who use screen readers and/or the keyboard to navigate your app, it is crucial to have the information grouped at the right level of granularity.
 
@@ -134,7 +134,7 @@ While it certainly depends on the experience you are building and the platform y
 
 Mobile and desktop navigation are quite different regarding this topic. While mobile apps typically rely technically on “accessibility elements” that can be grouped, desktop apps rely on focusability of specific parts of the interface. From a design perspective, this does not change significantly the way we should think about grouping, but it’s important to keep in mind the implementation can vary drastically, making it important to guide developers and iterate towards the targeted experience.
 
-2. **Labelling the elements**
+**2 - Labelling the elements**
 
 Labelling the elements of your app is critical to ensure the understanding of the interface and content. The term “label” can have different implementation meanings depending on the platform or framework used. Here, we will use label to refer to the sentence that is typically read aloud by screen readers, including the type of the content, the value, *etc.* Frameworks and platforms typically use structured data to then generate what we call here a label.
 
@@ -153,7 +153,7 @@ For a messaging app, a label for a discussion can be :
 
 Again, depending on the platform or framework, the ways to achieve this might differ. We will tackle this issue in platform-specific modules.
 
-3. **Establishing a focus order**
+**3 - Establishing a focus order**
 
 ![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](ressources/d-designing-inclusive-and-accessible-software/order.png)
 
