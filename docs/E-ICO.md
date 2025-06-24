@@ -213,7 +213,7 @@ On the back-end too, accessible code is good code. A well-designed architecture 
 Here are some key elements to making your API accessible:
 
 - When choosing a name for some object, make sure to apply those principles:
-    - Avoid abbreviations, which can be either difficult to understand to some people due to language, screen reader use, or cognitive disabilities.
+    - Avoid abbreviations, which can be difficult to understand to some people due to language, screen reader use, or cognitive disabilities.
     - Make sure the name is as clear and complete as possible.
 - Regarding documentation and code commenting, remember to:
     - Write clear sentences with simple language that will enable everyone to understand the purpose of your code.
