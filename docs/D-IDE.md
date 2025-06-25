@@ -1,6 +1,7 @@
 # 🎨 D-IDE: Inclusive design 101
 
-> This module aims at giving accessibility and inclusiveness essentials for app design.
+    This module aims at giving accessibility and inclusiveness essentials for app
+    design.
 
 **⛳️ Section**: D. Designing inclusive and accessible software
 
@@ -9,8 +10,6 @@
 **⏱️ ️Duration**: 30'
 
 **📚 Prerequisites**: Accessibility, inclusion & exclusion, We are all disabled and unique
-
-**📖 Is a prerequisite to**: None
 
 ---
 
@@ -21,6 +20,7 @@ This module should be used with trainees who are in position of making design de
 # Description
 
 ## What is an inclusive app ?
+
 
 Using the [Cambridge's dictionary's definition](https://dictionary.cambridge.org/dictionary/english/inclusiveness), we defined inclusiveness as **the quality of including many different types of people and treating them all fairly and equally**. From there, we have to ask ourselves: what is an inclusive app?
 
@@ -80,7 +80,7 @@ That said, from our perspective, thinking UI and AUI as two distinct interfaces 
 - AUI as a concept completely forgets inclusiveness and intersectionality, as it draws a strict line between the “able-bodied” and the “disabled”.
 - AUI can also create a pitfall, pushing developers to create the UI first, and then deriving an AUI from it, which makes the concept unhelpful.
 
-We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the different ways it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible. 
+We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the different ways it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible.
 
 ![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
 The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](ressources/d-designing-inclusive-and-accessible-software/iui.png)
@@ -149,7 +149,7 @@ A good label must :
 
 For a messaging app, a label for a discussion can be :
 
-> "Michel Berger. 3 unread messages. You said : Thanks ! at 9:07. Message status : sent. Pinned. Actions available.”
+     "Michel Berger. 3 unread messages. You said : Thanks ! at 9:07. Message status : sent. Pinned. Actions available.”
 
 Again, depending on the platform or framework, the ways to achieve this might differ. We will tackle this issue in platform-specific modules.
 
