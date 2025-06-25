@@ -73,7 +73,7 @@ Most systems have a built-in screen reader in their settings,  you should use th
         </thead>
         <tbody>
                 <tr>
-                        <td>Windows<br>Linux (via Wine)</td>
+                        <td>Windows<br>Theoretically Linux (via Wine)</td>
                         <td>
                                 <ul>
                                         <li>Free and open source</li>
@@ -93,7 +93,7 @@ Most systems have a built-in screen reader in their settings,  you should use th
 </div>
 
 
-[NVDA](https://www.nvaccess.org/download/) is open source and mainly available on Windows (you can still run it on Linux using Wine). It's free and therefore is a very good tool to start testing accessibility. One of it's key advantage is that it's very lightweight meaning that it starts a lot faster that other screen readers which can make all the difference when those softwares are known to crash easily. It's still a bit limited on some complex applications like Excel.
+[NVDA](https://www.nvaccess.org/download/) is open source and mainly available on Windows (you can still run it on Linux using Wine but it will inconsistently work). It's free and therefore is a very good tool to start testing accessibility. One of it's key advantage is that it's very lightweight meaning that it starts a lot faster that other screen readers which can make all the difference when those softwares are known to crash easily. It's still a bit limited on some complex applications like Excel.
 
 It still has an active community developing plugins for integrating it into different apps. Consider doing it for yours!
 
@@ -136,9 +136,8 @@ You can easily find a [complete list of shortcuts for NVDA](https://dequeunivers
 
 </div>
 
-[Jaws](https://www.freedomscientific.com/products/software/jaws/) is still a widespread screen reader. It’s not open source and more importantly a license will cost you more than 600$ a year…
+[Jaws](https://www.freedomscientific.com/products/software/jaws/) is is the high end professional screen reader. It allows for a lot of customization, has a lot of plugins especially for higher education. That said, it can be overwhelming, crashes for seemingly no reason, it’s not open source and more importantly a license will cost you more than 600$ a year…
 
-TODO: High end professional, lot of customization, very complex, has plugin for a lot of apps for example higher education, can be overwhelming, can crash for seemingly no reason
 
 That's why we recommend NVDA.
 
