@@ -12,6 +12,8 @@
 
 [🎨 D-IDE: Inclusive design 101](D-IDE.md)
 
+[📱 D-IDM: Inclusive design for mobile](D-IDM.md)
+
 **F. What is accessibility ?**
 
 [💬 F-CLS: Collective sharing](F-CLS.md)

@@ -63,7 +63,7 @@ You can see on this picture a bridge that, at first, might seem ordinary. Can yo
 
 And the same goes with software: if a messaging app denies access to some features to groups of users, it excludes them by preventing them to connect.
 
-Designers can have a great impact on the inclusiveness of their product. By keeping in mind that their design choices always impact someone somewhere, and likely whole communities - or intersection of them - it is possible to shape tools that strive to respect and acknowledge diversity, which is as the core of humanity.
+Designers can have a great impact on the inclusiveness of their product. By keeping in mind that their design choices always impact someone somewhere, and likely whole communities - or intersection of them - it is possible to shape tools that strive to respect and acknowledge diversity, which is as the core of humanity and **empathetic design**.
 
 ## What is an Inclusive User Interface (IUI)?
 
