@@ -1,8 +1,12 @@
-# Make Open Source Software Inclusive
+# Building Inclusive Open Source Software
 
 ## What is it?
 
-Despite being deeply based on values of sharing and empowerment, FOSS projects often fail at being inclusive. This project aims at providing accessibility and inclusiveness knowledge for organizations or individuals who build open-source software.
+It all started with a statement:
+
+> Despite being deeply based on values of sharing and empowerment, FOSS projects often fail at being inclusive.
+
+**This project aims at providing accessibility and inclusiveness knowledge for organizations or individuals who build open-source software.**
 
 This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshop, or individually read as articles. These modules cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to design and programming guidelines.
 
@@ -12,13 +16,15 @@ The easiest way to access the content is via [the static web site built from thi
 
 ## Where does it come from?
 
-This project started out as a collaborative internship project between Page Magnier--Slimani ([Savoir-Faire Linux](https://savoirfairelinux.com/fr)) and Maxence Vahedi ([Olvid](https://olvid.io)), which goal was to provide accessibility and inclusiveness resources to their teams and to the FOSS community.
+This project started out as we (Page Magnier--Slimani ([Jami](https://jami.net/)) and Maxence Vahedi ([Olvid](https://olvid.io))) struggled with the lack of awareness and specific resources on accessible and inclusive applicative development. We therefore began this collaborative project which goal is to provide accessibility and inclusiveness resources to our teams and to the FOSS community.
 
-Please note that the original authors are not accessibility or inclusiveness experts, but passionate people who did their best to provide qualitative content and who will be happy to get *any* feedback or contribution you may have!
+Please note that we -the original authors- are not accessibility or inclusiveness experts, but passionate people who did their best to provide qualitative content and who will be happy to get *any* feedback or contribution you may have! The applications we were working on at this time are not perfect by any means from an inclusiveness standpoint. With this project, we only try to provide some answers to the questions we had when beginning our work on accessibility and inclusiveness.
+
+**We truly want this project to keep evolving beyond it's original scope and our limited expertise. **
 
 ## Contributing
 
-If at any point through your reading of the content, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to receive any new module you would like to write.
+If at any point through your reading, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to receive any new module you would like to write.
 
 To run the project locally :
 
@@ -35,6 +41,10 @@ pip install mkdocs-material
 mkdocs serve
 ```
 
-Please make sure to use our commit syntax "[section]-[acronym]: [commit_description]" (example: "A-AIE: first version of module").
+If you commit, please use the syntax "[section]-[acronym]: [commit_description]" (example: "A-AIE: first version of module").
 
 If you need any help incorporating your work in ours, please feel free to open an issue or contact us at 'maxence.vahedi@proton.me' or 'pagems@proton.me'.
+
+## Using this project's content
+
+This project is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This means that you are free to share, adapt and use it's content (even for commercial use). **Please note that when doing so you need to give appropriate credit and to release your version under the same license indicating if changes were made.**
