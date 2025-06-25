@@ -48,18 +48,37 @@ Once that's done, count from 1 up to 10 and ask the trainees to raise their hand
 ## Who is disabled
 
 Who exactly is disabled is a question with no evident answer.
+"Disability is not a binary state. We all have abilities and limits to those abilities. Disability happens when we have built something that doesn’t work for someone with particular skills."
+
+
+TODO
 ## Who do you want to be ?
 
-
-
+### Disability experts and disabled experts
 In [Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661), Ashley Shew talks largely about expertise on accessibility. While disabled experts are often not taken seriously, some of their valid peers consider themselves experts at understanding one's needs. She states:
 
-    Throughout, I consider disabled people the experts about disability. I’m no longer interested in what so-called experts (nondisabled scientists, physicians, therapists, and so on) have to say. These narratives are already overrepresented, and in some cases, they have done damage to disabled people as a community, disabled people as knowers, and the experience of disability as valid and valuable. When we don’t listen to those with actual experience, we often get accounts of disability and technology completely wrong. Disabled people are “the real experts” (the title of Michelle Sutton’s 2015 edited volume about and authored by autistic people) when it comes to technology and disability. We use technologies. We also reject them, grapple with them, or repurpose them. The views on technology we get from listening to disabled people often look very different from those of people educated in the medical and “helping” professions.
+>Throughout, I consider disabled people the experts about disability. I’m no longer interested in what so-called experts (nondisabled scientists, physicians, therapists, and so on) have to say. These narratives are already overrepresented, and in some cases, they have done damage to disabled people as a community, disabled people as knowers, and the experience of disability as valid and valuable. When we don’t listen to those with actual experience, we often get accounts of disability and technology completely wrong. Disabled people are “the real experts” (the title of Michelle Sutton’s 2015 edited volume about and authored by autistic people) when it comes to technology and disability. We use technologies. We also reject them, grapple with them, or repurpose them. The views on technology we get from listening to disabled people often look very different from those of people educated in the medical and “helping” professions.
 
+We cannot replace the perspectives of people with disabilities simply by reading about them or running a series of automated tests. We highly encourage recruiting people from diverse backgrounds in your team. The whole project will benefit from varying perspectives and it could help to leverage against systemic exclusion and hiring discriminations which affect minorities. In fact, [a study from the Chartered Institute for IT](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/) state that "Nearly 90,000 disabled people are 'missing' from tech industry" in the UK alone.
 
+**But your working environment will never be representative of the whole world and every user.** As quoted from [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9) in [🔭 B-INO Inclusive needs overview](B-INO.md) :
 
--synergie avec users
+>“Employing the word “users” can result in falling into the trap of thinking of users as one group – an amalgamation of people who are out there somewhere in the world using your app, a group of people that you’ll never meet and never know. This form of “group think” leads to creating a “one-size-fits-all” solution that, like everything claiming to be “one size fits all,” in reality fits no one.”
+
+### Embracing diversity
+
+**As we need to embrace diversity, we believe it's crucial to fight a natural urge of all software creators; the will to find, implement and design the solution to a problem. There is no one solution, and assuming that you can find it is cutting off and unempowering the real accessibility experts : disabled peoples. Therefore, rather than trying to produce a perfectly (by your perspective) accessible and inclusive code, we would rather suggest to try and make the main features as inclusive as possible and then get feedback from diverse users on what are their main issues with your software are.**
+
+It's probable that your anticipation of their needs will not match their experience. Maybe you've spent hours making a video calling feature accessible for low vision users while they mostly struggled with the main button for sending messages not being labeled as such, a fix that would have taken you a few minutes. Let them, the real experts dictate your priorities.
+
+You must still be careful about getting feedback. For example, low vision users cannot know aht they ignore. For example, that means that if a button to send an image is not reachable, they will not be able to tell you that it's not accessible as they have no way of knowing its existence.
+
+Furthermore, getting remote feedback from disabled users can be challenging. For example, how can you identify the issue of someone telling you "Sometimes when creating an account, my screen reader stops working"? The best way of tackling those issues is by directly looking at them using the application. It's only at the intersection of your two expertise that an understanding of what goes wrong can emerge.
 
 # Sources
-[Whitaker Rob. Developing Inclusive Mobile Apps, Building Accessible Apps for iOS and Android, 2020.](https://link.springer.com/book/10.1007/978-1-4842-5814-9)
-[Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661)
+
+[Whitaker Rob. *Developing Inclusive Mobile Apps, Building Accessible Apps for iOS and Android*, 2020.](https://link.springer.com/book/10.1007/978-1-4842-5814-9)
+
+[Shew Ashley, *Against Technoableism: rethinking who needs improvement*. 2023](https://wwnorton.com/books/9781324036661)
+
+[The Chartered Institute for IT, *Nearly 90,000 disabled people are 'missing' from tech industry, says professional body*. 2024](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/)
