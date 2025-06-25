@@ -1,4 +1,4 @@
-# Accessibility and Inclusiveness
+# Index
 
 **A. What is accessibility ?**
 
