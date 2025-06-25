@@ -1,4 +1,4 @@
-# Make Open Source Software Inclusive
+# Building Inclusive Open Source Software 
 
 ## What is it?
 
@@ -18,7 +18,7 @@ Please note that the original authors are not accessibility or inclusiveness exp
 
 ## Contributing
 
-If at any point through your reading of the content, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to receive any new module you would like to write.
+If at any point through your reading, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to receive any new module you would like to write.
 
 To run the project locally :
 
@@ -35,6 +35,6 @@ pip install mkdocs-material
 mkdocs serve
 ```
 
-Please make sure to use our commit syntax "[section]-[acronym]: [commit_description]" (example: "A-AIE: first version of module").
+If you commit, please use the syntax "[section]-[acronym]: [commit_description]" (example: "A-AIE: first version of module").
 
 If you need any help incorporating your work in ours, please feel free to open an issue or contact us at 'maxence.vahedi@proton.me' or 'pagems@proton.me'.
