@@ -150,4 +150,4 @@ Understanding those concepts are crucial to avoid very common misguided behavior
 
 [Definition of ableism](https://dictionary.cambridge.org/dictionary/english/ableism)
 
-[Against Technoableism](https://wwnorton.com/books/9781324036661)
+[Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661)
