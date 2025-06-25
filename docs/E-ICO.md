@@ -39,6 +39,7 @@ You code can be good but will never be as robust as one iterated upon by a commu
 
 Frameworks often have unified and often automated ways of handling accessibility with key navigation, focus and label generation. Therefore, building complex custom components will very frequently (not to say almost always) break accessibility handling if no more work is done. Therefore, try to limit the complexity of your UI objects, document them properly and when trying to fix an accessibility issue, consider taking the hard way by refactoring the component. Your whole code will actually be better.
 
+
 For a more concrete example, on the left you can see a custom combo-box component, deeply broken from an accessibility standpoint. On the right, you can see a native Qt combo-box, more feature-full -aesthetics aside- and working fine with a screen reader and Keyboard navigation without necessitating any intervention.
 
 <div style="display: flex; justify-content: space-between;">
@@ -76,14 +77,13 @@ icon: PushButton {
     normalColor: "transparent"
 
     // ...
-
     checkable: true
     onCheckedChanged: {
         textBoxinfo.visible = !textBoxinfo.visible;
     }
     preferredSize: 20
-
     // ...
+
 }
 ```
 
@@ -94,6 +94,7 @@ Another example would be the account selection list in Jami. It was not possible
 </p>
 
 That’s an unexpected behavior as the best ListView Qt component (which our custom component is based on) supports this navigation method. A quick inspection of the code revealed those lines :
+
 
 ```cpp
 Keys.onUpPressed: verticalScrollBar.decrease()
@@ -107,6 +108,7 @@ In this case, the fix was rather simple: use the base component rather the custo
 And when you don't have the choice to work with custom components, remember to pay close attention to your framework's accessibility APIs and guidelines to make sure your components can blend in.
 
 ### 1.C Focus and explicit key navigation, choose the right tool at the right time (Desktop)
+
 
 In order to implement alternative navigation in your app (keyboard, voice over, talkback, vocal command, etc), on desktop, they are two main way of doing it : focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
 
@@ -133,6 +135,7 @@ KeyNavigation.down: KeyNavigation.tab
 
 ### 2.1 What can be automated?
 
+
 What can be automated is a tricky question. As we stated previously, inclusiveness is a process and the need for an intersectional perspective make it impossible to think ahead every need that diverse user with complex background and set of ability might have.
 
 **Therefore, no amount of checklists and tests in CI can replace feedback and testing from diverse user groups.**
@@ -140,6 +143,7 @@ What can be automated is a tricky question. As we stated previously, inclusivene
 That said, a few things can be set to try and automatically detect as much issue as possible. If your app is a web-view, this will be very easy and convenient. You can go to the [E-ETD Accessible technologies Desktop](E-ATD.md) module for more information.
 
 If you app is native, you can set-up your CI to detect missing accessibility labels on focusable elements and setup a test that navigate through all od the elements of a view using the keyboard, checking that none of them wasn’t reached.
+
 
 Some frameworks (including SwiftUI and Jetpack Compose) provide ways of automating UI tests that check accessibility.
 
@@ -192,6 +196,7 @@ Does it has elements showing cultural significance ?
     - If you hope yes: You are good to go!
 
 ### 2.2 Accessible API’s & back-end
+
 
 On the back-end too, accessible code is good code. A well-designed architecture or API will be more understandable for everyone to understand and iterate on, particularly for open source software.
 
