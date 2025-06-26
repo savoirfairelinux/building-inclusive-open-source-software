@@ -25,7 +25,8 @@
 
 [🔧 E-ITD: Inclusiveness technologies : Desktop](E-ITD.md)
 
-**F. What is accessibility ?**
+
+**F. To conclude and go further**
 
 [💬 F-CLS: Collective sharing](F-CLS.md)
 
