@@ -31,14 +31,14 @@ Who are we as people ? We all have an incomplete perspective of the world. These
 Provide a piece of paper to all of the trainees attempting the training. Ask them to make a list of five person the 5 peoples they trust the must, people they would go to for advices (no matter whether they are colleagues, family or friends). Once that's done, ask them to count a point each time the answer is yes to the following questions.
 
 1. Are all of them of the same ethnicity as you ?
-2. Are all of them straight ?
+2. Do all of them have the same sexual orientation ?
 3. Do all of them have the same nationality as you ?
 4. Are all of them considered valid ?
 5. Did all of them have or are pursuing a diploma ?
 6. Are all of them cisgender ?
-7. Are none of them unemployed ?
+7. Are all of them working/studying or being retired ?
 8. Are all of them from the same or higher economic background as you ?
-9. Are most of them women and gender minority ?
+9. Are most of them mens ?
 10. Do they all speak the language of the country they live in ?
 
 ---
@@ -47,15 +47,28 @@ Once that's done, count from 1 up to 10 and ask the trainees to raise their hand
 
 ## Who is disabled
 
-Who exactly is disabled is a question with no evident answer.
-"Disability is not a binary state. We all have abilities and limits to those abilities. Disability happens when we have built something that doesn’t work for someone with particular skills."
+Who exactly is disabled is a question with no evident answer. According to the [2024 study](https://appt.org/en/stats) of the [APPT foundation](https://appt.org/en/about), a non profit based in the Netherlands; 61% of Dutch Android users and 45% of Dutch iOS users have one or more accessibility settings activated on their phone. A quarter of the Android user they surveyed used two or more accessibility features.
+
+![Stats about accessibility usage showing that 22% of iOS users and 24% of Android users have a bigger font size activated.](ressources/C-FromAccessibilityToInclusivity/accessibilitystatsbiggertext.png)
+
+<sub>Source: [APPT Foundation, Accessibility Statistics 2024](https://appt.org/en/stats)</sub>
+
+Disability is not something easy to categorize. A lot of disabilities are not visible, some develops over time, other have varying effects that make them hard to apprehend. A lot of people, thinking of themselves as valid will use a bigger font on their phone. The frontiers between someone valid sho has glasses and someone with low vision is hard to establish. As stated in the book [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9), by Rob Whitetaker:
+
+>Disability is not a binary state. We all have abilities and limits to those abilities. Disability happens when we have built something that doesn’t work for someone with particular skills.
 
 
-TODO
+**In fact it could even not be desirable to draw this line.** Ashley Shew in In [Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661) states:
+
+>Today, many of our ideas about able-bodiedness and disability come from classifications based on who is suitable for plantation or factory work: we call
+people “disabled” when they can’t perform “normal” amounts of physical labor. [...] Disability has not always been as deeply tied to the ability to do labor as it is now. As Kim Nielsen’s A Disability History of the United States shows, many Native American cultures had more room for variation and a different sense of health and wellness; **disability was (and is) not stigmatized in the same ways among some Native American groups **(and, incidentally, many Native languages have no word for “disability” as a category). Nielsen explains how Plains Indian Sign Language (the most well documented of Native sign languages), for instance, was used by various Plains tribes as a common language of trade—so signed language was a natural part of culture and language such that communication norms allowed more easily and naturally for deaf inclusion.
+
+Depending of the circumstances, we are all disabled and we will all be. As stated previously, disability is plural, a shallow category that shouldn't negate intersectional thinking.
+
 ## Who do you want to be ?
 
 ### Disability experts and disabled experts
-In [Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661), Ashley Shew talks largely about expertise on accessibility. While disabled experts are often not taken seriously, some of their valid peers consider themselves experts at understanding one's needs. She states:
+In [Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661), Ashley Shew also talks largely about expertise on accessibility. While disabled experts are often not taken seriously, some of their valid peers consider themselves experts at understanding one's needs. She states:
 
 >Throughout, I consider disabled people the experts about disability. I’m no longer interested in what so-called experts (nondisabled scientists, physicians, therapists, and so on) have to say. These narratives are already overrepresented, and in some cases, they have done damage to disabled people as a community, disabled people as knowers, and the experience of disability as valid and valuable. When we don’t listen to those with actual experience, we often get accounts of disability and technology completely wrong. Disabled people are “the real experts” (the title of Michelle Sutton’s 2015 edited volume about and authored by autistic people) when it comes to technology and disability. We use technologies. We also reject them, grapple with them, or repurpose them. The views on technology we get from listening to disabled people often look very different from those of people educated in the medical and “helping” professions.
 
