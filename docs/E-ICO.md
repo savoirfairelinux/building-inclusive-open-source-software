@@ -26,7 +26,7 @@ As we will see in this section, bad accessibility can often be a symptom of flaw
 
 ---
 
-### A - Custom components and accessibility
+### 1.A - Custom components and accessibility
 
 Many applicative frameworks come packed with standards components (like labels, buttons, timers, etc.). To put it simply, the main takeaway of this section would be:
 
@@ -57,7 +57,7 @@ If however you decide to make a custom component, make sure you implement extens
 
 ---
 
-### B - What bad accessibility says about our code: a few concrete examples
+### 1.B - What bad accessibility says about our code: a few concrete examples
 
 Accessibility and inclusiveness in programming have one key benefit : making you think twice about your code. As said previously, stumbling into an accessibility issue might mean that you could be doing something better in a different way.
 
@@ -133,7 +133,7 @@ KeyNavigation.down: KeyNavigation.tab
 
 ## 2. Development process
 
-### 2.1 What can be automated?
+### 2.A What can be automated?
 
 
 What can be automated is a tricky question. As we stated previously, inclusiveness is a process and the need for an intersectional perspective make it impossible to think ahead every need that diverse user with complex background and set of ability might have.
@@ -195,7 +195,7 @@ Does it has elements showing cultural significance ?
 
     - If you hope yes: You are good to go!
 
-### 2.2 Accessible API’s & back-end
+### 2.B Accessible API’s & back-end
 
 
 On the back-end too, accessible code is good code. A well-designed architecture or API will be more understandable for everyone to understand and iterate on, particularly for open source software.
