@@ -23,12 +23,10 @@
 
 [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
 
+[🔧 E-ITD: Inclusiveness technologies : Desktop](E-ITD.md)
 
-<<<<<<< e-aco-add-module
-**F. What is accessibility ?**
-=======
+
 **F. To conclude and go further**
->>>>>>> main
 
 [💬 F-CLS: Collective sharing](F-CLS.md)
 
