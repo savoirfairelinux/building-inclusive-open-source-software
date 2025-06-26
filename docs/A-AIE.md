@@ -15,7 +15,9 @@
 ---
 
 # When to use ?
+
 Use this module to get a nuanced sense of what accessibility, ableism and techno-ableism really mean.
+
 
 # Description
 
@@ -45,7 +47,7 @@ developments ensures both "direct access" (i.e. unassisted) and
 
 🇨🇦 Canada
 
-In the [Accessible Canada Act (ACA)]((https://laws-lois.justice.gc.ca/eng/acts/A-0.6/)), the government of Canada stated in 2019 that the primary goal of their accessibility policy was to:
+In the [Accessible Canada Act (ACA)](https://laws-lois.justice.gc.ca/eng/acts/A-0.6/), the government of Canada stated in 2019 that the primary goal of their accessibility policy was to:
 
 > The overarching goal of the ACA is to realize a
  barrier-free Canada by 2040. The legislation benefits all Canadians,

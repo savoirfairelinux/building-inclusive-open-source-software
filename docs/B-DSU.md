@@ -1,3 +1,4 @@
+<<<<<<< B-DSU-new-module
 # 🤺 B-DSU: Developer stance & user collaboration
 
     When creating, finding the right stance can be perilous;
@@ -95,3 +96,6 @@ Furthermore, getting remote feedback from disabled users can be challenging. For
 [Shew Ashley, *Against Technoableism: rethinking who needs improvement*. 2023](https://wwnorton.com/books/9781324036661)
 
 [The Chartered Institute for IT, *Nearly 90,000 disabled people are 'missing' from tech industry, says professional body*. 2024](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/)
+=======
+[todo]
+>>>>>>> main
