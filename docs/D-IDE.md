@@ -91,6 +91,7 @@ The second half represents different shapes representing the diversity of users,
 From a designer’s perspective, this means your interface should embed a wide set of equal ways of interacting with your app.
 
 In [his book](https://doi.org/10.1007/978-1-4842-5814-9), Rob Whitaker cites The Paciello Group who "helped define the seven principals of inclusive design" which you can find a very valuable detailed explanations and examples [here](https://inclusivedesignprinciples.info/). From that same website, here is a short definition of each principle:
+
 - **Provide comparable experience**: Ensure your interface provides a comparable experience for all so people can accomplish tasks in a way that suits their needs without undermining the quality of the content.
 - **Consider situation**: People use your interface in different situations. Make sure your interface delivers a valuable experience to people regardless of their circumstances.
 - **Be consistent**: Use familiar conventions and apply them consistently.

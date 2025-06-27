@@ -45,7 +45,7 @@ developments ensures both "direct access" (i.e. unassisted) and
 
 🇨🇦 Canada
 
-In the [Accessible Canada Act (ACA)]((https://laws-lois.justice.gc.ca/eng/acts/A-0.6/)), the government of Canada stated in 2019 that the primary goal of their accessibility policy was to:
+In the [Accessible Canada Act (ACA)](https://laws-lois.justice.gc.ca/eng/acts/A-0.6/), the government of Canada stated in 2019 that the primary goal of their accessibility policy was to:
 
 > The overarching goal of the ACA is to realize a
  barrier-free Canada by 2040. The legislation benefits all Canadians,
@@ -104,7 +104,7 @@ It’s quite clear that our goal is to minimize ableism in the software that we 
 
 ### 2.2 What is techno-ableism ?
 
-Techno-ableism is a term defined by Ashley Shew in her book [Against Technoableism Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661), a lecture that we truly recommend.
+Techno-ableism is a term defined by Ashley Shew in her book [Against Technoableism: Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661), a lecture that we truly recommend.
 
 In the introduction of her book, she writes
 
