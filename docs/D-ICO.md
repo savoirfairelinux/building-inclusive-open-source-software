@@ -224,4 +224,4 @@ From here, you might want to take a look at some of our modules about inclusive 
 
 # Sources
 
-[Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook)
+[Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)
