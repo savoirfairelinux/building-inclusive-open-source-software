@@ -26,7 +26,7 @@ We defined inclusiveness as **TODO**. From there, we have to ask ourselves: what
 
 Put simply, we can define an inclusive application as one that can not only be used completely, comfortably and safely by all users, but also in which they can all thrive, feel welcome and express themselves.
 
-It is thus crucial for designers and product leads to always keep in mind that the features, contents and interfaces they design won’t be seen, understood, felt or actioned the same by users, depending on the plural and dynamic human characteristics that structure their representations and interactions with their environment.
+It is thus crucial for designers and product leads to always keep in mind that the features, contents and interfaces they design won’t be seen, understood, felt or interacted the same by users, depending on the plural and dynamic human characteristics that structure their representations and interactions with their environment.
 
 Making an inclusive app is thus taking care of everyone, including minorities.
 
@@ -36,11 +36,14 @@ Here is a *non-exhaustive* list of human characteristics to keep in mind in orde
 
 - Age
 - Culture
+- Digital literacy
 - Education
 - Ethnicity
 - Gender, gender identity
 - Historical context
 - Language
+- Mental health
+- Nationality
 - Physical *and* cognitive (dis)abilities
 - Sexuality
 - Socio-economic context
@@ -87,6 +90,16 @@ The second half represents different shapes representing the diversity of users,
 
 From a designer’s perspective, this means your interface should embed a wide set of equal ways of interacting with your app.
 
+In [his book](https://doi.org/10.1007/978-1-4842-5814-9), Rob Whitaker cites The Paciello Group who "helped define the seven principals of inclusive design" which you can find a very valuable detailed explanations and examples [here](https://inclusivedesignprinciples.info/). From that same website, here is a short definition of each principle:
+- **Provide comparable experience**: Ensure your interface provides a comparable experience for all so people can accomplish tasks in a way that suits their needs without undermining the quality of the content.
+- **Consider situation**: People use your interface in different situations. Make sure your interface delivers a valuable experience to people regardless of their circumstances.
+- **Be consistent**: Use familiar conventions and apply them consistently.
+- **Give control**: Ensure people are in control. People should be able to access and interact with content in their preferred way.
+- **Offer choice**: Consider providing different ways for people to complete tasks, especially those that are complex or non standard.
+- **Prioritize content**: Help users focus on core tasks, features, and information by prioritizing them within the content and layout.
+
+![Illustration of each design principle described above from the Barclays Access Team. CC-BY-SA.](ressources/d-designing-inclusive-and-accessible-software/barclays-inclusive-design-principles.png)
+
 ## Designing an IUI
 
 Now, how do you concretely make an IUI ? 
@@ -114,6 +127,13 @@ There usually is not pre-made answer on how to adapt the UI, but the issue can t
 ![Two iPhones emulators with an information icon and a text with a large font. On the first phone, the layout is horizontal, and the text is cropped. On the second phone, the layout is vertical and the text is fully displayed.](ressources/d-designing-inclusive-and-accessible-software/bigfont.png)
 
 A lot of implementation frameworks provide easy ways to set a preferred size for an element, providing adaptation for scaling change.
+
+### The interactions does not require physical and motor skills
+
+- Precision should not be a requirement to use your app. A common guideline is to have touch targets of 44px in each direction at minimum.
+- There should be no timeout in the interface.
+- Providing shortcuts (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
+- Eventually, an essential part of making your app inclusive to people with physical motor disabilities is to make the interface nice to use with assistive technologies.
 
 ### The content can be accessed using assistive technologies
 
@@ -167,7 +187,18 @@ In this case, we would typically focus the last element of the discussion first,
 
 ### The UI is simple and intuitive
 
-A simple and intuitive UI benefits everyone. But while this might be a convenience for most users, this is a need for some of them. Wether due to cognitive disabilities or the use of assistive technologies, having an interface that is as simple and less cluttered as possible will instantly make it more accessible and inclusive! 
+A simple and intuitive UI benefits everyone. But while this might be a convenience for most users, this is a need for some of them. Wether due to being neurodiverse or to the use of assistive technologies, having an interface that is as simple and less cluttered as possible will instantly make it more accessible and inclusive! [Rob Whitaker gives us in the 12th chapter of his book](https://doi.org/10.1007/978-1-4842-5814-9) some insights on how to achieve this goal, summed up and a bit modified here:
+
+- Keep the interface as less cluttered and as consistent as possible.
+- Moving or animated content should be pausable.
+- Limit the number of text font and sizes used. Avoid pure black-on-white text.
+- Body text should be naturally (not fully) justified.
+- Keep written content clear, concise and free of acronyms or idioms.
+- Provide alternatives to text (with images, graphs, screen reader support, etc.)
+- Limit vivid colors, especially around content.
+- “Don’t insist on accuracy for written input. Instead, provide options.” Depending on the platform, implementing auto-completion, spell-checkers, dictation, etc. can be helpful.
+- Avoid dark patterns, and moreover, be very clear on the consequences of the action taken by the users on your interface.
+
 
 ### The UI has options to prevent motion sickness
 
@@ -196,7 +227,7 @@ Many languages are written from right to left. While most frameworks and platfor
 
 Depending on the culture, colors can have many different meaning. The most outstanding example is certainly the case of green and red. While in most countries of the western world, green is rather positive and red negative, these colors are generally used to mean the opposite in China.
 
-### User’s age, gender identity, sexuality, ethnicity, *etc.* are not assumed
+### User’s age, gender identity, sexuality, ethnicity, financial situation, *etc.* are not assumed
 
 A bias that we can have as humans is to assume others’ characteristics based on what we see around us. And as designers, we want our interfaces to feel welcoming for everyone. This is why paying attention not to assume any human characteristics or stereotype is essential when building an app. Here are some examples:
 
@@ -211,7 +242,21 @@ Make sure you also include a good variety of relatable activities and cultural r
 - If your app asks for a user’s gender, make sure to provide more options that just male and female, and to add support for custom entries.
 - Avoid using the “his” or “her” pronouns when it is not necessary. If your app needs to, be sure to ask users which pronouns they use.
 - When depicting a human, use gender-neutral icons rather than a man or a woman.
-- If your app requires a legal name, make sure to leave the possibility open to use a preferred name. In general and if possibl, it is better not to put any constraint on which name is provided and to allow for a flexible structure to accomodate cultures where names might come in a different order.
+- If your app requires a legal name, make sure to leave the possibility open to use a preferred name. In general and if possible, it is better not to put any constraint on which name is provided and to allow for a flexible structure to accomodate cultures where names might come in a different order.
+
+**Access to technology**
+
+As Whitaker reports, "[f]or an estimated 20% of Internet users, a smartphone is their only access to the Internet." It is thus crucial to ensure equal access to the features on desktop and mobile not to exclude anyone the experience you are building.
+
+**Digital literacy**
+
+If you are reading this, chance are there are proportionally very few people with as many digital skills as you. That is why it is crucial to keep in mind that your interface should not only be understandable by you or your team, but also (and most importantly) to those who didn't grow up with technology around them. This mainly comes down to making the app simple, intuitive, not cluttered, flexible, and configurable. Some platforms allow for a simplified version of your app, like [Assistive Access on iOS](https://developer.apple.com/videos/play/wwdc2023/10032/).
+
+### The UI takes care of the user
+
+The way your app is designed can have a great impact on the user's mental health. The way content is presented, the reasons for which you push notifications, what you nudge them to do, etc. should be intentional and done empathetically. Allowing for self control and to let go of your app are crucial steps toward this goal.
+
+> Feel free to contribute to this section that could be more detailed!
 
 ## Activity : designing and IUI on a whiteboard
 
@@ -220,7 +265,7 @@ By groups, trainees are invited to design a simple interface (with pen and paper
 On possibility is to ask for an account creation screen for a social media app. The platform can differ from one group to the other.
 
 - The interface should include:
-    - Fields to fill in social media informations (like name, gender, hobbies, *etc.*)
+    - Fields to fill in social media information (like name, gender, hobbies, *etc.*)
     - A button to send the form
     - A way of going back to the home page
     - A checkbox to accept the service’s TOS, with a link to access them
@@ -255,3 +300,5 @@ Shew, Ashley (2024). *Against Technoableism: Rethinking Who Needs Improvement*, 
 [Apple Human Interface Guidelines: Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)
 
 [Principles of Inclusice App Design (Apple)](https://developer.apple.com/videos/play/wwdc2025/316)
+
+[Whitaker, Rob (2020). *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*, Apress Berkley.](https://doi.org/10.1007/978-1-4842-5814-9)
