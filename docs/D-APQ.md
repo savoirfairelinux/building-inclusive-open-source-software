@@ -4,7 +4,7 @@
     This module provides information needed for building accessible code using the Qt
     framework.
 
-**⛳️ Section**: E. Programming inclusive and accessible software
+**⛳️ Section**: D. Programming inclusive and accessible software
 
 **👥 Audience**: Developers
 
