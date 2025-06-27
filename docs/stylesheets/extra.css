@@ -1,0 +1,120 @@
+[data-md-color-scheme="custom-light"] {
+
+  /* PRIMARY */
+  --md-primary-fg-color:        #C084FF;
+  --md-primary-fg-color--light: #C084FF;
+  --md-primary-fg-color--dark:  #A450FF;
+
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFF;
+  --md-primary-bg-color--dark:  #FFFFFF;
+
+  /* ACCENT */
+  --md-accent-fg-color:         #C084FF;
+  --md-accent-bg-color:         #C084FF;
+
+  /* DEFAULT FG & BG */
+  --md-default-fg-color:               #000000;
+  --md-default-fg-color--light:        #000000;
+  --md-default-fg-color--lighter:      #AAAAAA;
+  --md-default-fg-color--lightest:     #CCCCCC;
+  --md-default-bg-color:               #FFFFFF;
+  --md-default-bg-color--light:        #FFFFFF;
+  --md-default-bg-color--lighter:      #FFFFFF;
+  --md-default-bg-color--lightest:     #FFFFFF;
+
+
+  /* TYPESET */
+  --md-typeset-color:                  #000000;
+  --md-typeset-a-color:                #000000;
+  --md-typeset-del-color:              #000000;
+  --md-typeset-ins-color:              #000000;
+  --md-typeset-kbd-color:              #000000;
+  --md-typeset-kbd-accent-color:       #000000;
+  --md-typeset-kbd-border-color:       #000000;
+  --md-typeset-mark-color:             #000000;
+  --md-typeset-table-color:            #000000;
+  --md-typeset-table-color--light:     #000000;
+
+  /* FOOTER */
+  --md-footer-fg-color:                #FFFFFF;
+  --md-footer-fg-color--light:         #FFFFFF;
+  --md-footer-fg-color--lighter:       #BBBBBB;
+  --md-footer-bg-color:                #FFFFFF;
+  --md-footer-bg-color--dark:          #140D19;
+
+  /* SHADOW */
+  --md-shadow-z1:
+    0 0 0 #CCCCCC,
+    0 0 0 #CCCCCC;
+
+  --md-shadow-z2:
+    0 0 0 #cccccc75,
+    0 0 0 #cccccc89;
+
+  --md-shadow-z3:
+    0 0 0 #cccccc27,
+    0 0 0 #cccccc3c;
+}
+
+
+[data-md-color-scheme="custom-dark"] {
+
+  /* PRIMARY */
+  --md-primary-fg-color:        #C084FF;
+  --md-primary-fg-color--light: #C084FF;
+  --md-primary-fg-color--dark:  #A450FF;
+
+  --md-primary-bg-color:        #FFFFFF;
+  --md-primary-bg-color--light: #FFFFFF;
+  --md-primary-bg-color--dark:  #FFFFFF;
+
+  /* ACCENT */
+  --md-accent-fg-color:         #C084FF;
+  --md-accent-bg-color:         #C084FF;
+
+  /* DEFAULT FG & BG */
+  --md-default-fg-color:               #000000;
+  --md-default-fg-color--light:        #FFFFFF;
+  --md-default-fg-color--lighter:      #AAAAAA;
+  --md-default-fg-color--lightest:     #CCCCCC;
+  --md-default-bg-color:               #140D19;
+  --md-default-bg-color--light:        #140D19;
+  --md-default-bg-color--lighter:      #140D19;
+  --md-default-bg-color--lightest:     #140D19;
+
+
+  /* TYPESET */
+  --md-typeset-color:                  #FFFFFF;
+  --md-typeset-a-color:                #FFFFFF;
+  --md-typeset-del-color:              #FFFFFF;
+  --md-typeset-ins-color:              #FFFFFF;
+  --md-typeset-kbd-color:              #FFFFFF;
+  --md-typeset-kbd-accent-color:       #FFFFFF;
+  --md-typeset-kbd-border-color:       #FFFFFF;
+  --md-typeset-mark-color:             #FFFFFF;
+  --md-typeset-table-color:            #FFFFFF;
+  --md-typeset-table-color--light:     #FFFFFF;
+
+  /* FOOTER */
+  --md-footer-fg-color:                #FFFFFF;
+  --md-footer-fg-color--light:         #FFFFFF;
+  --md-footer-fg-color--lighter:       #BBBBBB;
+  --md-footer-bg-color:                #FFFFFF;
+  --md-footer-bg-color--dark:          #140D19;
+
+  /* SHADOW */
+  --md-shadow-z1:
+    0 0 0 #CCCCCC,
+    0 0 0 #CCCCCC;
+
+  --md-shadow-z2:
+    0 0 0 #cccccc75,
+    0 0 0 #cccccc89;
+
+  --md-shadow-z3:
+    0 0 0 #cccccc27,
+    0 0 0 #cccccc3c;
+}
+
+

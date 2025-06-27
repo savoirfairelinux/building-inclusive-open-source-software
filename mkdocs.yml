@@ -9,22 +9,22 @@ copyright: Maxence Vahedi & Page Magnier--Slimani CC BY-SA 4.0
 
 theme:
   name: material
+  logo: ressources/logo.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/theme-light-dark
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
+      scheme: custom-light
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
+      scheme: custom-dark
       toggle:
         icon: material/weather-night
         name: Switch to system preference
+
+extra_css:
+  - stylesheets/extra.css
