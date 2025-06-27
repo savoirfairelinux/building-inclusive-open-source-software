@@ -16,7 +16,7 @@
 
 # When to use ?
 
-This is the penultimate module of this formation on inclusive design and programming. It creates the space for the trained team to think about the ways they can make their app more inclusive.
+This is the penultimate module of this training on inclusive design and programming. It creates the space for the trained team to think about the ways they can make their app more inclusive.
 
 # Description
 
