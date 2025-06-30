@@ -8,6 +8,9 @@
 
 [👩‍🦽 A-AIE: Accessibility, inclusion & exclusion](A-AIE.md)
 
+[🔧 A-ATD: Assistive technologies : Desktop](A-ATD.md)
+
+[📲 A-ATM: Assistive technologies: Mobile](A-ATM.md)
 
 **C. From accessibility to inclusiveness**
 
@@ -23,8 +26,6 @@
 **E. Programming inclusive and accessible software**
 
 [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
-
-[🔧 E-ITD: Inclusiveness technologies : Desktop](E-ITD.md)
 
 
 **F. To conclude and go further**

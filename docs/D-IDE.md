@@ -131,7 +131,6 @@ A lot of implementation frameworks provide easy ways to set a preferred size for
 
 ### The interactions does not require physical and motor skills
 
-- Precision should not be a requirement to use your app. A common guideline is to have touch targets of 44px in each direction at minimum.
 - There should be no timeout in the interface.
 - Providing shortcuts (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
 - Eventually, an essential part of making your app inclusive to people with physical motor disabilities is to make the interface nice to use with assistive technologies.
@@ -258,6 +257,10 @@ The way your app is designed can have a great impact on the user's mental health
 
 > Feel free to contribute to this section that could be more detailed!
 
+## Getting creative
+
+*Once the core aspects of your app are accessible and inclusive*, there are many ways in which you can push the experience further while having fun getting creative and innovative. Thinking about new ways of interacting with your app can be a great challenge to tackle with your team. One good example is the "magic tap" on iOS. It allows to execute any action the developer decides when double-tapping with two fingers when VoiceOver is on. It can be used as a shortcut to access a core feature of your app, normally requiring a few more steps to the user. Think about it: what could it do in your app? Another one is the spellchecker which was recently implemented in Jami, allowing people with dyslexia to type more confidently while helping everyone avoiding typos.
+
 ## Activity : designing and IUI on a whiteboard
 
 By groups, trainees are invited to design a simple interface (with pen and paper or any other design tool) that aims at being as inclusive as possible.
@@ -270,18 +273,20 @@ On possibility is to ask for an account creation screen for a social media app. 
     - A way of going back to the home page
     - A checkbox to accept the service’s TOS, with a link to access them
 
-The trainer can encourage the groups to think of the ways they can use what they’ve just learned, without feeling the need to implement everything: inclusion is a journey, not an issue to be tackled in ten minutes anyway!
+The trainer can encourage the groups to think of the ways they can use creatively what they’ve just learned, without feeling the need to implement everything: inclusion is a journey, not an issue to be tackled in ten minutes anyway!
 
 ## Wrapping up
 
 Here are the key takeaways of this module:
 
 - An inclusive app is one using which users can thrive with and feel welcome in.
-- Designers have a big responsibility regarding inclusiveness as they are their team’s compass towards an outstanding experience for everyone.
+- Designers have a big responsibility regarding inclusiveness as they are their team’s compass towards delivering an outstanding experience for everyone.
 - The IUI should not be seen as a standard UI that was made accessible, nor as a separate UI, but as an ideal to strive for, for the entire UI to be inclusive and welcoming for everyone.
+- Making you interface inclusive is an occasion to get creative and to think about new innovative ways of interacting with your app.
 - Building an IUI is a long process, that can start with baby steps today.
 
-Remember: good design is accessible, and good design benefits everybody!
+
+Remember: **good design is inclusive, and good design benefits everybody!**
 
 # Resources
 
