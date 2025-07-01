@@ -51,4 +51,4 @@ The coaches of every team can meet regularly with the product manager (if there 
 
 At the end of the day, 
 
-If you want to learn further on this topic, the [Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook) mentioned previously is a very solid starting point.
+If you want to learn further on this topic, the [Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook) mentioned previously is a very solid starting point, tackling big picture is transformation processes always as small scale team practices.
