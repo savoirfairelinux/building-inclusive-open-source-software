@@ -61,10 +61,20 @@ identification, removal and prevention of barriers to accessibility in 7
 > - the procurement of goods, services and facilities
 > - transportation
 
+Canadian businesses are required to comply with the ACA.
+
 🇫🇷 France
 
 [French law](https://www.info.gouv.fr/accessibilite/loi-accessibilite-cadre-legal-et-obligations) defines accessibility as
 >*Allowing the autonomy and participation of people with disabilities, by reducing or even removing the gap between their abilities, needs and will - and the physical, organizational and cultural components of their environment.*
+
+Additionally, French companies are subject to the EAA, which is mentioned below.
+
+🇪🇺 European Union
+
+The [European Accessibility Act](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en) states that accessibility "should be achieved by the systematic removal and prevention of barriers, preferably through a universal design or ‘design for all’ approach, which contributes to ensuring access for persons with disabilities on an equal basis with others."
+
+Since June of 2025, almost all businesses (excluding microenterprises) are required to comply with the EAA requirements.
 
 **From a software standpoint**
 
