@@ -10,7 +10,7 @@
 
 **B. From accessibility to inclusiveness**
 
-[⚗️ B-IDP: Inclusive development pipeline](B-IDP.md)
+[⚗️ B-IAP: Inclusive development pipeline](B-IDP.md)
 
 
 **D. Designing inclusive and accessible software**
