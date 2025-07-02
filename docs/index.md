@@ -10,7 +10,7 @@
 
 **B. From accessibility to inclusiveness**
 
-[⚗️ B-IAP: Inclusive development pipeline](B-IDP.md)
+[⚗️ B-IAP: Inclusive development pipeline](B-IAP.md)
 
 **C. From accessibility to inclusiveness**
 
