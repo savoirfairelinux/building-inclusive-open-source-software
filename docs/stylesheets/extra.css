@@ -1,17 +1,17 @@
 [data-md-color-scheme="custom-light"] {
 
   /* PRIMARY */
-  --md-primary-fg-color:        #C084FF;
-  --md-primary-fg-color--light: #C084FF;
-  --md-primary-fg-color--dark:  #A450FF;
+  --md-primary-fg-color:        #6E468B;
+  --md-primary-fg-color--light: #6E468B;
+  --md-primary-fg-color--dark:  #6E468B;
 
   --md-primary-bg-color:        #FFFFFF;
   --md-primary-bg-color--light: #FFFFFF;
   --md-primary-bg-color--dark:  #FFFFFF;
 
   /* ACCENT */
-  --md-accent-fg-color:         #C084FF;
-  --md-accent-bg-color:         #C084FF;
+  --md-accent-fg-color:         #6E468B;
+  --md-accent-bg-color:         #6E468B;
 
   /* DEFAULT FG & BG */
   --md-default-fg-color:               #000000;
@@ -41,7 +41,7 @@
   --md-footer-fg-color--light:         #FFFFFF;
   --md-footer-fg-color--lighter:       #BBBBBB;
   --md-footer-bg-color:                #FFFFFF;
-  --md-footer-bg-color--dark:          #140D19;
+  --md-footer-bg-color--dark:          #18101E;
 
   /* SHADOW */
   --md-shadow-z1:
@@ -61,9 +61,9 @@
 [data-md-color-scheme="custom-dark"] {
 
   /* PRIMARY */
-  --md-primary-fg-color:        #C084FF;
-  --md-primary-fg-color--light: #C084FF;
-  --md-primary-fg-color--dark:  #A450FF;
+  --md-primary-fg-color:        #6E468B;
+  --md-primary-fg-color--light: #6E468B;
+  --md-primary-fg-color--dark:  #6E468B;
 
   --md-primary-bg-color:        #FFFFFF;
   --md-primary-bg-color--light: #FFFFFF;
@@ -74,14 +74,14 @@
   --md-accent-bg-color:         #C084FF;
 
   /* DEFAULT FG & BG */
-  --md-default-fg-color:               #000000;
+  --md-default-fg-color:               #FFFFFF;
   --md-default-fg-color--light:        #FFFFFF;
   --md-default-fg-color--lighter:      #AAAAAA;
   --md-default-fg-color--lightest:     #CCCCCC;
-  --md-default-bg-color:               #140D19;
-  --md-default-bg-color--light:        #140D19;
-  --md-default-bg-color--lighter:      #140D19;
-  --md-default-bg-color--lightest:     #140D19;
+  --md-default-bg-color:               #18101E;
+  --md-default-bg-color--light:        #18101E;
+  --md-default-bg-color--lighter:      #18101E;
+  --md-default-bg-color--lightest:     #18101E;
 
 
   /* TYPESET */
@@ -101,7 +101,7 @@
   --md-footer-fg-color--light:         #FFFFFF;
   --md-footer-fg-color--lighter:       #BBBBBB;
   --md-footer-bg-color:                #FFFFFF;
-  --md-footer-bg-color--dark:          #140D19;
+  --md-footer-bg-color--dark:          #18101E;
 
   /* SHADOW */
   --md-shadow-z1:

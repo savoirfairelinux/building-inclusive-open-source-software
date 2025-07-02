@@ -1,15 +1,22 @@
-site_name: Accessibility and Inclusiveness
-site_url: https://page-and-maxence.github.io/accessibility-and-inclusiveness/
+site_name: Building Inclusive Open Source Software
+site_url: https://page-and-maxence.github.io/building-inclusive-open-source-software
 
 site_author: Maxence Vahedi & Page Magnier--Slimani
 repo_name: Page-and-Maxence/accessibility-and-inclusiveness
-repo_url: https://github.com/Page-and-Maxence/accessibility-and-inclusiveness
+repo_url: https://github.com/Page-and-Maxence/building-inclusive-open-source-software
 
 copyright: Maxence Vahedi & Page Magnier--Slimani CC BY-SA 4.0
 
 theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
   name: material
+  font:
+    text: a
   logo: ressources/logo.png
+  favicon: ressources/logo.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
