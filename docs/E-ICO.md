@@ -10,7 +10,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [C-API We are all disabled and unique : accessibility, plurality and intersectionality](C-API.md)
+**📚 Prerequisites**: [C-WDU We are all disabled and unique : accessibility, plurality and intersectionality](C-WDU.md)
 
 ---
 

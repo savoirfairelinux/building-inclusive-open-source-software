@@ -1,4 +1,4 @@
-# 📗 E-APQ Accessible programming with Qt
+# 📗 E-APQ: Accessible programming with Qt
 
 
     This module provides information needed for building accessible code using the Qt

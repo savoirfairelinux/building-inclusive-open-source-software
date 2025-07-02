@@ -1,6 +1,6 @@
 # 🫂 C-WDU We are all disabled and unique : accessibility, plurality and intersectionality
 
->**💡 In this module, we will explore the concepts of intersectionality and inclusiveness and it’s use in software development**
+>**In this module, we will explore the concepts of intersectionality and inclusiveness and it’s use in software development**
 
 **⛳️ Section**: D. Designing inclusive and accessible software
 
