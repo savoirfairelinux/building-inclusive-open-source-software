@@ -12,14 +12,22 @@
 
 [⚗️ B-IAP: Inclusive development pipeline](B-IDP.md)
 
+**C. From accessibility to inclusiveness**
+
+[🫂 C-WDU We are all disabled and unique : accessibility, plurality and intersectionality](C-WDU.md)
+
 
 **D. Designing inclusive and accessible software**
 
 [🎨 D-IDE: Inclusive design 101](D-IDE.md)
 
+
 **E. Programming inclusive and accessible software**
 
 [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
+
+[🔧 E-ITD: Inclusiveness technologies : Desktop](E-ITD.md)
+
 
 **F. To conclude and go further**
 

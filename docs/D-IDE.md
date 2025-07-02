@@ -21,7 +21,8 @@ This module should be used with trainees who are in position of making design de
 
 ## What is an inclusive app ?
 
-We defined inclusiveness as **TODO**. From there, we have to ask ourselves: what is an inclusive app?
+
+Using the [Cambridge's dictionary's definition](https://dictionary.cambridge.org/dictionary/english/inclusiveness), we defined inclusiveness as **the quality of including many different types of people and treating them all fairly and equally**. From there, we have to ask ourselves: what is an inclusive app?
 
 Put simply, we can define an inclusive application as one that can not only be used completely, comfortably and safely by all users, but also in which they can all thrive, feel welcome and express themselves.
 
@@ -261,4 +262,6 @@ Shew, Ashley (2024). *Against Technoableism: Rethinking Who Needs Improvement*, 
 
 [Apple Human Interface Guidelines: Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)
 
-[Principles of Inclusice App Design (Apple)](https://developer.apple.com/videos/play/wwdc2025/316)
+[Principles of Inclusive App Design (Apple)](https://developer.apple.com/videos/play/wwdc2025/316)
+
+[Cambridge's dictionary's definition of inclusiveness](https://dictionary.cambridge.org/dictionary/english/inclusiveness)
