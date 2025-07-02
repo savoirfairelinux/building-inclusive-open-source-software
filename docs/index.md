@@ -31,3 +31,10 @@
 [💬 F-CLS: Collective sharing](F-CLS.md)
 
 [🏃🏽‍♀️‍➡️ F-WYG: Where YOU go next !](F-WYG.md)
+
+# How to navigate this training
+
+![A navigation schematic](ressources/navigateThroughTheTraining.png)
+
+# Resources
+[The editable file of how to navigate this training](ressources/navigateThroughTheTrainingV1.crswap)
