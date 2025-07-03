@@ -1,6 +1,6 @@
 # 👩‍💻 E-ICO Inclusive code 101
 
-
+!!! Info "In this module"
     This module provides general information needed for building accessible code on
     any platform or language.
 

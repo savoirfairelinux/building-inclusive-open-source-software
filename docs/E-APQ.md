@@ -1,6 +1,6 @@
 # 📗 E-APQ: Accessible programming with Qt
 
-
+!!! Info "In this module"
     This module provides information needed for building accessible code using the Qt
     framework.
 

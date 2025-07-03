@@ -1,5 +1,6 @@
 # 🎨 D-IDE: Inclusive design 101
 
+!!! Info "In this module"
     This module aims at giving accessibility and inclusiveness essentials for app
     design.
 

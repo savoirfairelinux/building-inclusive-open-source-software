@@ -1,6 +1,6 @@
 # 🔧 E-ITD Inclusiveness technologies : Desktop
 
-
+!!! Info "In this module"
     This module gives a comprehensive list of accessibility testing tools (both
     manual and autonomous). The goal is not to get in depth on how to use them
     but rather to help designers and developers to find the relevant tools for

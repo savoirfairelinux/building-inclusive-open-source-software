@@ -16,15 +16,15 @@ The easiest way to access the content is via [the static web site built from thi
 
 ## Where does it come from?
 
-This project started out as we (Page Magnier--Slimani ([Jami](https://jami.net/)) and Maxence Vahedi ([Olvid](https://olvid.io))) struggled with the lack of awareness and specific resources on accessible and inclusive applicative development. We therefore began this collaborative project, which goal is to provide accessibility and inclusiveness resources to our teams and to the FOSS community.
+This project started out as we - Page Magnier--Slimani ([Jami](https://jami.net/)) and Maxence Vahedi ([Olvid](https://olvid.io)) - struggled with the lack of awareness and specific resources on accessible and inclusive applicative development. We therefore began this collaborative project, which goal is to provide accessibility and inclusiveness resources to our teams and to the FOSS community.
 
-Please note that we -the original authors- are not accessibility or inclusiveness experts, but passionate people who did their best to provide qualitative content and who will be happy to get *any* feedback or contribution you may have! The applications we were working on at this time are not perfect by any means from an inclusiveness standpoint. With this project, we only try to provide some answers to the questions we had when beginning our work on accessibility and inclusiveness.
+Please note that we are not accessibility or inclusiveness experts, but passionate people who did their best to provide qualitative content and who will be happy to get *any* feedback or contribution you may have! The applications we were working on at this time are not perfect by any means from an inclusiveness standpoint. With this project, we only try to provide some answers to the questions we had when beginning our work on accessibility and inclusiveness.
 
-**We truly want this project to keep evolving beyond its original scope and our limited expertise. **
+**We truly want this project to keep evolving beyond its original scope and our limited expertise.**
 
 ## Contributing
 
-If at any point through your reading, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to receive any new module you would like to write.
+If at any point through your reading, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to integrate any new module you would like to write.
 
 To run the project locally :
 
