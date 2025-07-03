@@ -1,4 +1,4 @@
-# 🔧 E-ITD Inclusiveness technologies : Desktop
+# 🔧 A-ITD Inclusiveness technologies : Desktop
 
 !!! Info "In this module"
     This module gives a comprehensive list of accessibility testing tools (both
