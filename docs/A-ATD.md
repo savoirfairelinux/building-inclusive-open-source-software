@@ -6,7 +6,7 @@
     but rather to help designers and developers to find the relevant tools for
     their use case.
 
-**⛳️ Section**: E. Programming inclusive and accessible software
+**⛳️ Section**: A. What is accessibility?
 
 **👥 Audience**: Developers
 
