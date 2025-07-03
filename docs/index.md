@@ -1,40 +1,57 @@
-# Index
+# Building Inclusive Open Source Software
 
-**A. What is accessibility ?**
+## What is it?
 
-[🚀 A-ASP: Accessibility starting point](A-ASP.md)
+It all started with a statement:
 
-[🫳🏿 A-FNA: Feeling the need for accessibility](A-FNA.md)
+> Despite being deeply based on values of sharing and empowerment, FOSS projects often fail at being inclusive.
 
-[👩‍🦽 A-AIE: Accessibility, inclusion & exclusion](A-AIE.md)
+**This project aims at providing accessibility and inclusiveness knowledge for organizations and individuals who build open-source software.**
 
+This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. These modules cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to design and programming guidelines.
 
-**C. From accessibility to inclusiveness**
+These modules should not be seen as holding the truth regarding the subjects tackled, but rather as a condensed introduction which goal is to help teams get started with accessibility and inclusiveness for their product.
 
-[🫂 C-WDU We are all disabled and unique : accessibility, plurality and intersectionality](C-WDU.md)
+The easiest way to access the content is via [the static web site built from this repository](https://page-and-maxence.github.io/building-inclusive-open-source-software/).
 
+## Where does it come from?
 
-**D. Designing inclusive and accessible software**
+This project started out as we - Page Magnier--Slimani ([Jami](https://jami.net/)) and Maxence Vahedi ([Olvid](https://olvid.io)) - struggled with the lack of awareness and specific resources on accessible and inclusive applicative development. We therefore began this collaborative project, which goal is to provide accessibility and inclusiveness resources to our teams and to the FOSS community.
 
-[🎨 D-IDE: Inclusive design 101](D-IDE.md)
+Please note that we are not accessibility or inclusiveness experts, but passionate people who did their best to provide qualitative content and who will be happy to get *any* feedback or contribution you may have! The applications we were working on at this time are not perfect by any means from an inclusiveness standpoint. With this project, we only try to provide some answers to the questions we had when beginning our work on accessibility and inclusiveness.
 
-
-**E. Programming inclusive and accessible software**
-
-[👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
-
-[🔧 E-ITD: Inclusiveness technologies : Desktop](E-ITD.md)
-
-
-**F. To conclude and go further**
-
-[💬 F-CLS: Collective sharing](F-CLS.md)
-
-[🏃🏽‍♀️‍➡️ F-WYG: Where YOU go next !](F-WYG.md)
+**We truly want this project to keep evolving beyond its original scope and our limited expertise.**
 
 # How to navigate this training
 
 ![A navigation schematic](ressources/navigateThroughTheTraining.png)
+
+## Contributing
+
+If at any point through your reading, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to integrate any new module you would like to write.
+
+To run the project locally :
+
+- Clone the repository
+
+-  Install mkdocs:
+```bash
+pip install mkdocs-material
+```
+
+- Run the server
+
+```bash
+mkdocs serve
+```
+
+If you commit, please use the syntax "[section]-[acronym]: [commit_description]" (example: "A-AIE: first version of module").
+
+If you need any help incorporating your work in ours, please feel free to open an issue or contact us at 'maxence.vahedi@proton.me' or 'pagems@proton.me'.
+
+## Using this project's content
+
+This project is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This means that you are free to share, adapt and use it's content (even for commercial use). **Please note that when doing so you need to give appropriate credit and to release your version under the same license, indicating if changes were made.**
 
 # Resources
 [The editable file of how to navigate this training](ressources/navigateThroughTheTrainingV1.crswap)

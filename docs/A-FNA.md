@@ -1,5 +1,6 @@
 # 🫳🏿 A-FNA: Feeling the need for accessibility
 
+!!! Info "In this module"
     Sometimes, understanding a concept is not enough.
     Feeling the need for accessibility and the impacts of ableism will make it easier
     for trainees to engage.
@@ -34,7 +35,8 @@ On different platforms, taking turns, each participant is put in front of a devi
 
 They must then try to execute a task like changing a specific setting or writing a message to a contact, without seeing the app nor using a mouse. At the end of this small workshop, they are invited to debrief on how they felt and what the main blockers were.
 
->On an application that recently had strong accessibility improvements, this experience can me made twice: firstly with the now fairly accessible version and then with the old one.
+!!! Tip
+    On an application that recently had strong accessibility improvements, this experience can me made twice: firstly with the now fairly accessible version and then with the old one.
 
 
 ## 3. The systemic failure of software accessibility

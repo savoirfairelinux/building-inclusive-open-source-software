@@ -1,6 +1,7 @@
 # 🫂 C-WDU We are all disabled and unique : accessibility, plurality and intersectionality
 
->**💡 In this module, we will explore the concepts of intersectionality and inclusiveness and it’s use in software development**
+!!! Info "In this module"
+    We will explore the concepts of intersectionality and inclusiveness and it’s use in software development
 
 **⛳️ Section**: D. Designing inclusive and accessible software
 
@@ -37,7 +38,8 @@ While this convenience for some is surely necessary for others, we can appreciat
 ## What is inclusiveness ?
 
 The [Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness) would define inclusiveness as :
->the quality of including many different types of people and treating them all fairly and equally
+""" Quote "[Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness)"
+    the quality of including many different types of people and treating them all fairly and equally
 
 Inclusiveness is a core concept when talking about diversity. It's often a preferred term to accessibility that is rather limited to the inclusion of people with disabilities. It highlights that we need to be designing and programming not only for accessability but also for the ever-varying pluralities of human experiences and discriminations. **In simpler words, not being ableist is not enough. We must make sure that we are also not perpetuating other kinds of oppressions.** For example, using gender-neutral language and icons when referring to a user, and not having fixed first and last name fields can help people from various backgrounds feel welcome in the space you are creating with your app.
 
