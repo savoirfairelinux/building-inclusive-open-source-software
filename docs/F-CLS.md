@@ -1,5 +1,6 @@
 # 💬 F-CLS: Collective sharing
 
+!!! Info "In this module"
     This module allows participants to reflect on what they learned,
     throughout the training and from others. Depending on the situation, it can come
     in various forms of different durations.

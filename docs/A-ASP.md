@@ -1,5 +1,6 @@
 # 🚀 A-ASP: Accessibility starting point
 
+!!! Info "In this module"
     This short module allows people to share anonymously their initial position by
     answering questions regarding accessibility, before discussing the results
     collectively.
