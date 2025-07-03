@@ -1,8 +1,12 @@
 # 🔧 Assistive technologies : Desktop
 
-> This module gives a comprehensive list of Desktop accessibility testing tools (both manual and autonomous). The goal is not to get in depth on how to use them but rather to help designers and developers get an idea of what is commonly used, and to find the relevant tools for their use cases.
+!!! Info "In this module"
+    This module gives a comprehensive list of accessibility testing tools (both
+    manual and autonomous). The goal is not to get in depth on how to use them
+    but rather to help designers and developers to find the relevant tools for
+    their use case.
 
-**⛳️ Section**: A. What is accessibility?
+**⛳️ Section**: E. Programming inclusive and accessible software
 
 **👥 Audience**: Developers
 

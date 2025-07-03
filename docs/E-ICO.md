@@ -1,6 +1,6 @@
 # 👩‍💻 E-ICO Inclusive code 101
 
-
+!!! Info "In this module"
     This module provides general information needed for building accessible code on
     any platform or language.
 
@@ -10,7 +10,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [C-API We are all disabled and unique : accessibility, plurality and intersectionality](C-API.md)
+**📚 Prerequisites**: [C-WDU We are all disabled and unique : accessibility, plurality and intersectionality](C-WDU.md)
 
 ---
 
