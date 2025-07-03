@@ -14,6 +14,7 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.sections
+    - navigation.footer
   name: material
   font:
     text:

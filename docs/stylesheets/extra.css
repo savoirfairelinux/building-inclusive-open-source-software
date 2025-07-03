@@ -37,7 +37,7 @@
   --md-typeset-table-color--light:     #000000;
 
   /* FOOTER */
-  --md-footer-fg-color:                #FFFFFF;
+  --md-footer-fg-color:                #000000;
   --md-footer-fg-color--light:         #FFFFFF;
   --md-footer-fg-color--lighter:       #BBBBBB;
   --md-footer-bg-color:                #FFFFFF;
@@ -100,7 +100,7 @@
   --md-footer-fg-color:                #FFFFFF;
   --md-footer-fg-color--light:         #FFFFFF;
   --md-footer-fg-color--lighter:       #BBBBBB;
-  --md-footer-bg-color:                #FFFFFF;
+  --md-footer-bg-color:                #18101E;
   --md-footer-bg-color--dark:          #18101E;
 
   /* SHADOW */
