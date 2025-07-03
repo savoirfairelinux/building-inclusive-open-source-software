@@ -20,7 +20,7 @@ Use this module right after reading [🎨 C-IDE: Inclusive design 101](C-IDE.md)
 
 ### ...And why are there so few of them ?
 
-Searching the web for resources on applicative desktop accessibility and inclusiveness guidelines will probably left you unsatisfied and confused as you will liked be overwhelmed by resources and testing tools for web accessibility and none for applications.
+Searching the web for resources on applicative desktop accessibility and inclusiveness guidelines will probably left you unsatisfied and confused as you will liked be overwhelmed by resources and testing tools for web accessibility and none for desktop applications.
 
 <p align="center">
     <img src="../resources/c-designing-inclusive-and-accessible-software/applicativeAccessibilityEvaluationTools.png" alt="A Web search for 'Applicative accessibility evaluation tools' showing only result for web solutions" width="60%">
