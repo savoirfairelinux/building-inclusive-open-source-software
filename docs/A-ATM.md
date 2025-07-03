@@ -1,6 +1,7 @@
 # 📲 A-ATM: Assistive technologies: Mobile
 
-> This module allows participants to get to know the major assistive technologies used on mobile devices. The goal is not to get in depth on how to use them but rather to help designers and developers get an idea of what is commonly used, and to find the relevant tools for their use cases.
+!!! Info "In this module"
+    This module allows participants to get to know the major assistive technologies used on mobile devices. The goal is not to get in depth on how to use them but rather to help designers and developers get an idea of what is commonly used, and to find the relevant tools for their use cases.
 
 **⛳️ Section**: TODO
 

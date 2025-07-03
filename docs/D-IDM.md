@@ -1,6 +1,7 @@
 # 📱 D-IDM: Inclusive design for mobile
 
-> This module allows participants who take design decision on mobile to receive platform-specific advice.
+!!! Info "In this module"
+    This module allows participants who take design decision on mobile to receive platform-specific advice.
 
 **⛳️ Section**: D. Designing inclusive and accessible software
 
