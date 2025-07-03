@@ -36,12 +36,12 @@ theme:
         icon: material/weather-night
         name: Switch to system preference
 
-<<<<<<< HEAD
 markdown_extensions: 
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
-=======
+  - admonition
+
 nav:
   - Home: index.md
   - What is accessibility?:
@@ -73,9 +73,5 @@ nav:
     - 🏃🏽‍♀️‍➡️ Where YOU go next !: F-WYG.md
     - 💬 Collective sharing: F-CLS.md
 
-markdown_extensions:
-  - admonition
-  
 extra_css:
   - stylesheets/extra.css
->>>>>>> main
