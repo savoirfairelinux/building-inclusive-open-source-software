@@ -12,7 +12,7 @@
 
 ## 1. Incorporating inclusiveness into your workflows
 
-The structure of your workflows shape the application you are delivering. By explicitly incorporating accessibility and inclusiveness throughout your  design and development pipeline, you are making sure that you and your team are actively working towards a application that will be usable and welcoming to everyone.
+The structure of your workflows shape the application you are delivering. By explicitly incorporating accessibility and inclusiveness throughout your  design and development pipeline, you are making sure that you and your team are actively working towards an application that will be usable and welcoming to everyone.
 
 Accessibility and inclusiveness are complex topics that can be tricky to incorporate into your structure's habits and processes, especially with varying team compositions and scales. As small structures have less time and lighter processes, heavy accessibility workflows as used at industrial scale are likely not to be compatible with your structure if you are a small team building FOSS (Free and Open Source Software).
 
@@ -54,7 +54,7 @@ The coaches of every team can meet regularly with the product manager (if there 
 
 ## 4. Building empathy
 
-Empathy is an absolute requirement for your team to get involved in the process of making your application inclusive. As stated in [🤺 B-DSU: Developer stance & user collaboration](B-DSU.md), we all have a singular, partial perspective of the world. These comes with biases but also insights and experiences. It's likely that most persons working in your structure will have limited living experiences of disability. This can lead to an "empathy gap" where accessibility and inclusiveness feel like remote and niche preoccupations. Therefore, it's crucial to build empathy by helping workers embracing diversity.
+Empathy is an absolute requirement for your team to get involved in the process of making your application inclusive. As stated in [🤺 B-DSU: Developer stance & user collaboration](B-DSU.md), we all have a singular, partial perspective of the world. These comes with biases but also insights and experiences. It's likely that most persons working in your structure will have limited living experiences of disability. This can lead to an "empathy gap" (as called in [Barrell's book](https://accessibility.deque.com/agile-accessibility-handbook)) where accessibility and inclusiveness feel like remote and niche preoccupations. Therefore, it's crucial to build empathy by helping workers to embrace diversity.
 
 This can be done by discussing with diverse users and experts, regularly communicating internally on the subject (for example, by sharing stories of users who took advantage of the inclusiveness of your app) or by hosting events where team members can try and use your app with assistive technologies or simulated disabilities, and reflect on what could be improved.
 
