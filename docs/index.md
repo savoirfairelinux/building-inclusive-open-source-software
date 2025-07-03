@@ -8,9 +8,11 @@
 
 [👩‍🦽 A-AIE: Accessibility, inclusion & exclusion](A-AIE.md)
 
+
 **B. From accessibility to inclusiveness**
 
 [⚗️ B-IAP: Inclusive development pipeline](B-IAP.md)
+
 
 **C. From accessibility to inclusiveness**
 
