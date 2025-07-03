@@ -77,6 +77,9 @@
   --md-default-bg-color--lighter:      #18101E;
   --md-default-bg-color--lightest:     #18101E;
 
+  /*  Admonition color shades */
+  --md-admonition-fg-color:            var(--md-default-fg-color);
+  --md-admonition-bg-color:            #18101E;
 
   /* TYPESET */
   --md-typeset-color:                  #FFFFFF;
