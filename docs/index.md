@@ -11,7 +11,10 @@
 
 **B. From accessibility to inclusiveness**
 
-[⚗️ B-IAP: Inclusive development pipeline]TODO(B-IDP.md)
+[⚗️ B-IAP: Inclusive development pipeline](B-IAP.md)
+
+
+**C. From accessibility to inclusiveness**
 
 [🫂 C-WDU We are all disabled and unique : accessibility, plurality and intersectionality](C-WDU.md)
 
