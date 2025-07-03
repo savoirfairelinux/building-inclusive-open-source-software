@@ -259,7 +259,7 @@ The way your app is designed can have a great impact on the user's mental health
 
 ## Getting creative
 
-*Once the core aspects of your app are accessible and inclusive*, there are many ways in which you can push the experience further while having fun getting creative and innovative. Thinking about new ways of interacting with your app can be a great challenge to tackle with your team. One good example is the "magic tap" on iOS. It allows to execute any action the developer decides when double-tapping with two fingers when VoiceOver is on. It can be used as a shortcut to access a core feature of your app, normally requiring a few more steps to the user. Think about it: what could it do in your app? Another one is the spellchecker which was recently implemented in Jami, allowing people with dyslexia to type more confidently while helping everyone avoiding typos.
+*Once the core aspects of your app are accessible and inclusive*, there are many ways in which you can push the experience further while having fun getting creative and innovative. Thinking about new ways of interacting with your app can be a great challenge to tackle with your team. One good example is the "magic tap" on iOS. It allows to execute any action the developer decides when double-tapping with two fingers when VoiceOver is on. It can be used as a shortcut to access a core feature of your app, normally requiring a few more steps to the user. Think about it: what could it do in your app? Another one is the spellchecker which was recently implemented in [Jami](https://jami.net/), allowing people with dyslexia to type more confidently while helping everyone avoiding typos.
 
 ## Activity : designing and IUI on a whiteboard
 
@@ -286,7 +286,7 @@ Here are the key takeaways of this module:
 - Building an IUI is a long process, that can start with baby steps today.
 
 
-Remember: **good design is inclusive, and good design benefits everybody!**
+Remember: **good design is inclusive, and good design benefits everyone!**
 
 # Resources
 

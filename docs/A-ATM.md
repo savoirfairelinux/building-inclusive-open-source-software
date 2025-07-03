@@ -29,17 +29,26 @@ On Android, the feature's name is [TalkBack](https://appt.org/en/docs/android/fe
 - Swipe left of right to navigate to the previous or next element in the interface.
 - Double-tap to activate an element (e.g. a push button)
 
+[Here is a video from Android showcasing how TalkBack works from a user perspective.](https://www.youtube.com/watch?v=_1yRVwhEv5I&t=28s)
+
 ## Alternative peripherals
 
 Some people prefer or need to interact with mobile devices through external peripherals. These can either be switches (with typically two buttons), sticks, game controllers, keyboards, *etc*.
 
 Making an app accessible to these is most commonly done by making it accessible to screen readers. If the right elements are focusable, those should work just fine. Making them work *great* mainly comes down to providing shortcuts and good headings management.
 
+[Here is a video from Apple Developer showing some Full Keyboard support on iOS apps.](https://www.youtube.com/watch?v=Zybw0IPGles)
+
 ### Switch control
 
 Often combined with other controls (like eye, voice or head motion), switch control allows users to interact with app without needing the ability to precisely aim for the touchscreen elements. Users can have custom various actions (like go next, go previous, interact, etc.) on each switch, allowing for highly specific setups.
 
-![Picture of a switch with two buttons, one is white and the other is yellow.](ressources/A-WhatIsAccessibility/switch.jpg)
+<figure markdown="span">
+  ![Picture of a switch with two buttons, one is white and the other is yellow.](ressources/A-WhatIsAccessibility/switch.jpg){ width="300" }
+  <figcaption>Accessibility switch</figcaption>
+</figure>
+
+[Here is an example use of a single switch to control an iPhone.](https://www.youtube.com/watch?v=HBo2BZ-Zzwg)
 
 ### Eye and face control
 
@@ -53,6 +62,6 @@ Users can also use their voice to choose which elements to select. Labeling your
 
 Depending on the OS, there are many ways users can fine-tune their experience through accessibility settings. Your role as a software builder is to test your interface with many combinations of settings to make sure it works well. While we won't go through these here, you can browse your device's settings to discover all the possibilities your OS offers, as well as check out [this great resource](https://appt.org/en/docs) for general information on platform-specific mobile assistive technologies.
 
-# Sources
+# (Re)sources
 
 [AAPT's Accessibility documentation](https://appt.org/en/docs)
