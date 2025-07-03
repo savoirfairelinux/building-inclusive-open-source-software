@@ -1,30 +1,74 @@
-site_name: Accessibility and Inclusiveness
-site_url: https://page-and-maxence.github.io/accessibility-and-inclusiveness/
-
+site_name: Building Inclusive Open Source Software
+site_url: https://page-and-maxence.github.io/building-inclusive-open-source-software
 site_author: Maxence Vahedi & Page Magnier--Slimani
-repo_name: Page-and-Maxence/accessibility-and-inclusiveness
-repo_url: https://github.com/Page-and-Maxence/accessibility-and-inclusiveness
+site_description: >-
+  Accessibility and inclusiveness resources and training modules for open-source applications builders.
+
+repo_name: Page-and-Maxence/building-inclusive-open-source-software
+repo_url: https://github.com/Page-and-Maxence/building-inclusive-open-source-software
 
 copyright: Maxence Vahedi & Page Magnier--Slimani CC BY-SA 4.0
 
 theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.footer
   name: material
+  font:
+    text:
+  logo: ressources/logo.png
+  favicon: ressources/logo.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/theme-light-dark
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
+      scheme: custom-light
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
+      scheme: custom-dark
       toggle:
         icon: material/weather-night
         name: Switch to system preference
+
+nav:
+  - Home: index.md
+  - What is accessibility?:
+    - 🚀 Accessibility starting point: A-ASP.md
+    - 🫳🏿 Feeling the need for accessibility: A-FNA.md
+    - 👩‍🦽 Accessibility & Ableism: A-AIE.md
+    - 🗺️ Brief cartography of today’s accessibility landscape: A-BCT.md
+    #- 🔧 Accessibility technologies - Desktop:
+    #- 📲 Accessibility technologies - mobile:
+  - From accessibility to inclusiveness:
+    - 🫂 We are all disabled and unique: C-WDU.md
+    #- 🏛️ Why does FOSS struggle with inclusiveness?:
+    - 🔭 Inclusiveness needs overview: B-INO.md
+    - 🤺 Developer stance & user collaboration: B-DSU.md
+    #- 🧬 Bring inclusiveness to your pipeline:
+  - Designing inclusive and accessible software:
+    - 🎨 Inclusive design 101: D-IDE.md
+    #- 📱 Inclusive design for Mobile:
+    - 🖥️ Inclusive design for Desktop: E-ITD.md
+  - Programming inclusive and accessible software:
+    - 👩‍💻 Inclusive code 101: E-ICO.md
+    #- 🍎 Accessible programming for the Apple ecosystem:
+    - 📗 Accessible programming with Qt: E-APQ.md
+    #- ☕️ Accessible programming with Java Fx:
+    #- 🤖 Accessible programming for Android:
+    # - 🕸️ Accessible web programming: 
+  - To conclude and go further:
+    #- 🎯 Conclusion, bibliography and useful resources:
+    - 🏃🏽‍♀️‍➡️ Where YOU go next !: F-WYG.md
+    - 💬 Collective sharing: F-CLS.md
+
+markdown_extensions:
+  - admonition
+  
+extra_css:
+  - stylesheets/extra.css

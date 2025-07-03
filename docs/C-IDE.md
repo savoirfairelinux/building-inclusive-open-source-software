@@ -1,5 +1,6 @@
 # 🎨 C-IDE: Inclusive design 101
 
+!!! Info "In this module"
     This module aims at giving accessibility and inclusiveness essentials for app
     design.
 
@@ -180,7 +181,7 @@ Some people experience motion sickness when looking at animations. Some platform
 
 ### The UI adapts well to other cultures
 
-A good design should be intuitive to everyone. While it’s difficult to see, our design choices always rely on our cultural background, which is not always shared by all users. There are many subjects to pay attention to while designing in order to make you interface feel at home for as many people possible. While it is impossible to cover everything in this module, here are some of them to start with:
+A good design should be intuitive to everyone. While it’s difficult to see, our design choices always rely on our cultural background, which is not always shared by all users. There are many subjects to pay attention to while designing in order to make your interface feel as home for as many people possible. While it is impossible to cover everything in this module, here are some of them to start with:
 
 **Language**
 
@@ -211,11 +212,19 @@ Make sure you also include a good variety of relatable activities and cultural r
 - If your app asks for a user’s gender, make sure to provide more options that just male and female, and to add support for custom entries.
 - Avoid using the “his” or “her” pronouns when it is not necessary. If your app needs to, be sure to ask users which pronouns they use.
 - When depicting a human, use gender-neutral icons rather than a man or a woman.
-- If your app requires a legal name, make sure to leave the possibility open to use a preferred name. In general and if possibl, it is better not to put any constraint on which name is provided and to allow for a flexible structure to accomodate cultures where names might come in a different order.
+- If your app requires a legal name, make sure to leave the possibility open to use a preferred name. In general and if possible, it is better not to put any constraint on which name is provided and to allow for a flexible structure to accommodate cultures where names might come in a different order.
+
+## Communicating inclusive design
+
+Communicating your IUI - and especially the accessibility parts which can be graphically invisible - to developers is not an easy task. As most developers are used to receiving designs that they implement based on their experience of what using an app is like, you will likely not get a good result if your communication is not clear.
+
+The best way to communicate the UX you are aiming for users who use assistive technologies is through design annotations, so that you - as a designer - get to think about the labels, focus order, etc. before the implementation starts. We detail how to do so in the platform-specific modules.
+
+Another key to achieving your inclusiveness goals for your UI is to actively test and provide feedback using assistive technologies. Accompanying developers towards a great (inclusive) UX takes time and will likely require many iterations - not to mention that your designs will never be perfectly inclusive either!
 
 ## Activity : designing and IUI on a whiteboard
 
-By groups, trainees are invited to design a simple interface (with pen and paper or any other design tool) that aims at being as inclusive as possible.
+By groups, trainees are invited to design a simple interface (with pen and paper or any design tool they like) that aims at being as inclusive as possible.
 
 On possibility is to ask for an account creation screen for a social media app. The platform can differ from one group to the other.
 
