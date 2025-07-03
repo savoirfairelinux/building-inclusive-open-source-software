@@ -50,7 +50,7 @@ nav:
     #- 🏛️ Why does FOSS struggle with inclusiveness?:
     - 🔭 Inclusiveness needs overview: B-INO.md
     - 🤺 Developer stance & user collaboration: B-DSU.md
-    #- 🧬 Bring inclusiveness to your pipeline:
+    - 🧬 Bring inclusiveness to your pipeline: B-IAP.md
   - Designing inclusive and accessible software:
     - 🎨 Inclusive design 101: D-IDE.md
     #- 📱 Inclusive design for Mobile:
