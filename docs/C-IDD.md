@@ -1,5 +1,6 @@
 # 🖥️ C-IDD Inclusive design for Desktop
 
+!!! Info "In this module"
     This module contains the basics of accessible and inclusive design for Desktop.
 
 **⛳️ Section**: C. Designing inclusive and accessible software

@@ -1,5 +1,6 @@
 # ⚗️ B-IAP: Bring inclusiveness and accessibility to your pipeline
 
+!!! Info "In this module"
     This module gives guidelines and advice on how to incorporate inclusiveness into your organization's workflows.
 
 **⛳️ Section**: A. What is accessibility ?
