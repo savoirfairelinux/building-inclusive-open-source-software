@@ -45,7 +45,7 @@ They also created and updated a very extensive documentation on how to meet thos
 
 **They have full time employees but also rely on volunteers contributions, so if you want to help them, [go ahead](https://www.w3.org/get-involved/)!**
 
-Sadly, despite the amazing work that they do on accessibility, they still lack diversity. They are trying to do better on this topic, providing [yearly details statistics of their diversity](https://www.w3.org/about/diversity/diversity-report-2024/) for their Advisory board, technical architecture group, board of directors and management. We can notice that their inclusiveness seems to improve over time.
+Sadly, despite the amazing work that they do on accessibility, they still lack diversity. They are trying to do better on this topic, providing [yearly detailed statistics of their diversity](https://www.w3.org/about/diversity/diversity-report-2024/) for their Advisory board, technical architecture group, board of directors and management. We can notice that their inclusiveness seems to improve over time.
 
 ![Stats about the diversity in the technical architecture group of the W3C. While it's getting better, they had no women nor non binary people until 2011. The full chart in tabular version is available at this link: https://www.w3.org/2024/07/diversity/descriptions.html#tag-gender](ressources/A-WhatIsAccessibility/w3cStats.png)
 
