@@ -35,6 +35,18 @@ The actors can be separated in four main parts : the publics actors, non-profit 
 
 ### The World Wide Web Consortium (W3C)
 
+The [World Wide Web Consortium](https://www.w3.org/about/) is the organization behind multiple accessibility guidelines and standards recognized worldwide. With over 30 years of existence It's mostly known for it's work on the WCAG which are the worldwide standards in term of web accessibility.
+
+They also created and updated a very extensive documentation on how to meet those standards with their [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/). They are definitely one of the most important organization providing resources on accessibility.
+
+![A screenshot of the main page of the W3C stating 'The World Wide Web Consortium (W3C) develops standards and guidelines to help everyone build a web based on the principles of accessibility, internationalization, privacy and security'.](ressources/A-WhatIsAccessibility/w3cScreenshot.png)
+
+**They have full time employees but also rely on volunteers contributions, so if you want to help them, [go ahead](https://www.w3.org/get-involved/)!**
+
+Sadly, despite the amazing work that they do on accessibility, they still lack diversity. They are trying to do better on this topic, providing [yearly details statistics of their diversity](https://www.w3.org/about/diversity/diversity-report-2024/) for their Advisory board, technical architecture group, board of directors and management. We can notice that their inclusiveness seems to improve over time.
+
+![Stats about the diversity in the technical architecture group of the W3C. While it's getting better, they had no women nor non binary people until 2011. The full chart in tabular version is available at this link: https://www.w3.org/2024/07/diversity/descriptions.html#tag-gender](ressources/A-WhatIsAccessibility/w3cStats.png)
+
 ### Appt Foundation
 
 ### The A11Y Project
