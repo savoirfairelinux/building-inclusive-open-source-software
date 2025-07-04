@@ -33,6 +33,8 @@ The actors can be separated in four main parts : the publics actors, non-profit 
 
 ## Non-profit collectives
 
+Non profit organizations are at the core of producing resources about accessibility and inclusiveness, especially from a design and platform agnostic perspective. They are also a great source of critic takes on the current state of accessibility for different platforms as they often have less conflicts of interest.
+
 ### The World Wide Web Consortium (W3C)
 
 The [World Wide Web Consortium](https://www.w3.org/about/) is the organization behind multiple accessibility guidelines and standards recognized worldwide. With over 30 years of existence It's mostly known for it's work on the WCAG which are the worldwide standards in term of web accessibility.
@@ -57,14 +59,23 @@ It's definitely a massively useful resource if they have documentation for the f
 
 ### The A11Y Project
 
-The A11Y Project mostly focus on web accessibility but isn't limited to it, also hosting a very extensive and useful list of resources. Their posts are informative. They have a spotlight section useful to get to know the work of amazing people working on software accessibility. Most importantly, their list of medias is well furnished with dozen of carefully selected resources. **We strongly invite you o take a look at it.**
+The A11Y Project mostly focus on web accessibility but isn't limited to it, also hosting a very extensive and useful list of resources. Their posts are informative. They have a spotlight section useful to get to know the work of amazing people working on software accessibility. Most importantly, their list of medias is well furnished with [dozen of carefully selected resources](https://www.a11yproject.com/resources/). **We strongly invite you to take a look at it.**
+
 ![The a11y project home page stating "a11y stands for accessibility'. The phrase '11 characters'. Arrows are pointing to the first letter c and the letter t in the word 'accessibility' to show how the numeronym is formed.The A11Y Project is a community-driven effort to make digital accessibility easier."](ressources/A-WhatIsAccessibility/a11yHomePage.png)
 
-### The accessibility book club
+### The Accessibility Book Club
+
+The Accessibility Book club is a small organization releasing a [yearly book list about accessibility](https://www.a11ybookclub.com/annual-book-lists). Their selection is really good and a very useful tool to stay up to date with the developments of the accessibility and inclusiveness publications.
+
+![The 2025 book list of the Accessibility book club. The full list is available trough the link in the previous paragraph.](ressources/A-WhatIsAccessibility/a11yBookClubHomePage.png)
 
 ## Consulting firms
 
+There are many consulting firms about accessibility and inclusiveness. The quality of their services vary greatly in quality.Therefore we won't be recommending much of them as we cannot certify of the expertise of structures we haven't directly worked with.
+
 ### Deque
+
+While we cannot blindly recommend firms, Deque is an actor of the accessibility landscape that we need to mention. They are behind the [Axe](https://www.deque.com/axe/auditor/) which is one of the most trusted web accessibility tool with over two billion downloads. Additionally they are behind the accessibility of some of the biggest companies worldwide (working with Google, Microsoft and other large structures) and publish very relevant books on the topic. If you are looking for training, tools or an audit, you should consider their expertise.
 
 ## Corporate actors
 
@@ -74,7 +85,9 @@ The A11Y Project mostly focus on web accessibility but isn't limited to it, also
 
 ### Orange
 
-# What to avoid
+# What look for and to avoid
 
 ## Accessibility and AI powered tools
+
+## Green and red flags for choosing accessibility experts
 
