@@ -53,9 +53,12 @@ The Appt foundation is a non-profit organization started in the netherlands that
 
 ![A screenshot of the frameworks documented by the Appt foundation: android, Jetpack compose, iOS, swiftUI, Flutter, React Native. .NET MAUI and Xamarin](ressources/A-WhatIsAccessibility/apptFondationFrameworks.png)
 
-It's definitely a massively useful resource if they have documentation for the framework you are working with.
+It's definitely a massively useful resource if they have documentation for the framework you are working with. You can contribute on [their repository](https://github.com/appt-org/appt-website).
 
 ### The A11Y Project
+
+The A11Y Project mostly focus on web accessibility but isn't limited to it, also hosting a very extensive and useful list of resources. Their posts are informative. They have a spotlight section useful to get to know the work of amazing people working on software accessibility. Most importantly, their list of medias is well furnished with dozen of carefully selected resources. **We strongly invite you o take a look at it.**
+![The a11y project home page stating "a11y stands for accessibility'. The phrase '11 characters'. Arrows are pointing to the first letter c and the letter t in the word 'accessibility' to show how the numeronym is formed.The A11Y Project is a community-driven effort to make digital accessibility easier."](ressources/A-WhatIsAccessibility/a11yHomePage.png)
 
 ### The accessibility book club
 
