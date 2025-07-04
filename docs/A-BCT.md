@@ -49,7 +49,7 @@ Sadly, despite the amazing work that they do on accessibility, they still lack d
 
 ![Stats about the diversity in the technical architecture group of the W3C. While it's getting better, they had no women nor non binary people until 2011. The full chart in tabular version is available at this link: https://www.w3.org/2024/07/diversity/descriptions.html#tag-gender](ressources/A-WhatIsAccessibility/w3cStats.png)
 
-### Appt Foundation
+### The Appt Foundation
 
 The Appt foundation is a non-profit organization started in the netherlands that specialize on mobile applicative accessibility. It doesn't have employees but work with experts and industrial partners. They have multiple extensive documentations including code samples about accessibility for mobile frameworks that is often way better than the official ones.
 
@@ -65,7 +65,7 @@ The A11Y Project mostly focus on web accessibility but isn't limited to it, also
 
 ### The Accessibility Book Club
 
-The Accessibility Book club is a small organization releasing a [yearly book list about accessibility](https://www.a11ybookclub.com/annual-book-lists). Their selection is really good and a very useful tool to stay up to date with the developments of the accessibility and inclusiveness publications.
+The Accessibility Book club is a small organization releasing a [yearly book list about accessibility](https://www.a11ybookclub.com/annual-book-lists). Their selection is a very useful tool to stay up to date with the developments of the accessibility and inclusiveness publications.
 
 ![The 2025 book list of the Accessibility book club. The full list is available trough the link in the previous paragraph.](ressources/A-WhatIsAccessibility/a11yBookClubHomePage.png)
 
@@ -79,15 +79,33 @@ While we cannot blindly recommend firms, Deque is an actor of the accessibility 
 
 ## Corporate actors
 
+Corporate actors and especially operating system providers can take an important role in accessibility and inclusiveness measures, either by their good or their bad will.
+
 ### Apple
 
 ### Microsoft
 
 ### Orange
 
-# What look for and to avoid
+# What to look for and what to avoid
 
 ## Accessibility and AI powered tools
 
+If you search for some accessibility tools online, it's very probable that the first sponsored results to pop up will be *"Automated Web Accessibility Solution"* often powered by AI. Those solutions are largely criticized by accessibility experts. In an open letter signed by more han 400 accessibility advocates. they state that:
+
+!!!quote "Sarah Gooding, *[Accessibility Advocates Sign Open Letter Urging People Not To Use AccesiBe and Other Overlay Products](https://wptavern.com/accessibility-advocates-sign-open-letter-urging-people-not-to-use-accesibe-and-other-overlay-products)*. 2021"
+    1. We will never advocate, recommend, or integrate an overlay which deceptively markets itself as providing automated compliance with laws or standards.
+    2. We will always advocate for the remediation of accessibility issues at the source of the original error.
+    3. We will refuse to stay silent when overlay vendors use deception to market their products.
+    4. More specifically, we hereby advocate for the removal of accessiBe, AudioEye, UserWay, User1st, MK-Sense, MaxAccess, FACIL’iti, and all similar products and encourage the site owners who’ve implemented these products to use more robust, independent, and permanent strategies to making their sites more accessible.
+
+Accessibility needs to be baked into an application from the very begining. **There is no quick band-aid fix for accessibility failures**. Indeed accessibility is all about nuance, context and diverse user feedback. Trying to automate it's whole process is paradoxical. It would mean, that your program will try to match arbitrary accessibility rulesets when the whole point is to embrace diversity and the uniqueness of ways to interact with a UI. **The rulesets, rather than being a tool to guide you, becomes the goal, effectively silencing disabled users.** Those tools doesn't make your app usable for a disabled user. It will simply make sure no failure is triggered when running an automated test. It's lack of context will often lead them to implement confusing and non-usable solutions.
+
+!!! Tip
+    Accessibility is not a goal, it's a process. A process which cannot be done without disabled users and experts.
+
 ## Green and red flags for choosing accessibility experts
 
+# Sources
+
+[Sarah Gooding, *Accessibility Advocates Sign Open Letter Urging People Not To Use AccesiBe and Other Overlay Products*. 2021](https://wptavern.com/accessibility-advocates-sign-open-letter-urging-people-not-to-use-accesibe-and-other-overlay-products)
