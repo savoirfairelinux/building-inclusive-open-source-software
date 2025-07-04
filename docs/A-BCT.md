@@ -26,11 +26,11 @@ We ourselves, are not experts by any mean, only developers working on accessibil
 The actors can be separated in four main parts : the publics actors, non-profit collectives, consulting firms and the corporate actors. We could also mention university's researches but this would turn this section into a full bibliography.
 
 ## Publics actors
-
+TODO
 ### States
-
+TODO
 ### European union
-
+TODO
 ## Non-profit collectives
 
 Non profit organizations are at the core of producing resources about accessibility and inclusiveness, especially from a design and platform agnostic perspective. They are also a great source of critic takes on the current state of accessibility for different platforms as they often have less conflicts of interest.
@@ -82,11 +82,14 @@ While we cannot blindly recommend firms, Deque is an actor of the accessibility 
 Corporate actors and especially operating system providers can take an important role in accessibility and inclusiveness measures, either by their good or their bad will.
 
 ### Apple
-
+TODO
 ### Microsoft
+TODO:
+* Microsoft Inclusiveness website
+* Windows recall and the issues it create for accessibility (ex of signal)
 
 ### Orange
-
+TODO
 # What to look for and what to avoid
 
 ## Accessibility and AI powered tools
@@ -102,9 +105,23 @@ If you search for some accessibility tools online, it's very probable that the f
 Accessibility needs to be baked into an application from the very begining. **There is no quick band-aid fix for accessibility failures**. Indeed accessibility is all about nuance, context and diverse user feedback. Trying to automate it's whole process is paradoxical. It would mean, that your program will try to match arbitrary accessibility rulesets when the whole point is to embrace diversity and the uniqueness of ways to interact with a UI. **The rulesets, rather than being a tool to guide you, becomes the goal, effectively silencing disabled users.** Those tools doesn't make your app usable for a disabled user. It will simply make sure no failure is triggered when running an automated test. It's lack of context will often lead them to implement confusing and non-usable solutions.
 
 !!! Tip
-    Accessibility is not a goal, it's a process. A process which cannot be done without disabled users and experts.
+    **Accessibility is not a goal, it's a process. A process which cannot be done without disabled users and experts.**
 
 ## Green and red flags for choosing accessibility experts
+
+The previous section should help you what to avoid, but what qualities should you be looking for when choosing experts ?
+
+!!! success "Look for..."
+    * Structures that have disabled experts or value directly working with disabled people
+    * Structures that talk about inclusiveness rather than accessibility alone
+    * Structures that provide transparency about their own diversity distribution
+
+!!! Failure "Avoid..."
+    * Automated accessibility overlay products
+    * Products that claims to have automated AI accessibility fixes
+    * Promises of quick fixes
+    * Structures that delivers a one time accessibility enhancement without maintenance or knowledge transmission to your team
+
 
 # Sources
 
