@@ -49,6 +49,12 @@ Sadly, despite the amazing work that they do on accessibility, they still lack d
 
 ### Appt Foundation
 
+The Appt foundation is a non-profit organization started in the netherlands that specialize on mobile applicative accessibility. It doesn't have employees but work with experts and industrial partners. They have multiple extensive documentations including code samples about accessibility for mobile frameworks that is often way better than the official ones.
+
+![A screenshot of the frameworks documented by the Appt foundation: android, Jetpack compose, iOS, swiftUI, Flutter, React Native. .NET MAUI and Xamarin](ressources/A-WhatIsAccessibility/apptFondationFrameworks.png)
+
+It's definitely a massively useful resource if they have documentation for the framework you are working with.
+
 ### The A11Y Project
 
 ### The accessibility book club
