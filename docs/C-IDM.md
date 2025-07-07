@@ -54,7 +54,7 @@ This is why your app should:
 
 ![A button of just about the size of the minimum touch target recommendation.](resources/c-designing-inclusive-and-accessible-software/button-touch-target.png)
 
-*For reference, there is a button with text of size 12. While having an important padding, the button is a the edge of being too small to be considered accessible.*
+*For reference, this is a button with a text of size 12. While having an important padding, the button is at the edge of being too small to be considered accessible.*
 
 # The accessibility model of mobile platforms
 
