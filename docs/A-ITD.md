@@ -1,4 +1,5 @@
-# 🔧 A-ITD Inclusiveness technologies : Desktop
+# 🔧 Assistive technologies : Desktop
+
 
 !!! Info "In this module"
     This module gives a comprehensive list of accessibility testing tools (both
@@ -6,13 +7,14 @@
     but rather to help designers and developers to find the relevant tools for
     their use case.
 
-**⛳️ Section**: D. Programming inclusive and accessible software
+**⛳️ Section**: A. What is accessibility?
 
 **👥 Audience**: Developers
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [👩‍💻 D-ICO Inclusive code 101](D-ICO.md)
+**📚 Prerequisites**: None
+
 
 ---
 
@@ -24,7 +26,7 @@ This module is almost certainly a must have for an type of workers searching for
 
 As we saw in [🗺️ A-BCT Brief cartography of today’s accessibility landscape](A-BCT.md), some tools are really despised by accessibility and inclusiveness experts and with valid reasons. We could summarize by saying: **stay away from AI accessibility tools**. They are often more detrimental than anything. Accessibility is really hard to automate specifically because it's about embracing diversity and learning from other's needs. Using AI tools could make you technically compliant with some legislation (for example filling all of the empty labels on your application) but it won't make your application usable by people with disabilities.
 
-The errors automaticly detected highly depends of context (for example a long accessibility label is not necessarily a bad thing if attached to a schematic but will be flagged automaticly as an issue). Furthermore, the fixes are often clunky, unintuitive and don't take the specific of the application architecture into account.
+The errors automatically detected highly depends of context (for example a long accessibility label is not necessarily a bad thing if attached to a schematic but will be flagged automaticly as an issue). Furthermore, the fixes are often clunky, unintuitive and don't take the specific of the application architecture into account.
 
 > **Disabled people are the expert about accessibility. Listen to them, not to an AI trying to predict their needs.**
 
@@ -271,7 +273,7 @@ While you might be working on a native app, it’s very likely that you or your 
 
 Still be careful not to believe blindly the feedback form automated tools lke Wave. **It will often make mistakes** and is not a substitute for *savoir-faire* in any way.
 
-![A screenshot of the wave accessibility tool showing detailed report about multiple errors on a webpage](resources/d-programming-inclusive-and-accessible-software/waveReport.png)
+![A screenshot of the wave accessibility tool showing detailed report about multiple errors on a webpage](resources/d-programming-inclusive-and-accessible-software/waveReport.png){ width="300" }
 
 Some other similar web accessibility tools would be [Axe](https://www.deque.com/axe/) or [Lighthouse](https://developer.chrome.com/docs/lighthouse?hl=fr).
 
