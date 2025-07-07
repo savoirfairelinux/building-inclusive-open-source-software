@@ -14,16 +14,16 @@
 
 ---
 
-# When to use ?
+# When to use?
 
 This module should be used with trainees who are in position of making design decisions for the product they are working on. It is mostly intended for product designers and managers, but it is relevant in some scenarios to also include developers, especially for smaller teams.
 
 # Description
 
-## What is an inclusive app ?
+## What is an inclusive app?
 
 
-Using the [Cambridge's dictionary's definition](https://dictionary.cambridge.org/dictionary/english/inclusiveness), we defined inclusiveness as **the quality of including many different types of people and treating them all fairly and equally**. From there, we have to ask ourselves: what is an inclusive app?
+Using the [Cambridge dictionary's definition](https://dictionary.cambridge.org/dictionary/english/inclusiveness), we defined inclusiveness as **the quality of including many different types of people and treating them all fairly and equally**. From there, we have to ask ourselves: what is an inclusive app?
 
 Put simply, we can define an inclusive application as one that can not only be used completely, comfortably and safely by all users, but also in which they can all thrive, feel welcome and express themselves.
 
@@ -31,7 +31,7 @@ It is thus crucial for designers and product leads to always keep in mind that t
 
 Making an inclusive app is thus taking care of everyone, including minorities.
 
-For every feature, every interface, every content that you are building, always ask yourself : is this element inclusive ? Are there human characteristics that could prevent a user from understanding, interacting, or even feeling well with the provided content ?
+For every feature, every interface, every content that you are building, always ask yourself: is this element inclusive? Are there human characteristics that could prevent a user from understanding, interacting, or even feeling well with the provided content?
 
 Here is a *non-exhaustive* list of human characteristics to keep in mind in order to include as many people as possible :
 
@@ -60,7 +60,7 @@ Product design documents, including specifications, user stories and prototypes 
 
 ![Picture in black of white of cars driving under a bridge](ressources/d-designing-inclusive-and-accessible-software/bridge.png)
 
-You can see on this picture a bridge that, at first, might seem ordinary. Can you guess what’s wrong with it ? In [*Do artifacts have politics ?*](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf), Langdon Winner explains that those bridges on Long Island were built low, so that buses were too high to pass them. Therefore, people who did not have a car - the least wealthy, and especially African-Americans - were denied access to the parkway to the public beaches. A technical segregation.
+You can see on this picture a bridge that, at first, might seem ordinary. Can you guess what’s wrong with it? In [*Do artifacts have politics?*](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf), Langdon Winner explains that those bridges on Long Island were built low, so that buses were too high to pass them. Therefore, people who did not have a car - the least wealthy, and especially African-Americans - were denied access to the parkway to the public beaches. A technical segregation.
 
 And the same goes with software: if a messaging app denies access to some features to groups of users, it excludes them by preventing them to connect.
 
@@ -83,14 +83,19 @@ That said, from our perspective, thinking UI and AUI as two distinct interfaces 
 
 We thus prefer to think an inclusive user interface (IUI) as a whole UI that maximizes the different ways it can be interacted with, in order to allow the greatest variety of particular experiences and to satisfy as many needs as possible.
 
-![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
-The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](ressources/d-designing-inclusive-and-accessible-software/iui.png)
+
+
+<figure markdown="span">
+    ![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
+    The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](ressources/d-designing-inclusive-and-accessible-software/iui.png){ width=700 }
+</figure>
+
 
 From a designer’s perspective, this means your interface should embed a wide set of equal ways of interacting with your app.
 
 ## Designing an IUI
 
-Now, how do you concretely make an IUI ?
+Now, how do you concretely make an IUI?
 
 It is important to know that there is no *unique* way of designing inclusive interfaces, and that it is a slow and continuous work, rather than a one-time effort. Inclusiveness recommendations can never be exhaustive.
 
@@ -98,9 +103,13 @@ With that said, here is a non-exhaustive list to start with to make your app mor
 
 ### The colors are contrasted
 
+
 The most common and easiest to apply advice that is given to designer is to make sure the colors they use are contrasted. This is important not only for people who are colorblind or use a screen filter, but also to guarantee readability on as many screens and conditions as possible. Many tools like [Figma plug-ins](https://www.figma.com/community/plugin/748533339900865323/contrast) or [websites](https://www.figma.com/color-contrast-checker/?background=ffffff&foreground=b50202) can help you check if your colors are well contrasted, or even look for contrast errors in your designs.
 
-![Two sample texts with different fill and background colors, showing one example of good contrast, and one of bad constrast.](ressources/d-designing-inclusive-and-accessible-software/contrast.png)
+<figure markdown="span">
+    ![Two sample texts with different fill and background colors, showing one example of good contrast, and one of bad constrast.](ressources/d-designing-inclusive-and-accessible-software/contrast.png){ width=500 }
+</figure>
+
 
 ### The colors are not necessary to understanding the UI
 
@@ -112,17 +121,20 @@ Some people need or prefer having on their devices custom (typically bigger) fon
 
 There usually is not pre-made answer on how to adapt the UI, but the issue can typically be solved by working on an alternate layout. For example, a common fix for cropped content (especially text) is to conditionally replace de horizontal stacks by vertical stacks, saving horizontal room for the text.
 
-![Two iPhones emulators with an information icon and a text with a large font. On the first phone, the layout is horizontal, and the text is cropped. On the second phone, the layout is vertical and the text is fully displayed.](ressources/d-designing-inclusive-and-accessible-software/bigfont.png)
+<figure markdown="span">
+    ![Two iPhones emulators with an information icon and a text with a large font. On the first phone, the layout is horizontal, and the text is cropped. On the second phone, the layout is vertical and the text is fully displayed.](ressources/d-designing-inclusive-and-accessible-software/bigfont.png){ width=600 }
+</figure>
 
 A lot of implementation frameworks provide easy ways to set a preferred size for an element, providing adaptation for scaling change.
 
 ### The content can be accessed using assistive technologies
 
-![A Figma design file with accessibility annotations for the Olvid app.](ressources/d-designing-inclusive-and-accessible-software/annotation.png)
+Designing for assistive technologies can be challenging when you don't know where to start from. In this section, we'll walk through simple steps that will get you started.
+
 
 **1 - Grouping the elements**
 
-For people who use screen readers and/or the keyboard to navigate your app, it is crucial to have the information grouped at the right level of granularity.
+![A Figma design file with accessibility annotations for the Olvid app.](ressources/d-designing-inclusive-and-accessible-software/annotation.png) For people who use screen readers and/or the keyboard to navigate your app, it is crucial to have the information grouped at the right level of granularity.
 
 - If the information is too fragmented, navigating will be slower (as it will need more user inputs) and context might be lost (as the logical link between elements will not be given for people who can’t see the information hierarchy on the screen).
 - If the information is grouped at a higher level than it should, navigating to a specific element will be harder and interactions will likely be more complicated due to the fusion of actions.
@@ -156,11 +168,14 @@ Again, depending on the platform or framework, the ways to achieve this might di
 
 **3 - Establishing a focus order**
 
-![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](ressources/d-designing-inclusive-and-accessible-software/order.png)
+<figure markdown="span">
+    ![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](ressources/d-designing-inclusive-and-accessible-software/order.png)
+</figure>
+
 
 When your elements are grouped and labelled, the last step to make your interface accessible to people who use assistive technologies and/or the keyboard to use your app is to decide the focus order.
 
-Let’s say we are working on an application implementing a chat. When entering a discussion, which element should be focused first ? The last message, the title of the discussion, the text input ?
+Let’s say we are working on an application implementing a chat. When entering a discussion, which element should be focused first? The last message, the title of the discussion, the text input?
 
 There often is no way of predicting which answer is the best. It really comes down to testing what is the most navigable, understandable and interactable.
 
