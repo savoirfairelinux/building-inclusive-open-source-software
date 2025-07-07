@@ -57,7 +57,7 @@ nav:
     - 🖥️ Inclusive design for Desktop: E-ITD.md
   - Programming inclusive and accessible software:
     - 👩‍💻 Inclusive code 101: E-ICO.md
-    #- 🍎 Accessible programming for the Apple ecosystem:
+    - 🍎 Accessible programming for the Apple ecosystem: E-APL.md
     - 📗 Accessible programming with Qt: E-APQ.md
     #- ☕️ Accessible programming with Java Fx:
     #- 🤖 Accessible programming for Android:
