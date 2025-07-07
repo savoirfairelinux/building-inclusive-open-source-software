@@ -13,9 +13,11 @@
 
 ---
 
-# Intro: many resources, will be using apple resource + pointing to them + nice to develop for smaller range of devices
+# Intro: many resources
 
+For years, Apple has been setting the bar for mobile accessibility. Their design principles, guidelines, as well as the tools they built are truly helpful. They also provide extensive resources on how to apply and use them. And even more so: everything you learn on one platform will probably also be true for another. Thanks to all of this, if you're developing natively for Apple platforms, implementing an accessible interface will likely be easier than for any other.
 
+With that said, navigating these resources and tools, and understanding how they work together can take a long time.
 
 # Apple Assistive Technologies
 
@@ -26,3 +28,5 @@
 ## Adapting it
 
 # Accessibility in UIKit
+
+# Tools
