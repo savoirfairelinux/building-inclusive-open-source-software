@@ -168,8 +168,8 @@ Are all information and labels properly transcribed using a screen reader ?
 
 - If no: Fix it ! You can test this using your system screen reader on the settings or NVDA on Windows. You can then navigate through the app and hear if the labels are relevant. All information like the state of a component or wether it's selected must be transcribed. Expect to provide in your code:
     - A name for the element
-    - A description of it's effect
-    - it's role (for example static text or button)
+    - A description of its effect
+    - its role (for example static text or button)
 
 Does it work with different text scaling ?
 
