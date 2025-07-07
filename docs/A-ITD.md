@@ -95,7 +95,7 @@ Most systems have a built-in screen reader in their settings,  you should use th
 </div>
 
 
-[NVDA](https://www.nvaccess.org/download/) is open source and mainly available on Windows (you can still run it on Linux using Wine but it will inconsistently work). It's free and therefore is a very good tool to start testing accessibility. One of it's key advantage is that it's very lightweight meaning that it starts a lot faster that other screen readers which can make all the difference when those softwares are known to crash easily. It's still a bit limited on some complex applications like Excel.
+[NVDA](https://www.nvaccess.org/download/) is open source and mainly available on Windows (you can still run it on Linux using Wine but it will inconsistently work). It's free and therefore is a very good tool to start testing accessibility. One of its key advantage is that it's very lightweight meaning that it starts a lot faster that other screen readers which can make all the difference when those softwares are known to crash easily. It's still a bit limited on some complex applications like Excel.
 
 It still has an active community developing plugins for integrating it into different apps. Consider doing it for yours!
 
