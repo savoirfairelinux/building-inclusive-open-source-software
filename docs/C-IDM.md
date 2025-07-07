@@ -1,4 +1,4 @@
-# 📱 D-IDM: Inclusive design for mobile
+# 📱 C-IDM: Inclusive design for mobile
 
 !!! Info "In this module"
     This module allows participants who take design decision on mobile to receive platform-specific advice.
@@ -9,13 +9,13 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [🎨 Inclusive design 101](D-IDE.md), [📲 A-ATM: Assistive technologies: Mobile](A-ATM.md)
+**📚 Prerequisites**: [🎨 Inclusive design 101](C-IDE.md), [📲 A-ATM: Assistive technologies: Mobile](A-ATM.md)
 
 ---
 
 # When to use ?
 
-This short module should always be used as a complement to [🎨 Inclusive design 101](D-IDE.md), as a bonus to go further for mobile platforms.
+This short module should always be used as a complement to [🎨 Inclusive design 101](C-IDE.md), as a bonus to go further for mobile platforms.
 
 # Mobile devices and inclusiveness
 
@@ -52,7 +52,7 @@ This is why your app should:
 - Integrate with (or even implement) tools allowing for shortcuts, automation and voice assistants.
 - Allow users to use screen readers, switches, keyboards, etc.
 
-![A button of just about the size of the minimum touch target recommendation.](ressources/d-designing-inclusive-and-accessible-software/button-touch-target.png)
+![A button of just about the size of the minimum touch target recommendation.](resources/c-designing-inclusive-and-accessible-software/button-touch-target.png)
 
 *For reference, there is a button with text of size 12. While having an important padding, the button is a the edge of being too small to be considered accessible.*
 
@@ -84,7 +84,7 @@ All of this represent design decisions that can be challenging to communicate to
 
 # Incorporating accessibility to your design files
 
-![Accessibility annotations of the polls statistics screen in Olvid.](ressources/d-designing-inclusive-and-accessible-software/annotation.png)
+![Accessibility annotations of the polls statistics screen in Olvid.](resources/c-designing-inclusive-and-accessible-software/annotation.png)
 
 One of the easiest and most efficient ways of communicating these design decisions is through accessibility annotations on your design file. We won't recommend any preset specifically here, but you can find online many
 free accessibility annotation kits made by the Figma community. Those presets typically allow you to indicate all the information detailed in the previous section to the developers right in the design they are working from.

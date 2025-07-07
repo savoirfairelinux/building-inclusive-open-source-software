@@ -9,7 +9,7 @@
 
 **⏱️ ️Duration**: 5'
 
-**📚 Prerequisites**: [🎨 Inclusive design 101](D-IDE.md)
+**📚 Prerequisites**: [🎨 Inclusive design 101](C-IDE.md)
 
 ---
 
@@ -19,7 +19,7 @@ There are infinite unique (and combining) ways of interacting with mobile device
 
 ## Screen readers
 
-Just like computers, screen readers constitute an assistive technology that is essential to many users. Nevertheless, the way they are designed, implemented and used differ a lot from [what you will commonly see on desktop platforms](A-ATD.md):
+Just like computers, screen readers constitute an assistive technology that is essential to many users. Nevertheless, the way they are designed, implemented and used differ a lot from [what you will commonly see on desktop platforms](A-ITD.md):
 
 - They are almost always directly built and deeply integrated into the OS, while desktop screen readers are typically third party apps.
 - They embed an alternative way of navigating using specific gestures, while desktop screen readers commonly rely on keyboard navigation.
@@ -45,7 +45,7 @@ Making an app accessible to these is most commonly done by making it accessible 
 Often combined with other controls (like eye, voice or head motion), switch control allows users to interact with app without needing the ability to precisely aim for the touchscreen elements. Users can have custom various actions (like go next, go previous, interact, etc.) on each switch, allowing for highly specific setups.
 
 <figure markdown="span">
-  ![Picture of a switch with two buttons, one is white and the other is yellow.](ressources/A-WhatIsAccessibility/switch.jpg){ width="300" }
+  ![Picture of a switch with two buttons, one is white and the other is yellow.](resources/a-what-is-accessibility/switch.jpg){ width="300" }
   <figcaption>Accessibility switch</figcaption>
 </figure>
 
