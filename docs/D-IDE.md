@@ -33,7 +33,7 @@ Making an inclusive app is thus taking care of everyone, including minorities.
 
 For every feature, every interface, every content that you are building, always ask yourself: is this element inclusive? Are there human characteristics that could prevent a user from understanding, interacting, or even feeling well with the provided content?
 
-Here is a *non-exhaustive* list of human characteristics to keep in mind in order to include as many people as possible :
+Here is a *non-exhaustive* list of human characteristics to keep in mind in order to include as many people as possible:
 
 - Age
 - Culture
@@ -74,10 +74,10 @@ As we said earlier, we ideally don’t “make an interface accessible”. Rathe
 
 Alternative, underlying UIs that are built for “disabled” people are often referred to as Accessible User Interfaces (AUI), sometimes as accessibility tree. At first, this concept seems very useful, because thinking of accessibility this way pushes us to make intended and meaningful design choices for how our apps should be accessed using various assistive technologies, font sizes, settings, *etc*, and to think of accessibility with a wider approach than just adding labels to buttons. It’s about designing a whole new UI - an AUI, separate from the one most users will use.
 
-That said, from our perspective, thinking UI and AUI as two distinct interfaces does not make sense, because :
+That said, from our perspective, thinking UI and AUI as two distinct interfaces does not make sense, because:
 
 - Most users never access an app using only the UI or the AUI. For example, someone who can see but cannot touch the screen might use a switch as input but still use the visual interface to perceive the content. Moreover, many people considering themselves as “able-bodied” still use some accessibility features on their devices - like custom font sizes or accessibility gestures used by power users.
-- As seen in We are all disabled and unique : accessibility, plurality and intersectionality, thinking of users as people working with various sets of abilities rather than belonging to one of the “disabled” or “able-bodied” categories better reflects the wide range of experiences you are inevitably creating when building your app.
+- As seen in We are all disabled and unique: accessibility, plurality and intersectionality, thinking of users as people working with various sets of abilities rather than belonging to one of the “disabled” or “able-bodied” categories better reflects the wide range of experiences you are inevitably creating when building your app.
 - AUI as a concept completely forgets inclusiveness and intersectionality, as it draws a strict line between the “able-bodied” and the “disabled”.
 - AUI can also create a pitfall, pushing developers to create the UI first, and then deriving an AUI from it, which makes the concept unhelpful.
 
@@ -86,7 +86,7 @@ We thus prefer to think an inclusive user interface (IUI) as a whole UI that max
 
 
 <figure markdown="span">
-    ![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
+   ![The first half of the drawing represents two rectangles, representing respectively a UI and an AUI. Circles representing the “able-bodied users” are pointing to the UI with an arrow. Diamonds representing the “disabled users” are pointing to the AUI with an arrow.
     The second half represents different shapes representing the diversity of users, pointing to the same IUI which is made by overlaying many UIs, regrouped as one.](ressources/d-designing-inclusive-and-accessible-software/iui.png){ width=700 }
 </figure>
 
@@ -139,7 +139,7 @@ Designing for assistive technologies can be challenging when you don't know wher
 - If the information is too fragmented, navigating will be slower (as it will need more user inputs) and context might be lost (as the logical link between elements will not be given for people who can’t see the information hierarchy on the screen).
 - If the information is grouped at a higher level than it should, navigating to a specific element will be harder and interactions will likely be more complicated due to the fusion of actions.
 
-While it certainly depends on the experience you are building and the platform you are targeting with your design, some good practices to start grouping your elements are :
+While it certainly depends on the experience you are building and the platform you are targeting with your design, some good practices to start grouping your elements are:
 
 - Elements that make a contextually atomic group, *i.e.* a group of elements for which we lose context if they are separated, must be grouped.
 - Elements that share the same primary action are typically grouped. Elements that have a diverging primary actions should not be grouped, unless you can elect one primary action and demote the other to secondary.
@@ -151,7 +151,7 @@ Mobile and desktop navigation are quite different regarding this topic. While mo
 
 Labelling the elements of your app is critical to ensure the understanding of the interface and content. The term “label” can have different implementation meanings depending on the platform or framework used. Here, we will use label to refer to the sentence that is typically read aloud by screen readers, including the type of the content, the value, *etc.* Frameworks and platforms typically use structured data to then generate what we call here a label.
 
-A good label must :
+A good label must:
 
 - Reflect the context or type of content you are presenting to the user.
 - Tell the actual content (or value) of the element, or its alternative text if it is visual.
@@ -160,9 +160,9 @@ A good label must :
 - Be clear and require no more context to be understood.
 - Have the informations ordered with care to put the most important elements first, allowing users to navigate through the app rapidly without waiting for the full label to be read out loud if they don’t need to.
 
-For a messaging app, a label for a discussion can be :
+For a messaging app, a label for a discussion can be:
 
-     "Michel Berger. 3 unread messages. You said : Thanks ! at 9:07. Message status : sent. Pinned. Actions available.”
+     "Michel Berger. 3 unread messages. You said: Thanks ! at 9:07. Message status: sent. Pinned. Actions available.”
 
 Again, depending on the platform or framework, the ways to achieve this might differ. We will tackle this issue in platform-specific modules.
 
@@ -237,7 +237,7 @@ The best way to communicate the UX you are aiming for users who use assistive te
 
 Another key to achieving your inclusiveness goals for your UI is to actively test and provide feedback using assistive technologies. Accompanying developers towards a great (inclusive) UX takes time and will likely require many iterations - not to mention that your designs will never be perfectly inclusive either!
 
-## Activity : designing and IUI on a whiteboard
+## Activity: designing and IUI on a whiteboard
 
 By groups, trainees are invited to design a simple interface (with pen and paper or any design tool they like) that aims at being as inclusive as possible.
 

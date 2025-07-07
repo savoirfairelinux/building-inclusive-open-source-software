@@ -1,4 +1,4 @@
-# 🏃🏽‍♀️‍➡️ F-WYG: Where YOU go next !
+# 🏃🏽‍♀️‍➡️ F-WYG: Where YOU go next!
 
 !!! Info "In this module"
     This module is a small workshop reflecting on what to do next to make the team's app more accessible. It is useful to get the ball rolling in the trained team.
@@ -15,13 +15,13 @@
 
 ---
 
-# When to use ?
+# When to use?
 
 This is the penultimate module of this formation on inclusive design and programming. It creates the space for the trained team(s) to think about the ways they can make their app more inclusive.
 
 # Description
 
-## Option 1 : What did others learn ? (20/30min)
+## Option 1: What did others learn? (20/30min)
 
 Create different groups based on the platforms people are working on and/or if they are rather on the side of product management, development, design or something else - any criteria works best for the trained organization or team. 
 
