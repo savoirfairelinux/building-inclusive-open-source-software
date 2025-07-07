@@ -27,7 +27,7 @@ Searching the web for resources on applicative desktop accessibility and inclusi
     <img src="../resources/c-designing-inclusive-and-accessible-software/applicativeAccessibilityEvaluationTools.png" alt="A Web search for 'Applicative accessibility evaluation tools' showing only result for web solutions" width="60%">
 </p>
 
-This phenomenon is not limited to the first internet search, there is a flagrant lack of accessibility resources for desktop applicative design and development. Indeed, this is one of our motivations for the creation of this training. While on mobile, most of the accessibility features are natives to the OS, and therefore documented, desktop accessibility relies much more on third party tools and framework specific implementation.
+This phenomenon is not limited to the first internet search, there is a flagrant lack of accessibility resources for desktop applicative design and development. Indeed, this is one of our motivations for the creation of this training. While on mobile, most of the accessibility features are native to the OS, and therefore documented, desktop accessibility relies much more on third party tools and framework-specific implementation.
 
 This lack of resources while due to multiple factors can largely be attributed to a simple reason: the number of people who need to create and deploy a website is so enormous that it is a completely different scale than the number of persons that need to develop a native desktop application. This has been further accentuated by the rise of web-based native frameworks like [Electron](https://www.electronjs.org/).
 
@@ -40,7 +40,7 @@ How to deal with contextual elements, different panes, complex UI elements that 
 
 A useful resource to help you design accessibility for your Desktop app is one that isn't made for applications: [The Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG). It aims at providing shared worldwide accessibility guidelines for web content. It's therefore really extensive.
 
-While some of its content doesn't apply directly to native applicative design (for example aria labels are a web only concept), there is still a lot that we can learn from the WCAG. We especially recommend to use the [*How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/) from the Web Accessibility Initiative. It provides you with examples of successful and unsuccessful designs for every WCAG guideline and is sorted by topic. For example, you can simply navigate to the "1.4.1 Use of color section" and see the list of guidelines related to this point.
+While some of its content doesn't apply directly to native applicative design (for example aria labels are only a web concept), there is still a lot that we can learn from the WCAG. We especially recommend to use the [*How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/) from the Web Accessibility Initiative. It provides you with examples of successful and unsuccessful designs for every WCAG guideline and is sorted by topic. For example, you can simply navigate to the "1.4.1 Use of color section" and see the list of guidelines related to this point.
 
 [![A screenshot of the "How to Meet WCAG (Quick Reference)" guide on the topic of use of color](resources/c-designing-inclusive-and-accessible-software/wcagUseOfColor.png)](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)
 
@@ -54,11 +54,11 @@ Keyboard usage is a key aspect of designing for Desktop applications. A lot of u
 
 ### Keyboard navigation (what each key should do)
 
-Keyboard navigation can be a bit tricky. Most resources you can find on accessibility, only tell you that elements should be usable with a keyboard but not what combination of keys is intuitive to navigate it. In reality there are 5 main type of keyboard inputs. Implementing those inputs properly will make your application usable with a keyboard.
+Keyboard navigation can be a bit tricky. Most resources you can find on accessibility only tell you that elements should be usable with a keyboard but not what combination of keys is intuitive to navigate it. In reality there are five main types of keyboard inputs. Implementing those inputs properly will make your application usable with a keyboard.
 
 #### Tab & Backtab
 
-The Tab and backtab (Shift+Tab) keys are the main ways of navigating trough the UI. Pressing it should respectively send the focus to the next and previous focusable element of the UI. It should not be used to navigate trough the elements of a list or focus static text. The static text should still be accessible in the label of an associated element.
+The Tab and Backtab (Shift+Tab) keys are the main ways of navigating trough the UI. Pressing it should respectively send the focus to the next and previous focusable elements of the UI. It should not be used to navigate trough the elements of a list or focused static text. The static text should still be accessible in the label of an associated element.
 
 #### The arrow keys
 
@@ -70,7 +70,7 @@ The enter key is quite straightforward. It should act as if you were clicking on
 
 #### Escape
 
-The escape key is supposed to close popups and dropdowns. Having it broken is a common problem in many applications. This is what we call a "focus trap"; where an element takes focus without any way with the keyboard to make it release it. Having the escape key working properly is absolutely necessary in order to make your application keyboard-accessible.
+The escape key is supposed to close popups and dropdowns. Having it broken is a common problem in many applications. This is what we call a "focus trap"; when an element takes focus without any way for a keyboard user to make it release it. Having the escape key working properly is absolutely necessary to making your application keyboard-accessible.
 
 #### Alt
 
@@ -80,7 +80,7 @@ The alt key has two main purposes. Firstly it should close and escape fields whe
 
 ### Shortcuts
 
-Your application is now usable with a keyboard, but you shouldn't be content with usability. You should be designing you app to be fun and fluid, not "usable". Keyboard shortcuts are the key to achieving that. They make it unnecessary to circle though all the elements with Tab inputs. Indeed, someone used to the shortcuts of an application can operate it much faster than one with a mouse.
+Your application is now usable with a keyboard, but you shouldn't be content with usability. You should be designing you app to be fun and fluid, not just "usable". Keyboard shortcuts are the key to achieving that. They make it unnecessary to circle though all the elements with Tab inputs. Indeed, someone used to the shortcuts of an application can operate it much faster than one with a mouse.
 
 Here you can see an example of the keyboard shortcuts usable during a call in [Jami](https://jami.net/).
 
