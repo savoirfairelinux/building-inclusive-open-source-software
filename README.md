@@ -24,7 +24,7 @@ Please note that we are not accessibility or inclusiveness experts, but passiona
 
 # How to navigate this training
 
-![A navigation schematic. The first section is made to be navigated in a linear way except the platform specific assistive technologies that can be skipped. The second section is linear. The third section expects you to go through the base Inclusive Design module and then to the platform you are working on. You can skip this section if you are not a designer. As for the design section, the design platform has a base module and specific ones for different frameworks. The last conclusion section is linear.](docs/ressources/navigateThroughTheTrainingV2.png)
+![A navigation schematic. The first section is made to be navigated in a linear way except the platform specific assistive technologies that can be skipped. The second section is linear. The third section expects you to go through the base Inclusive Design module and then to the platform you are working on. You can skip this section if you are not a designer. As for the design section, the design platform has a base module and specific ones for different frameworks. The last conclusion section is linear.](docs/resources/navigateThroughTheTrainingV2.png)
 
 ## Contributing
 
