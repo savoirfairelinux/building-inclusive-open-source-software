@@ -52,7 +52,9 @@ This is why your app should:
 - Integrate with (or even implement) tools allowing for shortcuts, automation and voice assistants.
 - Allow users to use screen readers, switches, keyboards, etc.
 
-![A button of just about the size of the minimum touch target recommendation.](resources/c-designing-inclusive-and-accessible-software/button-touch-target.png)
+<figure markdown="span">
+    ![A button of just about the size of the minimum touch target recommendation.](resources/c-designing-inclusive-and-accessible-software/button-touch-target.png)
+</figure>
 
 *For reference, this is a button with a text of size 12. While having an important padding, the button is at the edge of being too small to be considered accessible.*
 
@@ -84,7 +86,9 @@ All of this represent design decisions that can be challenging to communicate to
 
 ## Incorporating accessibility to your design files
 
-![Accessibility annotations of the polls statistics screen in Olvid.](resources/c-designing-inclusive-and-accessible-software/annotation.png)
+<figure markdown="span">
+    ![Accessibility annotations of the polls statistics screen in Olvid.](resources/c-designing-inclusive-and-accessible-software/annotation.png)
+</figure>
 
 One of the easiest and most efficient ways of communicating these design decisions is through accessibility annotations on your design file. We won't recommend any preset specifically here, but you can find online many
 free accessibility annotation kits made by the Figma community. Those presets typically allow you to indicate all the information detailed in the previous section to the developers right in the design they are working from.
