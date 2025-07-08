@@ -2,9 +2,9 @@
 
 !!! Info "In this module"
     When creating, finding the right stance can be perilous;
-        - How to help without infantilizing ?
-        - How to care without assuming one's needs ?
-        - How to design for something we don't experience ?
+        - How to help without infantilizing?
+        - How to care without assuming one's needs?
+        - How to design for something we don't experience?
 
     This module aims at finding answers to those questions from a software perspective.
 
@@ -18,34 +18,34 @@
 
 ---
 
-# When to use ?
+# When to use?
 
 This module tries to provide the trainees with a reflection on what one's perspective on the world is and how to attempt to account for other's ones.
 
 # Description
 
-## Who are you ?
+## Who are you?
 
-Who are we as people ? We all have a singular, partial perspective of the world. These comes with biases but also insights and experiences. Opening up to different views is always a tough process. In [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9), Rob Whitaker gives an exercise to identify our biases. The following workshop is a variation adapted from theirs.
+Who are we as people? We all have a singular, partial perspective of the world. These comes with biases but also insights and experiences. Opening up to different views is always a tough process. In [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9), Rob Whitaker gives an exercise to identify our biases. The following workshop is a variation adapted from theirs.
 
 Provide a piece of paper to all of the trainees attempting the training. Ask them to make a list of five person the 5 peoples they trust the most, people they would go to for advices (no matter whether they are colleagues, family or friends). Once that's done, ask them to count a point each time the answer to the following questions is yes.
 
-1. Are all of them of the same ethnicity as you ?
-2. Do all of them have the same sexual orientation ?
-3. Do all of them have the same nationality as you ?
-4. Are all of them considered able-bodied ?
-5. Do all of them have a diploma (or, are pursuing one) ?
-6. Are all of them cisgender ?
-7. Are all of them working/studying or being retired ?
-8. Are all of them from the same or higher economic background as you ?
-9. Are most of them men ?
-10. Do they all speak the language of the country they live in ?
+1. Are all of them of the same ethnicity as you?
+2. Do all of them have the same sexual orientation?
+3. Do all of them have the same nationality as you?
+4. Are all of them considered able-bodied?
+5. Do all of them have a diploma (or, are pursuing one)?
+6. Are all of them cisgender?
+7. Are all of them working/studying or being retired?
+8. Are all of them from the same or higher economic background as you?
+9. Are most of them men?
+10. Do they all speak the language of the country they live in?
 
 ---
 
 Once that's done, count from 1 up to 10 and ask the trainees to raise their hand on the number corresponding with their score. Precise this part of the workshop is entirely optional. To ease of trainees you can also raise your hand on the number corresponding to your own results. This should help the group to start reflecting on their own biases. Note that you can adapt those questions to fit the cultural environment in which you give this formation.
 
-## Who is disabled ?
+## Who is disabled?
 
 Who exactly is disabled is a question with no evident answer. According to the [2024 study](https://appt.org/en/stats) of the [APPT foundation](https://appt.org/en/about), a non profit based in the Netherlands, 61% of Dutch Android users and 45% of Dutch iOS users have one or more accessibility settings activated on their phone. A quarter of the Android user they surveyed used two or more accessibility features.
 
@@ -66,7 +66,7 @@ Disability is not something easy to categorize. A lot of disabilities are not vi
 
 Depending of the circumstances, we are all disabled and we will all be. As stated previously, disability is plural, a shallow category that shouldn't negate intersectional thinking.
 
-## Who do you want to be ?
+## Who do you want to be?
 
 ### Disability experts and disabled experts
 In [Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661), Ashley Shew also writes extensively about expertise on accessibility. While disabled experts are often not taken seriously, some of their able-bodied peers consider themselves experts at understanding one's needs. She states:
@@ -76,7 +76,11 @@ In [Against Technoableism: rethinking who needs improvement](https://wwnorton.co
 
 We cannot replace the perspectives of people with disabilities simply by reading about them or running a series of automated tests. We highly encourage recruiting people from diverse backgrounds in your team. The whole project will benefit from varying perspectives and it could help to leverage against systemic exclusion and hiring discriminations which affect minorities. In fact, [a study from the Chartered Institute for IT](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/) states that in the UK alone, "Nearly 90,000 disabled people are 'missing' from tech industry".
 
+<<<<<<< HEAD
 **But your working environment will never be representative of the whole world and every user.** As quoted from [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9) in [🔭 Inclusive needs overview](B-INO.md) :
+=======
+**But your working environment will never be representative of the whole world and every user.** As quoted from [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9) in [🔭 B-INO Inclusive needs overview](B-INO.md):
+>>>>>>> origin/main
 
 !!! Quote "Ashley Shew, *[Against Technoableism, Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661)*"
     “Employing the word “users” can result in falling into the trap of thinking of users as one group – an amalgamation of people who are out there somewhere in the world using your app, a group of people that you’ll never meet and never know. This form of “group think” leads to creating a “one-size-fits-all” solution that, like everything claiming to be “one size fits all,” in reality fits no one.”

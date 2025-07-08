@@ -14,14 +14,14 @@
 ---
 
 
-# When to use ?
+# When to use?
 
 This module is necessary to deconstruct the idea that accessibility is merely about designing for users who can't see or hear.
 
 ---
 
 # Inclusiveness and co-creation
-## Who is disabled ?
+## Who is disabled?
 
 Since the beginning of this training, we have been referring to the disabled people in the 3rd person, as if they were "others". The truth is, some of us writing this are disabled, some of you reading this are, as we all will be some day. The barrier between the able-bodied and the disabled is a lot more porous than we could think at first glance.
 
@@ -33,9 +33,9 @@ While this convenience for some is surely necessary for others, we can appreciat
 
 **Therefore, it's crucial to not think disabled peoples as a minority but rather as the living diversity that we will all become.**
 
-## What is inclusiveness ?
+## What is inclusiveness?
 
-The [Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness) would define inclusiveness as :
+The [Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness) would define inclusiveness as:
 """ Quote "[Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness)"
     the quality of including many different types of people and treating them all fairly and equally
 
@@ -45,7 +45,7 @@ While keeping this in mind represents an important leap in inclusiveness of your
 
 # Intersectionality and plurality of experiences
 
-## What is intersectionality ?
+## What is intersectionality?
 
 In [Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color](https://www.jstor.org/stable/1229039), Kimberle Crenshaw defines intersectionality to address an issue she encountered as an jurist in the late 80’s in the US. When filling in cases about discriminations in work environment, lawyers must select the discrimination that their client is facing (for example, racism or sexism).
 
@@ -55,9 +55,9 @@ That is why Crenshaw defined intersectionality as a framework for understanding 
 
 ## Intersectionality in software
 
-What do we need the concept of intersectionality for in software development ?
+What do we need the concept of intersectionality for in software development?
 
-It’s actually very useful, for two main reasons !
+It’s actually very useful, for two main reasons!
 
 - The proportion of users with disabilities who happen to have more than one is important ([17.7% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC11545900/)). Thinking about designing for one disability leaves out a blank spot for users having that disability but also other conditions. For example, deaf users with low vision are often overlooked when thinking about accessibility. We will take a closer look at the appropriate stance to account for diversity in [Developer stance & user collaboration](B-DSU.md)
 
