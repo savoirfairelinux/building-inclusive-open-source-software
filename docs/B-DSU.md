@@ -49,7 +49,7 @@ Once that's done, count from 1 up to 10 and ask the trainees to raise their hand
 
 Who exactly is disabled is a question with no evident answer. According to the [2024 study](https://appt.org/en/stats) of the [APPT foundation](https://appt.org/en/about), a non profit based in the Netherlands, 61% of Dutch Android users and 45% of Dutch iOS users have one or more accessibility settings activated on their phone. A quarter of the Android user they surveyed used two or more accessibility features.
 
-![Stats about accessibility usage showing that 22% of iOS users and 24% of Android users have a bigger font size activated.](ressources/C-FromAccessibilityToInclusivity/accessibilitystatsbiggertext.png)
+![Stats about accessibility usage showing that 22% of iOS users and 24% of Android users have a bigger font size activated.](resources/b-how-to-start-incroporating-accessibility/accessibilitystatsbiggertext.png)
 
 <sub>Source: [APPT Foundation, Accessibility Statistics 2024](https://appt.org/en/stats)</sub>
 

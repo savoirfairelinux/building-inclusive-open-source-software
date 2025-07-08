@@ -25,8 +25,8 @@ Please note that we are not accessibility or inclusiveness experts, but passiona
 # How to navigate this training
 
 <div style="text-align: center;">
-    <a href="ressources/navigateThroughTheTrainingV2.png" target="_blank" style="display: inline-block;">
-        <img src="ressources/navigateThroughTheTrainingV2.png" alt="A navigation schematic. The first section is made to be navigated in a linear way except the platform specific assistive technologies that can be skipped. The second section is linear. The third section expects you to go through the base Inclusive Design module and then to the platform you are working on. You can skip this section if you are not a designer. As for the design section, the design platform has a base module and specific ones for different frameworks. The last conclusion section is linear." style="max-width: 100%; height: auto; cursor: zoom-in;" />
+    <a href="resources/navigateThroughTheTrainingV2.png" target="_blank" style="display: inline-block;">
+        <img src="resources/navigateThroughTheTrainingV2.png" alt="A navigation schematic. The first section is made to be navigated in a linear way except the platform specific assistive technologies that can be skipped. The second section is linear. The third section expects you to go through the base Inclusive Design module and then to the platform you are working on. You can skip this section if you are not a designer. As for the design section, the design platform has a base module and specific ones for different frameworks. The last conclusion section is linear." style="max-width: 100%; height: auto; cursor: zoom-in;" />
     </a>
     <br>
     <small>Click the image to view and zoom in full size.</small>
@@ -36,7 +36,12 @@ Please note that we are not accessibility or inclusiveness experts, but passiona
 
 If at any point through your reading, you find some mistakes or missing information, **please let us know** by opening an issue or a pull request. We will be happy to review it and incorporate it to the project. We will also be happy to integrate any new module you would like to write.
 
+<<<<<<< HEAD
 To run the project locally:
+=======
+
+To run the project locally :
+>>>>>>> main
 
 - Clone the repository
 
@@ -57,7 +62,7 @@ If you need any help incorporating your work in ours, please feel free to open a
 
 ## Using this project's content
 
-This project is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This means that you are free to share, adapt and use it's content (even for commercial use). **Please note that when doing so you need to give appropriate credit and to release your version under the same license, indicating if changes were made.**
+This project is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This means that you are free to share, adapt and use its content (even for commercial use). **Please note that when doing so you need to give appropriate credit and to release your version under the same license, indicating if changes were made.**
 
 # Resources
-[The editable file of how to navigate this training](ressources/navigateThroughTheTrainingV2.crswap)
+[The editable file of how to navigate this training](resources/navigateThroughTheTrainingV2.crswap)

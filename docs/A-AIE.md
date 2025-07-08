@@ -121,7 +121,7 @@ It’s quite clear that our goal is to minimize ableism in the software that we 
 
 ### 2.2 What is techno-ableism?
 
-Techno-ableism is a term defined by Ashley Shew in her book *[Against Technoableism, Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661)*, a lecture that we truly recommend.
+Techno-ableism is a term defined by Ashley Shew in her book [Against Technoableism: Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661), a lecture that we truly recommend.
 
 In the introduction of her book, she writes
 
@@ -163,7 +163,7 @@ Understanding those concepts are crucial to avoid very common misguided behavior
 
 [Loi accessibilité : cadre légal et obligations](https://www.info.gouv.fr/accessibilite/loi-accessibilite-cadre-legal-et-obligations)
 
-[Agile Accessibility Handbook](https://accessibility.deque.com/agile-accessibility-handbook)
+[Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)
 
 [Definition of ableism](https://dictionary.cambridge.org/dictionary/english/ableism)
 
