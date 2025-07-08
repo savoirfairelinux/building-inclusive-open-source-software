@@ -1,1 +1,1 @@
-# 🗺️ A-BCT Brief cartography of today’s accessibility landscape
+# 🗺️ Brief cartography of today’s accessibility landscape

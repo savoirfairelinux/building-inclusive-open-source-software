@@ -1,4 +1,4 @@
-# 🖥️ C-IDD Inclusive design for Desktop
+# 🖥️ Inclusive design for Desktop
 
 !!! Info "In this module"
     This module contains the basics of accessible and inclusive design for Desktop.
@@ -9,13 +9,13 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [🎨 C-IDE: Inclusive design 101](C-IDE.md), [🔧 A-ITD Inclusiveness technologies : Desktop](A-ITD.md)
+**📚 Prerequisites**: [🎨 Inclusive design 101](C-IDE.md), [🔧 Inclusiveness technologies : Desktop](A-ITD.md)
 
 ---
 
 ## When to use ?
 
-Use this module right after reading [🎨 C-IDE: Inclusive design 101](C-IDE.md) if you're designing applications for Desktop. It will give you insights on how to adapt those generic principles to your platform.
+Use this module right after reading [🎨 Inclusive design 101](C-IDE.md) if you're designing applications for Desktop. It will give you insights on how to adapt those generic principles to your platform.
 
 ## What are the resources ?
 
