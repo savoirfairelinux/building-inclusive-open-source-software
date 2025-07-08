@@ -9,9 +9,7 @@
 
 **⏱️ ️Duration**: 30'
 
-**📚 Prerequisites**: Accessibility, inclusion & exclusion, We are all disabled and unique
-
-**📖 Is a prerequisite to**: None
+**📚 Prerequisites**: None
 
 ---
 

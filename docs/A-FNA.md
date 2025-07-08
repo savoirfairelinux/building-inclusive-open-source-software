@@ -11,7 +11,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: A-ASP: Accessibility starting point
+**📚 Prerequisites**: [🚀 Accessibility starting point](A-ASP.md)
 
 ---
 

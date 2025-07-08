@@ -9,7 +9,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [🎨 Inclusive design 101](C-IDE.md), [📲 A-ATM: Assistive technologies: Mobile](A-ATM.md)
+**📚 Prerequisites**: [🎨 Inclusive design 101](C-IDE.md), [📲 Assistive technologies: Mobile](A-ATM.md)
 
 ---
 

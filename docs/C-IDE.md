@@ -10,7 +10,7 @@
 
 **⏱️ ️Duration**: 30'
 
-**📚 Prerequisites**: Accessibility, inclusion & exclusion, We are all disabled and unique
+**📚 Prerequisites**: [🫂 We are all disabled and unique](B-WDU.md)
 
 ---
 

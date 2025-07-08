@@ -9,9 +9,7 @@
 
 **⏱️ ️Duration**: 20'
 
-**📚 Prerequisites**: [A-FNA: Feeling the need for accessibility](A-FNA.md)
-
-**📖 Is a prerequisite to**: None
+**📚 Prerequisites**: [ 🫳🏿 Feeling the need for accessibility](A-FNA.md)
 
 ---
 
@@ -32,7 +30,7 @@ We then read the collective definition, and ask once again if anyone wants to ch
 
 ### 1.B Formal definitions of accessibility
 
-If you did the word-cloud of [Accessibility, inclusion & exclusion](A-ASP.md), you can go through the words that were proposed and try to match them to one of the following definition standpoints :
+If you did the word-cloud of [🚀 Accessibility, inclusion & exclusion](A-ASP.md), you can go through the words that were proposed and try to match them to one of the following definition standpoints :
 
 **From a product design standpoint**
 
