@@ -5,7 +5,7 @@
     Feeling the need for accessibility and the impacts of ableism will make it easier
     for trainees to engage.
 
-**⛳️ Section**: A. What is accessibility ?
+**⛳️ Section**: A. What is accessibility?
 
 **👥 Audience**: Everyone
 
@@ -15,7 +15,7 @@
 
 ---
 
-# When to use ?
+# When to use?
 
 This module gives both a statistical overview of accessibility, the opportunity to experience the need of its presence and how dreadful its absence can be.
 
@@ -55,7 +55,7 @@ Home pages tend to get more and more complex. While some websites are getting mo
 
 On this graph coming from the same study, you can see the evolution of the number of elements on home pages has been increasingly steadily over the past few years.
 
-You might be wondering, what are the most common accessibility shortcomings detected ? This chart is a good starting point to tackle the most obvious issues that our applications and websites might have.
+You might be wondering, what are the most common accessibility shortcomings detected? This chart is a good starting point to tackle the most obvious issues that our applications and websites might have.
 
 ![A graph showcasing the most common accessibility issues detected. In order: low contrast text, missing alt text, missing labels, empty links, empty buttons, missing language.](resources/a-what-is-accessibility/commonAccessibilityFailure.png)
 
@@ -65,7 +65,7 @@ As we saw through this module, despite being a crucial need for at least 20% of 
 
 Until now, we only mentioned accessibility and disability as vague concepts, but understanding and feeling what they mean conceptually is key to concretely improve your software.
 
-So… what exactly is accessibility ?
+So… what exactly is accessibility?
 
 
 # Sources

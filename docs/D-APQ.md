@@ -15,8 +15,8 @@
 
 ---
 
-# When to use ?
-Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainee to follow [👩‍💻 D-ICO Inclusive code 101](D-ICO.md) first.
+# When to use?
+Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainees to follow [👩‍💻 Inclusive code 101](D-ICO.md) first.
 
 # Description
 
@@ -32,7 +32,7 @@ It will try to automatically fill the accessibility fields but this often fails.
 - The **name**: this is the main title of your component, like for example "Create account Button" or "Language selection ComboBox".
 - The **description**: this should explain to the user what will happen if they interact with this component as well as any additional context information. It can be for example "Display your QR code to allow other users to scan it and add you as a contact" or "Use arrows to switch between available accounts".
 
-In QML code this would look like :
+In QML code this would look like:
 
 ```QML
 Accessible.role: Accessible.Button
@@ -42,21 +42,21 @@ Accessible.description: JamiStrings.qrCodeExplanation
 
 For many elements, like a message for example, you would want the accessibility to be grouped in ways that are not as obvious as the example above. Let's say that we want to design it for our chat-view. We only want the message to be focusable and it should contain all the information needed. In the [🎨 C-IDE: Inclusive design 101](C-IDE.md) module, we stated that the label should read something like:
 
-    "Michel Berger. 3 unread messages. You said : Thanks ! at 9:07.
-    Message status : sent. Pinned. Actions available.”
+    "Michel Berger. 3 unread messages. You said: Thanks! at 9:07.
+    Message status: sent. Pinned. Actions available.”
 
-The code producing an implementation close to this one would be :
+The code producing an implementation close to this one would be:
 ```cpp
     Accessible.role: Accessible.StaticText
     Accessible.name: {
-        let name = isOutgoing ? JamiStrings.inReplyToYou : UtilsAdapter.getBestNameForUri(CurrentAccount.id, Author)
+        let name = isOutgoing ? JamiStrings.inReplyToYou: UtilsAdapter.getBestNameForUri(CurrentAccount.id, Author)
         return name + ": " + Body + " " + formattedTime + " " + formattedDay
     }
     Accessible.description: {
         let status = ""
         if (bubble.isEdited) status += JamiStrings.edited + " "
         if (IsLastSent) status += JamiStrings.sent + " "
-        return status + (readers.length > 0 ? JamiStrings.readBy + " " + readers.join(", ") : "")
+        return status + (readers.length > 0 ? JamiStrings.readBy + " " + readers.join(", "): "")
     }
 ```
 ## Keyboard navigation
@@ -81,8 +81,8 @@ KeyNavigation.down: shareButton
 
 In some case like a contextual menu, you might want to add conditional navigation:
 ```QML
-KeyNavigation.backtab: index === 0 ? settingsButton : null
-KeyNavigation.tab: index === listView.count - 1 ? addAccountItem : null
+KeyNavigation.backtab: index === 0 ? settingsButton: null
+KeyNavigation.tab: index === listView.count - 1 ? addAccountItem: null
 KeyNavigation.up: KeyNavigation.backtab
 KeyNavigation.down: KeyNavigation.tab
 ```
