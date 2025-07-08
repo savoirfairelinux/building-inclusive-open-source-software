@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏃🏽‍♀️‍➡️ Where YOU go next!
 
 !!! Info "In this module"
