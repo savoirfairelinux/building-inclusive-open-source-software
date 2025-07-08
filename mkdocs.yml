@@ -36,7 +36,7 @@ theme:
         icon: material/weather-night
         name: Switch to system preference
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
@@ -54,7 +54,7 @@ nav:
   - From accessibility to inclusiveness:
     - 🫂 We are all disabled and unique: B-WDU.md
     #- 🏛️ Why does FOSS struggle with inclusiveness?:
-    #- 🔭 Inclusiveness needs overview: B-INO.md
+    - 🔭 Inclusiveness needs overview: B-INO.md
     - 🤺 Developer stance & user collaboration: B-DSU.md
     - ⚗️ Bring inclusiveness and accessibility to your pipeline: B-IAP.md
   - Designing inclusive and accessible software:
