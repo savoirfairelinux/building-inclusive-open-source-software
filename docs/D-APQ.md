@@ -15,13 +15,8 @@
 
 ---
 
-<<<<<<< HEAD
-# When to use ?
-Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainee to follow [👩‍💻 Inclusive code 101](D-ICO.md) first.
-=======
 # When to use?
 Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainees to follow [👩‍💻 Inclusive code 101](D-ICO.md) first.
->>>>>>> origin/main
 
 # Description
 
