@@ -4,11 +4,11 @@
 
 It all started with a statement:
 
-> Despite being deeply based on values of sharing and empowerment, FOSS projects often fail at being inclusive.
+> Despite being deeply based on values of sharing and empowerment, Free and Open Source Software (FOSS) projects often have difficulties in being inclusive.
 
 **This project aims at providing accessibility and inclusiveness knowledge for organizations and individuals who build open-source software.**
 
-This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. These modules cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to design and programming guidelines.
+This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. These modules cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to concrete design and programming guidelines.
 
 These modules should not be seen as holding the truth regarding the subjects tackled, but rather as a condensed introduction which goal is to help teams get started with accessibility and inclusiveness for their product.
 
@@ -18,9 +18,9 @@ The easiest way to access the content is via [the static web site built from thi
 
 This project started out as we - Page Magnier--Slimani ([Jami](https://jami.net/)) and Maxence Vahedi ([Olvid](https://olvid.io)) - struggled with the lack of awareness and specific resources on accessible and inclusive applicative development. We therefore began this collaborative project, which goal is to provide accessibility and inclusiveness resources to our teams and to the FOSS community.
 
-Please note that we are not accessibility or inclusiveness experts, but passionate people who did their best to provide qualitative content and who will be happy to get *any* feedback or contribution you may have! The applications we were working on at this time are not perfect by any means from an inclusiveness standpoint. With this project, we only try to provide some answers to the questions we had when beginning our work on accessibility and inclusiveness.
+Please note that we are not accessibility or inclusiveness experts, but passionate people who did their best to provide relevant content and who will be happy to get *any* feedback or contribution you may have! The applications we are working on at the time of writing are not perfect by any means from an inclusiveness standpoint. With this project, we only try to provide some answers to the questions we had when beginning our work on accessibility and inclusiveness.
 
-**We truly want this project to keep evolving beyond its original scope and our limited expertise.**
+**We truly want this project to keep evolving beyond its original scope and our limited expertise!**
 
 ## Navigating through the modules
 
