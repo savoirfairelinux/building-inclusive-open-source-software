@@ -178,7 +178,7 @@ That's why we recommend NVDA.
 
 [VoiceOver](https://www.apple.com/voiceover/info/guide/_1121.html) is the native screen reader for Apple products. It's known for being very  easy to learn making for a fluid and intuitive experience. In the screen reader comparison linked previously in this article, the user state that learning Jaws took them years compared to the week-end it took them to get used to VoiceOver.
 
-While being a very good, Voice Over is only available on apple machines and therefore often not useful to most users.
+While being a very good tool, VoiceOver is only available on apple machines and therefore often not useful to most users.
 
 ---
 
@@ -321,7 +321,7 @@ This can only be done properly if the team working on the project is actively li
 
 [Jaws](https://www.freedomscientific.com/products/software/jaws/)
 
-[Voice over](https://www.apple.com/voiceover/info/guide/_1121.html)
+[VoiceOver](https://www.apple.com/voiceover/info/guide/_1121.html)
 
 [Accessibility Insights for Windows](https://accessibilityinsights.io/)
 

@@ -110,7 +110,7 @@ And when you don't have the choice to work with custom components, remember to p
 ### 1.C Focus and explicit key navigation, choose the right tool at the right time (Desktop)
 
 
-In order to implement alternative navigation in your app (keyboard, voice over, talkback, vocal command, etc), on desktop, they are two main way of doing it: focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
+In order to implement alternative navigation in your app (keyboard, VoiceOver, talkback, vocal command, etc), on desktop, they are two main way of doing it: focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
 
 It happens very often that this flow of navigation breaks for numerous reasons, a pop-up could have appeared, new UI elements might be visible or maybe the elements are complex (sub-tabs in settings for example)
 
