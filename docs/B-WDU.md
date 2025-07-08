@@ -1,4 +1,4 @@
-# 🫂 B-WDU We are all disabled and unique : accessibility, plurality and intersectionality
+# 🫂 We are all disabled and unique : accessibility, plurality and intersectionality
 
 !!! Info "In this module"
     We will explore the concepts of intersectionality and inclusiveness and it’s use in software development

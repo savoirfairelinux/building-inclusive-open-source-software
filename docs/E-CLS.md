@@ -1,4 +1,4 @@
-# 💬 E-CLS: Collective sharing
+# 💬 Collective sharing
 
 !!! Info "In this module"
     This module allows participants to reflect on what they learned,

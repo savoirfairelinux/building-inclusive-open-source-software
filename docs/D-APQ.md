@@ -1,4 +1,4 @@
-# 📗 D-APQ Accessible programming with Qt
+# 📗 Accessible programming with Qt
 
 
 !!! Info "In this module"

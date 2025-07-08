@@ -1,4 +1,4 @@
-# 🫳🏿 A-FNA: Feeling the need for accessibility
+# 🫳🏿 Feeling the need for accessibility
 
 !!! Info "In this module"
     Sometimes, understanding a concept is not enough.

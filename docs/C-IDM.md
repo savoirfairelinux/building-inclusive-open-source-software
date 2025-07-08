@@ -1,4 +1,4 @@
-# 📱 C-IDM: Inclusive design for mobile
+# 📱 Inclusive design for mobile
 
 !!! Info "In this module"
     This module allows participants who take design decision on mobile to receive platform-specific advice.

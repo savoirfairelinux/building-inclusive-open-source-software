@@ -1,4 +1,4 @@
-# 🤺 B-DSU: Developer stance & user collaboration
+# 🤺 Developer stance & user collaboration
 
 !!! Info "In this module"
     When creating, finding the right stance can be perilous;

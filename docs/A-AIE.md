@@ -1,4 +1,4 @@
-# 👩‍🦽 A-AIE: Accessibility & Ableism
+# 👩‍🦽 Accessibility & Ableism
 
 !!! Info "In this module"
     This module introduces the concepts of accessibility and ableism, from various standpoints.
