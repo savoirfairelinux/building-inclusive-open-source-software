@@ -22,7 +22,7 @@ Please note that we are not accessibility or inclusiveness experts, but passiona
 
 **We truly want this project to keep evolving beyond its original scope and our limited expertise.**
 
-# How to navigate this training
+## Navigating through the modules
 
 <div style="text-align: center;">
     <a href="resources/navigateThroughTheTrainingV2.png" target="_blank" style="display: inline-block;">
