@@ -1,6 +1,5 @@
 # 🔧 Assistive technologies : Desktop
 
-
 !!! Info "In this module"
     This module gives a comprehensive list of accessibility testing tools (both
     manual and autonomous). The goal is not to get in depth on how to use them
@@ -18,7 +17,7 @@
 
 ---
 
-## When to use ?
+## When to use?
 
 This module is almost certainly a must have for an type of workers searching for the adequate tools.
 

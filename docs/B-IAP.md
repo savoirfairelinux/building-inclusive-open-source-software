@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module gives guidelines and advice on how to incorporate inclusiveness into your organization's workflows.
 
-**⛳️ Section**: A. What is accessibility ?
+**⛳️ Section**: A. What is accessibility?
 
 **👥 Audience**: Everyone, especially managers
 
