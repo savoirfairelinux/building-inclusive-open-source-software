@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module allows participants to get to know the major assistive technologies used on mobile devices. The goal is not to get in depth on how to use them but rather to help designers and developers get an idea of what is commonly used, and to find the relevant tools for their use cases.
 
-**⛳️ Section**: TODO
+**⛳️ Section**: A. What is accessibility ?
 
 **👥 Audience**: Everyone
 
@@ -13,7 +13,7 @@
 
 ---
 
-# Description
+## Introduction
 
 There are infinite unique (and combining) ways of interacting with mobile devices. In this module, we'll try to cover the most commonly used assistive technologies so that you can get an idea of the ways your users might be interacting with your app.
 
@@ -63,6 +63,6 @@ Users can also use their voice to choose which elements to select. Labeling your
 
 Depending on the OS, there are many ways users can fine-tune their experience through accessibility settings. Your role as a software builder is to test your interface with many combinations of settings to make sure it works well. While we won't go through these here, you can browse your device's settings to discover all the possibilities your OS offers, as well as check out [this great resource](https://appt.org/en/docs) for general information on platform-specific mobile assistive technologies.
 
-# (Re)sources
+## Resources
 
 [AAPT's Accessibility documentation](https://appt.org/en/docs)

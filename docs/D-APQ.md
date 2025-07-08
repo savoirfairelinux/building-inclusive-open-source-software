@@ -15,10 +15,10 @@
 
 ---
 
-# When to use ?
+## When to use ?
 Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainee to follow [👩‍💻 D-ICO Inclusive code 101](D-ICO.md) first.
 
-# Description
+## Introduction
 
 There are only few example of good accessibility implementation using Qt. Even the one provided by Qt themselves are limited to a single static page with a few elements. Therefore, we will go through all of Qt's main accessibility elements while taking a look at a complex UI element, a chat view.
 
@@ -106,7 +106,7 @@ ListView {
 
 The [QAccessibleInterface Class](https://doc.qt.io/qt-6/qaccessibleinterface.html) is useful to create inclusive user interfaces. It implements a pure virtual API that allows assistive technologies like braille displays or screen readers to directly access information about accessible objects. We have less experience with it as we haven't implemented it on applications we are working on yet. You can find very comprehensive information about it in [this typevar article](https://typevar.dev/en/docs/qt/qaccessibleinterface)
 
-# Sources
+## Sources
 [Qt's documentation of QAccessible Class](https://doc.qt.io/qt-6/qaccessible.html#Role-enum)
 [Qt's documentation of QAccessible::Role](https://doc.qt.io/qt-6/qaccessible.html?search=item#Role-enum)
 [Qt's documentation of KeyNavigation class](https://doc.qt.io/qt-6/qml-qtquick-keynavigation.html#details)

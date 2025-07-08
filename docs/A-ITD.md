@@ -18,7 +18,7 @@
 
 ---
 
-# When to use ?
+## When to use ?
 
 This module is almost certainly a must have for an type of workers searching for the adequate tools.
 
@@ -316,7 +316,7 @@ You should try and make those user groups as diverse as possible. You could post
 
 This can only be done properly if the team working on the project is actively listening to the feedback they get. Their should be a way of keeping track of the different problems raised by the users and the progress made on fixing them. The product and design team should have occasional sessions and calls with some users to discuss precisely how they would want to implement something (for example what implementation of keyboard navigation feels more intuitive). This can be massively useful during prototyping.
 
-# Resources
+## Resources
 
 [NVDA](https://www.nvaccess.org/download/)
 
@@ -328,7 +328,7 @@ This can only be done properly if the team working on the project is actively li
 
 [Wave](https://wave.webaim.org/)
 
-# Sources
+## Sources
 
 [Accessibility Testing Tools Overview](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
 

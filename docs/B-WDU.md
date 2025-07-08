@@ -16,14 +16,14 @@
 ---
 
 
-# When to use ?
+## When to use ?
 
 This module is necessary to deconstruct the idea that accessibility is merely about designing for users who can't see or hear.
 
 ---
 
-# Inclusiveness and co-creation
-## Who is disabled ?
+## Inclusiveness and co-creation
+### Who is disabled ?
 
 Since the beginning of this training, we have been referring to the disabled people in the 3rd person, as if they were "others". The truth is, some of us writing this are disabled, some of you reading this are, as we all will be some day. The barrier between the able-bodied and the disabled is a lot more porous than we could think at first glance.
 
@@ -35,7 +35,7 @@ While this convenience for some is surely necessary for others, we can appreciat
 
 **Therefore, it's crucial to not think disabled peoples as a minority but rather as the living diversity that we will all become.**
 
-## What is inclusiveness ?
+### What is inclusiveness ?
 
 The [Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness) would define inclusiveness as :
 """ Quote "[Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness)"
@@ -45,9 +45,9 @@ Inclusiveness is a core concept when talking about diversity. It's often a prefe
 
 While keeping this in mind represents an important leap in inclusiveness of your product, understanding how discriminations are related to each other is crucial to being inclusive and understand your users. **There is no inclusiveness without intersectionality.** That is why the rest of this module will be dedicated to it.
 
-# Intersectionality and plurality of experiences
+## Intersectionality and plurality of experiences
 
-## What is intersectionality ?
+### What is intersectionality ?
 
 In [Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color](https://www.jstor.org/stable/1229039), Kimberle Crenshaw defines intersectionality to address an issue she encountered as an jurist in the late 80’s in the US. When filling in cases about discriminations in work environment, lawyers must select the discrimination that their client is facing (for example, racism or sexism).
 
@@ -55,7 +55,7 @@ This is where Crenshaw had a problem: some of her clients were black women, whos
 
 That is why Crenshaw defined intersectionality as a framework for understanding **specific living experiences of people situated at the intersection of discriminations and privileges**. In her case, that was to showcase the specific oppression that black women lived, that could not be explained by sexism and racism. The intersection of the “black” and “women” oppressions produced a new specific one, different of the addition of the two.
 
-## Intersectionality in software
+### Intersectionality in software
 
 What do we need the concept of intersectionality for in software development ?
 
@@ -88,7 +88,7 @@ The solution that Apple chose to adopt was to train their model to concentrate o
 
 
 
-# Sources
+## Sources
 [Crenshaw, Kimberle. “Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color.” Stanford Law Review, vol. 43, no. 6, 1991, pp. 1241–99.](https://www.jstor.org/stable/1229039)
 
 [Kohzuki M. Multimorbidity and Multiple Disabilities: Present Status and the Roles of Rehabilitation. J Clin Med. 2024 Oct 23;13(21):6351.](https://pmc.ncbi.nlm.nih.gov/articles/PMC11545900/)
