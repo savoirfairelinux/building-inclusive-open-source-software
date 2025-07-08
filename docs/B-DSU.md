@@ -45,11 +45,7 @@ Provide a piece of paper to all of the trainees attempting the training. Ask the
 
 Once that's done, count from 1 up to 10 and ask the trainees to raise their hand on the number corresponding with their score. Precise this part of the workshop is entirely optional. To ease of trainees you can also raise your hand on the number corresponding to your own results. This should help the group to start reflecting on their own biases. Note that you can adapt those questions to fit the cultural environment in which you give this formation.
 
-<<<<<<< HEAD
-### Who is disabled ?
-=======
-## Who is disabled?
->>>>>>> origin/main
+### Who is disabled?
 
 Who exactly is disabled is a question with no evident answer. According to the [2024 study](https://appt.org/en/stats) of the [APPT foundation](https://appt.org/en/about), a non profit based in the Netherlands, 61% of Dutch Android users and 45% of Dutch iOS users have one or more accessibility settings activated on their phone. A quarter of the Android user they surveyed used two or more accessibility features.
 

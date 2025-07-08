@@ -5,6 +5,7 @@
 It all started with a statement:
 
 > Despite being deeply based on values of sharing and empowerment, Free and Open Source Software (FOSS) projects often lack inclusiveness and accessibility.
+
 **This project aims at providing accessibility and inclusiveness knowledge for organizations and individuals who build open-source software.**
 
 This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. These modules cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to concrete design and programming guidelines.
