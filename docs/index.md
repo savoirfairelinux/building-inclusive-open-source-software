@@ -4,7 +4,7 @@
 
 It all started with a statement:
 
-> Despite being deeply based on values of sharing and empowerment, Free and Open Source Software (FOSS) projects often have difficulties in being inclusive.
+> Despite being deeply based on values of sharing and empowerment, Free and Open Source Software (FOSS) projects often lack inclusiveness and accessibility.
 
 **This project aims at providing accessibility and inclusiveness knowledge for organizations and individuals who build open-source software.**
 
