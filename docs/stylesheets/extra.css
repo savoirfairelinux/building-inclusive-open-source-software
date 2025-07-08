@@ -13,7 +13,7 @@
   --md-code-bg-color:           hsla(200, 0%, 96%, 1);
 
   /* ACCENT */
-  --md-accent-fg-color:         #6E468B;
+  --md-accent-fg-color:         #8F60AF;
   --md-accent-bg-color:         #6E468B;
 
   /* DEFAULT FG & BG */
@@ -29,15 +29,15 @@
 
   /* TYPESET */
   --md-typeset-color:                  #000000;
-  --md-typeset-a-color:                #000000;
-  --md-typeset-del-color:              #000000;
-  --md-typeset-ins-color:              #000000;
-  --md-typeset-kbd-color:              #000000;
-  --md-typeset-kbd-accent-color:       #000000;
-  --md-typeset-kbd-border-color:       #000000;
-  --md-typeset-mark-color:             #000000;
-  --md-typeset-table-color:            #000000;
-  --md-typeset-table-color--light:     #000000;
+  --md-typeset-a-color:                #6E468B;
+  --md-typeset-del-color:              #6E468B;
+  --md-typeset-ins-color:              #6E468B;
+  --md-typeset-kbd-color:              #6E468B;
+  --md-typeset-kbd-accent-color:       #6E468B;
+  --md-typeset-kbd-border-color:       #6E468B;
+  --md-typeset-mark-color:             #6E468B;
+  --md-typeset-table-color:            #6E468B;
+  --md-typeset-table-color--light:     #DEC2FF;
 
   /* FOOTER */
   --md-footer-fg-color:                #000000;
@@ -83,15 +83,15 @@
 
   /* TYPESET */
   --md-typeset-color:                  #FFFFFF;
-  --md-typeset-a-color:                #FFFFFF;
-  --md-typeset-del-color:              #FFFFFF;
-  --md-typeset-ins-color:              #FFFFFF;
-  --md-typeset-kbd-color:              #FFFFFF;
-  --md-typeset-kbd-accent-color:       #FFFFFF;
-  --md-typeset-kbd-border-color:       #FFFFFF;
-  --md-typeset-mark-color:             #FFFFFF;
-  --md-typeset-table-color:            #FFFFFF;
-  --md-typeset-table-color--light:     #FFFFFF;
+  --md-typeset-a-color:                #DEC2FF;
+  --md-typeset-del-color:              #DEC2FF;
+  --md-typeset-ins-color:              #DEC2FF;
+  --md-typeset-kbd-color:              #DEC2FF;
+  --md-typeset-kbd-accent-color:       #DEC2FF;
+  --md-typeset-kbd-border-color:       #DEC2FF;
+  --md-typeset-mark-color:             #DEC2FF;
+  --md-typeset-table-color:            #DEC2FF;
+  --md-typeset-table-color--light:     #DEC2FF;
 
   /* FOOTER */
   --md-footer-fg-color:                #FFFFFF;

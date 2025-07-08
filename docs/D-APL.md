@@ -1,4 +1,4 @@
-# 🍎 E-APL: Accessible programming for Apple platforms
+# 🍎 Accessible programming for Apple platforms
 
 !!! Info "In this module"
     This module introduces to the practice of programming accessibility for Apple platforms.
