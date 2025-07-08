@@ -1,4 +1,4 @@
-# 📱 C-IDM: Inclusive design for mobile
+# 📱 Inclusive design for mobile
 
 !!! Info "In this module"
     This module allows participants who take design decision on mobile to receive platform-specific advice.
@@ -9,7 +9,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [🎨 Inclusive design 101](C-IDE.md), [📲 A-ATM: Assistive technologies: Mobile](A-ATM.md)
+**📚 Prerequisites**: [🎨 Inclusive design 101](C-IDE.md), [📲 Assistive technologies: Mobile](A-ATM.md)
 
 ---
 

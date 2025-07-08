@@ -23,7 +23,7 @@ This module is almost certainly a must have for an type of workers searching for
 
 ## What to avoid
 
-As we saw in [🗺️ A-BCT Brief cartography of today’s accessibility landscape](A-BCT.md), some tools are really despised by accessibility and inclusiveness experts and with valid reasons. We could summarize by saying: **stay away from AI accessibility tools**. They are often more detrimental than anything. Accessibility is really hard to automate specifically because it's about embracing diversity and learning from other's needs. Using AI tools could make you technically compliant with some legislation (for example filling all of the empty labels on your application) but it won't make your application usable by people with disabilities.
+As we saw in [🗺️ Brief cartography of today’s accessibility landscape](A-BCT.md), some tools are really despised by accessibility and inclusiveness experts and with valid reasons. We could summarize by saying: **stay away from AI accessibility tools**. They are often more detrimental than anything. Accessibility is really hard to automate specifically because it's about embracing diversity and learning from other's needs. Using AI tools could make you technically compliant with some legislation (for example filling all of the empty labels on your application) but it won't make your application usable by people with disabilities.
 
 The errors automatically detected highly depends of context (for example a long accessibility label is not necessarily a bad thing if attached to a schematic but will be flagged automaticly as an issue). Furthermore, the fixes are often clunky, unintuitive and don't take the specific of the application architecture into account.
 

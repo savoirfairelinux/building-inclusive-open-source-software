@@ -1,8 +1,4 @@
-<<<<<<< HEAD:docs/F-WYG.md
-# 🏃🏽‍♀️‍➡️ F-WYG: Where YOU go next!
-=======
-# 🏃🏽‍♀️‍➡️ E-WYG: Where YOU go next !
->>>>>>> main:docs/E-WYG.md
+# 🏃🏽‍♀️‍➡️ Where YOU go next!
 
 !!! Info "In this module"
     This module is a small workshop reflecting on what to do next to make the team's app more accessible. It is useful to get the ball rolling in the trained team.
@@ -14,8 +10,6 @@
 **⏱️ ️Duration**: 15'
 
 **📚 Prerequisites**: None
-
-**📖 Is a prerequisite to**: None
 
 ---
 

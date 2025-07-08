@@ -1,4 +1,4 @@
-# 👩‍💻 D-ICO Inclusive code 101
+# 👩‍💻 Inclusive code 101
 
 !!! Info "In this module"
     This module provides general information needed for building accessible code on
@@ -10,7 +10,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [B-WDU We are all disabled and unique : accessibility, plurality and intersectionality](B-WDU.md)
+**📚 Prerequisites**: [🫂 We are all disabled and unique : accessibility, plurality and intersectionality](B-WDU.md)
 
 ---
 

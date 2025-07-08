@@ -1,4 +1,4 @@
-# 🎨 C-IDE: Inclusive design 101
+# 🎨 Inclusive design 101
 
 !!! Info "In this module"
     This module aims at giving accessibility and inclusiveness essentials for app
@@ -10,7 +10,7 @@
 
 **⏱️ ️Duration**: 30'
 
-**📚 Prerequisites**: Accessibility, inclusion & exclusion, We are all disabled and unique
+**📚 Prerequisites**: [🫂 We are all disabled and unique](B-WDU.md)
 
 ---
 
