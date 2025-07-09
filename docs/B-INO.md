@@ -48,7 +48,18 @@ Some users will experience motion sickness when presented with fast moving eleme
 
 ### Color blindness
 
+A less evident visual impairment is color blindness. This one relatively straight forward: **make sure your UI doesn't rely on color elements alone to be conveying an information. For example if a colored dot indicate wether a user is connected or not, it should be accompanied by a text label or an icon.
+
 ### Cognitive impairment
+
+Cognitive impairments are a key element to be thinking about when designing. Indeed, it affects [16% of users](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Accessibility can be improved for this demographic by allowing for highly customizable applications and UIs.
+
+In [👩‍🦽 Accessibility & Ableism](A-AIE.md) we saw a quote of Ashley Shew showcasing how Discord became a welcoming place for many autistic people.
+
+!!! Quote "Ashley Shew, *[Against Technoableism, Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661)*"
+    Awni mentioned Discord as a social platform “easily adapted by autistic users to facilitate autistic-styled communication due to its flexibility both with custom emotes and for purpose-centric server organization.” Gardiner pointed to the importance of letting autistic people lead tech conversations with what they want and how they want to do things. This doesn’t mean jumping in to teach autistic people to play games in the way allistic people do but rather letting the “nothing about us without us” lesson of the disability rights movement carry into this space: to learn from autistic people how to use spaces autistically.
+
+Making a simplified form of your UI can also be a useful feature.
 
 ### Motor disabilities
 
