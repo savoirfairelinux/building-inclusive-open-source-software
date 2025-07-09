@@ -159,7 +159,7 @@ To address those issues in the Olvid app, the team worked on helpers that facili
 !!! Info
     In this section, we will be using for example purposes some code extracts from [the Olvid iOS client](https://github.com/olvid-io/olvid-ios), which is licensed under the [GNU Affero General Public License v3](https://github.com/olvid-io/olvid-ios/blob/main/LICENSE).
 
-The goals were to **facilitate, structure and harmonize** the way accessibility is implemented across the codebase. Here is what we ended up with:
+The goals were to **facilitate, structure and harmonize** the way accessibility is implemented across the codebase. Based on our needs, here is what we ended up with:
 
 - A protocol requiring to provide accessibility attributes.
 - A struct giving those accessibility attributes.
@@ -205,6 +205,7 @@ private struct HorizontalListOfUsersViewCell: View {
 
 ```
 
+Please note this architecture is not to be seen as the perfect way to go. We hope it will inspire you to build your own!
 
 ## Accessibility in UIKit
 
@@ -226,3 +227,11 @@ This is a tool that allows you to inspect any accessibility element on your devi
 Once you've done all of this work, you probably want users who value accessibility to know that your app is worth downloading and testing. Apple recently added what they call the [Accessibility Nutrition Labels](https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels/) which are essentially a way of telling users which accessibility features you implemented in your app.
 
 It's also a good idea to indicate to which technologies or disabilities your app is not accessible. If your app is not ready for being accessible to VoiceOver users, being transparent about it will avoid users who rely on it to try your app and get frustrated.
+
+## Wrapping up
+
+- Apple provides powerful tools for you to achieve great accessibility in your apps.
+- Apple's accessibility model is based on elements and attributes. Providing as many as relevant will help assistive technologies work well with your solution.
+- Knowing about the features used by your users is crucial as it is the first step towards understanding their needs. Some features listed in the module can also be a source of inspiration for you to provide innovative and intuitive way of interacting with your app.
+- SwiftUI accessibility leverages the flexibility of view modifiers, which is paid at the price of code readability and structure. Once you've identified patterns in the way you and your team use Apple accessibility's framework, you can build helper functions that will facilitate, harmonize and structure accessibility across your codebase.
+- Accessibility Nutrition Labels allow developers to let the users know which accessibility features they can expect when downloading your app.
