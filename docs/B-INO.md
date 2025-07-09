@@ -19,9 +19,22 @@ This module should be used when already having a basis of what accessibility and
 
 ## Main disabilities to account for in softwares
 
+The list of disabilities are the main ones you will need to directly take into account for software development. It is evidently non-exhaustive. Keep in mind that disability is not a binary state but rather represent a wide variety of living experiences and that a lot of users will have multiple disabilities at once.
+
 ### Low vision
 
 ### Deafness
+
+### Motion sickness
+
+Some users will experience motion sickness when presented with fast moving elements. You should be aware of that, providing them with solutions for a less triggering experience. Known triggers include:
+
+- Zooms
+- Flashing or blinking
+- Animations playing automatically without user interaction
+- Parallax effects
+
+### Color blindness
 
 ### Cognitive impairment
 

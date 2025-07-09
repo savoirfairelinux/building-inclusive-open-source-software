@@ -32,7 +32,7 @@ Making an inclusive app is thus taking care of everyone, including minorities.
 
 For every feature, every interface, every content that you are building, always ask yourself: is this element inclusive? Are there human characteristics that could prevent a user from understanding, interacting, or even feeling well with the provided content?
 
-Here is a *non-exhaustive* list of human characteristics to keep in mind in order to include as many people as possible:
+As seen in [🔭 Inclusive needs overview](B-INO.md), here is a *non-exhaustive* list of human characteristics to keep in mind in order to include as many people as possible:
 
 - Age
 - Culture
@@ -210,7 +210,7 @@ A simple and intuitive UI benefits everyone. But while this might be a convenien
 
 ### The UI has options to prevent motion sickness
 
-Some people experience motion sickness when looking at animations. Some platforms allow the developers of third party apps to know whether the user as activated a setting reducing motion. It’s a good idea to include an annotation (we will tackle annotations more globally in TODO) letting the developers know when there is a know trigger to be optionally deactivated. Known triggers include:
+Some people experience motion sickness when looking at animations. Some platforms allow the developers of third party apps to know whether the user as activated a setting reducing motion. It’s a good idea to include an annotation (we will tackle annotations more globally in TODO) letting the developers know when there is a know trigger to be optionally deactivated. As mentioned in [🔭 Inclusive needs overview](B-INO.md), known triggers include:
 
 - Zooms
 - Flashing or blinking
