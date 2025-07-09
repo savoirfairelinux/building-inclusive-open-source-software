@@ -23,7 +23,7 @@ The list of disabilities are the main ones you will need to directly take into a
 
 ### Low vision
 
-Visual impairment affects up to 17% of users [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Therefore, you will need to make your application usable with assistive technologies like screen-readers or braille displays as well as a keyboard alone.
+Visual impairment affects up to 17% of users [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Therefore, you will need to make your application usable with assistive technologies like screen-readers or braille displays as well as a keyboard alone. You should also be supporting UI scaling, at least the system one.
 
 Here is an example of navigation between elements providing feedback to an assistive technology like a screen reader.
 
@@ -63,7 +63,16 @@ Making a simplified form of your UI can also be a useful feature.
 
 ### Motor disabilities
 
+Affecting up to 19% of users, many people can have difficulty using a phone, a keyboard or a mouse. They often have alternative input devices like switches or audio controlling. You must take them into account when designing your user experience (UX).
+
+<figure markdown="span">
+  ![Picture of a switch with two buttons, one is white and the other is yellow.](resources/a-what-is-accessibility/switch.jpg){ width="300" }
+  <figcaption>Accessibility switch</figcaption>
+</figure>
+
 ### Speech or language
+
+Speech or language related disabilities can take various forms ranging from dyslexia, illiteracy or elocution difficulties. Some of the solutions will include speech-to-text features, support for custom typefaces like [Open Dyslexic](https://opendyslexic.org/) or spell-checkers.
 
 ## Intersectional needs
 
