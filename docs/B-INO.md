@@ -25,6 +25,8 @@ The list of disabilities are the main ones you will need to directly take into a
 
 ### Deafness
 
+18% of users are hearing-impaired [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). For more specific informations on their needs, you can check the [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/#time-based-media) of the W3C. You will mostly need to provide redundant access to all auditive information. This can be for example a visual notification accompanying all sounds or real-time subtitling like the [Whisper Transcript plugin on Jami](https://jami.net/plugins/).
+
 ### Motion sickness
 
 Some users will experience motion sickness when presented with fast moving elements. You should be aware of that, providing them with solutions for a less triggering experience. Known triggers include:
@@ -39,6 +41,8 @@ Some users will experience motion sickness when presented with fast moving eleme
 ### Cognitive impairment
 
 ### Motor disabilities
+
+### Speech or language
 
 ## Intersectional needs
 
@@ -64,3 +68,9 @@ In the [🎨 Inclusive design 101](C-IDE.md) module we will develop further the 
 Realistically, you cannot predict and account perfectly for all of those characteristics, because they are spectrums rather than fixed labels. The best you can do, is actively seek and listen to feedback from diverse user groups and make sure your team is as diverse as possible.
 
 Some of the tools that we will share later in this training should still help you go through the main accessibility and inclusiveness elements when designing and developing.
+
+## Sources
+
+[Microsoft, *Accessibility (Design basics)*](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility)
+
+[W3C, *How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/#time-based-media)
