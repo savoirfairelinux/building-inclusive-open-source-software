@@ -3,11 +3,11 @@
 !!! Info "In this module"
     This module introduces to Apple's accessibility features, and to the practice of programming accessibility for Apple platforms.
 
-**⛳️ Section**: E. Programming inclusive and accessible software
+**⛳️ Section**: D. Programming inclusive and accessible software
 
 **👥 Audience**: Developers and product teams
 
-**⏱️ ️Duration**: 15'
+**⏱️ ️Duration**: 25'
 
 **📚 Prerequisites**: [👩‍💻 Inclusive code 101](D-ICO.md)
 
