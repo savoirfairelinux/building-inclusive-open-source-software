@@ -1,4 +1,4 @@
-# 🤺 B-DSU: Developer stance & user collaboration
+# 🤺 Developer stance & user collaboration
 
 !!! Info "In this module"
     When creating, finding the right stance can be perilous;
@@ -18,13 +18,13 @@
 
 ---
 
-# When to use?
+## When to use?
 
 This module tries to provide the trainees with a reflection on what one's perspective on the world is and how to attempt to account for other's ones.
 
-# Description
+## Description
 
-## Who are you?
+### Who are you?
 
 Who are we as people? We all have a singular, partial perspective of the world. These comes with biases but also insights and experiences. Opening up to different views is always a tough process. In [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9), Rob Whitaker gives an exercise to identify our biases. The following workshop is a variation adapted from theirs.
 
@@ -45,7 +45,7 @@ Provide a piece of paper to all of the trainees attempting the training. Ask the
 
 Once that's done, count from 1 up to 10 and ask the trainees to raise their hand on the number corresponding with their score. Precise this part of the workshop is entirely optional. To ease of trainees you can also raise your hand on the number corresponding to your own results. This should help the group to start reflecting on their own biases. Note that you can adapt those questions to fit the cultural environment in which you give this formation.
 
-## Who is disabled?
+### Who is disabled?
 
 Who exactly is disabled is a question with no evident answer. According to the [2024 study](https://appt.org/en/stats) of the [APPT foundation](https://appt.org/en/about), a non profit based in the Netherlands, 61% of Dutch Android users and 45% of Dutch iOS users have one or more accessibility settings activated on their phone. A quarter of the Android user they surveyed used two or more accessibility features.
 
@@ -66,9 +66,9 @@ Disability is not something easy to categorize. A lot of disabilities are not vi
 
 Depending of the circumstances, we are all disabled and we will all be. As stated previously, disability is plural, a shallow category that shouldn't negate intersectional thinking.
 
-## Who do you want to be?
+### Who do you want to be?
 
-### Disability experts and disabled experts
+#### Disability experts and disabled experts
 In [Against Technoableism: rethinking who needs improvement](https://wwnorton.com/books/9781324036661), Ashley Shew also writes extensively about expertise on accessibility. While disabled experts are often not taken seriously, some of their able-bodied peers consider themselves experts at understanding one's needs. She states:
 
 !!! Quote "Ashley Shew, *[Against Technoableism, Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661)*"
@@ -76,12 +76,12 @@ In [Against Technoableism: rethinking who needs improvement](https://wwnorton.co
 
 We cannot replace the perspectives of people with disabilities simply by reading about them or running a series of automated tests. We highly encourage recruiting people from diverse backgrounds in your team. The whole project will benefit from varying perspectives and it could help to leverage against systemic exclusion and hiring discriminations which affect minorities. In fact, [a study from the Chartered Institute for IT](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/) states that in the UK alone, "Nearly 90,000 disabled people are 'missing' from tech industry".
 
-**But your working environment will never be representative of the whole world and every user.** As quoted from [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9) in [🔭 B-INO Inclusive needs overview](B-INO.md):
+**But your working environment will never be representative of the whole world and every user.** As quoted from [Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9) in [🔭 Inclusive needs overview](B-INO.md):
 
 !!! Quote "Ashley Shew, *[Against Technoableism, Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661)*"
     “Employing the word “users” can result in falling into the trap of thinking of users as one group – an amalgamation of people who are out there somewhere in the world using your app, a group of people that you’ll never meet and never know. This form of “group think” leads to creating a “one-size-fits-all” solution that, like everything claiming to be “one size fits all,” in reality fits no one.”
 
-### Embracing diversity
+#### Embracing diversity
 
 **As we need to embrace diversity, it is crucial to fight a natural urge of all software creators: the will to personally find, design, and implement the solution to every problem. There is no one solution, and if there were, you would probably not be the one to find it. Your role as a software builder is to reach out to the real accessibility experts: those who rely on accessibility and experience its flaws every day, i.e. people with disabilities. Therefore, rather than trying to produce a "perfectly accessible" and inclusive product, we would rather suggest to try and make the main features as inclusive as possible and then get feedback from diverse users on what are their main issues with your software are.**
 
@@ -91,7 +91,7 @@ This does not mean your role in the feedback process is passive. Providing the s
 
 This does not mean either that your expertise is useless if you are not experiencing the discriminations for which you are assessing your products. As you know the product you are building and what experience you are aiming for, you - as a product engineer, designer, or even developer - will be necessary to understanding what can be enhanced. For example, users with low vision or who are blind cannot give feedback on elements of the interface they ignore. If an element is not reachable, they may not be able to tell you that it's not accessible, as they have no way of knowing its existence. The best way of tackling those issues is by directly looking at them using the application. It's only at the intersection of your two expertise that an understanding of what goes wrong can emerge. And this is why we recommend testing next to the user which is the best way to understand how your product is being used! This will avoid you getting some feedback like: "sometimes when creating an account, my screen reader stops working" - an unclear issue which is yet the best that can be given to you.
 
-# Sources
+## Sources
 
 [Whitaker Rob. *Developing Inclusive Mobile Apps, Building Accessible Apps for iOS and Android*, 2020.](https://link.springer.com/book/10.1007/978-1-4842-5814-9)
 

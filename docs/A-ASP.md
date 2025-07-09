@@ -1,4 +1,4 @@
-# 🚀 A-ASP: Accessibility starting point
+# 🚀 Accessibility starting point
 
 !!! Info "In this module"
     This short module allows people to share anonymously their initial position by

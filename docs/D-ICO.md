@@ -1,4 +1,4 @@
-# 👩‍💻 D-ICO Inclusive code 101
+# 👩‍💻 Inclusive code 101
 
 !!! Info "In this module"
     This module provides general information needed for building accessible code on
@@ -10,23 +10,21 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [B-WDU We are all disabled and unique : accessibility, plurality and intersectionality](B-WDU.md)
+**📚 Prerequisites**: [🫂 We are all disabled and unique : accessibility, plurality and intersectionality](B-WDU.md)
 
 ---
 
-# When to use?
+## When to use?
 
 This module should be used with trainees before diving into the accessibility specificities of their platform, language or framework. It aims at settling good practices and avoiding common accessibility pitfalls.
 
-# Description
-
-## 1. Development mindset: Accessible code is good code
+## Development mindset : Accessible code is good code
 
 As we will see in this section, bad accessibility can often be a symptom of flawed code. That’s good news! It means that fixing it often only requires good code practices.
 
 ---
 
-### 1.A - Custom components and accessibility
+### Custom components and accessibility
 
 Many applicative frameworks come packed with standards components (like labels, buttons, timers, etc.). To put it simply, the main takeaway of this section would be:
 
@@ -57,7 +55,7 @@ If however you decide to make a custom component, make sure you implement extens
 
 ---
 
-### 1.B - What bad accessibility says about our code: a few concrete examples
+### What bad accessibility says about our code: a few concrete examples
 
 Accessibility and inclusiveness in programming have one key benefit: making you think twice about your code. As said previously, stumbling into an accessibility issue might mean that you could be doing something better in a different way.
 
@@ -107,7 +105,7 @@ In this case, the fix was rather simple: use the base component rather the custo
 
 And when you don't have the choice to work with custom components, remember to pay close attention to your framework's accessibility APIs and guidelines to make sure your components can blend in.
 
-### 1.C Focus and explicit key navigation, choose the right tool at the right time (Desktop)
+### Focus and explicit key navigation, choose the right tool at the right time (Desktop)
 
 
 In order to implement alternative navigation in your app (keyboard, VoiceOver, talkback, vocal command, etc), on desktop, they are two main way of doing it: focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
@@ -131,9 +129,9 @@ KeyNavigation.down: KeyNavigation.tab
 
 ---
 
-## 2. Development process
+## Development process
 
-### 2.A What can be automated?
+### What can be automated?
 
 
 What can be automated is a tricky question. As we stated previously, inclusiveness is a process and the need for an intersectional perspective make it impossible to think ahead every need that diverse user with complex background and set of ability might have.
@@ -195,7 +193,7 @@ Does it has elements showing cultural significance?
 
     - If you hope yes: You are good to go!
 
-### 2.B Accessible API’s & back-end
+### Accessible API’s & back-end
 
 
 On the back-end too, accessible code is good code. A well-designed architecture or API will be more understandable for everyone to understand and iterate on, particularly for open source software.
@@ -209,19 +207,19 @@ Here are some key elements to making your API accessible:
     - Write clear sentences with simple language that will enable everyone to understand the purpose of your code.
     - If your documentation is built to HTML, check with [the WAVE tool](https://wave.webaim.org/) that it is WCAG-compliant.
 
-## 3. Conclusion
+## Conclusion
 
 Accessible programming can be overwhelming, mostly due to the lack of resources for native apps, but with the right tools it’s absolutely bearable.
 Remember that accessibility issues in your code often hide underlying issues. Also remember to set up proper workflows and tests.
 
 From here, you might want to take a look at some of our modules about inclusive programming for different platforms, ecosystems and frameworks.
 
-# Resources
+## Resources
 
 [QuickInclusivenessCheck.excalidraw](resources/d-programming-inclusive-and-accessible-software/quickInclusivenessCheck.excalidraw)
 
 [WAVE Accessibility tool](https://wave.webaim.org/)
 
-# Sources
+## Sources
 
 [Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)

@@ -17,13 +17,13 @@
 
 ---
 
-# When to use?
+## When to use?
 
 This module is almost certainly a must have for an type of workers searching for the adequate tools.
 
 ## What to avoid
 
-As we saw in [🗺️ A-BCT Brief cartography of today’s accessibility landscape](A-BCT.md), some tools are really despised by accessibility and inclusiveness experts and with valid reasons. We could summarize by saying: **stay away from AI accessibility tools**. They are often more detrimental than anything. Accessibility is really hard to automate specifically because it's about embracing diversity and learning from other's needs. Using AI tools could make you technically compliant with some legislation (for example filling all of the empty labels on your application) but it won't make your application usable by people with disabilities.
+As we saw in [🗺️ Brief cartography of today’s accessibility landscape](A-BCT.md), some tools are really despised by accessibility and inclusiveness experts and with valid reasons. We could summarize by saying: **stay away from AI accessibility tools**. They are often more detrimental than anything. Accessibility is really hard to automate specifically because it's about embracing diversity and learning from other's needs. Using AI tools could make you technically compliant with some legislation (for example filling all of the empty labels on your application) but it won't make your application usable by people with disabilities.
 
 The errors automatically detected highly depends of context (for example a long accessibility label is not necessarily a bad thing if attached to a schematic but will be flagged automaticly as an issue). Furthermore, the fixes are often clunky, unintuitive and don't take the specific of the application architecture into account.
 
@@ -315,7 +315,7 @@ You should try and make those user groups as diverse as possible. You could post
 
 This can only be done properly if the team working on the project is actively listening to the feedback they get. Their should be a way of keeping track of the different problems raised by the users and the progress made on fixing them. The product and design team should have occasional sessions and calls with some users to discuss precisely how they would want to implement something (for example what implementation of keyboard navigation feels more intuitive). This can be massively useful during prototyping.
 
-# Resources
+## Resources
 
 [NVDA](https://www.nvaccess.org/download/)
 
@@ -327,7 +327,7 @@ This can only be done properly if the team working on the project is actively li
 
 [Wave](https://wave.webaim.org/)
 
-# Sources
+## Sources
 
 [Accessibility Testing Tools Overview](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
 

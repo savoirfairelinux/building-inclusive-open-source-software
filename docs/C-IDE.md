@@ -1,4 +1,4 @@
-# 🎨 C-IDE: Inclusive design 101
+# 🎨 Inclusive design 101
 
 !!! Info "In this module"
     This module aims at giving accessibility and inclusiveness essentials for app
@@ -10,15 +10,14 @@
 
 **⏱️ ️Duration**: 30'
 
-**📚 Prerequisites**: Accessibility, inclusion & exclusion, We are all disabled and unique
+**📚 Prerequisites**: [🫂 We are all disabled and unique](B-WDU.md)
 
 ---
 
-# When to use?
+## When to use?
 
 This module should be used with trainees who are in position of making design decisions for the product they are working on. It is mostly intended for product designers and managers, but it is relevant in some scenarios to also include developers, especially for smaller teams.
 
-# Description
 
 ## What is an inclusive app?
 
@@ -307,7 +306,7 @@ Here are the key takeaways of this module:
 
 Remember: **good design is inclusive, and good design benefits everyone!**
 
-# Resources
+## Resources
 
 [Color Contrast Checker & Accessibility Checker | Figma](https://www.figma.com/color-contrast-checker/?background=ffffff&foreground=b50202)
 
@@ -315,7 +314,7 @@ Remember: **good design is inclusive, and good design benefits everyone!**
 
 [AUI Perspective v2.excalidraw](resources/c-designing-inclusive-and-accessible-software/AUI_Perspective_v2.excalidraw)
 
-# Sources
+## Sources
 
 Shew, Ashley (2024). *Against Technoableism: Rethinking Who Needs Improvement*, WW Norton & Co.
 

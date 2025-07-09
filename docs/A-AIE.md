@@ -1,4 +1,4 @@
-# 👩‍🦽 A-AIE: Accessibility & Ableism
+# 👩‍🦽 Accessibility & Ableism
 
 !!! Info "In this module"
     This module introduces the concepts of accessibility and ableism, from various standpoints.
@@ -9,30 +9,25 @@
 
 **⏱️ ️Duration**: 20'
 
-**📚 Prerequisites**: [A-FNA: Feeling the need for accessibility](A-FNA.md)
-
-**📖 Is a prerequisite to**: None
+**📚 Prerequisites**: [ 🫳🏿 Feeling the need for accessibility](A-FNA.md)
 
 ---
 
-# When to use?
+## When to use?
 
 Use this module to get a nuanced sense of what accessibility, ableism and techno-ableism really mean.
 
+## What is accessibility
 
-# Description
-
-## 1. What is accessibility
-
-### 1.A Collective Definition of accessibility
+### Collective definition of accessibility
 
 Form a circle. The first participant will try to define accessibility. Write their proposition on a whiteboard. Each person must then iterate upon this definition, explaining to everyone the changes they make.
 
 We then read the collective definition, and ask once again if anyone wants to change something. Once it’s settled, we can move onto the next part of this module.
 
-### 1.B Formal definitions of accessibility
+### Formal definitions of accessibility
 
-If you did the word-cloud of [Accessibility, inclusion & exclusion](A-ASP.md), you can go through the words that were proposed and try to match them to one of the following definition standpoints:
+If you did the word-cloud of [🚀 Accessibility starting point](A-ASP.md), you can go through the words that were proposed and try to match them to one of the following definition standpoints :
 
 **From a product design standpoint**
 
@@ -103,9 +98,9 @@ We propose to define politically accessibility as:
 
 Take some time to reflect together onto which definition is the closest to the one you built together. How do participants feel about all those definitions?
 
-## 2. Undestanding ableism
+## Understanding ableism
 
-### 2.1 What is ableism?
+### What is ableism?
 
 Ableism can be defined as
 
@@ -119,7 +114,7 @@ A key to fighting ableism is remembering that disabilities only arise when there
 
 It’s quite clear that our goal is to minimize ableism in the software that we provide, to build a more inclusive environment for everyone.
 
-### 2.2 What is techno-ableism?
+### What is techno-ableism?
 
 Techno-ableism is a term defined by Ashley Shew in her book [Against Technoableism: Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661), a lecture that we truly recommend.
 
@@ -150,10 +145,10 @@ Design must therefore provide flexibility and adaptability for the varying need 
 
 Understanding those concepts are crucial to avoid very common misguided behaviors. But now, we need to see how today’s organizations and regulation stand regarding them…
 
-# Resources
+## Resources
 [Particify – Interactive education](https://www.particify.de/en/)
 
-# Sources
+## Sources
 
 [Wikipedia's definition of Accessibility](https://en.wikipedia.org/wiki/Accessibility)
 
