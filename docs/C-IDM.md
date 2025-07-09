@@ -78,7 +78,7 @@ They give information both to the user and to the screen reader which will inter
 the implementation if the behavior is the one intended. If not, that might be a trait issue. If you're unsure which trait should be used, don't hesitate to use a sticky note to describe the intended behavior on your design!
 
 - An **action** is - you will never guess - an action the user can take on an element. They can either be primary (i.e. actionable directly by double-tapping on a selected element) or secondary/custom (i.e. actionable once
-selected by swiping vertically to cycle through them), in which case they also have a textual label used to identify it. 
+selected by swiping vertically to cycle through them), in which case they also have a textual label used to identify it.
 
 - The **focus order** allows to specify in which order the elements of your UI should be accessed. In most cases, the best one won't be the left-to-right or right-to-left reading order. This is why you should always indicate in your design the order in which the elements should be accessed.
 

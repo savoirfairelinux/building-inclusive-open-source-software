@@ -36,7 +36,7 @@ theme:
         icon: material/weather-night
         name: Switch to system preference
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
@@ -67,7 +67,7 @@ nav:
     - 📗 Accessible programming with Qt: D-APQ.md
     #- ☕️ Accessible programming with Java Fx:
     #- 🤖 Accessible programming for Android:
-    #- 🕸️ Accessible web programming:
+    - 🕸️ Accessible web programming: D-IWP.md
   - To conclude and go further:
     #- 🎯 Conclusion, bibliography and useful resources:
     - 🏃🏽‍♀️‍➡️ Where YOU go next!: E-WYG.md
