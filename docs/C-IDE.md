@@ -4,7 +4,7 @@
     This module aims at giving accessibility and inclusiveness essentials for app
     design.
 
-**⛳️ Section**: C. Designing inclusive and accessible software
+**⛳️ Section**: *C. Designing inclusive and accessible software*
 
 **👥 Audience**: Designers
 

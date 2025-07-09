@@ -3,7 +3,7 @@
 !!! Info "In this module"
     We will explore the concepts of intersectionality and inclusiveness and it’s use in software development
 
-**⛳️ Section**: B. From accessibility to inclusiveness
+**⛳️ Section**: *B. From accessibility to inclusiveness*
 
 **👥 Audience**: Designers
 

@@ -4,7 +4,7 @@
     This module provides general information needed for building accessible code on
     any platform or language.
 
-**⛳️ Section**: D. Programming inclusive and accessible software
+**⛳️ Section**: *D. Programming inclusive and accessible software*
 
 **👥 Audience**: Developers
 

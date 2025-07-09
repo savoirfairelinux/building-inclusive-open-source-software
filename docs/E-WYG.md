@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module is a small workshop reflecting on what to do next to make the team's app more accessible. It is useful to get the ball rolling in the trained team.
 
-**⛳️ Section**: E. To conclude and go further
+**⛳️ Section**: *E. To conclude and go further*
 
 **👥 Audience**: Everyone
 

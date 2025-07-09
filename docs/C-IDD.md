@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module contains the basics of accessible and inclusive design for Desktop.
 
-**⛳️ Section**: C. Designing inclusive and accessible software
+**⛳️ Section**: *C. Designing inclusive and accessible software*
 
 **👥 Audience**: Designers
 
