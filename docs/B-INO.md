@@ -23,7 +23,15 @@ The list of disabilities are the main ones you will need to directly take into a
 
 ### Low vision
 
-Visual impairment affects up to 17% of users [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Therefore, you will need to make your application usable with assistive technologies like screen-readers or braille displays. Hopefully,
+Visual impairment affects up to 17% of users [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Therefore, you will need to make your application usable with assistive technologies like screen-readers or braille displays as well as a keyboard alone.
+
+Here is an example of navigation between elements providing feedback to an assistive technology like a screen reader.
+
+<figure markdown="span">
+    ![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](resources/c-designing-inclusive-and-accessible-software/order.png)
+</figure>
+
+Hopefully, because of the way OS and frameworks function, making an app accessible to one assistive technology should make it mostly accessible to others. This will probably be one of the thing that will take you the most time accessibility-wise.
 
 ### Deafness
 
