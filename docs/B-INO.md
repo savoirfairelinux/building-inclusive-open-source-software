@@ -23,6 +23,8 @@ The list of disabilities are the main ones you will need to directly take into a
 
 ### Low vision
 
+Visual impairment affects up to 17% of users [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Therefore, you will need to make your application usable with assistive technologies like screen-readers or braille displays. Hopefully,
+
 ### Deafness
 
 18% of users are hearing-impaired [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). For more specific informations on their needs, you can check the [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/#time-based-media) of the W3C. You will mostly need to provide redundant access to all auditive information. This can be for example a visual notification accompanying all sounds or real-time subtitling like the [Whisper Transcript plugin on Jami](https://jami.net/plugins/).
