@@ -5,7 +5,7 @@
     answering questions regarding accessibility, before discussing the results
     collectively.
 
-**⛳️ Section**: A. What is accessibility?
+**⛳️ Section**: *A. What is accessibility?*
 
 **👥 Audience**: Everyone
 

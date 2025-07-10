@@ -5,7 +5,7 @@
     throughout the training and from others. Depending on the situation, it can come
     in various forms of different durations.
 
-**⛳️ Section**: E. To conclude and go further
+**⛳️ Section**: *E. To conclude and go further*
 **👥 Audience**: Everyone
 
 **⏱️ ️Duration**: 20'

@@ -8,7 +8,7 @@
 
     This module aims at finding answers to those questions from a software perspective.
 
-**⛳️ Section**: B. From accessibility to inclusiveness
+**⛳️ Section**: *B. From accessibility to inclusiveness*
 
 **👥 Audience**: Everyone
 
