@@ -6,6 +6,7 @@
     in various forms of different durations.
 
 **⛳️ Section**: *E. To conclude and go further*
+
 **👥 Audience**: Everyone
 
 **⏱️ ️Duration**: 20'

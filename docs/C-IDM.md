@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module allows participants who take design decision on mobile to receive platform-specific advice.
 
-**⛳️ Section**: *D. Designing inclusive and accessible software*
+**⛳️ Section**: *C. Designing inclusive and accessible software*
 
 **👥 Audience**: Everyone
 
