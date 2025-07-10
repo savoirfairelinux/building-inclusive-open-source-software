@@ -66,7 +66,7 @@ Having an understanding of the assistive technologies for which you are building
 
 - For vision-impaired users:
     - Apple provides a **Text to [Speech](https://developer.apple.com/documentation/accessibility/speech/)** API. While it is not always required for developers to use it as VoiceOver natively does the job, using it allows to programmatically announce events that are currently only conveyed visually, like a new message.
-    - **[Dynamic Type](https://developer.apple.com/videos/play/wwdc2024/10074/)◊ is Apple's fancy name for their advanced system font settings, which allows developers to adapt their app's layout to varying font sizes.
+    - **[Dynamic Type](https://developer.apple.com/videos/play/wwdc2024/10074/)** is Apple's fancy name for their advanced system font settings, which allows developers to adapt their app's layout to varying font sizes.
     - **[Display customization settings](https://developer.apple.com/videos/play/wwdc2020/10020/)** like high contrast or reduced motion can be detected to adapt your app's behavior.
     - **[Magic tap](https://github.com/cvs-health/ios-swiftui-accessibility-techniques/blob/main/iOSswiftUIa11yTechniques/Documentation/MagicTap.md)** is a very useful feature that is rarely implemented in third-party apps. It allows to perform an arbitrary action upon a "magic tap" - a 2 fingers double tap with VoiceOver activated. If designed and hinted well, it can allow for quicker and easier interactions.
     - For apps serving audio and video content, builtin AVFoundation APIs [allows you to add **alternative audio tracks**](https://developer.apple.com/documentation/avfoundation/selecting-subtitles-and-alternative-audio-tracks.)
@@ -134,20 +134,21 @@ var body: some View {
     }
     .accessibilityElement(children: .ignore)
     .accessibilityLabel(Text("VERY_NICE_LABEL"))
-    .accessibilityHint("VERY_NICE_HINT")
+    .accessibilityHint(Text("VERY_NICE_HINT"))
     .accessibilityAddTraits(.isButton)
     .accessibilityAction(named: Text("VERY_NICE_ACTION")) {
         print("Action performed!")
     }
 
     SomeOtherView()
-        .accessibilityLabel("A11Y")
-        .accessibilityHint("SOME_OTHER_HINT")
+        .accessibilityLabel(Text("A11Y"))
+        .accessibilityHint(Text("SOME_OTHER_HINT"))
         .accessibilitySortPriority(1)
 }
 ```
 
 There are several issues we can find in this implementation:
+
 - The accessibility-related code is hard to find. In bigger and more complex views, it gets scattered and even harder to find it.
 - The same snippets are repeated everywhere.
 - Yet, consistency across the codebase is not enforced, nor nudged.
@@ -239,5 +240,7 @@ It's also a good idea to indicate to which technologies or disabilities your app
 ## Resources
 
 [Accessibility | Apple Developer Documentation](https://developer.apple.com/documentation/accessibility/)
+
 [iOS accessibility | Appt](https://appt.org/en/docs/ios)
+
 [olvid-io/olvid-ios: Olvid client application for iOS](https://github.com/olvid-io/olvid-ios)
