@@ -64,10 +64,10 @@ nav:
   - Programming inclusive and accessible software:
     - 👩‍💻 Inclusive code 101: D-ICO.md
     #- 🍎 Accessible programming for the Apple ecosystem:
-    - 📗 Accessible programming with Qt: D-APQ.md
-    #- ☕️ Accessible programming with Java Fx:
-    #- 🤖 Accessible programming for Android:
-    - 🕸️ Accessible web programming: D-IWP.md
+    - 📗 Inclusive programming with Qt: D-APQ.md
+    #- ☕️ Inclusive programming with Java Fx:
+    #- 🤖 Inclusive programming for Android:
+    - 🕸️ Inclusive web programming: D-IWP.md
   - To conclude and go further:
     #- 🎯 Conclusion, bibliography and useful resources:
     - 🏃🏽‍♀️‍➡️ Where YOU go next!: E-WYG.md
