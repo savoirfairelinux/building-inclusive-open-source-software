@@ -50,6 +50,12 @@ Still be careful not to believe blindly the feedback form automated tools lke Wa
 
 ### Lighthouse
 
+[Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools/lighthouse/lighthouse-tool?source=recommendations) is a web accessibility testing software developed by Microsoft and integrated inside of Microsoft Edge. It works very similarly to wave.
+
 ### Axe
+
+Axe DevTools is one of the most used web accessibility tool with over two billion downloads. It's developed and maintained by Deque which are behind the accessibility of some of the biggest companies worldwide. It's feedback is very comprehensible, providing insights on how to fix specific issues and even providing information about "Best Practices".
+
+![A screenshot showing the Axe extension being used. It's analyzing a webpage detecting 8 errors.](resources/d-programming-inclusive-and-accessible-software/axeScreenshot.png)
 
 ## (Re)sources
