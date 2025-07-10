@@ -19,7 +19,7 @@ This module should be used with trainees who need or want to have a technical un
 
 ## Introduction
 
-For years, Apple has been setting the bar for mobile accessibility. Their design principles, guidelines, as well as the tools and technologies they built are among the best out there. They also provide extensive resources on how to use and apply them. Thanks to these, if you're developing natively for Apple platforms, implementing accessible interfaces will likely be easier than for other OSes.
+For years, Apple has been setting the standard for mobile accessibility. Their design principles, guidelines, as well as the tools and technologies they built are among the best out there. They also provide extensive resources on how to use and apply them. Thanks to these, if you're developing natively for Apple platforms, implementing accessible interfaces will likely be easier than for other OSes.
 
 Consequently, we won't be covering everything you should know about Apple accessibility in this module. Rather, we'll provide a very synthetic overview referencing useful official and third-party resources, along with some extra tips we wish we had when we started out.
 
@@ -50,7 +50,7 @@ The model used by Apple to implement assistive technologies support to apps is b
 
 ## Apple's Assistive Technologies
 
-Having an understanding of the assistive technologies for which you are building your app is necessary to delivering a great experience. Apple has a lot of them, which they list [on this page](https://developer.apple.com/accessibility/). Here is our condensed introduction to Apple-specific Assistive technologies, along with some additional information and tips. Feel free to follow the links to learn more!
+Having an understanding of the assistive technologies for which you are building your app is necessary to delivering a great experience. Apple has a lot of them, which they list [on this page](https://developer.apple.com/accessibility/). Here is our non-exhaustive condensed introduction to Apple-specific Assistive technologies, along with some additional information and tips. Clicking on highlighted keywords will take you to documentation and useful resources.
 
 ### Major features
 
@@ -103,7 +103,7 @@ var body: some View {
 
 ##### .combine
 
-**```.combine```** will create a new accessibility element, drop its children (in the example ```NiceView``` and ```VeryNiceView``` in our example) and compute new accessibility attributes based on the children's one. As indicated in the documentation:
+**```.combine```** will create a new parent accessibility element, drop its children elements from the accessibility tree (```NiceView``` and ```VeryNiceView``` in our example), and compute new accessibility attributes based on the remove children's ones. As indicated in the documentation:
 
 !!! Quote "[SwiftUI API Documentation](https://developer.apple.com/documentation/swiftui/accessibilitychildbehavior/combine)"
     Some properties may be transformed or ignored to achieve the ideal combined result.
@@ -154,7 +154,7 @@ There are several issues we can find in this implementation:
 
 ### Building a custom accessibility architecture
 
-To address those issues in the Olvid app, the team worked on helpers that facilitate the work of making components and end-user views accessible.
+To address those issues in the [Olvid](https://olvid.io) app, the team worked on helpers that facilitate the work of making components and end-user views accessible.
 
 !!! Info
     In this section, we will be using for example purposes some code extracts from [the Olvid iOS client](https://github.com/olvid-io/olvid-ios), which is licensed under the [GNU Affero General Public License v3](https://github.com/olvid-io/olvid-ios/blob/main/LICENSE).
@@ -235,3 +235,9 @@ It's also a good idea to indicate to which technologies or disabilities your app
 - Knowing about the features used by your users is crucial as it is the first step towards understanding their needs. Some features listed in the module can also be a source of inspiration for you to provide innovative and intuitive way of interacting with your app.
 - SwiftUI accessibility leverages the flexibility of view modifiers, which is paid at the price of code readability and structure. Once you've identified patterns in the way you and your team use Apple accessibility's framework, you can build helper functions that will facilitate, harmonize and structure accessibility across your codebase.
 - Accessibility Nutrition Labels allow developers to let the users know which accessibility features they can expect when downloading your app.
+
+## Resources
+
+[Accessibility | Apple Developer Documentation](https://developer.apple.com/documentation/accessibility/)
+[iOS accessibility | Appt](https://appt.org/en/docs/ios)
+[olvid-io/olvid-ios: Olvid client application for iOS](https://github.com/olvid-io/olvid-ios)
