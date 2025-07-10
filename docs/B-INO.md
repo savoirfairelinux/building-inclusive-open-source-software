@@ -9,13 +9,13 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**: [🫂 We are all disabled and unique : accessibility, plurality and intersectionality](B-WDU.md)
+**📚 Prerequisites**:
 
 ---
 
 ## When to use
 
-This module should be used once the trainees have a basic understanding of what accessibility and inclusiveness mean, as well as how they interact together. It shows the trainees more concrete examples of what working on accessibility actually means.
+This module should be used once the trainees have a basic understanding of what accessibility mean. It shows the trainees more concrete examples of what working on accessibility actually means.
 
 ## Main disabilities to account for in software
 
@@ -48,7 +48,15 @@ Some users will experience motion sickness when exposed to motion. You should be
 
 ### Color blindness
 
-Color blindness is typically less thought of. Making your UI accessible to people who experience this disability is straightforward: **make sure your UI doesn't rely on color elements alone to convey information. For example, if a colored dot indicates whether a user is connected or not, it should be accompanied by a textual label or an icon.
+Can you guess what is the accessibility issue in this screenshot?
+
+<figure markdown="span">
+    ![A screenshot showing the icons of contacts in greyscale. Their is a dot next to every contacts indicating their presence status.](resources/b-how-to-start-incroporating-accessibility/greyscaleIcons.png)
+</figure>
+
+A colorblind user could not have any way of identifying the presence status of the user as it's only communicated through a colored dot.
+
+Color blindness is typically less thought of. Making your UI accessible to people who experience this disability is straightforward: **make sure your UI doesn't rely on color elements alone to convey information**. For example, if a colored dot indicates whether a user is connected or not, it should be accompanied by a textual label or an icon.
 
 ### Cognitive impairments
 
@@ -61,7 +69,7 @@ In [👩‍🦽 Accessibility & Ableism](A-AIE.md) we saw a quote of Ashley Shew
 
 ### Motor disabilities
 
-Affecting up to 19% of users, many people can have difficulty using a phone, a keyboard or a mouse. They often have alternative input devices like switches or audio controlling. You must take them into account when designing your user experience (UX).
+Affecting up to [19% of users](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility), many people can have difficulty using a phone, a keyboard or a mouse. They often have alternative input devices like switches or audio controlling. You must take them into account when designing your user experience (UX).
 
 <figure markdown="span">
   ![Picture of a switch with two buttons, one is white and the other is yellow.](resources/a-what-is-accessibility/switch.jpg){ width="300" }
@@ -72,7 +80,7 @@ Affecting up to 19% of users, many people can have difficulty using a phone, a k
 
 Speech or language-related disabilities can take various forms ranging from dyslexia, illiteracy or elocution difficulties. Some of the solutions will include speech-to-text features, support for custom typefaces like [Open Dyslexic](https://opendyslexic.org/) or spell-checkers.
 
-## Intersectional needs
+## Additional needs and factors to take into consideration
 
 In the [🎨 Inclusive design 101](C-IDE.md) module we will develop further the intersectional needs to take into account. Before that, a *non-exhaustive* list of human characteristics to keep in mind in order to try and include as many user as possible is:
 
