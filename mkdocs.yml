@@ -36,7 +36,7 @@ theme:
         icon: material/weather-night
         name: Switch to system preference
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
@@ -69,7 +69,7 @@ nav:
     #- 🤖 Accessible programming for Android:
     #- 🕸️ Accessible web programming:
   - To conclude and go further:
-    #- 🎯 Conclusion, bibliography and useful resources:
+    - 🎯 Conclusion, bibliography and useful resources: E-CBU.md
     - 🏃🏽‍♀️‍➡️ Where YOU go next!: E-WYG.md
     - 💬 Collective sharing: E-CLS.md
 
