@@ -136,7 +136,7 @@ There usually is not pre-made answer on how to adapt the UI, but the issue can t
 
 A lot of implementation frameworks provide easy ways to set a preferred size for an element, providing adaptation for scaling change.
 
-### The interactions does not require physical and motor skills
+### The interactions do not require physical and motor skills
 
 - There should be no timeout in the interface.
 - Providing shortcuts (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
