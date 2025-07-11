@@ -73,7 +73,7 @@ Designing and implementing usable and accessible menus is a requirement to makin
 
 We already covered Wave in the [🔧 Assistive technologies : Desktop](A-ITD.md) module. [Wave](https://wave.webaim.org/) is a testing software built to automatically detect warnings and errors related to the [WCAG Accessibility guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/). It’s as simple as entering your domain to see prevalent issues with your website.
 
-""" Tip
+!!! Tip
     We recommend using [**Wave's browser extension**](https://wave.webaim.org/extension/) that allows to run audits faster and locally, which is particularly useful for developing.
 
 While you might be working on a native app, it’s very likely that you or your organization have a website along with it. Wave is a very convenient way of checking if you’re also up-to-date on that end without needing further knowledge.
