@@ -129,6 +129,22 @@ KeyNavigation.down: KeyNavigation.tab
 
 ---
 
+### Fading components
+
+Some interface components have fade behaviors. For example, call action bars typically contextually fade in and out.
+
+![A screenshot of the call action bar during a call providing buttons to hang-up, change audio settings, share screen, etc.](resources/d-programming-inclusive-and-accessible-software/callbarscreenshot.png)
+
+In those situations you would want to implement a custom logic specific to those fading components:
+
+1. Any navigation key press should make the fading component visible again
+2. The component shouldn't fade if it is focused, or if one of its children items is.(for example a button inside the call action bar)
+3. The selected element should be clearly identifiable by the user
+
+In the screenshot below, you can see the example of the call action bar of [Jami](https://jami.net/) which clearly communicates the selection of one of its elements.
+
+![A screenshot of the same call action bar during a call but selected using keyboard focus. Their is a blue outline around the Speaker button, indicating focus.](resources/d-programming-inclusive-and-accessible-software/callbarfocusedscreenshot.png)
+
 ## Development process
 
 ### What can be automated?
