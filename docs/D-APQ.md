@@ -1,25 +1,29 @@
-# 📗 E-APQ: Accessible programming with Qt
+# 📗 Accessible programming with Qt
+
 
 !!! Info "In this module"
     This module provides information needed for building accessible code using the Qt
     framework.
 
-**⛳️ Section**: E. Programming inclusive and accessible software
+**⛳️ Section**: *D. Programming inclusive and accessible software*
 
 **👥 Audience**: Developers
 
 **⏱️ ️Duration**: 10'
 
-**📚 Prerequisites**: [👩‍💻 E-ICO Inclusive code 101](E-ICO.md)
+**📚 Prerequisites**: [👩‍💻 Inclusive code 101](D-ICO.md)
 
 ---
 
-# When to use ?
-Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainee to follow [👩‍💻 E-ICO Inclusive code 101](E-ICO.md) first.
+## When to use?
+Go through this module if your app uses Qt, or if you consider using it for your app. Please note that this module requires the trainees to follow [👩‍💻 Inclusive code 101](D-ICO.md) first.
 
-# Description
+## Introduction
 
 There are only few example of good accessibility implementation using Qt. Even the one provided by Qt themselves are limited to a single static page with a few elements. Therefore, we will go through all of Qt's main accessibility elements while taking a look at a complex UI element, a chat view.
+
+!!! Info
+    In this module, we will be using for example purposes some code extracts from [the Jami Qt client](https://github.com/savoirfairelinux/jami-client-qt), which is licensed under the [GPLv3 license](https://github.com/savoirfairelinux/jami-client-qt/blob/master/COPYING).
 
 ## Accessibility labels
 
@@ -31,7 +35,7 @@ It will try to automatically fill the accessibility fields but this often fails.
 - The **name**: this is the main title of your component, like for example "Create account Button" or "Language selection ComboBox".
 - The **description**: this should explain to the user what will happen if they interact with this component as well as any additional context information. It can be for example "Display your QR code to allow other users to scan it and add you as a contact" or "Use arrows to switch between available accounts".
 
-In QML code this would look like :
+In QML code this would look like:
 
 ```QML
 Accessible.role: Accessible.Button
@@ -39,28 +43,28 @@ Accessible.name: toolTipText
 Accessible.description: JamiStrings.qrCodeExplanation
 ```
 
-For many elements, like a message for example, you would want the accessibility to be grouped in ways that are not as obvious as the example above. Let's say that we want to design it for our chat-view. We only want the message to be focusable and it should contain all the information needed. In the [🎨 D-IDE: Inclusive design 101](D-IDE.md) module, we stated that the label should read something like:
+For many elements, like a message for example, you would want the accessibility to be grouped in ways that are not as obvious as the example above. Let's say that we want to design it for our chat-view. We only want the message to be focusable and it should contain all the information needed. In the [🎨 Inclusive design 101](C-IDE.md) module, we stated that the label should read something like:
 
-    "Michel Berger. 3 unread messages. You said : Thanks ! at 9:07.
-    Message status : sent. Pinned. Actions available.”
+    "Michel Berger. 3 unread messages. You said: Thanks! at 9:07.
+    Message status: sent. Pinned. Actions available.”
 
-The code producing an implementation close to this one would be :
+The code producing an implementation close to this one would be:
 ```cpp
     Accessible.role: Accessible.StaticText
     Accessible.name: {
-        let name = isOutgoing ? JamiStrings.inReplyToYou : UtilsAdapter.getBestNameForUri(CurrentAccount.id, Author)
+        let name = isOutgoing ? JamiStrings.inReplyToYou: UtilsAdapter.getBestNameForUri(CurrentAccount.id, Author)
         return name + ": " + Body + " " + formattedTime + " " + formattedDay
     }
     Accessible.description: {
         let status = ""
         if (bubble.isEdited) status += JamiStrings.edited + " "
         if (IsLastSent) status += JamiStrings.sent + " "
-        return status + (readers.length > 0 ? JamiStrings.readBy + " " + readers.join(", ") : "")
+        return status + (readers.length > 0 ? JamiStrings.readBy + " " + readers.join(", "): "")
     }
 ```
 ## Keyboard navigation
 
-As stated in [👩‍💻 E-ICO Inclusive code 101](E-ICO.md), keyboard and focus navigation is mostly automatically set by Qt, but the framework often fails to navigate complex elements. **You need to make sure that all focusable elements are reached**. Before manually setting keyboard navigation, you should try and use the base focus property of Qt. For example, setting the focus of a component to true might be enough for Qt to recognize it as a reachable interactive element. These will largely depend of the component you will be working on but you will get used to seeing some of the following variables.
+As stated in [👩‍💻 Inclusive code 101](D-ICO.md), keyboard and focus navigation is mostly automatically set by Qt, but the framework often fails to navigate complex elements. **You need to make sure that all focusable elements are reached**. Before manually setting keyboard navigation, you should try and use the base focus property of Qt. For example, setting the focus of a component to true might be enough for Qt to recognize it as a reachable interactive element. These will largely depend of the component you will be working on but you will get used to seeing some of the following variables.
 
 ```QML
     keyNavigationEnabled: true
@@ -80,13 +84,13 @@ KeyNavigation.down: shareButton
 
 In some case like a contextual menu, you might want to add conditional navigation:
 ```QML
-KeyNavigation.backtab: index === 0 ? settingsButton : null
-KeyNavigation.tab: index === listView.count - 1 ? addAccountItem : null
+KeyNavigation.backtab: index === 0 ? settingsButton: null
+KeyNavigation.tab: index === listView.count - 1 ? addAccountItem: null
 KeyNavigation.up: KeyNavigation.backtab
 KeyNavigation.down: KeyNavigation.tab
 ```
 
-Regarding our chat view, we previously stated in [🎨 D-IDE: Inclusive design 101](D-IDE.md) that "*we would typically focus the last element of the discussion first, because it is typically the one of interest, and because it gives a quick access to the text input. But this is clearly a design choice that must be well-thought and tested in the context of your app.*" This is only one of the many possible implementations. We could also want to send users directly to the text stating the current discussion's name.
+Regarding our chat view, we previously stated in [🎨 Inclusive design 101](C-IDE.md) that "*we would typically focus the last element of the discussion first, because it is typically the one of interest, and because it gives a quick access to the text input. But this is clearly a design choice that must be well-thought and tested in the context of your app.*" This is only one of the many possible implementations. We could also want to send users directly to the text stating the current discussion's name.
 
 Inside the list of messages, we could want users to navigate between elements using the arrows and TAB to directly go to the text input field - but once again, this is a design choice.
 ```cpp
@@ -105,7 +109,7 @@ ListView {
 
 The [QAccessibleInterface Class](https://doc.qt.io/qt-6/qaccessibleinterface.html) is useful to create inclusive user interfaces. It implements a pure virtual API that allows assistive technologies like braille displays or screen readers to directly access information about accessible objects. We have less experience with it as we haven't implemented it on applications we are working on yet. You can find very comprehensive information about it in [this typevar article](https://typevar.dev/en/docs/qt/qaccessibleinterface)
 
-# Sources
+## Sources
 [Qt's documentation of QAccessible Class](https://doc.qt.io/qt-6/qaccessible.html#Role-enum)
 [Qt's documentation of QAccessible::Role](https://doc.qt.io/qt-6/qaccessible.html?search=item#Role-enum)
 [Qt's documentation of KeyNavigation class](https://doc.qt.io/qt-6/qml-qtquick-keynavigation.html#details)

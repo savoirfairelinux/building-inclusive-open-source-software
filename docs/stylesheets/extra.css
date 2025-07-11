@@ -9,11 +9,31 @@
   --md-primary-bg-color--light: #FFFFFF;
   --md-primary-bg-color--dark:  #FFFFFF;
 
-  --md-code-fg-color:           hsla(200, 18%, 26%, 1);
-  --md-code-bg-color:           hsla(200, 0%, 96%, 1);
+  /* CODE */
+  --md-code-bg-color:                  #f9f9f9;
+  --md-code-fg-color:                  #000000;
+
+  --md-code-hl-color:                  #007AFF;
+  --md-code-hl-color--light:           rgba(0, 122, 255, 0.1);
+
+  --md-code-hl-number-color:           #C41A16;
+  --md-code-hl-special-color:          #AA0D91;
+  --md-code-hl-function-color:         #0033A0;
+  --md-code-hl-constant-color:         #7057FF;
+  --md-code-hl-keyword-color:          #0000FF;
+  --md-code-hl-string-color:           #C41A16;
+
+  --md-code-hl-name-color:             #000000;
+  --md-code-hl-operator-color:         #383A42;
+  --md-code-hl-punctuation-color:      #6E6E6E;
+  --md-code-hl-comment-color:          #A0A1A7;
+  --md-code-hl-generic-color:          #5B5B5B;
+  --md-code-hl-variable-color:         #AA0D91;
+
+
 
   /* ACCENT */
-  --md-accent-fg-color:         #6E468B;
+  --md-accent-fg-color:         #8F60AF;
   --md-accent-bg-color:         #6E468B;
 
   /* DEFAULT FG & BG */
@@ -29,15 +49,15 @@
 
   /* TYPESET */
   --md-typeset-color:                  #000000;
-  --md-typeset-a-color:                #000000;
-  --md-typeset-del-color:              #000000;
-  --md-typeset-ins-color:              #000000;
-  --md-typeset-kbd-color:              #000000;
-  --md-typeset-kbd-accent-color:       #000000;
-  --md-typeset-kbd-border-color:       #000000;
-  --md-typeset-mark-color:             #000000;
-  --md-typeset-table-color:            #000000;
-  --md-typeset-table-color--light:     #000000;
+  --md-typeset-a-color:                #6E468B;
+  --md-typeset-del-color:              #6E468B;
+  --md-typeset-ins-color:              #6E468B;
+  --md-typeset-kbd-color:              #6E468B;
+  --md-typeset-kbd-accent-color:       #6E468B;
+  --md-typeset-kbd-border-color:       #6E468B;
+  --md-typeset-mark-color:             #6E468B;
+  --md-typeset-table-color:            #6E468B;
+  --md-typeset-table-color--light:     #DEC2FF;
 
   /* FOOTER */
   --md-footer-fg-color:                #000000;
@@ -60,8 +80,27 @@
   --md-primary-bg-color--light: #FFFFFF;
   --md-primary-bg-color--dark:  #FFFFFF;
 
-  --md-code-fg-color:           hsla(200, 0%, 96%, 1);
-  --md-code-bg-color:           hsla(200, 18%, 26%, 1);
+   /* CODE */
+  --md-code-bg-color:                  #1E1E1E;
+  --md-code-fg-color:                  #FFFFFF;
+
+  --md-code-hl-color:                  #82AAFF;
+  --md-code-hl-color--light:           rgba(130, 170, 255, 0.1);
+
+  --md-code-hl-number-color:           #D19A66;
+  --md-code-hl-special-color:          #FF5F56;
+  --md-code-hl-function-color:         #82AAFF;
+  --md-code-hl-constant-color:         #C792EA;
+  --md-code-hl-keyword-color:          #C678DD;
+  --md-code-hl-string-color:           #C3E88D;
+
+  --md-code-hl-name-color:             #FFFFFF;
+  --md-code-hl-operator-color:         #ABB2BF;
+  --md-code-hl-punctuation-color:      #C5C8C6;
+  --md-code-hl-comment-color:          #5C6370;
+  --md-code-hl-generic-color:          #B0BEC5;
+  --md-code-hl-variable-color:         #89DDFF;
+
 
   /* ACCENT */
   --md-accent-fg-color:         #C084FF;
@@ -83,15 +122,15 @@
 
   /* TYPESET */
   --md-typeset-color:                  #FFFFFF;
-  --md-typeset-a-color:                #FFFFFF;
-  --md-typeset-del-color:              #FFFFFF;
-  --md-typeset-ins-color:              #FFFFFF;
-  --md-typeset-kbd-color:              #FFFFFF;
-  --md-typeset-kbd-accent-color:       #FFFFFF;
-  --md-typeset-kbd-border-color:       #FFFFFF;
-  --md-typeset-mark-color:             #FFFFFF;
-  --md-typeset-table-color:            #FFFFFF;
-  --md-typeset-table-color--light:     #FFFFFF;
+  --md-typeset-a-color:                #DEC2FF;
+  --md-typeset-del-color:              #DEC2FF;
+  --md-typeset-ins-color:              #DEC2FF;
+  --md-typeset-kbd-color:              #DEC2FF;
+  --md-typeset-kbd-accent-color:       #DEC2FF;
+  --md-typeset-kbd-border-color:       #DEC2FF;
+  --md-typeset-mark-color:             #DEC2FF;
+  --md-typeset-table-color:            #DEC2FF;
+  --md-typeset-table-color--light:     #DEC2FF;
 
   /* FOOTER */
   --md-footer-fg-color:                #FFFFFF;
