@@ -9,7 +9,7 @@
 
 **⏱️ ️Duration**: 15'
 
-**📚 Prerequisites**:
+**📚 Prerequisites**: None
 
 ---
 
