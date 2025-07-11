@@ -55,9 +55,9 @@ nav:
     - 🚀 Accessibility starting point: A-ASP.md
     - 🫳🏿 Feeling the need for accessibility: A-FNA.md
     - 👩‍🦽 Accessibility & Ableism: A-AIE.md
-    #- 🗺️ Brief cartography of today’s accessibility landscape: A-BCT.md
-    - 🔧 Assistive technologies Desktop: A-ITD.md
-    - 📲 Assistive technologies mobile: A-ATM.md
+    - 🗺️ Brief cartography of today’s accessibility landscape: A-BCT.md
+    - 🔧 Assistive technologies - Desktop: A-ITD.md
+    - 📲 Assistive technologies - Mobile: A-ATM.md
   - From accessibility to inclusiveness:
     - 🔭 Inclusiveness needs overview: B-INO.md
     - 🫂 We are all disabled and unique: B-WDU.md
