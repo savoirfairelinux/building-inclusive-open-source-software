@@ -93,7 +93,7 @@ Recently, Apple announced their new design system, called Liquid Glass. This ann
 
 ### Microsoft
 
-Microsoft has been publishing extensive design resources about inclusiveness on [their dedicated website](https://inclusive.microsoft.design/).
+While we do not endorse all of their content (especially the one related to "inclusive AI"), Microsoft has been publishing great extensive design resources about inclusiveness on [their dedicated website](https://inclusive.microsoft.design/).
 
 
 # What to look for and what to avoid
