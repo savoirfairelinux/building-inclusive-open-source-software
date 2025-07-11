@@ -59,9 +59,9 @@ nav:
     - 🔧 Assistive technologies Desktop: A-ITD.md
     - 📲 Assistive technologies mobile: A-ATM.md
   - From accessibility to inclusiveness:
+    - 🔭 Inclusiveness needs overview: B-INO.md
     - 🫂 We are all disabled and unique: B-WDU.md
     #- 🏛️ Why does FOSS struggle with inclusiveness?:
-    #- 🔭 Inclusiveness needs overview: B-INO.md
     - 🤺 Developer stance & user collaboration: B-DSU.md
     - ⚗️ Bring inclusiveness and accessibility to your pipeline: B-IAP.md
   - Designing inclusive and accessible software:
