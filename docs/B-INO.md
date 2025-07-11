@@ -50,13 +50,13 @@ Common solutions include buttons to pause animations, using OSes APIs to detect 
 
 ### Color blindness
 
-Can you guess what is the accessibility issue in this screenshot?
+Can you guess what is the accessibility issue in this screenshot from the [Jami desktop app](https://jami.net/)?
 
 <figure markdown="span">
     ![A screenshot showing the icons of contacts in grayscale. Their is a dot next to every contacts indicating their presence status.](resources/b-how-to-start-incroporating-accessibility/grayscaleIcons.png)
 </figure>
 
-Some colorblind users would not have any way of identifying the presence status of the user as it's only communicated through a colored dot.
+Some colorblind users would not have any way of identifying the presence status of the user as it's only communicated through a colored dot. In Jami, this is fixed by having a tooltip indicating the presence status of the user.
 
 Color blindness is typically less thought of. Making your UI accessible to people who experience this disability is straightforward: **make sure your UI doesn't rely on color elements alone to convey information**. For example, if a colored dot indicates whether a user is connected or not, it should be accompanied by a textual label or an icon.
 
