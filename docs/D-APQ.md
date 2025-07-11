@@ -22,6 +22,9 @@ Go through this module if your app uses Qt, or if you consider using it for your
 
 There are only few example of good accessibility implementation using Qt. Even the one provided by Qt themselves are limited to a single static page with a few elements. Therefore, we will go through all of Qt's main accessibility elements while taking a look at a complex UI element, a chat view.
 
+!!! Info
+    In this module, we will be using for example purposes some code extracts from [the Jami Qt client](https://github.com/savoirfairelinux/jami-client-qt), which is licensed under the [GPLv3 license](https://github.com/savoirfairelinux/jami-client-qt/blob/master/COPYING).
+
 ## Accessibility labels
 
 Screen-readers and other accessibility technologies need specific information in order to navigate through your app. We are lucky that Qt provides a way of setting it automatically using the [QAccessible Class](https://doc.qt.io/qt-6/qaccessible.html#Role-enum). This class is inherited by all of Qt's items.
