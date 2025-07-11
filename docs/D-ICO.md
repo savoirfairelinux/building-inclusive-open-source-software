@@ -4,7 +4,7 @@
     This module provides general information needed for building accessible code on
     any platform or language.
 
-**⛳️ Section**: D. Programming inclusive and accessible software
+**⛳️ Section**: *D. Programming inclusive and accessible software*
 
 **👥 Audience**: Developers
 
@@ -108,7 +108,7 @@ And when you don't have the choice to work with custom components, remember to p
 ### Focus and explicit key navigation, choose the right tool at the right time (Desktop)
 
 
-In order to implement alternative navigation in your app (keyboard, voice over, talkback, vocal command, etc), on desktop, they are two main way of doing it: focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
+In order to implement alternative navigation in your app (keyboard, VoiceOver, talkback, vocal command, etc), on desktop, they are two main way of doing it: focus and explicit key navigation. By default, your framework will try to predict the order in which you would want to move between objects by making all focusable elements accessible through alternative navigation. This will work mostly well on basic components.
 
 It happens very often that this flow of navigation breaks for numerous reasons, a pop-up could have appeared, new UI elements might be visible or maybe the elements are complex (sub-tabs in settings for example)
 
@@ -128,6 +128,22 @@ KeyNavigation.down: KeyNavigation.tab
 ```
 
 ---
+
+### Fading components
+
+Some interface components have fade behaviors. For example, call action bars typically contextually fade in and out.
+
+![A screenshot of the call action bar during a call providing buttons to hang-up, change audio settings, share screen, etc.](resources/d-programming-inclusive-and-accessible-software/callbarscreenshot.png)
+
+In those situations you would want to implement a custom logic specific to those fading components:
+
+1. Any navigation key press should make the fading component visible again
+2. The component shouldn't fade if it is focused, or if one of its children items is.(for example a button inside the call action bar)
+3. The selected element should be clearly identifiable by the user
+
+In the screenshot below, you can see the example of the call action bar of [Jami](https://jami.net/) which clearly communicates the selection of one of its elements.
+
+![A screenshot of the same call action bar during a call but selected using keyboard focus. Their is a blue outline around the Speaker button, indicating focus.](resources/d-programming-inclusive-and-accessible-software/callbarfocusedscreenshot.png)
 
 ## Development process
 

@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module introduces the concepts of accessibility and ableism, from various standpoints.
 
-**⛳️ Section**: A. What is accessibility?
+**⛳️ Section**: *A. What is accessibility?*
 
 **👥 Audience**: Everyone
 

@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module allows participants who take design decision on mobile to receive platform-specific advice.
 
-**⛳️ Section**: D. Designing inclusive and accessible software
+**⛳️ Section**: *C. Designing inclusive and accessible software*
 
 **👥 Audience**: Everyone
 
@@ -15,7 +15,7 @@
 
 ## When to use ?
 
-This short module should always be used as a complement to [🎨 Inclusive design 101](C-IDE.md), as a bonus to go further for mobile platforms.
+This short module should always be used as a complement to [🎨 Inclusive design 101](C-IDE.md), as a bonus to go further for mobile platforms. It can also be very useful to mobile developers.
 
 ## Mobile devices and inclusiveness
 
@@ -69,16 +69,17 @@ For example, a button and its title should grouped as they share the same semant
 - A **label** qualifies the name of an element. It is read by screen readers and used to access the element with voice. This is why it should always as short as possible yet distinct from other elements of the interface.
 For complementary information on the element, the value should be used. For example, a button should have its title as label.
 
-- A **value** gives information about the element, like its state or any other information that is not in the label. It is typically read after the label by the screen reader. For example, for a toggle, the value would give its
-state (enabled or disabled).
+- A **value** gives information about the element, like its state or any other information that is not in the label. It is typically read after the label by the screen reader. For example, for a toggle, the value would give its state (enabled or disabled).
 
-- A **trait** qualifies on element on its type or role. Multiple ones can (and likely should) be applied on one element. There are many depending on the OS. The most important ones are "Button", "Static text", "Toggle",
+- A **trait** qualifies an element on its type or role. Multiple ones can (and likely should) be applied on one element. There are many depending on the OS. The most important ones are "Button", "Static text", "Toggle",
 "Allows direct interaction" (for elements which allow interaction through touch, bypassing the screen reader, like a digital piano), "Link", "Image", "Header" (allowing screen reader users to skim through the content), etc.
 They give information both to the user and to the screen reader which will interpret and behave differently. This one is quite technical, so it is okay for a designer not to know them all. But it is always good to check on
 the implementation if the behavior is the one intended. If not, that might be a trait issue. If you're unsure which trait should be used, don't hesitate to use a sticky note to describe the intended behavior on your design!
 
 - An **action** is - you will never guess - an action the user can take on an element. They can either be primary (i.e. actionable directly by double-tapping on a selected element) or secondary/custom (i.e. actionable once
 selected by swiping vertically to cycle through them), in which case they also have a textual label used to identify it.
+
+- A **hint** gives additional textual information or context to the user that will be read last. Hints should help users who have lost the context of where they are, or who don't understand how to interact with an element.
 
 - The **focus order** allows to specify in which order the elements of your UI should be accessed. In most cases, the best one won't be the left-to-right or right-to-left reading order. This is why you should always indicate in your design the order in which the elements should be accessed.
 
