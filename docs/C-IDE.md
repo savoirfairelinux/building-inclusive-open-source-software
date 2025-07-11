@@ -138,11 +138,13 @@ A lot of implementation frameworks provide easy ways to set a preferred size for
 
 ### The interactions does not require physical and motor abilities
 
-- There should be no timeout in the interface.
-- Providing shortcuts (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
-- Error tolerance is also very important, as people with tremors have a higher risk of mistapping or misclicking elements. In general, and particularly for destructive actions, asking for confirmation or allowing for cancellation is very important.
-- Preventing confidential elements to appear on the screen spontaneously is crucial to protect the privacy of everyone, including people whose screen is typically more exposed, particularly wheelchair and phone holder users.
-- Eventually, an essential part of making your app inclusive to people with physical motor disabilities is to make the interface nice to use with assistive technologies in general, as they often rely on these.
+Here are some elements to keep in mind to achieve this milestone:
+
+- **Timeouts** should avoided as often as possible.
+- Providing **shortcuts** (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
+- **Error tolerance** is also very important, as people with tremors have a higher risk of mistapping or misclicking elements. In general, and particularly for destructive actions, asking for confirmation or allowing for cancellation is very important.
+- Preventing confidential elements to appear on the screen spontaneously is crucial to **protect the privacy of everyone**, including people whose screen is typically more exposed, particularly wheelchair and phone holder users.
+- Eventually, an essential part of making your app inclusive to people with physical motor disabilities is to make the interface nice to use with **assistive technologies** in general, as they often rely on these.
 
 ### The content can be accessed using assistive technologies
 

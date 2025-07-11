@@ -1,4 +1,4 @@
-# 🍎 Accessibility features and programming for the Apple platforms
+# 🍎 Inclusiveness features and programming for Apple platforms
 
 !!! Info "In this module"
     This module introduces to Apple's accessibility features, and to the practice of programming accessibility for Apple platforms.
@@ -29,7 +29,7 @@ The model used by Apple to implement assistive technologies support to apps is b
 
 - An [**accessibility element**](https://developer.apple.com/documentation/swiftui/view-accessibility#Elements) is an element of the interface which will be accessed atomically (i.e. without dividing it into multiple elements) by cursor interfaces (like VoiceOver or Switch Control). Every element has accessibility attributes. Every UI Component provided by Apple is an accessibility element. You then have the choice to regroup them, either by completely resetting the element's attribute, or by automatically computing the children's one. In complex cases, we would recommend manually resetting computing those properties to get clean labels, actions etc.
 
-- A [**label**](https://developer.apple.com/documentation/swiftui/view/accessibilitylabel(_:)-1d7jv) qualifies the name of an element. It is read by screen readers and used to access the element with Voice Control. This is why it should always as short as possible yet distinct from other elements of the interface. For complementary information on the element, the value should be used. For example, a button should have its title as label.
+- A [**label**](https://developer.apple.com/documentation/swiftui/view/accessibilitylabel(_:)-1d7jv) qualifies the name of an element. It is read by screen readers, and used in order to access the element with Voice Control. This is why it should always be as short as possible yet distinct from other elements of the interface. For complementary information on the element, the value should be used. For example, a button should have its title as label.
 
 - A [**value**](https://developer.apple.com/documentation/swiftui/view/accessibilityvalue(_:)-z9mo) gives information about the element, like its state or any other information that is not in the label. It is typically read after the label by the screen reader. For example, for a toggle, the value would give its state (enabled or disabled).
 
@@ -89,7 +89,7 @@ Accessibility in SwiftUI relies heavily on the use of accessibility modifiers, w
 
 #### Grouping elements
 
-Something you will likely find yourself doing very regularly is grouping elements. As it is rather complicated to get started with, we will explain the basics. As said earlier, there are different ways of doing so, each corresponding to an [```AccessibilityChildBehavior```](https://developer.apple.com/documentation/swiftui/accessibilitychildbehavior):
+Something you will likely find yourself doing very regularly is grouping elements. As it is rather complicated to get started with, we will explain the basics. As said earlier, there are different ways of doing so, each corresponding to a case of the [```AccessibilityChildBehavior```](https://developer.apple.com/documentation/swiftui/accessibilitychildbehavior) enum:
 
 ```swift
 var body: some View {
@@ -118,7 +118,7 @@ var body: some View {
 
 ##### .contain
 
-**```.contain```** does not compete with ```.combine``` and ```.ignore``` because it does not do the same thing at all. While it will create a new accessibility element in the tree, their children won't be dropped. As a result, this modifier is only useful to order elements, [making sure all the children of the newly created elements are navigated before going to the next accessibility element](https://developer.apple.com/documentation/swiftui/accessibilitychildbehavior/contain#discussion).
+**```.contain```** does not compete with ```.combine``` and ```.ignore``` because it does not serve the same purpose. While it will create a new accessibility element in the tree, their children won't be dropped. As a result, this modifier is only useful to structure navigation and order elements, [making sure all the children of the newly created elements are navigated before going to the next accessibility element](https://developer.apple.com/documentation/swiftui/accessibilitychildbehavior/contain#discussion).
 
 To get more insights on whether to group elements or not, refer to [🎨 Inclusive design 101](C-IDE.md).
 
@@ -149,13 +149,13 @@ var body: some View {
 
 There are several issues we can find in this implementation:
 
-- The accessibility-related code is hard to find. In bigger and more complex views, it gets scattered and even harder to find it.
-- The same snippets are repeated everywhere.
+- The accessibility-related code is hard to find. In bigger and more complex views, it gets scattered all over the view's code.
+- If same snippets are likely to be repeated everywhere.
 - Yet, consistency across the codebase is not enforced, nor nudged.
 
 ### Building a custom accessibility architecture
 
-To address those issues in the [Olvid](https://olvid.io) app, the team worked on helpers that facilitate the work of making components and end-user views accessible.
+To address those issues in the [Olvid](https://olvid.io) iOS app, the team worked on helpers that facilitate the work of making components and end-user views accessible.
 
 !!! Info
     In this section, we will be using for example purposes some code extracts from [the Olvid iOS client](https://github.com/olvid-io/olvid-ios), which is licensed under the [GNU Affero General Public License v3](https://github.com/olvid-io/olvid-ios/blob/main/LICENSE).
@@ -171,23 +171,24 @@ As a result, the code can look like:
 ```swift
 private struct HorizontalListOfUsersViewCell: View {
 
-    // [properties...]
+    // [...]
 
     var body: some View {
             InternalView(user: user,
                          identifiersOfSelectedUsers: $identifiersOfSelectedUsers,
                          profilePicture: profilePicture?.image,
                          avatarSize: avatarSize)
-            .obvAccessibleComponent()
-            .onAppear(perform: onAppear)
-            .onDisappear(perform: onDisappear)
+            .obvAccessibleComponent() // The custom ViewModifier can be applied because the internal view conforms...
+            
+            // [...]
+        
         }
 
-    private struct InternalView: ObvAccessibilityProvidableView {
+    private struct InternalView: ObvAccessibilityProvidableView /* ...to this protocol... */ {
         
-        // [properties...]
+        // [...]
 
-        var accessibilityAttributes: ObvAccessibility.ObvAccessibilityAttributes {
+        var accessibilityAttributes: ObvAccessibility.ObvAccessibilityAttributes { // ...which requires to provide this struct.
             .init(
                 label: user?.identityDetails.coreDetails.getDisplayNameWithStyle(.firstNameThenLastName) ?? " ",
                 value: String(localizedInThisBundle: "SELECTED"),
@@ -197,7 +198,9 @@ private struct HorizontalListOfUsersViewCell: View {
         }
 
         var body: some View {
-            // [content...]
+
+            // [...]
+            
         }
 
     }
@@ -206,7 +209,9 @@ private struct HorizontalListOfUsersViewCell: View {
 
 ```
 
-Please note this architecture is not to be seen as the perfect way to go. We hope it will inspire you to build your own!
+Now, the accessibility information is easier to find, and the attributes can be applied by a single ViewModifier that encapsulates the grouping guidelines we provided earlier.
+
+Please note this architecture is not to be seen as the perfect way to go. We simply hope it will inspire you to build your own!
 
 ## Accessibility in UIKit
 
@@ -231,11 +236,11 @@ It's also a good idea to indicate to which technologies or disabilities your app
 
 ## Wrapping up
 
-- Apple provides powerful tools for you to achieve great accessibility in your apps.
-- Apple's accessibility model is based on elements and attributes. Providing as many as relevant will help assistive technologies work well with your solution.
-- Knowing about the features used by your users is crucial as it is the first step towards understanding their needs. Some features listed in the module can also be a source of inspiration for you to provide innovative and intuitive way of interacting with your app.
-- SwiftUI accessibility leverages the flexibility of view modifiers, which is paid at the price of code readability and structure. Once you've identified patterns in the way you and your team use Apple accessibility's framework, you can build helper functions that will facilitate, harmonize and structure accessibility across your codebase.
-- Accessibility Nutrition Labels allow developers to let the users know which accessibility features they can expect when downloading your app.
+- Apple provides **powerful tools** for you to achieve great accessibility in your apps.
+- **Apple's accessibility model is based on elements and attributes**. Providing as many as relevant will help assistive technologies work well with your solution.
+- **Knowing about the features used by your users is crucial** as it is the first step towards understanding their needs. Some features listed in the module can also be a source of inspiration for you to provide innovative and intuitive way of interacting with your app.
+- SwiftUI accessibility leverages the flexibility of view modifiers, which is sometimes paid at the price of code readability and structure. Once you've identified patterns in the way you and your team use Apple accessibility's framework, **you can build helper functions that will facilitate, harmonize and structure accessibility across your codebase.**
+- **Accessibility Nutrition Labels** allow developers to let the users know which accessibility features they can expect when downloading your app.
 
 ## Resources
 
