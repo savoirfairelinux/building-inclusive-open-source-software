@@ -111,3 +111,92 @@ This training is already coming to a close. - If you are doing this training col
 We dearly hope it was somewhat useful to you. We felt that their is a lack of resources that goes into highly technical details while reflecting on them through a systemic gaze and placing empathy as a core element of decision making. We tried our best to provide a training that helped move FOSS in this direction. As we said multiple time, we are not experts, only people trying to help. If you have expertise on those topics and felt like those resources were useful, **please contribute**. If not, you can still [star the repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness). If you have any question, feel free to contact us.
 
 ## Bibliography & useful resources
+
+### Design
+
+#### Tools
+
+[Color Contrast Checker & Accessibility Checker | Figma](https://www.figma.com/color-contrast-checker/?background=ffffff&foreground=b50202)
+
+[WillowTree. Contrast Plugin](https://www.figma.com/community/plugin/748533339900865323/contrast)
+
+#### Articles, book and masterclasses
+
+[Winner, Langdon. *Do artifacts have politics?*, 1980. Daedalus 109 (1): pp. 121--136.](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf)
+
+[Apple Human Interface Guidelines: *Accessibility*](https://developer.apple.com/design/human-interface-guidelines/accessibility)
+
+[Apple. *Principles of Inclusive App Design*](https://developer.apple.com/videos/play/wwdc2025/316)
+
+[Whitaker, Rob (2020). *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*, Apress Berkley.](https://doi.org/10.1007/978-1-4842-5814-9)
+
+[Apple. *The practice of inclusive design*](https://developer.apple.com/videos/play/wwdc2021/10275/)
+
+[Apple. *The process of inclusive design*](https://developer.apple.com/videos/play/wwdc2021/10304/)
+
+[The A11Y Project. *Software, books, blogs, online tools, etc.*](https://www.a11yproject.com/resources/)
+
+[McRuer Robert. *Crip Theory : Cultural Signs of Queerness and Disability*, 1966](https://archive.org/details/criptheorycultur0000mcru)
+
+### WebApp
+
+#### Articles
+
+[W3C. *How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/)
+
+[inclusive-components.design. *Inclusive components project*](https://inclusive-components.design/#components)
+
+[Cristian Díaz. *A Guide To Keyboard Accessibility: HTML And CSS (Part 1)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/)
+
+[ExpandTheRoom. *How to Check Web Accessibility with a Screen Reader and Keyboard*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
+
+[Heydon Pickering. *Building Accessible Menu Systems*](https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/)
+
+[inclusive-components.design. *Menus & Menu Buttons*](https://inclusive-components.design/menus-menu-buttons/)
+
+[Cristian Díaz. *A Guide To Keyboard Accessibility: JavaScript (Part 2)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-javascript-part2/)
+
+[W3C. *WCAG 2 Overview*](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+[Microsoft. *Test accessibility using Lighthouse*](https://learn.microsoft.com/en-ca/microsoft-edge/devtools/accessibility/lighthouse)
+
+#### Testing Software
+
+[Wave](https://wave.webaim.org/)
+
+[Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools/lighthouse/lighthouse-tool?source=recommendations)
+
+[Axe](https://www.deque.com/axe/)
+
+### Politics
+
+#### FOSS in the army
+
+[U.S. Department of Defense. *Use of Free and Open-source software (FOSS) in the U.S. Department of Defense*, 2003](https://dodcio.defense.gov/Portals/0/Documents/FOSS/dodfoss_pdf.pdf)
+
+[U.S. Department of Defense. *DoD Open Source Software FAQ*](https://dodcio.defense.gov/open-source-software-faq/)
+
+[Capt. Noe Lorona. *Leveraging Free and Open-Source Software on the battlefield.*, 2024](https://www.army.mil/article/276750/the_power_of_foss)
+
+#### FOSS and capitalism
+
+[Teemu Mikkonen, Tere Vadén, Niklas Vainio. *Open source developers and the ethics of  capitalism*, 2007](https://firstmonday.org/ojs/index.php/fm/article/view/1623/1538)
+
+[Böhm Mirko, *Economics of Open Source* 2022](https://academic.oup.com/book/44727/chapter/378967711?login=false)
+
+[Ross Daniel. *The Place of Free and Open Source Software in the Social Apparatus of Accumulation*, 2013](https://guilfordjournals.com/doi/abs/10.1521/siso.2013.77.2.202)
+[Josh Lerner, Parag A. Pathak, Jean Tirole. *The Dynamics of Open-Source Contributors*](https://economics.mit.edu/sites/default/files/publications/Dynamics%20of%20Open%20Source.pdf)
+
+[Manuel Hoffmann, Frank Nagle, Yanuo Zhou. *The Value of Open Source Software*](https://www.hbs.edu/ris/Publication%20Files/24-038_51f8444f-502c-4139-8bf2-56eb4b65c58a.pdf)
+
+#### Inclusion in software
+
+[The Chartered Institute for IT, *Nearly 90,000 disabled people are 'missing' from tech industry, says professional body*. 2024](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/)
+
+[Shew Ashley, *Against Technoableism: rethinking who needs improvement*. 2023](https://wwnorton.com/books/9781324036661)
+
+[Nathan L. Ensmenger. *The computer boys take over*, 2010](https://www.jstor.org/stable/j.ctt5hhjdh)
+
+[Goodin Dan, *“Microsoft has simply given us no other option,” Signal says as it blocks Windows Recall* 2025](https://arstechnica.com/security/2025/05/signal-resorts-to-weird-trick-to-block-windows-recall-in-desktop-app/)
+
+[Sarah Gooding, *Accessibility Advocates Sign Open Letter Urging People Not To Use AccesiBe and Other Overlay Products*. 2021](https://wptavern.com/accessibility-advocates-sign-open-letter-urging-people-not-to-use-accesibe-and-other-overlay-products)
