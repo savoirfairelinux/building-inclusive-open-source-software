@@ -138,36 +138,6 @@ We dearly hope it was somewhat useful to you. We felt that their is a lack of re
 
 [McRuer Robert. *Crip Theory : Cultural Signs of Queerness and Disability*, 1966](https://archive.org/details/criptheorycultur0000mcru)
 
-### WebApp
-
-#### Articles
-
-[W3C. *How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/)
-
-[inclusive-components.design. *Inclusive components project*](https://inclusive-components.design/#components)
-
-[Cristian Díaz. *A Guide To Keyboard Accessibility: HTML And CSS (Part 1)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/)
-
-[ExpandTheRoom. *How to Check Web Accessibility with a Screen Reader and Keyboard*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
-
-[Heydon Pickering. *Building Accessible Menu Systems*](https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/)
-
-[inclusive-components.design. *Menus & Menu Buttons*](https://inclusive-components.design/menus-menu-buttons/)
-
-[Cristian Díaz. *A Guide To Keyboard Accessibility: JavaScript (Part 2)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-javascript-part2/)
-
-[W3C. *WCAG 2 Overview*](https://www.w3.org/WAI/standards-guidelines/wcag/)
-
-[Microsoft. *Test accessibility using Lighthouse*](https://learn.microsoft.com/en-ca/microsoft-edge/devtools/accessibility/lighthouse)
-
-#### Testing Software
-
-[Wave](https://wave.webaim.org/)
-
-[Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools/lighthouse/lighthouse-tool?source=recommendations)
-
-[Axe](https://www.deque.com/axe/)
-
 ### Politics
 
 #### FOSS in the army
@@ -200,3 +170,76 @@ We dearly hope it was somewhat useful to you. We felt that their is a lack of re
 [Goodin Dan, *“Microsoft has simply given us no other option,” Signal says as it blocks Windows Recall* 2025](https://arstechnica.com/security/2025/05/signal-resorts-to-weird-trick-to-block-windows-recall-in-desktop-app/)
 
 [Sarah Gooding, *Accessibility Advocates Sign Open Letter Urging People Not To Use AccesiBe and Other Overlay Products*. 2021](https://wptavern.com/accessibility-advocates-sign-open-letter-urging-people-not-to-use-accesibe-and-other-overlay-products)
+
+Blondy Marie Herminie *L’idéologie libertaire des pionniers d’internet : Contradictions d’un humanisme industriel*, 2025
+
+### Desktop
+
+### Mobile
+
+#### Introduction to tools
+
+[Apple. *WWDC21 Challenge: VoiceOver Maze*](https://developer.apple.com/documentation/accessibility/wwdc21_challenge_voiceover_maze)
+
+[Senjam, S. S., Manna, S., & Bascaran, C. *Smartphones-Based Assistive Technology: Accessibility Features and Apps for People with Visual Impairment, and its Usage, Challenges, and Usability Testing*, 2021](https://www.tandfonline.com/doi/full/10.2147/OPTO.S336361?scroll=top&needAccess=true)
+
+#### Documentation
+
+[Direction Interministérielle du Numérique. *RGAA-APPS : le guide officiel pour des applications accessibles*](https://disic.github.io/rgaa-apps/)
+
+[Direction Interministérielle du Numérique.*Guide du concepteur RGAA 3*](https://disic.github.io/guide-concepteur/)
+
+[Direction Interministérielle du Numérique.*Référentiel spécifique aux plateformes mobiles/tactiles*](https://github.com/DISIC/referentiel-mobile-tactile)
+
+[Orange. *Accessibility Guidelines*](https://a11y-guidelines.orange.com/en/)
+
+[Appt. *A guide for making apps accessible*](https://appt.org/en/)
+
+[Whitaker, Rob. *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*](https://link.springer.com/book/10.1007/978-1-4842-5814-9)
+
+#### Articles
+
+[Brooke Nelson Alexander. *25 Smartphone Accessibility Settings You Need to Know About*](https://www.rd.com/article/accessibility-settings/)
+
+#### Apple
+
+[CVS Health. *Accessibility Annotation Kit for iOS*](https://www.figma.com/community/file/1331647574396908226/accessibility-annotation-kit-for-ios)
+
+#### Android
+
+[Android. *Principles for improving app accessibility*](https://developer.android.com/guide/topics/ui/accessibility/principles?hl=en)
+
+
+### WebApp
+
+#### Articles
+
+[W3C. *How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/)
+
+[inclusive-components.design. *Inclusive components project*](https://inclusive-components.design/#components)
+
+[Cristian Díaz. *A Guide To Keyboard Accessibility: HTML And CSS (Part 1)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/)
+
+[ExpandTheRoom. *How to Check Web Accessibility with a Screen Reader and Keyboard*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
+
+[Heydon Pickering. *Building Accessible Menu Systems*](https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/)
+
+[inclusive-components.design. *Menus & Menu Buttons*](https://inclusive-components.design/menus-menu-buttons/)
+
+[Cristian Díaz. *A Guide To Keyboard Accessibility: JavaScript (Part 2)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-javascript-part2/)
+
+[W3C. *WCAG 2 Overview*](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+[Microsoft. *Test accessibility using Lighthouse*](https://learn.microsoft.com/en-ca/microsoft-edge/devtools/accessibility/lighthouse)
+
+#### Testing Software
+
+[Wave](https://wave.webaim.org/)
+
+[Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools/lighthouse/lighthouse-tool?source=recommendations)
+
+[Axe](https://www.deque.com/axe/)
+
+### Development Pipeline
+
+[Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)
