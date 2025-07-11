@@ -175,6 +175,34 @@ Blondy Marie Herminie *L’idéologie libertaire des pionniers d’internet : Co
 
 ### Desktop
 
+#### Open source desktop app with good accessibility
+
+[BearWare. *TeamTalk5*](https://github.com/BearWare/TeamTalk5)
+
+[Signal. *Signal*](https://github.com/signalapp/Signal-Desktop)
+
+#### Tools
+
+[NVDA. *NVDA*](https://www.nvaccess.org/download/)
+
+[FreedomScientific. *Jaws*](https://www.freedomscientific.com/products/software/jaws/)
+
+[Apple. *VoiceOver*](https://www.apple.com/voiceover/info/guide/_1121.html)
+
+[Microsoft. *Accessibility Insights for Windows*](https://accessibilityinsights.io/)
+
+[WebAIM. *Wave*](https://wave.webaim.org/)
+
+## Articles and videos
+
+[Expand the room. *Accessibility Testing Tools Overview*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
+
+[Deque. *NVDA Keyboard Shortcuts*](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
+
+[Challenge Solutions. *Screen Reader Comparison*](https://www.youtube.com/watch?v=9_K5-4ngDtE)
+
+[VLE Guru *Introduction to Keyboard Navigation and Accessibility*](https://www.youtube.com/watch?v=FvpUNiB-2T0)
+
 ### Mobile
 
 #### Introduction to tools
