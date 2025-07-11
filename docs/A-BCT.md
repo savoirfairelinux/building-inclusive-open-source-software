@@ -29,7 +29,7 @@ The actors can be separated in four main categories: the publics actors, non-pro
 
 ### Countries
 
-Countries plays an increasing role in the accessibility landscape. As awareness rises, the law evolves to guarantee access to technology as a fundamental human right. We briefly mentioned the law of some countries in [Accessibility & Ableism](A-AIE.md). Additionally, [this map](https://github.com/Tanaguru/Map-of-Web-Accessibility-Laws-Policies) holds current laws for many countries (despite having a strong towards western countries).
+Countries plays an increasing role in the accessibility landscape. As awareness rises, the law evolves to guarantee access to technology as a fundamental human right. We briefly mentioned the law of some countries in [Accessibility & Ableism](A-AIE.md). Additionally, [this map](https://github.com/Tanaguru/Map-of-Web-Accessibility-Laws-Policies) holds current laws for many countries (despite having a strong bias towards western countries).
 
 ### European Union
 
@@ -93,7 +93,7 @@ Recently, Apple announced their new design system, called Liquid Glass. This ann
 
 ### Microsoft
 
-Microsoft has been publishing great inclusive and very extensive design resources on [their dedicated website](https://inclusive.microsoft.design/).
+Microsoft has been publishing extensive design resources about inclusiveness on [their dedicated website](https://inclusive.microsoft.design/).
 
 
 # What to look for and what to avoid
