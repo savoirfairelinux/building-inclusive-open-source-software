@@ -5,7 +5,7 @@
     Feeling the need for accessibility and the impacts of ableism will make it easier
     for trainees to engage.
 
-**⛳️ Section**: A. What is accessibility?
+**⛳️ Section**: *A. What is accessibility?*
 
 **👥 Audience**: Everyone
 

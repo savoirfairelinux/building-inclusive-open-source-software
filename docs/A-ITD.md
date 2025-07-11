@@ -6,7 +6,7 @@
     but rather to help designers and developers to find the relevant tools for
     their use case.
 
-**⛳️ Section**: A. What is accessibility?
+**⛳️ Section**: *A. What is accessibility?*
 
 **👥 Audience**: Developers
 

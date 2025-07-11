@@ -3,7 +3,7 @@
 !!! Info "In this module"
     This module allows participants who take design decision on mobile to receive platform-specific advice.
 
-**⛳️ Section**: D. Designing inclusive and accessible software
+**⛳️ Section**: *C. Designing inclusive and accessible software*
 
 **👥 Audience**: Everyone
 
@@ -77,7 +77,7 @@ They give information both to the user and to the screen reader which will inter
 the implementation if the behavior is the one intended. If not, that might be a trait issue. If you're unsure which trait should be used, don't hesitate to use a sticky note to describe the intended behavior on your design!
 
 - An **action** is - you will never guess - an action the user can take on an element. They can either be primary (i.e. actionable directly by double-tapping on a selected element) or secondary/custom (i.e. actionable once
-selected by swiping vertically to cycle through them), in which case they also have a textual label used to identify it. 
+selected by swiping vertically to cycle through them), in which case they also have a textual label used to identify it.
 
 - A **hint** gives additional textual information or context to the user that will be read last. Hints should help users who have lost the context of where they are, or who don't understand how to interact with an element.
 

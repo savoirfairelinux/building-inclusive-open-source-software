@@ -4,7 +4,7 @@
     This module aims at giving accessibility and inclusiveness essentials for app
     design.
 
-**⛳️ Section**: C. Designing inclusive and accessible software
+**⛳️ Section**: *C. Designing inclusive and accessible software*
 
 **👥 Audience**: Designers
 
@@ -136,7 +136,7 @@ There usually is not pre-made answer on how to adapt the UI, but the issue can t
 
 A lot of implementation frameworks provide easy ways to set a preferred size for an element, providing adaptation for scaling change.
 
-### The interactions does not require physical and motor abilities
+### The interactions do not require physical and/or motor abilities
 
 Here are some elements to keep in mind to achieve this milestone:
 
