@@ -30,7 +30,7 @@ We mentioned the WCAG guidelines multiple times through the training. These are 
 
 ### The *Inclusive Components project*
 
-The [Inclusive Components blog and pattern library](https://inclusive-components.design/#components) should be one of your privileged resource going forward with web accessibility. It provides articles, documentation and code snippets for making elements such as collapsible sections, tooltips, toggle buttons, etc. inclusive. It's truly an enormous, slid and immensely helpful work.
+The [Inclusive Components blog and pattern library](https://inclusive-components.design/#components) should be one of your privileged resource going forward with web accessibility. It provides articles, documentation and code snippets for making elements such as collapsible sections, tooltips, toggle buttons, etc. inclusive. It's truly an enormous and immensely helpful work.
 
 ![A screenshot from the inclusive components website stating "A blog trying to be a pattern library. All about designing inclusive web interfaces, piece by piece." with drawing on different cable plus in black and white.](resources/d-programming-inclusive-and-accessible-software/inclusiveComponents.png)
 
@@ -42,7 +42,7 @@ When it comes to essentials of web development, Mozilla always has a resource. A
 
 #### Navigation
 
-Navigation inside a web page or a webapp is often not trivial to design. This [article](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/) cover the basics of html and CSS accessible programming. [This one](https://medium.com/@awalakaushik/how-to-implement-keyboard-navigation-in-your-web-application-a-guide-to-web-accessibility-cb39bc27f859) seems to be a good synthesis even if we suspect it might have been written using a LLM.
+Navigation inside a web page or a webapp is often not trivial to design. This [article](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/) cover the basics of html and CSS accessible programming.
 
 You can watch [this video](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s) to get a sense of how to test your website with a screen reader and keyboard navigation.
 
@@ -99,8 +99,6 @@ Still be careful not to believe blindly the feedback form automated tools lke Wa
 [inclusive-components.design. *Inclusive components project*](https://inclusive-components.design/#components)
 
 [Cristian Díaz. *A Guide To Keyboard Accessibility: HTML And CSS (Part 1)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/)
-
-[Kaushik A. *How to Implement Keyboard Navigation in Your Web Application: A Guide to Web Accessibility*](https://medium.com/@awalakaushik/how-to-implement-keyboard-navigation-in-your-web-application-a-guide-to-web-accessibility-cb39bc27f859)
 
 [ExpandTheRoom. *How to Check Web Accessibility with a Screen Reader and Keyboard*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
 
