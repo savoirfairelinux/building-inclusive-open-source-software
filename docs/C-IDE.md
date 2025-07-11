@@ -140,7 +140,7 @@ A lot of implementation frameworks provide easy ways to set a preferred size for
 
 Here are some elements to keep in mind to achieve this milestone:
 
-- **Timeouts** should avoided as often as possible.
+- **Timeouts** should be avoided as often as possible.
 - Providing **shortcuts** (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
 - **Error tolerance** is also very important, as people with tremors have a higher risk of mistapping or misclicking elements. In general, and particularly for destructive actions, asking for confirmation or allowing for cancellation is very important.
 - Preventing confidential elements to appear on the screen spontaneously is crucial to **protect the privacy of everyone**, including people whose screen is typically more exposed, particularly wheelchair and phone holder users.
