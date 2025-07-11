@@ -19,18 +19,22 @@ This module is useful as an introduction to understand what are the current dyna
 
 ## Disclaimer
 
-We -the original authors- are not experts by any mean, only engineers working on accessibility and inclusiveness trying to provide others with the resources we wished we had. We don't have a complete understanding of all stakes in the accessibility landscape. Keep in mind that the following cartography will certainly be missing some precisions. If you want to help completing it with your own knowledge, feel free to contact us or to open a pull request on [our repository](https://github.com/Page-and-Maxence/building-inclusive-open-source-software).
+We -the original authors- are not experts by any mean, only engineers working on accessibility and inclusiveness trying to provide others with the resources we wished we had when starting working on accessibility and inclusiveness. We don't have a complete understanding of all stakes of the accessibility landscape. Keep in mind that the following cartography will certainly miss some precisions. If you want to help completing it with your own knowledge, feel free to contact us or to open a pull request on [our repository](https://github.com/Page-and-Maxence/building-inclusive-open-source-software).
 
 # The actors of accessibility
 
-The actors can be separated in four main categories: the publics actors, non-profit collectives, consulting firms, small companies (including start-ups) and bigger corporate actors. We could also mention university's researchers - but this would probably turn this module into a full state-of-the art bibliography.
+The actors can be separated in four main categories: the publics actors, non-profit collectives, consulting firms, small companies (including start-ups) and bigger corporate actors. We could also mention researchers and book writers - but this would probably turn this module into a full bibliography.
 
-## Publics actors
-TODO
-### States
-TODO
-### European union
-TODO
+## Countries & institutions
+
+### Countries
+
+Countries plays an increasing role in the accessibility landscape. As awareness rises, the law evolves to guarantee access to technology as a fundamental human right. We briefly mentioned the law of some countries in [Accessibility & Ableism](A-AIE.md). Additionally, [this map](https://github.com/Tanaguru/Map-of-Web-Accessibility-Laws-Policies) holds current laws for many countries (despite having a strong towards western countries).
+
+### European Union
+
+The European Union adopted in 2019 the [European Accessibility Act (EAA)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0882), which requires digital service providers to make their product accessible. Deque, a well-known accessibility consulting firm, has [a detailed article on the subject](https://www.deque.com/european-accessibility-act-eaa-compliance/).
+
 ## Non-profit collectives
 
 Non-profit organizations are at the core of producing resources about accessibility and inclusiveness, especially from a design and platform agnostic perspective. They are also a great sources for critical subjects on the current state of accessibility for different platforms as they often have less conflicts of interest.
@@ -82,14 +86,16 @@ While we cannot blindly recommend firms, Deque is an actor of the accessibility 
 Corporate actors and especially operating system providers can take an important role in accessibility and inclusiveness measures, either by their good or their bad will.
 
 ### Apple
-TODO
-### Microsoft
-TODO:
-* Microsoft Inclusiveness website
-* Windows recall and the issues it create for accessibility (ex of signal)
 
-### Orange
-TODO
+For years, Apple has been the reference for accessibility. Their tools and resources are among the best out there. Unfortunately, these tools and resources are directly targeted for their platforms. While some of them can be useful when developing for other platforms, their power really lies in the control they have on the whole technological stack, from hardware to framework. That said, their investments in setting the bar high with accessibility really pushed their competitors to try and do the same. While most third party apps still lack accessibility, the tools are here.
+
+Recently, Apple announced their new design system, called Liquid Glass. This announcement have been heavily criticized for structural accessibility issues introduced by this redesign. As of the time of writing, we'll need to wait for the official release of the OS to see the impacts of these changes at scale.
+
+### Microsoft
+
+Microsoft has been publishing great inclusive and very extensive design resources on [their dedicated website](https://inclusive.microsoft.design/).
+
+
 # What to look for and what to avoid
 
 ## Accessibility and AI powered tools
