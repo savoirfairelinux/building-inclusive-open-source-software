@@ -15,52 +15,54 @@
 
 ## When to use
 
-This module should be used once the trainees have a basic understanding of what accessibility mean. It shows the trainees more concrete examples of what working on accessibility actually means.
+This module should be used once the trainees have a basic understanding of what accessibility means. It shows the trainees more concrete examples of accessibility and inclusiveness challenges.
 
 ## Main disabilities to account for in software
 
-Below are the main disabilities you will need to directly take into account when building software. Keep in mind that disability is not a binary state but rather refers to a wide variety of living experience, and that a lot of users experience multiple disabilities at once. Consequently, this list should not be seen as exhaustive.
+Below are the main disabilities you will need to directly take into account when building software. Keep in mind that disability is not a binary state but rather refers to a wide variety of living experiences, and that a lot of users experience multiple disabilities at once. Consequently, this list should not be seen as exhaustive.
 
 ### Low vision and blindness
 
 Visual impairment affects up to 17% of users, [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). These visual impairments range from low-vision to blindness. Therefore, it is crucial that your application meets legibility standards regarding font sizes (which should be adjustable at least from the system settings) and contrasts, and also supports assistive technologies like screen-readers or braille displays (requiring keyboard support for desktop apps).
 
-Here is an example of navigation between elements providing feedback to an assistive technology like a screen reader.
+Here is an example of navigation between elements navigated using a cursor-based assistive technology, like a screen reader.
 
 <figure markdown="span">
     ![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](resources/c-designing-inclusive-and-accessible-software/order.png)
 </figure>
 
-Hopefully, because of the way OSes and assistive technologies function, making an app accessible to screen readers should make it mostly accessible to others. While support screen readers will likely represent an important investment, the impacts of this work are very rewarding.
+Fortunately, because of the way OSes and assistive technologies function, making an app accessible to screen readers should make it mostly accessible to others. While supporting screen readers will likely represent an important investment, the impacts of this work are very rewarding.
 
 ### Hearing impairments
 
-18% of users are hearing-impaired [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). For more specific information on their needs, you can check the [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/#time-based-media) of the W3C. You will mostly need to provide redundant access to all auditive information. This can be for example a visual notification accompanying all sounds or real-time subtitling like the [Whisper Transcript plugin for Jami](https://jami.net/plugins/).
+18% of users are hearing-impaired [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). For more specific information on their needs, you can check the [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/#time-based-media) of the W3C. You will mostly need to provide redundant access to all auditive information. This can be for example a visual notification accompanying a sound, or real-time subtitling like the [Whisper Transcript plugin for Jami](https://jami.net/plugins/).
 
 ### Motion sickness
 
-Some users will experience motion sickness when exposed to motion. You should be aware of that, providing them with solutions for a less triggering experience. Known triggers include:
+Some users will experience motion sickness when exposed to animations or visual effects. You should be aware of that, providing them with solutions for a less triggering experience. Known triggers include:
 
 - Zooms
 - Flashing or blinking
 - Animations playing automatically without user interaction
 - Parallax effects
 
+Common solutions include buttons to pause animations, using OSes APIs to detect if reduced motion is enabled, limiting flashing elements when possible, etc.
+
 ### Color blindness
 
 Can you guess what is the accessibility issue in this screenshot?
 
 <figure markdown="span">
-    ![A screenshot showing the icons of contacts in greyscale. Their is a dot next to every contacts indicating their presence status.](resources/b-how-to-start-incroporating-accessibility/greyscaleIcons.png)
+    ![A screenshot showing the icons of contacts in grayscale. Their is a dot next to every contacts indicating their presence status.](resources/b-how-to-start-incroporating-accessibility/grayscaleIcons.png)
 </figure>
 
-A colorblind user could not have any way of identifying the presence status of the user as it's only communicated through a colored dot.
+Some colorblind users would not have any way of identifying the presence status of the user as it's only communicated through a colored dot.
 
 Color blindness is typically less thought of. Making your UI accessible to people who experience this disability is straightforward: **make sure your UI doesn't rely on color elements alone to convey information**. For example, if a colored dot indicates whether a user is connected or not, it should be accompanied by a textual label or an icon.
 
 ### Cognitive impairments
 
-Cognitive impairments affects [16% of users](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Consequently, it is crucial for designers to take these into account. Accessibility can be improved for this demographic by allowing for highly customizable applications and UIs, allowing for simplification, hiding of some elements, etc, so that users can have the app tailored to their specific needs.
+Cognitive impairments affect [16% of users](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). Consequently, it is crucial for designers to take these into account. Accessibility can be improved for this demographic by allowing for highly customizable applications and UIs, allowing for simplification, hiding of some elements, etc, so that users can have the app tailored to their specific needs.
 
 In [👩‍🦽 Accessibility & Ableism](A-AIE.md) we saw a quote of Ashley Shew showcasing how Discord became a welcoming place for many autistic people.
 
@@ -69,7 +71,7 @@ In [👩‍🦽 Accessibility & Ableism](A-AIE.md) we saw a quote of Ashley Shew
 
 ### Motor disabilities
 
-Affecting up to [19% of users](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility), many people can have difficulty using a phone, a keyboard or a mouse. They often have alternative input devices like switches or audio controlling. You must take them into account when designing your user experience (UX).
+Affecting up to [19% of users](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility), many people can have difficulties using a phone, a keyboard or a mouse. They often have alternative input devices like switches or audio controlling. You must take them into account when designing your user experience (UX).
 
 <figure markdown="span">
   ![Picture of a switch with two buttons, one is white and the other is yellow.](resources/a-what-is-accessibility/switch.jpg){ width="300" }
@@ -78,11 +80,11 @@ Affecting up to [19% of users](https://learn.microsoft.com/en-us/windows/win32/u
 
 ### Speech or language
 
-Speech or language-related disabilities can take various forms ranging from dyslexia, illiteracy or elocution difficulties. Some of the solutions will include speech-to-text features, support for custom typefaces like [Open Dyslexic](https://opendyslexic.org/) or spell-checkers.
+Speech or language-related disabilities can take various forms ranging from dyslexia, illiteracy or elocution difficulties. Some of the solutions will include speech-to-text features, support for custom typefaces like [Open Dyslexic](https://opendyslexic.org/) and spell-checkers.
 
 ## Additional needs and factors to take into consideration
 
-In the [🎨 Inclusive design 101](C-IDE.md) module we will develop further the intersectional needs to take into account. Before that, a *non-exhaustive* list of human characteristics to keep in mind in order to try and include as many user as possible is:
+In the [🎨 Inclusive design 101](C-IDE.md) module we will develop further the intersectional needs to take into account. Before that, here is a *non-exhaustive* list of human characteristics to keep in mind in order to try and include as many user as possible:
 
 - Age
 - Culture
