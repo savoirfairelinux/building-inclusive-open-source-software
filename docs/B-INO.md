@@ -25,7 +25,7 @@ Below are the main disabilities you will need to directly take into account when
 
 Visual impairment affects up to 17% of users, [according to Microsoft](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility). These visual impairments range from low-vision to blindness. Therefore, it is crucial that your application meets legibility standards regarding font sizes (which should be adjustable at least from the system settings) and contrasts, and also supports assistive technologies like screen-readers or braille displays (requiring keyboard support for desktop apps).
 
-Here is an example of navigation between elements navigated using a cursor-based assistive technology, like a screen reader.
+Here is an example of navigation between elements navigated using an assistive technology, like a screen reader.
 
 <figure markdown="span">
     ![UI representing a contact request. There is a profile picture and a name which are focused first, an "accept" button which is focused second, and lastly a "deny" button. The focus order is not the same as the graphic as the left-to-right "default" order.](resources/c-designing-inclusive-and-accessible-software/order.png)
