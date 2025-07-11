@@ -32,7 +32,7 @@ Making an inclusive app is thus taking care of everyone, including minorities.
 
 For every feature, every interface, every content that you are building, always ask yourself: is this element inclusive? Are there human characteristics that could prevent a user from understanding, interacting, or even feeling well with the provided content?
 
-Here is a *non-exhaustive* list of human characteristics to keep in mind in order to include as many people as possible:
+As seen in [🔭 Inclusive needs overview](B-INO.md), here is a *non-exhaustive* list of human characteristics to keep in mind in order to include as many people as possible:
 
 - Age
 - Culture
@@ -136,11 +136,15 @@ There usually is not pre-made answer on how to adapt the UI, but the issue can t
 
 A lot of implementation frameworks provide easy ways to set a preferred size for an element, providing adaptation for scaling change.
 
-### The interactions do not require physical and motor skills
+### The interactions do not require physical and/or motor abilities
 
-- There should be no timeout in the interface.
-- Providing shortcuts (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
-- Eventually, an essential part of making your app inclusive to people with physical motor disabilities is to make the interface nice to use with assistive technologies.
+Here are some elements to keep in mind to achieve this milestone:
+
+- **Timeouts** should be avoided as often as possible.
+- Providing **shortcuts** (whether they are through keyboard or other accessibility APIs depending on the platform) can make the interface faster and easier to use.
+- **Error tolerance** is also very important, as people with tremors have a higher risk of mistapping or misclicking elements. In general, and particularly for destructive actions, asking for confirmation or allowing for cancellation is very important.
+- Preventing confidential elements to appear on the screen spontaneously is crucial to **protect the privacy of everyone**, including people whose screen is typically more exposed, particularly wheelchair and phone holder users.
+- Eventually, an essential part of making your app inclusive to people with physical motor disabilities is to make the interface nice to use with **assistive technologies** in general, as they often rely on these.
 
 ### The content can be accessed using assistive technologies
 
@@ -210,7 +214,7 @@ A simple and intuitive UI benefits everyone. But while this might be a convenien
 
 ### The UI has options to prevent motion sickness
 
-Some people experience motion sickness when looking at animations. Some platforms allow the developers of third party apps to know whether the user as activated a setting reducing motion. It’s a good idea to include an annotation (we will tackle annotations more globally in TODO) letting the developers know when there is a know trigger to be optionally deactivated. Known triggers include:
+Some people experience motion sickness when looking at animations. Some platforms allow the developers of third party apps to know whether the user as activated a setting reducing motion. It’s a good idea to include an annotation (we will tackle annotations more globally in TODO) letting the developers know when there is a know trigger to be optionally deactivated. As mentioned in [🔭 Inclusive needs overview](B-INO.md), known triggers include:
 
 - Zooms
 - Flashing or blinking
