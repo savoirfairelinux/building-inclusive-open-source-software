@@ -36,7 +36,7 @@ theme:
         icon: material/weather-night
         name: Switch to system preference
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
@@ -71,10 +71,10 @@ nav:
   - Programming inclusive and accessible software:
     - 👩‍💻 Inclusive code 101: D-ICO.md
     - 🍎 Inclusiveness features and programming for Apple platforms: D-APL.md
-    - 📗 Accessible programming with Qt: D-APQ.md
-    #- ☕️ Accessible programming with Java Fx:
-    #- 🤖 Accessible programming for Android:
-    #- 🕸️ Accessible web programming:
+    - 📗 Inclusive programming with Qt: D-APQ.md
+    #- ☕️ Inclusive programming with Java Fx:
+    #- 🤖 Inclusive programming for Android:
+    - 🕸️ Inclusive web programming: D-IWP.md
   - To conclude and go further:
     #- 🎯 Conclusion, bibliography and useful resources:
     - 🏃🏽‍♀️‍➡️ Where YOU go next!: E-WYG.md
