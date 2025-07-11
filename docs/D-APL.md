@@ -15,7 +15,7 @@
 
 ## When to use
 
-This module should be used with trainees who need or want to have a technical understanding how Apple's approach on accessibility. It can be useful for product managers or designers who want to understand Apple accessibility features, and understand what's under the hood (especially for the last sections).
+This module should be used with trainees who need or want to have a technical understanding how Apple's approach on accessibility. It can be useful for product managers or designers who want to understand Apple accessibility features, and what it takes to implement them (especially for the last sections).
 
 ## Introduction
 
@@ -200,7 +200,7 @@ private struct HorizontalListOfUsersViewCell: View {
         var body: some View {
 
             // [...]
-            
+
         }
 
     }
