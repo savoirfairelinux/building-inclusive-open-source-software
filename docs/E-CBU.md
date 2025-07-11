@@ -19,6 +19,8 @@ This module should be used as a synthesis of the main points of this training as
 
 ## What to take away from this training?
 
+This section is a reorganized synthesis of the whole training.
+
 ### Accessibility is nothing without inclusiveness
 
 Inclusiveness is a core concept when talking about diversity. It's often a preferred term to accessibility that is rather limited to the inclusion of people with disabilities. It highlights that we need to be designing and programming not only for accessability but also for the ever-varying pluralities of human experiences and discriminations. In simpler words, not being ableist is not enough. We must make sure that we are also not perpetuating other kinds of oppressions.
@@ -103,5 +105,9 @@ You code can be good but will never be as robust as one iterated upon by a commu
     **Your code cannot be good without being accessible and if it's not accessible, it's probably hiding something more.**
 
 ## Perspectives
+
+This training is already coming to a close. - If you are doing this training collectively, you are not *quite yet* finished as their is still two modules awaiting you. -
+
+We dearly hope it was somewhat useful to you. We felt that their is a lack of resources that goes into highly technical details while reflecting on them through a systemic gaze and placing empathy as a core element of decision making. We tried our best to provide a training that helped move FOSS in this direction. As we said multiple time, we are not experts, only people trying to help. If you have expertise on those topics and felt like those resources were useful, **please contribute**. If not, you can still [star the repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness). If you have any question, feel free to contact us.
 
 ## Bibliography & useful resources
