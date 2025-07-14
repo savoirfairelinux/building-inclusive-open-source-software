@@ -104,6 +104,16 @@ You code can be good but will never be as robust as one iterated upon by a commu
 !!! Tip
     **Your code cannot be good without being accessible and if it's not accessible, it's probably hiding something more.**
 
+### The Quick Inclusiveness check
+
+Before submitting a commit or reviewing it, you can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness).
+
+Remember: this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start.
+
+![Diagram showing an "A very basic accessibility checklist not to break anything when committing. Did you change/create a UI component? If no: skip to the question about data manipulation. Can you access it in a practical way with your keyboard or VoiceOver/TalkBack alone? If no: Fix it! All elements should be accessible without a mouse. Most users would expect the navigation to take place using TAB and BACKTAB. Arrows are also useful inside of lists. A top bar would typically be accessible with ALT. Shortcuts can make this navigation smoother. Are all information and labels properly transcribed using a screen reader? If no: Fix it! You can test this using your system screen reader on the settings or NVDA on Windows. You can then navigate through the app and hear if the labels are relevant. All information like the state of a component or wether it's selected must be transcribed. Expect to provide in your code.- A name for the element - A description of its effect - its role (for example static text or button). Does it work with different text scaling? - If no: Fix it! Most operating systems have text scaling options.  Some apps have their own too. Check if your UI isn't cropped by changing the size of the font. Try it for smaller and for bigger text. Did you affect another component? - If yes: repeat the previous questions for the other component Is the data manipulated in your code easily accessible from UI components? - If no: Make functions in  your API that allow  UI components to access relevant information. For example, the time of a message is often in a separated component from the message itself but the accessibility label of this message could need access to the date where it was sent. Does it work well for all languages? (including non UTF8 and RTL ones )? - If no: Fix it! Some languages like Greek are often not encoded in UTF8. Be sure to account for them. Also check that RTL (right to left) languages like Arabic displays correctly. To test this, you can use parts of local newspapers as placeholders! Does it has elements showing cultural significance? - If no: You are good to go! - If yes: Does it enable people from various cultural background to feel represented? - If you for no: Fix it! For example, a picture of a cheeseburger or a pizza as an illustration for food will only enable a certain demographic of users to feel represented. Having separate field for first and last name will not allow users from certain cultures to use the app properly. The only way to try and make our application more inclusive is to show it to people from varied background ans ask them about their needs to use it properly. - If you hope yes: You are good to go!"](resources/d-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
+
+You can modify it for your needs by [downloading this file](resources/d-programming-inclusive-and-accessible-software/quickInclusivenessCheck.excalidraw) and opening it in [excalidraw](https://excalidraw.com/).
+
 ## Perspectives
 
 This training is already coming to a close. - If you are doing this training collectively, you are not *quite yet* finished as their is still two modules awaiting you. -
@@ -112,162 +122,200 @@ We dearly hope it was somewhat useful to you. We felt that their is a lack of re
 
 ## Bibliography & useful resources
 
-### Design
+=== "Design"
 
-#### Tools
+    ### Tools
 
-[Color Contrast Checker & Accessibility Checker | Figma](https://www.figma.com/color-contrast-checker/?background=ffffff&foreground=b50202)
+    [Color Contrast Checker & Accessibility Checker | Figma](https://www.figma.com/color-contrast-checker/?background=ffffff&foreground=b50202)
 
-[WillowTree. Contrast Plugin](https://www.figma.com/community/plugin/748533339900865323/contrast)
+    [WillowTree. Contrast Plugin](https://www.figma.com/community/plugin/748533339900865323/contrast)
 
-#### Articles, book and masterclasses
+    ### Articles, book and masterclasses
 
-[Winner, Langdon. *Do artifacts have politics?*, 1980. Daedalus 109 (1): pp. 121--136.](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf)
+    [Winner, Langdon. *Do artifacts have politics?*, 1980. Daedalus 109 (1): pp. 121--136.](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf)
 
-[Apple Human Interface Guidelines: *Accessibility*](https://developer.apple.com/design/human-interface-guidelines/accessibility)
+    [Apple Human Interface Guidelines: *Accessibility*](https://developer.apple.com/design/human-interface-guidelines/accessibility)
 
-[Apple. *Principles of Inclusive App Design*](https://developer.apple.com/videos/play/wwdc2025/316)
+    [Apple. *Principles of Inclusive App Design*](https://developer.apple.com/videos/play/wwdc2025/316)
 
-[Whitaker, Rob (2020). *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*, Apress Berkley.](https://doi.org/10.1007/978-1-4842-5814-9)
+    [Whitaker, Rob (2020). *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*, Apress Berkley.](https://doi.org/10.1007/978-1-4842-5814-9)
 
-[Apple. *The practice of inclusive design*](https://developer.apple.com/videos/play/wwdc2021/10275/)
+    [Apple. *The practice of inclusive design*](https://developer.apple.com/videos/play/wwdc2021/10275/)
 
-[Apple. *The process of inclusive design*](https://developer.apple.com/videos/play/wwdc2021/10304/)
+    [Apple. *The process of inclusive design*](https://developer.apple.com/videos/play/wwdc2021/10304/)
 
-[The A11Y Project. *Software, books, blogs, online tools, etc.*](https://www.a11yproject.com/resources/)
+    [The A11Y Project. *Software, books, blogs, online tools, etc.*](https://www.a11yproject.com/resources/)
 
-[McRuer Robert. *Crip Theory : Cultural Signs of Queerness and Disability*, 1966](https://archive.org/details/criptheorycultur0000mcru)
+    [McRuer Robert. *Crip Theory : Cultural Signs of Queerness and Disability*, 1966](https://archive.org/details/criptheorycultur0000mcru)
 
-### Politics
+    [Microsoft. *Accessibility (Design basics)*](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility)
 
-#### FOSS in the army
+=== "Politics"
 
-[U.S. Department of Defense. *Use of Free and Open-source software (FOSS) in the U.S. Department of Defense*, 2003](https://dodcio.defense.gov/Portals/0/Documents/FOSS/dodfoss_pdf.pdf)
+    ### FOSS in the army
 
-[U.S. Department of Defense. *DoD Open Source Software FAQ*](https://dodcio.defense.gov/open-source-software-faq/)
+    [U.S. Department of Defense. *Use of Free and Open-source software (FOSS) in the U.S. Department of Defense*, 2003](https://dodcio.defense.gov/Portals/0/Documents/FOSS/dodfoss_pdf.pdf)
 
-[Capt. Noe Lorona. *Leveraging Free and Open-Source Software on the battlefield.*, 2024](https://www.army.mil/article/276750/the_power_of_foss)
+    [U.S. Department of Defense. *DoD Open Source Software FAQ*](https://dodcio.defense.gov/open-source-software-faq/)
 
-#### FOSS and capitalism
+    [Capt. Noe Lorona. *Leveraging Free and Open-Source Software on the battlefield.*, 2024](https://www.army.mil/article/276750/the_power_of_foss)
 
-[Teemu Mikkonen, Tere Vadén, Niklas Vainio. *Open source developers and the ethics of  capitalism*, 2007](https://firstmonday.org/ojs/index.php/fm/article/view/1623/1538)
+    ### FOSS and capitalism
 
-[Böhm Mirko, *Economics of Open Source* 2022](https://academic.oup.com/book/44727/chapter/378967711?login=false)
+    [Teemu Mikkonen, Tere Vadén, Niklas Vainio. *Open source developers and the ethics of  capitalism*, 2007](https://firstmonday.org/ojs/index.php/fm/article/view/1623/1538)
 
-[Ross Daniel. *The Place of Free and Open Source Software in the Social Apparatus of Accumulation*, 2013](https://guilfordjournals.com/doi/abs/10.1521/siso.2013.77.2.202)
-[Josh Lerner, Parag A. Pathak, Jean Tirole. *The Dynamics of Open-Source Contributors*](https://economics.mit.edu/sites/default/files/publications/Dynamics%20of%20Open%20Source.pdf)
+    [Böhm Mirko, *Economics of Open Source* 2022](https://academic.oup.com/book/44727/chapter/378967711?login=false)
 
-[Manuel Hoffmann, Frank Nagle, Yanuo Zhou. *The Value of Open Source Software*](https://www.hbs.edu/ris/Publication%20Files/24-038_51f8444f-502c-4139-8bf2-56eb4b65c58a.pdf)
+    [Ross Daniel. *The Place of Free and Open Source Software in the Social Apparatus of Accumulation*, 2013](https://guilfordjournals.com/doi/abs/10.1521/siso.2013.77.2.202)
+    [Josh Lerner, Parag A. Pathak, Jean Tirole. *The Dynamics of Open-Source Contributors*](https://economics.mit.edu/sites/default/files/publications/Dynamics%20of%20Open%20Source.pdf)
 
-#### Inclusion in software
+    [Manuel Hoffmann, Frank Nagle, Yanuo Zhou. *The Value of Open Source Software*](https://www.hbs.edu/ris/Publication%20Files/24-038_51f8444f-502c-4139-8bf2-56eb4b65c58a.pdf)
 
-[The Chartered Institute for IT, *Nearly 90,000 disabled people are 'missing' from tech industry, says professional body*. 2024](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/)
+    ### Inclusion in software
 
-[Shew Ashley, *Against Technoableism: rethinking who needs improvement*. 2023](https://wwnorton.com/books/9781324036661)
+    [The Chartered Institute for IT, *Nearly 90,000 disabled people are 'missing' from tech industry, says professional body*. 2024](https://www.bcs.org/articles-opinion-and-research/nearly-90-000-disabled-people-are-missing-from-tech-industry-says-professional-body/)
 
-[Nathan L. Ensmenger. *The computer boys take over*, 2010](https://www.jstor.org/stable/j.ctt5hhjdh)
+    [Shew Ashley, *Against Technoableism: rethinking who needs improvement*. 2023](https://wwnorton.com/books/9781324036661)
 
-[Goodin Dan, *“Microsoft has simply given us no other option,” Signal says as it blocks Windows Recall* 2025](https://arstechnica.com/security/2025/05/signal-resorts-to-weird-trick-to-block-windows-recall-in-desktop-app/)
+    [Nathan L. Ensmenger. *The computer boys take over*, 2010](https://www.jstor.org/stable/j.ctt5hhjdh)
 
-[Sarah Gooding, *Accessibility Advocates Sign Open Letter Urging People Not To Use AccesiBe and Other Overlay Products*. 2021](https://wptavern.com/accessibility-advocates-sign-open-letter-urging-people-not-to-use-accesibe-and-other-overlay-products)
+    [Goodin Dan, *“Microsoft has simply given us no other option,” Signal says as it blocks Windows Recall* 2025](https://arstechnica.com/security/2025/05/signal-resorts-to-weird-trick-to-block-windows-recall-in-desktop-app/)
 
-Blondy Marie Herminie *L’idéologie libertaire des pionniers d’internet : Contradictions d’un humanisme industriel*, 2025
+    [Sarah Gooding, *Accessibility Advocates Sign Open Letter Urging People Not To Use AccesiBe and Other Overlay Products*. 2021](https://wptavern.com/accessibility-advocates-sign-open-letter-urging-people-not-to-use-accesibe-and-other-overlay-products)
 
-### Desktop
+    Blondy Marie Herminie *L’idéologie libertaire des pionniers d’internet : Contradictions d’un humanisme industriel*, 2025
 
-#### Open source desktop app with good accessibility
+=== "Desktop"
 
-[BearWare. *TeamTalk5*](https://github.com/BearWare/TeamTalk5)
+    ### Open source desktop app with good accessibility
 
-[Signal. *Signal*](https://github.com/signalapp/Signal-Desktop)
+    [BearWare. *TeamTalk5*](https://github.com/BearWare/TeamTalk5)
 
-#### Tools
+    [Signal. *Signal*](https://github.com/signalapp/Signal-Desktop)
 
-[NVDA. *NVDA*](https://www.nvaccess.org/download/)
+    ### Tools
 
-[FreedomScientific. *Jaws*](https://www.freedomscientific.com/products/software/jaws/)
+    [NVDA. *NVDA*](https://www.nvaccess.org/download/)
 
-[Apple. *VoiceOver*](https://www.apple.com/voiceover/info/guide/_1121.html)
+    [FreedomScientific. *Jaws*](https://www.freedomscientific.com/products/software/jaws/)
 
-[Microsoft. *Accessibility Insights for Windows*](https://accessibilityinsights.io/)
+    [Apple. *VoiceOver*](https://www.apple.com/voiceover/info/guide/_1121.html)
 
-[WebAIM. *Wave*](https://wave.webaim.org/)
+    [Microsoft. *Accessibility Insights for Windows*](https://accessibilityinsights.io/)
 
-## Articles and videos
+    [WebAIM. *Wave*](https://wave.webaim.org/)
 
-[Expand the room. *Accessibility Testing Tools Overview*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
+    [Apple. *Accessibility Inspector*](https://developer.apple.com/documentation/accessibility/accessibility-inspector)
 
-[Deque. *NVDA Keyboard Shortcuts*](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
+    ## Articles and videos
 
-[Challenge Solutions. *Screen Reader Comparison*](https://www.youtube.com/watch?v=9_K5-4ngDtE)
+    [Expand the room. *Accessibility Testing Tools Overview*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
 
-[VLE Guru *Introduction to Keyboard Navigation and Accessibility*](https://www.youtube.com/watch?v=FvpUNiB-2T0)
+    [Deque. *NVDA Keyboard Shortcuts*](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
 
-### Mobile
+    [Challenge Solutions. *Screen Reader Comparison*](https://www.youtube.com/watch?v=9_K5-4ngDtE)
 
-#### Introduction to tools
+    [VLE Guru *Introduction to Keyboard Navigation and Accessibility*](https://www.youtube.com/watch?v=FvpUNiB-2T0)
 
-[Apple. *WWDC21 Challenge: VoiceOver Maze*](https://developer.apple.com/documentation/accessibility/wwdc21_challenge_voiceover_maze)
+    [Expand the room. *How to Check Web Accessibility with a Screen Reader and Keyboard*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
 
-[Senjam, S. S., Manna, S., & Bascaran, C. *Smartphones-Based Assistive Technology: Accessibility Features and Apps for People with Visual Impairment, and its Usage, Challenges, and Usability Testing*, 2021](https://www.tandfonline.com/doi/full/10.2147/OPTO.S336361?scroll=top&needAccess=true)
+    [Chrome for Developers. *Screen Reader Basics: NVDA -- A11ycasts #09 *](https://www.youtube.com/watch?v=Jao3s_CwdRU)
 
-#### Documentation
+    [Andreea-QA. *Accessibility Testing on Windows Apps*, 2023.](https://medium.com/testing-thoughts/accessibility-testing-on-windows-apps-6567906bb24f)
 
-[Direction Interministérielle du Numérique. *RGAA-APPS : le guide officiel pour des applications accessibles*](https://disic.github.io/rgaa-apps/)
+    [The A11Y Project. *Software, books, blogs, online tools, etc.*](https://www.a11yproject.com/resources/)
 
-[Direction Interministérielle du Numérique.*Guide du concepteur RGAA 3*](https://disic.github.io/guide-concepteur/)
+    ### Documentation
 
-[Direction Interministérielle du Numérique.*Référentiel spécifique aux plateformes mobiles/tactiles*](https://github.com/DISIC/referentiel-mobile-tactile)
+    [Microsoft. *Accessibility overview*](https://learn.microsoft.com/en-us/windows/apps/design/accessibility/accessibility-overview#main)
 
-[Orange. *Accessibility Guidelines*](https://a11y-guidelines.orange.com/en/)
+    [Microsoft. *Accessibility (Design basics)*](https://learn.microsoft.com/en-us/windows/win32/uxguide/inter-accessibility)
 
-[Appt. *A guide for making apps accessible*](https://appt.org/en/)
+    [Direction Interministérielle du Numérique. *RGAA-APPS : le guide officiel pour des applications accessibles*](https://disic.github.io/rgaa-apps/)
 
-[Whitaker, Rob. *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*](https://link.springer.com/book/10.1007/978-1-4842-5814-9)
+    [Direction Interministérielle du Numérique.*Guide du concepteur RGAA 3*](https://disic.github.io/guide-concepteur/)
 
-#### Articles
+    [Jonathan Giles. *The JavaFX Accessibility API*](https://download.jonathangiles.net/downloads/presentations/2015/Accessibility.pdf)
 
-[Brooke Nelson Alexander. *25 Smartphone Accessibility Settings You Need to Know About*](https://www.rd.com/article/accessibility-settings/)
+=== "Mobile"
 
-#### Apple
+    ### Introduction to tools
 
-[CVS Health. *Accessibility Annotation Kit for iOS*](https://www.figma.com/community/file/1331647574396908226/accessibility-annotation-kit-for-ios)
+    [Apple. *WWDC21 Challenge: VoiceOver Maze*](https://developer.apple.com/documentation/accessibility/wwdc21_challenge_voiceover_maze)
 
-#### Android
+    [Senjam, S. S., Manna, S., & Bascaran, C. *Smartphones-Based Assistive Technology: Accessibility Features and Apps for People with Visual Impairment, and its Usage, Challenges, and Usability Testing*, 2021](https://www.tandfonline.com/doi/full/10.2147/OPTO.S336361?scroll=top&needAccess=true)
 
-[Android. *Principles for improving app accessibility*](https://developer.android.com/guide/topics/ui/accessibility/principles?hl=en)
+    ### Documentation
 
+    [Direction Interministérielle du Numérique. *RGAA-APPS : le guide officiel pour des applications accessibles*](https://disic.github.io/rgaa-apps/)
 
-### WebApp
+    [Direction Interministérielle du Numérique.*Guide du concepteur RGAA 3*](https://disic.github.io/guide-concepteur/)
 
-#### Articles
+    [Direction Interministérielle du Numérique.*Référentiel spécifique aux plateformes mobiles/tactiles*](https://github.com/DISIC/referentiel-mobile-tactile)
 
-[W3C. *How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/)
+    [Orange. *Accessibility Guidelines*](https://a11y-guidelines.orange.com/en/)
 
-[inclusive-components.design. *Inclusive components project*](https://inclusive-components.design/#components)
+    [Appt. *A guide for making apps accessible*](https://appt.org/en/)
 
-[Cristian Díaz. *A Guide To Keyboard Accessibility: HTML And CSS (Part 1)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/)
+    [Whitaker, Rob. *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*](https://link.springer.com/book/10.1007/978-1-4842-5814-9)
 
-[ExpandTheRoom. *How to Check Web Accessibility with a Screen Reader and Keyboard*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
+    ### Articles
 
-[Heydon Pickering. *Building Accessible Menu Systems*](https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/)
+    [Brooke Nelson Alexander. *25 Smartphone Accessibility Settings You Need to Know About*](https://www.rd.com/article/accessibility-settings/)
 
-[inclusive-components.design. *Menus & Menu Buttons*](https://inclusive-components.design/menus-menu-buttons/)
+    [Senjam, S. S., Manna, S., & Bascaran, C. *Smartphones-Based Assistive Technology: Accessibility Features and Apps for People with Visual Impairment, and its Usage, Challenges, and Usability Testing*, 2021.](https://www.tandfonline.com/doi/full/10.2147/opto.s336361#abstract)
 
-[Cristian Díaz. *A Guide To Keyboard Accessibility: JavaScript (Part 2)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-javascript-part2/)
+    ### Apple
 
-[W3C. *WCAG 2 Overview*](https://www.w3.org/WAI/standards-guidelines/wcag/)
+    [CVS Health. *Accessibility Annotation Kit for iOS*](https://www.figma.com/community/file/1331647574396908226/accessibility-annotation-kit-for-ios)
 
-[Microsoft. *Test accessibility using Lighthouse*](https://learn.microsoft.com/en-ca/microsoft-edge/devtools/accessibility/lighthouse)
+    ### Android
 
-#### Testing Software
+    [Android. *Principles for improving app accessibility*](https://developer.android.com/guide/topics/ui/accessibility/principles?hl=en)
 
-[Wave](https://wave.webaim.org/)
 
-[Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools/lighthouse/lighthouse-tool?source=recommendations)
+=== "WebApp"
 
-[Axe](https://www.deque.com/axe/)
+    ### Articles
 
-### Development Pipeline
+    [W3C. *How to Meet WCAG (Quick Reference)*](https://www.w3.org/WAI/WCAG22/quickref/)
 
-[Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)
+    [inclusive-components.design. *Inclusive components project*](https://inclusive-components.design/#components)
+
+    [Cristian Díaz. *A Guide To Keyboard Accessibility: HTML And CSS (Part 1)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/)
+
+    [ExpandTheRoom. *How to Check Web Accessibility with a Screen Reader and Keyboard*](https://www.youtube.com/watch?v=yV_ENQZq3fs&t=418s)
+
+    [Heydon Pickering. *Building Accessible Menu Systems*](https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/)
+
+    [inclusive-components.design. *Menus & Menu Buttons*](https://inclusive-components.design/menus-menu-buttons/)
+
+    [Cristian Díaz. *A Guide To Keyboard Accessibility: JavaScript (Part 2)*](https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-javascript-part2/)
+
+    [W3C. *WCAG 2 Overview*](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+    [Microsoft. *Test accessibility using Lighthouse*](https://learn.microsoft.com/en-ca/microsoft-edge/devtools/accessibility/lighthouse)
+
+    ### Testing Software
+
+    [Wave](https://wave.webaim.org/)
+
+    [Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools/lighthouse/lighthouse-tool?source=recommendations)
+
+    [Axe](https://www.deque.com/axe/)
+
+=== "Development Pipeline"
+
+    [Barrell Dylan. *Agile Accessibility Handbook*](https://accessibility.deque.com/agile-accessibility-handbook)
+
+=== "Qt"
+
+    [Qt. *Qt's documentation of QAccessible Class*](https://doc.qt.io/qt-6/qaccessible.html#Role-enum)
+
+    [Qt. *Qt's documentation of QAccessible::Role*](https://doc.qt.io/qt-6/qaccessible.html?search=item#Role-enum)
+
+    [Qt. *Qt's documentation of KeyNavigation class*](https://doc.qt.io/qt-6/qml-qtquick-keynavigation.html#details)
+
+    [Qt. *Qt's documentation of QAccessibleInterface Class*](https://doc.qt.io/qt-6/qaccessibleinterface.html)
+
+    [Typevar. Enhancing Accessibility with QAccessibleInterface in Qt Applications ](https://typevar.dev/en/docs/qt/qaccessibleinterface)

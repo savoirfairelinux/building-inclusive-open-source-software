@@ -165,7 +165,7 @@ You can also use a template of a checklist containing the main elements to be so
 
 Remember: this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start.
 
-![Diagram showing an "A very basic accessibility checklist not to break anything when committing. This diagram is available in text format further down this page."](resources/d-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
+![Diagram showing an "A very basic accessibility checklist not to break anything when committing". This diagram is available in text format further down this page.](resources/d-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
 
 **The diagram in text format:**
 
