@@ -15,6 +15,7 @@ theme:
     - navigation.instant.progress
     - navigation.sections
     - navigation.footer
+    - content.tabs.link
   name: material
   font:
     text:
@@ -48,6 +49,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
