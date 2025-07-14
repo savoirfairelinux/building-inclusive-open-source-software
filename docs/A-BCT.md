@@ -1,4 +1,4 @@
-# 🗺️ A-BCT Brief cartography of today’s accessibility landscape
+# 🗺️ Brief cartography of today’s accessibility landscape
 
 !!! Info "In this module"
     We will cover the main actors of today's accessibility landscape as well as their dynamics.
