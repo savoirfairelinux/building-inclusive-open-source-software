@@ -8,7 +8,7 @@ It all started with a statement:
 
 **This project aims at providing accessibility and inclusiveness knowledge for organizations and individuals who build open-source software.**
 
-This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. These modules cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to concrete design and programming guidelines.
+This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. They cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to concrete design and programming guidelines.
 
 These modules should not be seen as holding the truth regarding the subjects tackled, but rather as a condensed introduction which goal is to help teams get started with accessibility and inclusiveness for their product.
 
