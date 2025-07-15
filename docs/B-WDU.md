@@ -30,7 +30,7 @@ The line blurs further once we realize that accessibility features are useful to
 
 While this convenience for some is surely necessary for others, we can appreciate that these categories - disabled and able-bodied - are rather arbitrary and that no clear boundary can be drawn.
 
-**Therefore, it's crucial to not think disabled peoples as a minority but rather as the living diversity that we will all become.**
+**Therefore, it's crucial to not think disabled peoples as a minority but rather as the living diversity in which we all evolve.**
 
 ### What is inclusiveness?
 

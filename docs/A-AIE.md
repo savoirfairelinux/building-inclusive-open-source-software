@@ -84,8 +84,8 @@ Dylan Barell defines accessibility in software as
 !!! Quote "*Agile Accessibility Handbook*, Dylan Barell"
      It basically comes down to three principles:
 
-     - Can all your users, with the abilities and senses that they possess, perceive the information your application presents to them? For example, can they “see” the meaning of the little icon button with an image of a pen inside     t?
-     - Can your users, with their specific input device or assistive technology, operate all the controls within your application’s user interface? For example, if your application supports the operation of a button through     ouching the screen, does it also allow that button to be operated through a keyboard and a voice command?
+     - Can all your users, with the abilities and senses that they possess, perceive the information your application presents to them? For example, can they “see” the meaning of the little icon button with an image of a pen inside it?
+     - Can your users, with their specific input device or assistive technology, operate all the controls within your application’s user interface? For example, if your application supports the operation of a button through touching the screen, does it also allow that button to be operated through a keyboard and a voice command?
      - Can your users understand the information and the user interface controls? For example, if the application requires the creation of a password with constraints, are those constraints clearly communicated in a way that allows the user to complete the task without undue difficulty or an unreasonable degree of intellectual skill?
 
 In the French [DINUM](https://www.numerique.gouv.fr/numerique-etat/)'s [RGAA](https://accessibilite.numerique.gouv.fr/) (General reference document of accessibility enhancement), an [accessible software](https:/accessibilite.numerique.gouv.fr/obligations/notions-accessibilite-numerique/) is defined as one that can be perceived, understood, used, and optimal for people with disabilities.
@@ -94,7 +94,7 @@ In the French [DINUM](https://www.numerique.gouv.fr/numerique-etat/)'s [RGAA](ht
 
 We propose to define politically accessibility as:
 
-> Trying to fight back against the structural tendency to exclusion of disabled people and attempting to provide them with a place (virtual or not) where they feel at ease and free to express themselves.
+> Striving to fight back against the structural tendency to exclusion of disabled people and attempting to provide them with a place (virtual or not) where they feel at ease and free to express themselves.
 
 Take some time to reflect together onto which definition is the closest to the one you built together. How do participants feel about all those definitions?
 

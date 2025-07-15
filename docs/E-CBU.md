@@ -1,7 +1,7 @@
 # 🎯 Conclusion, bibliography and useful resources
 
 !!! Info "In this module"
-    This module conclude the training, recapitulating what we learn, giving perspective about it and recapitulating our bibliography, including resources that infused our work even if they were not explicitly cited.
+    This module concludes the training by giving its key takeaways and linking them together, as well as recapitulating our bibliography, including resources that infused our work even if they were not explicitly cited.
 
 **⛳️ Section**: *E. To conclude and go further*
 
@@ -21,9 +21,19 @@ This module should be used as a synthesis of the main points of this training as
 
 This section is a reorganized synthesis of the whole training.
 
-### Accessibility is nothing without inclusiveness
+### What is accessibility?
 
-Inclusiveness is a core concept when talking about diversity. It's often a preferred term to accessibility that is rather limited to the inclusion of people with disabilities. It highlights that we need to be designing and programming not only for accessability but also for the ever-varying pluralities of human experiences and discriminations. In simpler words, not being ableist is not enough. We must make sure that we are also not perpetuating other kinds of oppressions.
+Accessibility is about designing and building for people who experience disabilities.
+- From a product standpoint, it's about ensuring everything you build can be used by anyone, no matter their physical or cognitive abilities.
+- From a legal standpoint, it is an obligation in many countries, guaranteeing an equal right to autonomy and participation of all.
+- From a software standpoint, digital accessibility comes down to making apps optimally perceivable, operable and understandable to people who live with disabilities.
+- From a political standpoint, accessibility is striving fight back against the structural tendency to exclusion of disabled people and attempting to provide them with a place (virtual or not) where they feel at ease and free to express themselves.
+
+When products are not built with accessibility in mind, they end up excluding many people, denying them access to places, tools or even communication. This unfair exclusion is called ableism.
+
+### Accessibility calls for inclusiveness
+
+Inclusiveness is a core concept when talking about diversity. It's often a preferred term to accessibility, that is rather limited to the inclusion of people with disabilities. It highlights that we need to be designing and programming not only for people who experience disabilities, but also for the ever-varying pluralities of human experiences and discriminations emerging from them. In simpler words, focusing only on accessibility will result in the exclusion of the vas majority of users enduring oppressions.
 
 Here is a *non-exhaustive* list of human characteristics to keep in mind in order to try and include as many user as possible:
 
@@ -41,31 +51,29 @@ Here is a *non-exhaustive* list of human characteristics to keep in mind in orde
 - Sexuality
 - Socio-economic context
 
-
 Intersectionality is a framework for understanding specific living experiences of people situated at the intersection of discriminations and privileges.
 It’s very useful, for two main reasons:
 
 - The proportion of users with disabilities who happen to have more than one is important ([17.7% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC11545900/)). Thinking about designing for one disability leaves out a blank spot for users having that disability but also other conditions. For example, deaf users with low vision are often overlooked when thinking about accessibility.
 
-- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about disabled women, disabled queers, disabled Arabs and those who are all of that at once!
+- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about women who rely on wheelchairs, LGBTQIA+ people who don't speak the language of they country they live in, blind users who can't afford an iPhone - and those who are all of that at once!
 
 !!!Tip
-    **It's crucial to not think disabled peoples as a minority but rather as the living diversity that we will all become.**
+    **It's crucial to not think disabled peoples as a minority but rather as the living diversity in which we all evolve.**
 
 ### Accessibility and inclusiveness need to be intentional
 
-Disability shouldn't be thought as an internal characteristic. Environment - and the way it is designed - plays an equal role as the body when it comes to disability. For example, in an environment built to be completely flat and non-obstructed, people who walk are way slower than people using a wheelchair.
+Disability shouldn't be thought as an individual characteristic. Environment - and the way it is designed - plays an equal role as the body when it comes to disability. For example, in an environment built to be completely flat and non-obstructed, people who walk are way slower than people using a wheelchair.
 
 !!! Quote "Rob Whitaker, *[Developing Inclusive Mobile Apps](https://link.springer.com/book/10.1007/978-1-4842-5814-9)*"
     Disability is not a binary state. We all have "abilities and limits to those abilities. Disability happens when we have built something that doesn’t work for someone with particular skills.
 
-Additionally, by default we tend to design for people that we imagine being like us. Not thinking about accessibility is a privilege because most disabled people don't have the choice to think about it. Not developing with accessibility and inclusiveness in mind will is ableist and reinforce biases against minorities in software.
+Additionally, by default, we naturally tend to design, program and test for people like us or the people we spend time with. Not thinking about accessibility is a privilege because most disabled people don't have the choice to think about it. Not developing with accessibility and inclusiveness in mind will reinforce biases against minorities in software.
 
-Accessibility and inclusiveness are very hard to automate. No amount of checklists and tests in CI can replace feedback and testing from diverse user groups. You shouldn't listen blindly to automated tools but rather develop your empathic gaze and listen to diverse feedback.
+Accessibility and inclusiveness are very hard to automate. No amount of checklists and tests in CI can replace feedback and testing from diverse user groups. Instead of listening blindly to automated tools, we encourage developing your empathetic gaze and listening to diverse feedback.
 
 !!! Tip
-    **Accessibility and inclusiveness are a shift in how you perceive otherness, not a task to be done.**
-
+    **Accessibility and inclusiveness are a shift in how you perceive and take into account otherness through your building processes, not a task to be done.**
 
 
 ### Disabled people are the real experts on accessibility
@@ -80,35 +88,33 @@ As we need to embrace diversity, it is crucial to fight a natural urge of all so
 This does not mean either that your expertise is useless if you are not experiencing the discriminations for which you are assessing your products. As you know the product you are building and what experience you are aiming for, you - as a product engineer, designer, or even developer - will be necessary to understanding what can be enhanced.
 
 !!! Tip
-    **You should follow the doctrine: "nothing about them without them"**
+    **We encourage following this motto: "nothing about them without them"**
 
 ### There isn't one *"accessible and inclusive design"*
 
-While implementation plays an important role in the inclusiveness, and especially the accessibility of applications, the designers and product leads hold an important responsibility in the process of building an experience that will resonate and be welcoming to the widest range of users possible.
+While implementation plays an important role in the inclusiveness, and especially the accessibility of applications, the designers and product managers hold an important responsibility in the process of building an experience that will resonate and be welcoming to the widest range of users possible.
 
 Product design documents, including specifications, user stories and prototypes act as the team’s compass for delivering products. That is why having inclusiveness in mind from the design is absolutely essential. You don’t ever have to “make this feature accessible” if it is built from the ground up with inclusiveness in mind.
 
 Moreover, human experiences are complex and evolving as they always emerge from intersections of those characteristics. Consequently, building an inclusive app is all about staying up to date and actively open to feedback, knowing that we can never reach perfect inclusiveness while doing our best to get there.
 
-As we need to embrace diversity, it is crucial to fight a natural urge of all software creators: the will to personally find, design, and implement the solution to every problem. There is no one solution, and if there were, you would probably not be the one to find it. Your role as a software builder is to reach out to the real accessibility experts: those who rely on accessibility and experience its flaws every day, i.e. people with disabilities. Therefore, rather than trying to produce a "perfectly accessible" and inclusive product, we would rather suggest to try and make the main features as inclusive as possible and then get feedback from diverse users on what are their main issues with your software are.
-
 !!! Tip
-    **People are diverse, solutions to their needs too. Experiment, fail, get feedback, improve and nurture!**
+    **People are diverse, solutions to their needs too. Experiment, fail, get feedback, improve and nurture empathy!**
 
 ### Accessible code is good code
 
 Bad accessibility can often be a symptom of flawed code. Accessibility and inclusiveness in programming have one key benefit: making you think twice about your code. Stumbling into an accessibility issue might mean that you could be doing something better in a different way.
 
-You code can be good but will never be as robust as one iterated upon by a community of developers or a big company. Therefore, before implementing anything, check rigorously that your framework (or a library) doesn’t provide a tool that would meet most of your needs.
+You code can be good but will likely never be as robust as one iterated upon by a community of developers or a big company. Therefore, before implementing anything, check rigorously that your framework (or a library) doesn’t provide a tool that would meet most of your needs.
 
 !!! Tip
     **Your code cannot be good without being accessible and if it's not accessible, it's probably hiding something more.**
 
 ### The Quick Inclusiveness check
 
-Before submitting a commit or reviewing it, you can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness).
+Before submitting a commit or reviewing it, you can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you with our own accessibility checklist template. Feel free to iterate upon it and to contribute with your enhancements on [this repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness).
 
-Remember: this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start.
+Remember: this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start of the process.
 
 ![Diagram showing an "A very basic accessibility checklist not to break anything when committing. Did you change/create a UI component? If no: skip to the question about data manipulation. Can you access it in a practical way with your keyboard or VoiceOver/TalkBack alone? If no: Fix it! All elements should be accessible without a mouse. Most users would expect the navigation to take place using TAB and BACKTAB. Arrows are also useful inside of lists. A top bar would typically be accessible with ALT. Shortcuts can make this navigation smoother. Are all information and labels properly transcribed using a screen reader? If no: Fix it! You can test this using your system screen reader on the settings or NVDA on Windows. You can then navigate through the app and hear if the labels are relevant. All information like the state of a component or wether it's selected must be transcribed. Expect to provide in your code.- A name for the element - A description of its effect - its role (for example static text or button). Does it work with different text scaling? - If no: Fix it! Most operating systems have text scaling options.  Some apps have their own too. Check if your UI isn't cropped by changing the size of the font. Try it for smaller and for bigger text. Did you affect another component? - If yes: repeat the previous questions for the other component Is the data manipulated in your code easily accessible from UI components? - If no: Make functions in  your API that allow  UI components to access relevant information. For example, the time of a message is often in a separated component from the message itself but the accessibility label of this message could need access to the date where it was sent. Does it work well for all languages? (including non UTF8 and RTL ones )? - If no: Fix it! Some languages like Greek are often not encoded in UTF8. Be sure to account for them. Also check that RTL (right to left) languages like Arabic displays correctly. To test this, you can use parts of local newspapers as placeholders! Does it has elements showing cultural significance? - If no: You are good to go! - If yes: Does it enable people from various cultural background to feel represented? - If you for no: Fix it! For example, a picture of a cheeseburger or a pizza as an illustration for food will only enable a certain demographic of users to feel represented. Having separate field for first and last name will not allow users from certain cultures to use the app properly. The only way to try and make our application more inclusive is to show it to people from varied background ans ask them about their needs to use it properly. - If you hope yes: You are good to go!"](resources/d-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
 
@@ -118,7 +124,7 @@ You can modify it for your needs by [downloading this file](resources/d-programm
 
 This training is already coming to a close. - If you are doing this training collectively, you are not *quite yet* finished as their is still two modules awaiting you. -
 
-We dearly hope it was somewhat useful to you. We felt that their is a lack of resources that goes into highly technical details while reflecting on them through a systemic gaze and placing empathy as a core element of decision making. We tried our best to provide a training that helped move FOSS in this direction. As we said multiple time, we are not experts, only people trying to help. If you have expertise on those topics and felt like those resources were useful, **please contribute**. If not, you can still [star the repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness). If you have any question, feel free to contact us.
+We dearly hope it was somewhat useful to you. We feel that their is a lack of resources that dive deep into technical consideration while reflecting on them through a systemic gaze, and placing empathy as a core element of decision-making. We hope this training helps on your path to inclusiveness. As we said multiple time, we are not experts, only people trying to help. If you have expertise on those topics and feel like helping, **please contribute**. You can also [star the repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness). If you have any question, feel free to contact us!
 
 ## Bibliography & useful resources
 
