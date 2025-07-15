@@ -8,11 +8,17 @@ It all started with a statement:
 
 **This project aims at providing accessibility and inclusiveness knowledge for organizations and individuals who build open-source software.**
 
-This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. These modules cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to concrete design and programming guidelines.
+This repository contains short training modules (ranging from 10 to 30 minutes), which can either be dispensed to teams as workshops, or individually read as articles. They cover a wide range of subjects, from conceptual and historical background on accessibility and inclusiveness, to concrete design and programming guidelines.
 
 These modules should not be seen as holding the truth regarding the subjects tackled, but rather as a condensed introduction which goal is to help teams get started with accessibility and inclusiveness for their product.
 
 The easiest way to access the content is via [the static web site built from this repository](https://alterity-git.github.io/building-inclusive-open-source-software/).
+
+## Navigating through the modules
+
+![A navigation schematic. The first section is made to be navigated in a linear way except the platform specific assistive technologies that can be skipped. The second section is linear. The third section expects you to go through the base Inclusive Design module and then to the platform you are working on. You can skip this section if you are not a designer. As for the design section, the design platform has a base module and specific ones for different frameworks. The last conclusion section is linear.](docs/resources/navigateThroughTheTrainingV2.png)
+
+Please note that the navigation instructions are only *recommendations*. While they represent our pedagogic intentions, feel free to navigate it however suits you.
 
 ## Where does it come from?
 
@@ -21,10 +27,6 @@ This project started out as we - Page Magnier--Slimani ([Jami](https://jami.net/
 Please note that we are not accessibility or inclusiveness experts, but passionate people who did their best to provide relevant content and who will be happy to get *any* feedback or contribution you may have! The applications we are working on at the time of writing are not perfect by any means from an inclusiveness standpoint. With this project, we only try to provide some answers to the questions we had when beginning our work on accessibility and inclusiveness.
 
 **We truly want this project to keep evolving beyond its original scope and our limited expertise!**
-
-## Navigating through the modules
-
-![A navigation schematic. The first section is made to be navigated in a linear way except the platform specific assistive technologies that can be skipped. The second section is linear. The third section expects you to go through the base Inclusive Design module and then to the platform you are working on. You can skip this section if you are not a designer. As for the design section, the design platform has a base module and specific ones for different frameworks. The last conclusion section is linear.](docs/resources/navigateThroughTheTrainingV2.png)
 
 ## Contributing
 
