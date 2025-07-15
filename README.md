@@ -47,7 +47,7 @@ mkdocs serve
 
 When committing, please use the syntax "[section]-[acronym]: [commit_description]" (example: "A-AIE: first version of module").
 
-If you need any help incorporating your work in ours, please feel free to open an issue or contact us at 'maxence.vahedi@proton.me' or 'pagems@proton.me'.
+If you need any help incorporating your work in ours, please feel free to open an issue or contact us at 'contact.alterity@proton.me'.
 
 ## Using this project's content
 
