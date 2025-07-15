@@ -12,7 +12,7 @@ This repository contains short training modules (ranging from 10 to 30 minutes),
 
 These modules should not be seen as holding the truth regarding the subjects tackled, but rather as a condensed introduction which goal is to help teams get started with accessibility and inclusiveness for their product.
 
-The easiest way to access the content is via [the static web site built from this repository](https://page-and-maxence.github.io/building-inclusive-open-source-software/).
+The easiest way to access the content is via [the static web site built from this repository](https://alterity-git.github.io/building-inclusive-open-source-software/).
 
 ## Where does it come from?
 

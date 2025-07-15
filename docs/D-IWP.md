@@ -18,7 +18,7 @@ Go through this module if you work in web front-end development or with a web-ba
 
 ## Disclaimer
 
-We -the original authors- are not web developers ourselves. Providing web programming guidelines is not the main goal of this project, but we figured it could be helpful for some organizations (at least it was for ours). Additionally, as we mentioned earlier, there already exist plenty of great resources for web accessibility. Therefore, this section will mostly be a hall of very useful content we found on the topic. If you have experience with web accessibility, please feel free to [contribute](https://github.com/Page-and-Maxence/building-inclusive-open-source-software) to share your expertise!
+We -the original authors- are not web developers ourselves. Providing web programming guidelines is not the main goal of this project, but we figured it could be helpful for some organizations (at least it was for ours). Additionally, as we mentioned earlier, there already exist plenty of great resources for web accessibility. Therefore, this section will mostly be a hall of very useful content we found on the topic. If you have experience with web accessibility, please feel free to [contribute](https://github.com/alterity-git/building-inclusive-open-source-software) to share your expertise!
 
 ## Useful references
 
