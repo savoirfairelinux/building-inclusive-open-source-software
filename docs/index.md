@@ -15,8 +15,6 @@ These modules should not be seen as holding the truth regarding the subjects tac
 
 === "Navigating through the modules"
 
-    Please note that these instructions are only *recommendations* based on our pedagogic intentions. Feel free to navigate the training however suits you!
-
     <div style="text-align: center;">
         <a href="resources/navigateThroughTheTrainingV2.png" target="_blank" style="display: inline-block;">
             <img src="resources/navigateThroughTheTrainingV2.png" alt="A navigation schematic. The first section is made to be navigated in a linear way except the platform specific assistive technologies that can be skipped. The second section is linear. The third section expects you to go through the base Inclusive Design module and then to the platform you are working on. You can skip this section if you are not a designer. As for the design section, the design platform has a base module and specific ones for different frameworks. The last conclusion section is linear." style="max-width: 100%; height: auto; cursor: zoom-in;" />
@@ -24,6 +22,8 @@ These modules should not be seen as holding the truth regarding the subjects tac
         <br>
         <small>Click the image to view and zoom in full size.</small>
     </div>
+
+    Please note that these instructions are only *recommendations* based on our pedagogic intentions. Feel free to navigate the training however suits you!
 
     ## Resources
     [The editable file of how to navigate this training](resources/navigateThroughTheTrainingV2.crswap)
