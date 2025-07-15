@@ -134,7 +134,13 @@ Software plays a huge role in today’s daily life and communication. It can be 
 Some article titles documented by Ashley Shew depict the ableist “hero-syndrom” that can occur in the tech industry.
 
 !!! Quote "Ashley Shew, *[Against Technoableism, Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661)*"
-    “THE TECH GIVING PEOPLE POWER TO DEAL WITH DISABILITY” —BBC NEWS“HOW TECHNOLOGY WILL CHANGE THE LIVES OF PEOPLE WITH DISABILITIES” —FORBES“FIRST PROSTHETIC LIMB DESIGNED FOR WOMEN: ‘I FEEL LIBERATED’” —BBC2“ROBOTIC EXOSKELETONS ARE HERE, AND THEY’RE CHANGING LIVES” —POPSCI
+    “THE TECH GIVING PEOPLE POWER TO DEAL WITH DISABILITY” —BBC NEWS
+
+    “HOW TECHNOLOGY WILL CHANGE THE LIVES OF PEOPLE WITH DISABILITIES” —FORBES
+
+    “FIRST PROSTHETIC LIMB DESIGNED FOR WOMEN: ‘I FEEL LIBERATED’” —BBC2
+
+    “ROBOTIC EXOSKELETONS ARE HERE, AND THEY’RE CHANGING LIVES” —POPSCI
 
 It becomes clearer and clearer that our goal is to try and provide a safe place rather than fix or save anyone. For a more concrete example, Ashley Shew showcases how Discord became a welcoming place for many autistic people.
 
