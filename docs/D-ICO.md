@@ -33,7 +33,7 @@ Many applicative frameworks come packed with standards components (like labels, 
 
 >
 
-You code can be good but will never be as robust as one iterated upon by a community of developers or a big company. Therefore, before implementing anything, check rigorously that your framework (or a library) doesn’t provide a tool that would meet most of your needs.
+You code can be good but will likely never be as robust as one iterated upon by a community of developers or a big company. Therefore, before implementing anything, check rigorously that your framework (or a library) doesn’t provide a tool that would meet most of your needs.
 
 Frameworks often have unified and often automated ways of handling accessibility with key navigation, focus and label generation. Therefore, building complex custom components will very frequently (not to say almost always) break accessibility handling if no more work is done. Therefore, try to limit the complexity of your UI objects, document them properly and when trying to fix an accessibility issue, consider taking the hard way by refactoring the component. Your whole code will actually be better.
 
@@ -161,11 +161,11 @@ If you app is native, you can set-up your CI to detect missing accessibility lab
 
 Some frameworks (including SwiftUI and Jetpack Compose) provide ways of automating UI tests that check accessibility.
 
-You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness).
+You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/alterity-git/building-inclusive-open-source-software).
 
 Remember: this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start.
 
-![Diagram showing an "A very basic accessibility checklist not to break anything when committing. This diagram is available in text format further down this page."](resources/d-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
+![Diagram showing an "A very basic accessibility checklist not to break anything when committing". This diagram is available in text format further down this page.](resources/d-programming-inclusive-and-accessible-software/inclusivenessChecklist.png)
 
 **The diagram in text format:**
 

@@ -120,7 +120,7 @@ The most common and easiest to apply advice that is given to designer is to make
     ![Two sample texts with different fill and background colors, showing one example of good contrast, and one of bad constrast.](resources/c-designing-inclusive-and-accessible-software/contrast.png){ width=500 }
 </figure>
 
-### The colors are not necessary to understanding the UI
+### The colors are not necessary to understand the UI
 
 Colors are a great way to quickly convey information. Nevertheless, some people can’t or prefer not to rely on colors to identify content. Consequently, informations given by the UI should never only be conveyed through colors. For example, to indicate success of an operation using a green circle is not accessible. Rather, consider using a pictogram that will also be understandable without needing to see colors.
 
@@ -318,13 +318,13 @@ Remember: **good design is inclusive, and good design benefits everyone!**
 
 ## Sources
 
-Shew, Ashley (2024). *Against Technoableism: Rethinking Who Needs Improvement*, WW Norton & Co.
+[Shew Ashley, *Against Technoableism: rethinking who needs improvement*. 2023](https://wwnorton.com/books/9781324036661)
 
 [Winner, Langdon (1980). *Do artifacts have politics?* Daedalus 109 (1): pp. 121--136.](https://faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf)
 
 [Apple Human Interface Guidelines: Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)
 
-[Principles of Inclusive App Design (Apple)](https://developer.apple.com/videos/play/wwdc2025/316)
+[Apple. *Principles of Inclusive App Design*](https://developer.apple.com/videos/play/wwdc2025/316)
 
 [Whitaker, Rob (2020). *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*, Apress Berkley.](https://doi.org/10.1007/978-1-4842-5814-9)
 
