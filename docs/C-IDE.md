@@ -120,7 +120,7 @@ The most common and easiest to apply advice that is given to designer is to make
     ![Two sample texts with different fill and background colors, showing one example of good contrast, and one of bad constrast.](resources/c-designing-inclusive-and-accessible-software/contrast.png){ width=500 }
 </figure>
 
-### The colors are not necessary to understanding the UI
+### The colors are not necessary to understand the UI
 
 Colors are a great way to quickly convey information. Nevertheless, some people can’t or prefer not to rely on colors to identify content. Consequently, informations given by the UI should never only be conveyed through colors. For example, to indicate success of an operation using a green circle is not accessible. Rather, consider using a pictogram that will also be understandable without needing to see colors.
 
