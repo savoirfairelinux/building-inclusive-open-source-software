@@ -23,7 +23,7 @@ Go through this module if your app uses Qt, or if you consider using it for your
 There are only few example of good accessibility implementation using Qt. Even the one provided by Qt themselves are limited to a single static page with a few elements. Therefore, we will go through all of Qt's main accessibility elements while taking a look at a complex UI element, a chat view.
 
 !!! Info
-    In this module, we will be using for example purposes some code extracts from [the Jami Qt client](https://github.com/savoirfairelinux/jami-client-qt), which is licensed under the [GPLv3 license](https://github.com/savoirfairelinux/jami-client-qt/blob/master/COPYING).
+    In this module, we will be using for example purposes some code extracts from [the Jami Qt client](https://git.jami.net/savoirfairelinux/jami-client-qt), which is licensed under the [GPLv3 license](https://github.com/savoirfairelinux/jami-client-qt/blob/master/COPYING).
 
 ## Accessibility labels
 

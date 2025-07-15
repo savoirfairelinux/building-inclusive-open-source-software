@@ -12,7 +12,7 @@ This repository contains short training modules (ranging from 10 to 30 minutes),
 
 These modules should not be seen as holding the truth regarding the subjects tackled, but rather as a condensed introduction which goal is to help teams get started with accessibility and inclusiveness for their product.
 
-The easiest way to access the content is via [the static web site built from this repository](https://page-and-maxence.github.io/building-inclusive-open-source-software/).
+The easiest way to access the content is via [the static web site built from this repository](https://alterity-git.github.io/building-inclusive-open-source-software/).
 
 ## Where does it come from?
 
@@ -47,7 +47,7 @@ mkdocs serve
 
 When committing, please use the syntax "[section]-[acronym]: [commit_description]" (example: "A-AIE: first version of module").
 
-If you need any help incorporating your work in ours, please feel free to open an issue or contact us at 'maxence.vahedi@proton.me' or 'pagems@proton.me'.
+If you need any help incorporating your work in ours, please feel free to open an issue or contact us at 'contact.alterity@proton.me'.
 
 ## Using this project's content
 

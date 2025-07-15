@@ -19,7 +19,7 @@ This module is useful as an introduction to understand what are the current dyna
 
 ## Disclaimer
 
-We -the original authors- are not experts by any mean, only engineers working on accessibility and inclusiveness trying to provide others with the resources we wished we had when starting working on accessibility and inclusiveness. We don't have a complete understanding of all stakes of the accessibility landscape. Keep in mind that the following cartography will certainly miss some precisions. If you want to help completing it with your own knowledge, feel free to contact us or to open a pull request on [our repository](https://github.com/Page-and-Maxence/building-inclusive-open-source-software).
+We -the original authors- are not experts by any mean, only engineers working on accessibility and inclusiveness trying to provide others with the resources we wished we had when starting working on accessibility and inclusiveness. We don't have a complete understanding of all stakes of the accessibility landscape. Keep in mind that the following cartography will certainly miss some precisions. If you want to help completing it with your own knowledge, feel free to contact us or to open a pull request on [our repository](https://github.com/alterity-git/building-inclusive-open-source-software).
 
 ## The actors of accessibility
 

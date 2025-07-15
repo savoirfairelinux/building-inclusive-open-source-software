@@ -70,7 +70,7 @@ Having an understanding of the assistive technologies for which you are building
     - **[Display customization settings](https://developer.apple.com/videos/play/wwdc2020/10020/)** like high contrast or reduced motion can be detected to adapt your app's behavior.
     - **[Magic tap](https://github.com/cvs-health/ios-swiftui-accessibility-techniques/blob/main/iOSswiftUIa11yTechniques/Documentation/MagicTap.md)** is a very useful feature that is rarely implemented in third-party apps. It allows to perform an arbitrary action upon a "magic tap" - a 2 fingers double tap with VoiceOver activated. If designed and hinted well, it can allow for quicker and easier interactions.
     - For apps serving audio and video content, builtin AVFoundation APIs [allows you to add **alternative audio tracks**](https://developer.apple.com/documentation/avfoundation/selecting-subtitles-and-alternative-audio-tracks.)
-    
+
 - For users with limited physical or motors abilities:
     - [**Keyboard support**](https://developer.apple.com/videos/play/wwdc2021/10120/) in iOS and iPadOS give developers the opportunity to provide users with shortcuts to navigate their app faster and easier.
     - [**Eye Tracking**](https://support.apple.com/en-gb/guide/iphone/iph66057d0f6/ios) allows users to control their iPhone through gaze. There is - to our knowledge - typically no additional considerations for this technology.
@@ -112,7 +112,7 @@ var body: some View {
 
 ##### .ignore
 
-**```.ignore```** will also create a new accessibility element, also drop its children, but won't get any accessibility attribute for free - you have explicitly write them again. 
+**```.ignore```** will also create a new accessibility element, also drop its children, but won't get any accessibility attribute for free - you have explicitly write them again.
 
 ***This is the way we would recommend to do it****, as it allows to implement thoughtful accessibility attributes.*
 
@@ -179,13 +179,13 @@ private struct HorizontalListOfUsersViewCell: View {
                          profilePicture: profilePicture?.image,
                          avatarSize: avatarSize)
             .obvAccessibleComponent() // The custom ViewModifier can be applied because the internal view conforms...
-            
+
             // [...]
-        
+
         }
 
     private struct InternalView: ObvAccessibilityProvidableView /* ...to this protocol... */ {
-        
+
         // [...]
 
         var accessibilityAttributes: ObvAccessibility.ObvAccessibilityAttributes { // ...which requires to provide this struct.
@@ -204,7 +204,7 @@ private struct HorizontalListOfUsersViewCell: View {
         }
 
     }
-    
+
 }
 
 ```
@@ -218,7 +218,7 @@ Please note this architecture is not to be seen as the perfect way to go. We sim
 We won't be covering accessibility in for UIKit in this module as we have very little experience dealing with it. From what we can tell, it is way less operational than SwiftUI at scale but can still help you make dramatic improvements on your app's accessibility. You can checkout this great resource for [UIKit accessibility code](https://appt.org/en/docs/ios/samples). Here is also [Apple's documentation.](https://developer.apple.com/documentation/uikit/accessibility-for-uikit)
 
 !!! Tip "If you have the knowledge"
-    We would be happy to integrate some of your knowledge on UIKit Accessibility to our project. Feel free to [contribute](https://github.com/Page-and-Maxence/building-inclusive-open-source-software)!
+    We would be happy to integrate some of your knowledge on UIKit Accessibility to our project. Feel free to [contribute](https://github.com/alterity-git/building-inclusive-open-source-software)!
 
 ## Accessibility Inspector
 

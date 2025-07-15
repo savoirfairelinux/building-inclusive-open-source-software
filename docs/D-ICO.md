@@ -161,7 +161,7 @@ If you app is native, you can set-up your CI to detect missing accessibility lab
 
 Some frameworks (including SwiftUI and Jetpack Compose) provide ways of automating UI tests that check accessibility.
 
-You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness).
+You can also use a template of a checklist containing the main elements to be sounded and share it with your team. We provide you, our own accessibility checklist template. Feel free to iterate upon it and to propose your enhancements [in this repository](https://github.com/alterity-git/building-inclusive-open-source-software).
 
 Remember: this **should not** be seen as a way to make your UI accessible, but rather to be sure you commit won't break any existing accessibility that was implemented. For new features, it is essential to design the UI with accessibility in mind from the very start.
 
