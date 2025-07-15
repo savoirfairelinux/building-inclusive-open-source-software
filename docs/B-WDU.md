@@ -30,7 +30,7 @@ The line blurs further once we realize that accessibility features are useful to
 
 While this convenience for some is surely necessary for others, we can appreciate that these categories - disabled and able-bodied - are rather arbitrary and that no clear boundary can be drawn.
 
-**Therefore, it's crucial to not think disabled peoples as a minority but rather as the living diversity that we will all become.**
+**Therefore, it's crucial to not think disabled peoples as a minority but rather as the living diversity in which we all evolve.**
 
 ### What is inclusiveness?
 
@@ -60,7 +60,7 @@ It’s actually very useful, for two main reasons!
 
 - The proportion of users with disabilities who happen to have more than one is important ([17.7% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC11545900/)). Thinking about designing for one disability leaves out a blank spot for users having that disability but also other conditions. For example, deaf users with low vision are often overlooked when thinking about accessibility. We will take a closer look at the appropriate stance to account for diversity in [Developer stance & user collaboration](B-DSU.md)
 
-- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about disabled women, disabled queers, disabled Arabs and those who are all of that at once!
+- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about women who rely on wheelchairs, LGBTQIA+ people who don't speak the language of they country they live in, blind users who can't afford an iPhone - and those who are all of that at once!
 
 **Certain issues only arise for people with a specific intersectional background.**
 

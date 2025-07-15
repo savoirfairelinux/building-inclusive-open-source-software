@@ -15,6 +15,7 @@ theme:
     - navigation.instant.progress
     - navigation.sections
     - navigation.footer
+    - content.tabs.link
   name: material
   font:
     text:
@@ -48,6 +49,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
@@ -76,7 +79,7 @@ nav:
     #- 🤖 Inclusive programming for Android:
     - 🕸️ Inclusive web programming: D-IWP.md
   - To conclude and go further:
-    #- 🎯 Conclusion, bibliography and useful resources:
+    - 🎯 Conclusion, bibliography and useful resources: E-CBU.md
     - 🏃🏽‍♀️‍➡️ Where YOU go next!: E-WYG.md
     - 💬 Collective sharing: E-CLS.md
 
