@@ -124,7 +124,7 @@ You can modify it for your needs by [downloading this file](resources/d-programm
 
 This training is already coming to a close. - If you are doing this training collectively, you are not *quite yet* finished as their is still two modules awaiting you. -
 
-We dearly hope it was somewhat useful to you. We feel that their is a lack of resources that dive deep into technical consideration while reflecting on them through a systemic gaze, and placing empathy as a core element of decision-making. We hope this training helps on your path to inclusiveness. As we said multiple time, we are not experts, only people trying to help. If you have expertise on those topics and feel like helping, **please contribute**. You can also [star the repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness). If you have any question, feel free to contact us!
+We dearly hope it was somewhat useful to you. We feel that there is a lack of resources that dive deep into technical consideration while reflecting on them through a systemic gaze, and placing empathy as a core element of decision-making. We hope this training helps on your path to inclusiveness. As we said multiple time, we are not experts, only people trying to help. If you have expertise on those topics and feel like helping, **please contribute**. You can also [star the repository](https://github.com/Page-and-Maxence/accessibility-and-inclusiveness). If you have any question, feel free to contact us!
 
 ## Bibliography & useful resources
 
