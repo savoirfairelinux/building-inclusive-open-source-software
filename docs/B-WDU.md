@@ -62,7 +62,7 @@ It’s actually very useful, for two main reasons!
 
 - The proportion of users with disabilities who happen to have more than one is important ([17.7% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC11545900/)). Thinking about designing for one disability leaves out a blank spot for users having that disability but also other conditions. For example, deaf users with low vision are often overlooked when thinking about accessibility. We will take a closer look at the appropriate stance to account for diversity in [Developer stance & user collaboration](B-DSU.md)
 
-- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about women who rely on wheelchairs, LGBTQIA+ people who don't speak the language of they country they live in, blind users who can't afford an iPhone - and those who are all of that at once!
+- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about women who rely on wheelchairs, LGBTQIA+ people who don't speak the language of the country they live in, blind users who can't afford an iPhone - and those who are all of that at once!
 
 **Certain issues only arise for people with a specific intersectional background.**
 
