@@ -26,6 +26,8 @@ Since the beginning of this training, we have been referring to the disabled peo
 
 Many people who think themselves as able-bodied use the zoom feature in order too have bigger text. People who have a hard time using new technology are also a core target for accessibility features, like simplified UI.
 
+![A schematic stating "Disability is not a binary state". It shows that VIM and blind user use the same accessibility features despite being respectively perceived as disabled and able-bodied. The same is true for low-vision user and older people.](resources/b-how-to-start-incroporating-accessibility/accessibilityScale.png)
+
 The line blurs further once we realize that accessibility features are useful to everybody no matter what. VIM users are the first ones to profit from good keyboard navigation. Many people use subtitles on a daily basis when commuting. Mobile "gesture typing" started out as an accessibility feature.
 
 While this convenience for some is surely necessary for others, we can appreciate that these categories - disabled and able-bodied - are rather arbitrary and that no clear boundary can be drawn.
@@ -83,7 +85,9 @@ The model generating descriptions had the tendency to assign gender to people on
 
 The solution that Apple chose to adopt was to train their model to concentrate on other elements of an image, like the clothes that a person is wearing, their facial expression or where they are standing. By avoiding oppressive biases, the model ended up being better for all users.
 
+# Resources
 
+[The schematic of disability perception in an editable form](resources/b-how-to-start-incroporating-accessibility/accessibilityScale.excalidraw)
 
 ## Sources
 [Crenshaw, Kimberle. “Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color.” Stanford Law Review, vol. 43, no. 6, 1991, pp. 1241–99.](https://www.jstor.org/stable/1229039)
