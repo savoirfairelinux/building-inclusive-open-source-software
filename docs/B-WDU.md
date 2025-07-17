@@ -26,6 +26,8 @@ Since the beginning of this training, we have been referring to the disabled peo
 
 Many people who think themselves as able-bodied use the zoom feature in order too have bigger text. People who have a hard time using new technology are also a core target for accessibility features, like simplified UI.
 
+![A schematic stating "Disability is not a binary state". It shows that VIM and blind user use the same accessibility features despite being respectively perceived as disabled and able-bodied. The same is true for low-vision user and older people.](resources/b-how-to-start-incroporating-accessibility/accessibilityScale.png)
+
 The line blurs further once we realize that accessibility features are useful to everybody no matter what. VIM users are the first ones to profit from good keyboard navigation. Many people use subtitles on a daily basis when commuting. Mobile "gesture typing" started out as an accessibility feature.
 
 While this convenience for some is surely necessary for others, we can appreciate that these categories - disabled and able-bodied - are rather arbitrary and that no clear boundary can be drawn.
@@ -35,7 +37,7 @@ While this convenience for some is surely necessary for others, we can appreciat
 ### What is inclusiveness?
 
 The [Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness) would define inclusiveness as:
-""" Quote "[Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness)"
+!!! Quote "[Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/inclusiveness)"
     the quality of including many different types of people and treating them all fairly and equally
 
 Inclusiveness is a core concept when talking about diversity. It's often a preferred term to accessibility that is rather limited to the inclusion of people with disabilities. It highlights that we need to be designing and programming not only for accessability but also for the ever-varying pluralities of human experiences and discriminations. **In simpler words, not being ableist is not enough. We must make sure that we are also not perpetuating other kinds of oppressions.** For example, using gender-neutral language and icons when referring to a user, and not having fixed first and last name fields can help people from various backgrounds feel welcome in the space you are creating with your app.
@@ -60,7 +62,7 @@ It’s actually very useful, for two main reasons!
 
 - The proportion of users with disabilities who happen to have more than one is important ([17.7% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC11545900/)). Thinking about designing for one disability leaves out a blank spot for users having that disability but also other conditions. For example, deaf users with low vision are often overlooked when thinking about accessibility. We will take a closer look at the appropriate stance to account for diversity in [Developer stance & user collaboration](B-DSU.md)
 
-- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about women who rely on wheelchairs, LGBTQIA+ people who don't speak the language of they country they live in, blind users who can't afford an iPhone - and those who are all of that at once!
+- It’s a common bias to forget that disabled people are not just disabled, but first and foremost people with their own unique life experiences and specificities. We need to think about women who rely on wheelchairs, LGBTQIA+ people who don't speak the language of the country they live in, blind users who can't afford an iPhone - and those who are all of that at once!
 
 **Certain issues only arise for people with a specific intersectional background.**
 
@@ -83,7 +85,9 @@ The model generating descriptions had the tendency to assign gender to people on
 
 The solution that Apple chose to adopt was to train their model to concentrate on other elements of an image, like the clothes that a person is wearing, their facial expression or where they are standing. By avoiding oppressive biases, the model ended up being better for all users.
 
+# Resources
 
+[The schematic of disability perception in an editable form](resources/b-how-to-start-incroporating-accessibility/accessibilityScale.excalidraw)
 
 ## Sources
 [Crenshaw, Kimberle. “Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color.” Stanford Law Review, vol. 43, no. 6, 1991, pp. 1241–99.](https://www.jstor.org/stable/1229039)
