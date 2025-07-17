@@ -65,4 +65,4 @@ Depending on the OS, there are many ways users can fine-tune their experience th
 
 ## Resources
 
-[AAPT's Accessibility documentation](https://appt.org/en/docs)
+[APPT's Accessibility documentation](https://appt.org/en/docs)
