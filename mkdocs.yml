@@ -76,7 +76,7 @@ nav:
     - 🍎 Inclusiveness features and programming for Apple platforms: D-APL.md
     - 📗 Inclusive programming with Qt: D-APQ.md
     #- ☕️ Inclusive programming with Java Fx:
-    #- 🤖 Inclusive programming for Android:
+    - 🤖 Inclusive programming for Android: D-AND.md
     - 🕸️ Inclusive web programming: D-IWP.md
   - To conclude and go further:
     - 🎯 Conclusion, bibliography and useful resources: E-CBU.md
