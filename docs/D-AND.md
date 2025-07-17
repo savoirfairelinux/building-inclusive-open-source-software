@@ -26,7 +26,7 @@ Accessibility is presented by Google as one of [Material 3's foundations](https:
 
 Android's **accessibility tree** is a hierarchical organization of your app's on-screen components that is made available to assistive technologies. It is automatically derived from your code (whether XML or Compose). Design decisions like custom labels, grouping or changing the focus order can be implemented by applying changes to the nodes, using Android's accessibility API.
 
-This API is not very well documented by Android themselves, but there are great resources out there to learn how to implement accessibility for the platform:
+This API is not very well documented by Android themselves, but there are great resources out there to learn how to implement accessibility for this platform:
 
 - [APPT's technical documentation](https://appt.org/en/docs/android/samples) is very extensive and can provide you with code samples and explanations through the whole Android accessibility API. They provide the same for [Jetpack Compose](https://appt.org/en/docs/jetpack-compose/samples).
 - [Rob Whitaker's *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*](https://www.researchgate.net/publication/340927171_Developing_Inclusive_Mobile_Apps_Building_Accessible_Apps_for_iOS_and_Android) is a very pedagogical book that has a chapter dedicated to implementation of Android accessibility. While it does not cover Jetpack Compose (the book was published in January of 2020), the author gives insightful guidelines that can be applied anyway.
