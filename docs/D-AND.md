@@ -1,7 +1,7 @@
 # 🤖 Inclusive programming for Android
 
 !!! Info "In this module"
-    This module introduces trainees to Android's accessibility features, and to the practice of programming for Android.
+    This module introduces trainees to Android's accessibility features, and to the practice of inclusive programming for Android.
 
 **⛳️ Section**: D. Programming inclusive and accessible software
 
@@ -15,14 +15,14 @@
 
 ## When to use
 
-This module should be used with trainees who program Android apps, and product designers and managers who would like to better understand what is possible on Android when it comes to accessibility.
+This module should be used with trainees who program Android apps, product designers and managers who would like to better understand what is possible on Android when it comes to accessibility.
 
 !!! Info
-    As we are not Android developers and didn't get the chance to dive deep into Android accessibility as of the time of writing, this module's content could be well improved. For now, this page will mainly redirect to useful resources we found along with some key takeaways. If you have experience with Android accessibility and you feel like helping the project, [please contribute](https://github.com/alterity-git/building-inclusive-open-source-software).
+    As we are not Android developers and didn't get the chance to dive deep into Android accessibility as of the time of writing, this module's content could be significantly improved. For now, this page will mainly redirect to useful resources we found along with some key takeaways. If you have experience with Android accessibility and you feel like helping the project, [please contribute](https://github.com/alterity-git/building-inclusive-open-source-software).
 
 ## Android's accessibility model
 
-Accessibility is presented by Google as one of [Material 3's foundations](https://m3.material.io/foundations/overview/principles). Indeed, like for iOS, Material native components come with built-in accessibility that represent most of the hard work. Consequently, if you use native components, most of your work as a developer is to contextualize those elements by customizing the labels, actions and by building a consistent navigation through the accessibility tree.
+Accessibility is presented by Google as one of [Material 3's foundations](https://m3.material.io/foundations/overview/principles). Indeed, like iOS, Material native components come with built-in accessibility that represent most of the hard work. Consequently, if you use native components, most of your work as a developer is to contextualize those elements by customizing the labels, actions and by building a consistent navigation through the accessibility tree.
 
 Android's **accessibility tree** is a hierarchical organization of your app's on-screen components that is made available to assistive technologies. It is automatically derived from your code (whether XML or Compose). Design decisions like custom labels, grouping or changing the focus order can be implemented by applying changes to the nodes, using Android's accessibility API.
 
@@ -54,7 +54,7 @@ Android allow users to control their device using a keyboard. While, again, Talk
 !!! Tip
     Here is [APPT's guide to navigating apps with an external keyboard](https://appt.org/en/docs/android/features/keyboard-access#overview).
 
-### Voice Access 
+### Voice Access
 
 Voice Access is an accessibility service developed by Google and available in the Play Store. It aims at providing vocal access to the whole device. Unlike Apple's Voice Control, this software uses numbers rather than labels to interact with elements. Users can also use text values (and not content description) to select an item of the UI.
 
@@ -80,4 +80,4 @@ Some users prefer or need to reduce animations. While Android doesn't directly i
 
 [APPT's technical documentation for Android XML](https://appt.org/en/docs/android/samples)
 [APPT's technical documentation for Jetpack Compose](https://appt.org/en/docs/jetpack-compose)
-[Rob Whitaker's *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*](https://www.researchgate.net/publication/340927171_Developing_Inclusive_Mobile_Apps_Building_Accessible_Apps_for_iOS_and_Android) 
+[Rob Whitaker's *Developing Inclusive Mobile Apps: Building Accessible Apps for iOS and Android*](https://www.researchgate.net/publication/340927171_Developing_Inclusive_Mobile_Apps_Building_Accessible_Apps_for_iOS_and_Android)

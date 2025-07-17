@@ -71,7 +71,7 @@ The A11Y Project mostly focuses on web accessibility but isn't limited to it, al
 
 The Accessibility Book club is a small organization releasing a [yearly book list about accessibility](https://www.a11ybookclub.com/annual-book-lists). Their selection is a very useful tool to stay up to date with the developments of the accessibility and inclusiveness publications.
 
-![The 2025 book list of the Accessibility book club. The full list is available trough the link in the previous paragraph.](resources/a-what-is-accessibility/a11yBookClubHomePage.png)
+![The 2025 book list of the Accessibility book club. The full list is available through the link in the previous paragraph.](resources/a-what-is-accessibility/a11yBookClubHomePage.png)
 
 ### Consulting firms
 

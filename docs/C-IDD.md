@@ -58,7 +58,7 @@ Keyboard navigation can be a bit tricky. Most resources you can find on accessib
 
 #### Tab & Backtab
 
-The Tab and Backtab (Shift+Tab) keys are the main ways of navigating trough the UI. Pressing it should respectively send the focus to the next and previous focusable elements of the UI. It should not be used to navigate trough the elements of a list or focused static text. The static text should still be accessible in the label of an associated element.
+The Tab and Backtab (Shift+Tab) keys are the main ways of navigating through the UI. Pressing it should respectively send the focus to the next and previous focusable elements of the UI. It should not be used to navigate through the elements of a list or focused static text. The static text should still be accessible in the label of an associated element.
 
 #### The arrow keys
 

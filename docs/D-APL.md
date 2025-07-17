@@ -5,7 +5,7 @@
 
 **⛳️ Section**: D. Programming inclusive and accessible software
 
-**👥 Audience**: Developers and product teams
+**👥 Audience**: Apple developers and product teams
 
 **⏱️ ️Duration**: 25'
 
