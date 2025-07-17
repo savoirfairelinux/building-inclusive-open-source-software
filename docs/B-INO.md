@@ -1,4 +1,4 @@
-# 🔭 Inclusive needs overview
+# 🔭 Inclusiveness needs overview
 
 !!! Info "In this module"
     This module aims at giving the trainees an overview of the most common accessibility needs their users could have.
