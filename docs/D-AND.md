@@ -49,7 +49,7 @@ Switch Access is Android's accessibility feature allowing to control the device 
 
 ### Keyboard Access
 
-Android allow users to control their device using a keyboard. While, again, TalkBack support should mean that the app can be used with a keyboard, this does not guarantee a good user experience. Providing keyboard shortcuts ([Jetpack Compose](https://appt.org/en/docs/jetpack-compose/samples/keyboard-shortcuts), [XML](https://appt.org/en/docs/android/samples/keyboard-shortcuts)) and custom keyboard order ([Jetpack Compose](https://appt.org/en/docs/jetpack-compose/samples/keyboard-order), [XML](https://appt.org/en/docs/android/samples/keyboard-order)) will contribute to delivering a great UX to keyboard users.
+Android allows users to control their device using a keyboard. While, again, TalkBack support should mean that the app can be used with a keyboard, this does not guarantee a good user experience. Providing keyboard shortcuts ([Jetpack Compose](https://appt.org/en/docs/jetpack-compose/samples/keyboard-shortcuts), [XML](https://appt.org/en/docs/android/samples/keyboard-shortcuts)) and custom keyboard order ([Jetpack Compose](https://appt.org/en/docs/jetpack-compose/samples/keyboard-order), [XML](https://appt.org/en/docs/android/samples/keyboard-order)) will contribute to delivering a great UX to keyboard users.
 
 !!! Tip
     Here is [APPT's guide to navigating apps with an external keyboard](https://appt.org/en/docs/android/features/keyboard-access#overview).
@@ -65,6 +65,7 @@ Unlike Apple, Android has opened their accessibility API, allowing anyone to bui
 ### Display size, text size
 
 Display and text sizes might vary dramatically based on user needs. Making your app adaptable to those variables is quite straightforward:
+
 - Make sure your text font sizes are indeed affected by system settings. If not, [consider using *sp* as unit](https://developer.android.com/training/multiscreen/screendensities) for your sizes where you are required to use fixed values.
 - Avoid using ```maxLines``` to prevent text truncation.
 
