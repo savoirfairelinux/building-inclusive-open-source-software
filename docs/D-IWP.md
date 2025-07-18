@@ -5,7 +5,7 @@
     This module provides basic information for starting to work on accessibility and inclusiveness for your website or webapp.
 **⛳️ Section**: *D. Programming inclusive and accessible software*
 
-**👥 Audience**: Developers
+**👥 Audience**: Web developers and product teams
 
 **⏱️ ️Duration**: 10'
 

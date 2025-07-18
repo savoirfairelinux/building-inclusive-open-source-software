@@ -22,7 +22,7 @@ This short module should always be used as a complement to [🎨 Inclusive desig
 **Mobile devices are protheses**
 
 We know smartphones are very personal. They follow most people everyday and everywhere, shaping their experience of life as human beings.
-As your app takes the role of a prothesis (wether social, work-related, movement-related, etc.) to you users (and possibly even more so if they have disabilities),
+As your app takes the role of a prothesis (wether social, work-related, movement-related, etc.) to your users (and possibly even more so if they have disabilities),
 it is *so* important for it to be equally pleasant and ergonomic to use to everyone, and especially to those who depend on it.
 
 **Mobile devices are used in a great variety of contexts**

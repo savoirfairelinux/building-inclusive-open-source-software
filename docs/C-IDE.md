@@ -136,6 +136,12 @@ There usually is not pre-made answer on how to adapt the UI, but the issue can t
 
 A lot of implementation frameworks provide easy ways to set a preferred size for an element, providing adaptation for scaling change.
 
+### The text is naturally justified
+
+Making sure your text is naturally justified (to the left or to the right depending on your language) is important for two reasons:
+- Users relying on a magnifier tool to read can miss text that doesn't start on the natural side of the screen.
+- Full justification makes it harder read for some people with cognitive disabilities.
+
 ### The interactions do not require physical and/or motor abilities
 
 Here are some elements to keep in mind to achieve this milestone:

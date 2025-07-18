@@ -5,7 +5,7 @@
 
 **⛳️ Section**: D. Programming inclusive and accessible software
 
-**👥 Audience**: Developers and product teams
+**👥 Audience**: Apple developers and product teams
 
 **⏱️ ️Duration**: 25'
 
@@ -58,7 +58,7 @@ Having an understanding of the assistive technologies for which you are building
 
 - [**Voice Control**](https://developer.apple.com/documentation/accessibility/voice-control) is a feature allowing users to interact with their devices using their voice. One takeaway of trying Voice Control is understanding how labels differ from values. In fact, labels are used by Voice Control users to select elements on the screen. We can therefore understand that labels should be short, unique identifiers reflecting what is shown on the screen. Values, on the other side, are only read by screen readers and can (and should) be more extensive.
 
-- [**Switch Control**](https://developer.apple.com/documentation/accessibility/switch-control) lets users navigate your app with the switch devices of their choice, and/or mouth gestures. Having a clear and efficient navigation and grouping is crucial to making it accessible to users who rely on switch control. While Switch Control support typically comes for free when VoiceOver is, it's a great idea to think about the ways you can enhance its users' experience by [implementing simple custom behaviors allowing for smarter and faster interaction](https://developer.apple.com/videos/play/wwdc2020/10019/).
+- [**Switch Control**](https://developer.apple.com/documentation/accessibility/switch-control) let users navigate your app with the switch devices of their choice, and/or mouth gestures. Having a clear and efficient navigation and grouping is crucial to making it accessible to users who rely on switch control. While Switch Control support typically comes for free when VoiceOver is, it's a great idea to think about the ways you can enhance its users' experience by [implementing simple custom behaviors allowing for smarter and faster interaction](https://developer.apple.com/videos/play/wwdc2020/10019/).
 
 - [**Assistive access**](https://developer.apple.com/documentation/accessibility/assistive-access)'s goal is to provide a minimal experience for people with certain cognitive disabilities or who are less familiar with new technologies. With little effort, developers can allow everyone to use the basic features of their app. **[Guided access](https://developer.apple.com/videos/play/wwdc2022/10152/)** allows these users to get a guided experience with custom restrictions, allowing to disable keyboard inputs, volume buttons, *etc*. With the provided API, you can provide restrictions that are specific to your app. For example, you can disable the access to the settings. This feature can also be used to function like [Android's lock task mode](https://developer.android.com/work/dpc/dedicated-devices/lock-task-mode) (often called "kiosk mode") in business context.
 

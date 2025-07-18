@@ -7,7 +7,7 @@
 
 **⛳️ Section**: *D. Programming inclusive and accessible software*
 
-**👥 Audience**: Developers
+**👥 Audience**: Qt Developers and product teams
 
 **⏱️ ️Duration**: 10'
 
