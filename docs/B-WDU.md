@@ -66,7 +66,7 @@ It’s actually very useful, for two main reasons!
 
 **Certain issues only arise for people with a specific intersectional background.**
 
-Take for example this main account creation page. If you ask someone that you know with vision to test it or do it yourself you probably won't find any issue. Can you guess what kind of users can have trouble with it.
+Take for example this main account creation page. Can you guess what kind of users can have trouble with it?
 
 ![A screenshot of an account creation page with a Create Jami account button, a I already have an account button, an Advanced features button, an about Jami button, a user interface language combobox, a back arrow button and a logo.](resources/b-how-to-start-incroporating-accessibility/jamiAccountCreationPage.png)
 
