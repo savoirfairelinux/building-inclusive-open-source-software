@@ -241,7 +241,10 @@ We dearly hope it was somewhat useful to you. We feel that there is a lack of re
 
     [Direction Interministérielle du Numérique.*Guide du concepteur RGAA 3*](https://disic.github.io/guide-concepteur/)
 
-    [Jonathan Giles. *The JavaFX Accessibility API*](https://download.jonathangiles.net/downloads/presentations/2015/Accessibility.pdf)
+    [Oracle's official JavaFX API](https://docs.oracle.com/javase/8/javafx/api/overview-summary.html)
+
+    [Jonathan Giles (Oracle), *The JavaFX Accessibility API* (slides)](https://download.jonathangiles.net/downloads/presentations/2015/Accessibility.pdf)
+
 
 === "Mobile"
 

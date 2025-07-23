@@ -24,11 +24,11 @@ It has been approximately a decade that JavaFX have launched their full accessib
 
 Each JavaFX Node on your scenes have accessibility attributes which you can set to achieve the desired result.
 
-- The [`accessibleRole`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#accessibleRole) gives information to assistive technologies so they can behave accordingly. There are [many roles possible](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/AccessibleRole.html) from which you can choose.
+- The [`accessibleRole`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#accessibleRole) gives information to assistive technologies so they can behave accordingly. There are [many roles possible](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/AccessibleRole.html) from which you can choose for example `BUTTON`.
 - The [`accessibleRoleDescription`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#accessibleRoleDescription) can be used to override `accessibleRole`'s textual representation, which is read by the screen reader. This is useful, for example, if you have an element with the role `Button` that you would like the screen reader to call "biscuit dispenser".
-- The [`accessibleText`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#accessibleText) should describe the content of the Node. For some scenarios like for buttons, it might not be necessary to set it as labels will automatically be read out loud by screen readers if linked accordingly with the labelFor property.
-- The [`accessibleHelp`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#accessibleHelp) should be used to give contextual hints to help users understand where they are or what are the possible interactions with an element.
-- The [`labelFor`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Label.html#setLabelFor-javafx.scene.Node-) property is used to link a label to an input (like a text field or a slider). This is not to be confused with an accessibility label as called in many other frameworks - the equivalent is `accessibleText` in JavaFX.
+- The [`accessibleText`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#accessibleText) should describe the content of the Node. It would be for example *illustration of a biscuit dispenser*. For some scenarios like for buttons, it might not be necessary to set it as labels will automatically be read out loud by screen readers if linked accordingly with the labelFor property.
+- The [`accessibleHelp`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#accessibleHelp) should be used to give contextual hints to help users understand where they are or what are the possible interactions with an element. For our previous example this could read *dispense a biscuit when activated*.
+- The [`labelFor`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Label.html#setLabelFor-javafx.scene.Node-) property is used to link a label to an input (like a text field or a slider). This is not to be confused with an accessibility label as called in many other frameworks - the equivalent is `accessibleText` in JavaFX. It could for example be *edit the biscuit's dispenser name*.
 
 Each of theses properties can be retrieved or set using getAccessible{Property}(), setAccessible{Property}(AccessibleRole).
 
@@ -48,7 +48,7 @@ To adjust the order of traversal of elements, you can sort them accordingly in t
 
 ### Customizing accessibility actions behavior
 
-By overriding the [`executeAccessibleAction`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#executeAccessibleAction-javafx.scene.AccessibleAction-java.lang.Object...-) method, it is possible to execute custom behaviors when the user triggers an action like `FIRE` or `EXPAND` using a screen reader. More rarely, this method can also be useful to execute accessibility actions programmatically on behalf on the user.
+By overriding the [`executeAccessibleAction`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#executeAccessibleAction-javafx.scene.AccessibleAction-java.lang.Object...-) method, it is possible to execute custom behaviors when the user triggers an action like `FIRE` or `EXPAND` using a screen reader. More rarely, this method can also be useful to execute accessibility actions programmatically on behalf of the user.
 
 ### Providing dynamic accessibility properties
 
@@ -57,4 +57,5 @@ One way of providing dynamic accessibility properties is by overriding the [`que
 ## Resources
 
 [Oracle's official JavaFX API](https://docs.oracle.com/javase/8/javafx/api/overview-summary.html)
+
 [Jonathan Giles (Oracle), *The JavaFX Accessibility API* (slides)](https://download.jonathangiles.net/downloads/presentations/2015/Accessibility.pdf)
