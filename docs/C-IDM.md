@@ -63,6 +63,8 @@ This is why your app should:
 In this section, we'll go through a model allowing designers to understand how accessibility is implemented by the developers from a high-level perspective, without going in the details or into os-specific considerations.
 Understanding this is very important for designers, so that they have an idea of what can easily be done to make the platform accessible
 
+![Illustration of the vocabulary explained below.](resources/c-designing-inclusive-and-accessible-software/mobileAccessibleDesignVocab.png)
+
 - An **accessibility group** (or accessible element) is an element which will be accessed atomically (i.e. without dividing it into multiple elements) by cursor interfaces (like VoiceOver/TalkBack or Switch Control/Access).
 For example, a button and its title should grouped as they share the same semantics.
 

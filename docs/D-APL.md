@@ -27,6 +27,8 @@ Consequently, we won't be covering everything you should know about Apple access
 
 The model used by Apple to implement assistive technologies support to apps is based on accessibility attributes. It is quite close to Android and to the abstract model we detailed in [📱 Inclusive design for mobile](C-IDM.md), but we'll detail specific technical consideration and vocabulary here:
 
+![Illustration of Apple's accessibility model, as explained below.](resources/d-programming-inclusive-and-accessible-software/aplAccessibilityModel.png)
+
 - An [**accessibility element**](https://developer.apple.com/documentation/swiftui/view-accessibility#Elements) is an element of the interface which will be accessed atomically (i.e. without dividing it into multiple elements) by cursor interfaces (like VoiceOver or Switch Control). Every element has accessibility attributes. Every UI Component provided by Apple is an accessibility element. You then have the choice to regroup them, either by completely resetting the element's attribute, or by automatically computing the children's one. In complex cases, we would recommend manually resetting computing those properties to get clean labels, actions etc.
 
 - A [**label**](https://developer.apple.com/documentation/swiftui/view/accessibilitylabel(_:)-1d7jv) qualifies the name of an element. It is read by screen readers, and used in order to access the element with Voice Control. This is why it should always be as short as possible yet distinct from other elements of the interface. For complementary information on the element, the value should be used. For example, a button should have its title as label.
