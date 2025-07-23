@@ -74,6 +74,8 @@ One good story to start building empathy could be the one of Jill, told by her f
 
     I think of all the infrastructure that failed here—that was really built to fail, because it was never built to consider disabled people. It did the bare minimum: the physical complex (and administrators, and the police) met a few legally required standards, but they did not actually enforce the civil-rights law that is the Americans with Disabilities Act (ADA). Few complexes met even the lowest bar, so her housing options were limited—she was glad to even get that dumpy, inconvenient apartment. The systems in place supposedly to give her equal access—including her leasing office and the police—were indifferent to actually ensuring that she had it. Jill missed the event she said she’d help with at our library. Turned out she was accustomed to these system failures. At least that day wasn’t a failure with life-or-death stakes, like the ones that would delay her access to gynecological care and ultimately lead to her death less than two years later.
 
+Reflect on this story with the trainees. What should hae been done differently by the institutions and engineers implicated? How does that translate to software accessibility? What does that tel about the stance to adopt?
+
 ## Wrapping up
 
 At the end of the day, incorporating inclusive practices to your workflows really comes down to trying what works best for your team, picking and choosing some ideas that organizations use daily.
