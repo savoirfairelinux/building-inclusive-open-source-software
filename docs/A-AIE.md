@@ -81,7 +81,7 @@ Since June of 2025, almost all businesses (excluding microenterprises) are requi
 
 Dylan Barell defines accessibility in software as
 
-!!! Quote "*Agile Accessibility Handbook*, Dylan Barell"
+!!! Quote "[*Agile Accessibility Handbook*, Dylan Barell](https://accessibility.deque.com/agile-accessibility-handbook)"
      It basically comes down to three principles:
 
      - Can all your users, with the abilities and senses that they possess, perceive the information your application presents to them? For example, can they “see” the meaning of the little icon button with an image of a pen inside it?

@@ -61,7 +61,7 @@ You might be wondering, what are the most common accessibility shortcomings dete
 
 Accessibility is not only a moral obligation. It's also an important business preoccupation. By not making your software accessible, you are depriving it from a significative number of potential users. Here are a few arguments strengthening this point.
 
-!!! Quote "*Agile Accessibility Handbook*, Dylan Barell"
+!!! Quote "[*Agile Accessibility Handbook*, Dylan Barell](https://accessibility.deque.com/agile-accessibility-handbook)"
     1. The business opportunity represented by households with a disability. The numbers that are of interest here are:
 
         * 20% of people in the United States have a disability, and improvements in usability (or falling behind the competition) represent a major portion of the market;
