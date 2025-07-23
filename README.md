@@ -57,7 +57,7 @@ This project is licensed under [CC BY-SA 4.0](https://creativecommons.org/licens
 
 ## Disclaimer
 
-The view presented in this training solely engage the originals authors. They don't represent the positioning of Olvid and Jami and don't engage them in any way.
+The views on accessibility and inclusiveness which are presented in this training solely engage the originals authors.
 
 # Resources
 [The editable file of how to navigate this training](resources/navigateThroughTheTrainingV2.crswap)
