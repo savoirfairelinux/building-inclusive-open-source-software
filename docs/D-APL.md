@@ -1,4 +1,4 @@
-# 🍎 Inclusiveness features and programming with Apple platforms
+# 🍎 Inclusive features and programming for Apple platforms
 
 !!! Info "In this module"
     This module introduces to Apple's accessibility features, and to the practice of programming accessibility for Apple platforms.

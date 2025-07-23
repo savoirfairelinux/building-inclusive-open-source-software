@@ -1,4 +1,4 @@
-# 🤖 Inclusive programming with Android
+# 🤖 Inclusive features and programming for Android
 
 !!! Info "In this module"
     This module introduces trainees to Android's accessibility features, and to the practice of inclusive programming for Android.
