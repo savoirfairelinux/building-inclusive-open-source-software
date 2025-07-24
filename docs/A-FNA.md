@@ -57,6 +57,7 @@ You might be wondering, what are the most common accessibility shortcomings dete
 
 ![A graph showcasing the most common accessibility issues detected. In order: low contrast text, missing alt text, missing labels, empty links, empty buttons, missing language.](resources/a-what-is-accessibility/commonAccessibilityFailure.png)
 
+
 ## Wrapping up
 
 As we saw through this module, despite being a crucial need for at least 20% of all users, accessibility as it is implemented on common websites and applications are overwhelmingly insufficient. With that said, accessibility isn’t about lowering those stats of detected failures, it’s about making sure that we are not contributing in isolating and marginalizing whole communities.

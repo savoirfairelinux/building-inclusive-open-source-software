@@ -91,4 +91,4 @@ If you want to learn further on this topic, the [Agile Accessibility Handbook](h
 
 ## Sources
 
-Barrell, Dylan. *Agile Accessibility Handbook*. Amplify Publishing, 2020.
+[Barrell, Dylan. *Agile Accessibility Handbook*. Amplify Publishing, 2020.](https://accessibility.deque.com/agile-accessibility-handbook)
