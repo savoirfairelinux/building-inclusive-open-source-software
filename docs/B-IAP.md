@@ -59,7 +59,7 @@ Empathy is an absolute requirement for your team to get involved in the process 
 
 This can be done by discussing with diverse users and experts, regularly communicating internally on the subject (for example, by sharing stories of users who took advantage of the inclusiveness of your app) or by hosting events where team members can try and use your app with assistive technologies or simulated disabilities, and reflect on what could be improved.
 
-One good story to start building empathy could be the one of Jill, told by her friend Ashley Shew.
+One good story to start building empathy can be the one of Jill, told by her friend Ashley Shew.
 
 !!! Quote "Ashley Shew, *[Against Technoableism, Rethinking Who Needs Improvement](https://wwnorton.com/books/9781324036661)*"
     When I was in grad school, before I was disabled, I made great friends with my fellow student Jill. I didn’t think of myself as disabled, and it would be another ten years before I would be diagnosed as having Crohn’s disease, but I was already having intermittent issues with inflammation and flares of symptoms that didn’t really make sense together yet. She was a paraplegic wheelchair user. She passed away over a decade ago now, but back then, we hung out with a larger group from our cohort, and Jill and I got along especially well. We had classes together, occasionally shopped together, and she’d invite us all to her apartment for group hangs. She was originally from New Jersey but had moved to New Mexico, where the climate was better for her. She loved New Mexico. She was just away to earn a master’s degree: two years in our program in Virginia, then she planned to return home to New Mexico to teach. She was full of jokes, and it was easy to be with her.
@@ -74,7 +74,14 @@ One good story to start building empathy could be the one of Jill, told by her f
 
     I think of all the infrastructure that failed here—that was really built to fail, because it was never built to consider disabled people. It did the bare minimum: the physical complex (and administrators, and the police) met a few legally required standards, but they did not actually enforce the civil-rights law that is the Americans with Disabilities Act (ADA). Few complexes met even the lowest bar, so her housing options were limited—she was glad to even get that dumpy, inconvenient apartment. The systems in place supposedly to give her equal access—including her leasing office and the police—were indifferent to actually ensuring that she had it. Jill missed the event she said she’d help with at our library. Turned out she was accustomed to these system failures. At least that day wasn’t a failure with life-or-death stakes, like the ones that would delay her access to gynecological care and ultimately lead to her death less than two years later.
 
-Reflect on this story with the trainees. What should hae been done differently by the institutions and engineers implicated? How does that translate to software accessibility? What does that tel about the stance to adopt?
+!!! Info
+    If you have examples of (whether success or failure) stories related to the app the trained team is building, it can be added to complement Jill's story and start extending this empathy to software development. If you have stories you would like to share publicly, feel free to [contribute](https://github.com/alterity-git/building-inclusive-open-source-software).
+
+Reflect on this story with the trainees.
+
+- What should and could have been done differently by the institutions and engineers implicated?
+- How does that translate to software accessibility? What can be the impact of poor accessibility and inclusiveness on your own users?
+- What does that tell about the stance to adopt as an app builder?
 
 ## Wrapping up
 
