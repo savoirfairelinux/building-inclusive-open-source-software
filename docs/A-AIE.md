@@ -29,7 +29,7 @@ We then read the collective definition, and ask once again if anyone wants to ch
 
 If you did the word-cloud of [🚀 Accessibility starting point](A-ASP.md), you can go through the words that were proposed and try to match them to one of the following definition standpoints :
 
-**From a product design standpoint**
+#### From a product design standpoint
 
 According to Wikipedia:
 
@@ -40,9 +40,9 @@ According to Wikipedia:
     "indirect access" meaning compatibility with a person's [assistive technology](https://en.wikipedia.org/wiki/Assistive_technology) (for example, computer [screen readers](https://en.wikipedia.org/wikiScreen_reader)).[[2]](https://en.wikipedia.org/wiki/Accessibility#cite_note-2)
 
 
-**From a legal standpoint**
+#### From a legal standpoint
 
-**🇨🇦 Canada**
+##### 🇨🇦 Canada
 
 In the [Accessible Canada Act (ACA)](https://laws-lois.justice.gc.ca/eng/acts/A-0.6/), the government of Canada stated in 2019 that the primary goal of their accessibility policy was to:
 
@@ -61,7 +61,7 @@ In the [Accessible Canada Act (ACA)](https://laws-lois.justice.gc.ca/eng/acts/A-
      - the procurement of goods, services and facilities
      - transportation
 
-**🇫🇷 France**
+##### 🇫🇷 France
 
 
 [French law](https://www.info.gouv.fr/accessibilite/loi-accessibilite-cadre-legal-et-obligations) defines accessibility as
@@ -71,13 +71,13 @@ In the [Accessible Canada Act (ACA)](https://laws-lois.justice.gc.ca/eng/acts/A-
 
 Additionally, French companies are subject to the EAA, which is mentioned below.
 
-**🇪🇺 European Union**
+##### 🇪🇺 European Union
 
 The [European Accessibility Act](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en) states that accessibility "should be achieved by the systematic removal and prevention of barriers, preferably through a universal design or ‘design for all’ approach, which contributes to ensuring access for persons with disabilities on an equal basis with others."
 
 Since June of 2025, almost all businesses (excluding microenterprises) are required to comply with the EAA requirements.
 
-**From a software standpoint**
+#### From a software standpoint
 
 Dylan Barell defines accessibility in software as
 
@@ -90,13 +90,30 @@ Dylan Barell defines accessibility in software as
 
 In the French [DINUM](https://www.numerique.gouv.fr/numerique-etat/)'s [RGAA](https://accessibilite.numerique.gouv.fr/) (General reference document of accessibility enhancement), an [accessible software](https:/accessibilite.numerique.gouv.fr/obligations/notions-accessibilite-numerique/) is defined as one that can be perceived, understood, used, and optimal for people with disabilities.
 
-**From a political standpoint**
+#### From a political standpoint
 
 We propose to define politically accessibility as:
 
 > Striving to fight back against the structural tendency to exclusion of disabled people and attempting to provide them with a place (virtual or not) where they feel at ease and free to express themselves.
 
 Take some time to reflect together onto which definition is the closest to the one you built together. How do participants feel about all those definitions?
+
+#### From a business standpoint
+
+Accessibility is not only a moral obligation. It's also an important business question. By not making your software accessible, you are depriving it from a significant amount of potential users. Here are a few arguments corroborating this point.
+
+!!! Quote "[*Agile Accessibility Handbook*, Dylan Barell](https://accessibility.deque.com/agile-accessibility-handbook)"
+    1. The business opportunity represented by households with a disability. The numbers that are of interest here are:
+
+        * 20% of people in the United States have a disability, and improvements in usability (or falling behind the competition) represent a major portion of the market;
+        * $490 million is the after-tax disposable income of adults with a disability in the United States (as of 2019). This is comparable in size to the African American or Hispanic market segments; and
+        * $10.3 billion is the e-commerce market size for accessibility.
+
+    2. The number of disability-related lawsuits increased by 181% in 2019 alone, and the cost of responding to a lawsuit (independent of the settlement costs) is $350,000. This does not take into account the cost of brand damage or future lawsuits; and
+
+    3. Accessibility is a human right, it is the right thing to do, and it probably aligns with the organization’s values and its desire to improve digital user experiences.
+
+This is further strengthened by the fact that the whole public sector has been the first in many countries to make accessibility a legal requirement for the tools they use.
 
 ## Understanding ableism
 

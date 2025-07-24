@@ -57,20 +57,6 @@ You might be wondering, what are the most common accessibility shortcomings dete
 
 ![A graph showcasing the most common accessibility issues detected. In order: low contrast text, missing alt text, missing labels, empty links, empty buttons, missing language.](resources/a-what-is-accessibility/commonAccessibilityFailure.png)
 
-## Other incentives
-
-Accessibility is not only a moral obligation. It's also an important business preoccupation. By not making your software accessible, you are depriving it from a significative number of potential users. Here are a few arguments strengthening this point.
-
-!!! Quote "[*Agile Accessibility Handbook*, Dylan Barell](https://accessibility.deque.com/agile-accessibility-handbook)"
-    1. The business opportunity represented by households with a disability. The numbers that are of interest here are:
-
-        * 20% of people in the United States have a disability, and improvements in usability (or falling behind the competition) represent a major portion of the market;
-        * $490 million is the after-tax disposable income of adults with a disability in the United States (as of 2019). This is comparable in size to the African American or Hispanic market segments; and
-        * $10.3 billion is the e-commerce market size for accessibility.
-
-    2. The number of disability-related lawsuits increased by 181% in 2019 alone, and the cost of responding to a lawsuit (independent of the settlement costs) is $350,000. This does not take into account the cost of brand damage or future lawsuits; and
-
-    3. Accessibility is a human right, it is the right thing to do, and it probably aligns with the organization’s values and its desire to improve digital user experiences.
 
 ## Wrapping up
 
